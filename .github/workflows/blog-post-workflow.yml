@@ -1,0 +1,24 @@
+name: Pull recent blog posts
+on:
+  schedule:
+    - cron: '15 */4 * * *' # Run every 4 hours at the 15th minute
+  workflow_dispatch: # Run workflow manually (without waiting for the cron to be called), through the GitHub Actions Workflow page directly
+permissions:
+  contents: write # To write the generated contents to the readme
+
+jobs:
+  update-readme-with-blog:
+    name: Update the latest blog posts
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Pull the latest blog posts
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: ${{ secrets.feed }}
+          max_post_count: 8
+          committer_username: ${{ secrets.username }}
+          committer_email: ${{ secrets.mail }}
+          commit_message: "Pull recent blog posts."
+          remove_duplicates: true
