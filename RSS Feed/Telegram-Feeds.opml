@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="2.0">
+ <head>
+  <title>
+   Subscriptions in RSStT
+  </title>
+  <ownerName>
+   RSS to Telegram Bot
+  </ownerName>
+  <ownerId>
+   https://github.com/Rongronggg9/RSS-to-Telegram-Bot
+  </ownerId>
+  <dateCreated>
+   Thu, 01 Dec 2022 09:52:26 UTC
+  </dateCreated>
+ </head>
+ <body>
+  <outline text="潮流周刊" xmlUrl="https://weekly.tw93.fun/rss.xml">
+  </outline>
+  <outline text="阮一峰的网络日志" xmlUrl="https://www.ruanyifeng.com/blog/atom.xml">
+  </outline>
+  <outline text="Xuanwo's Blog" xmlUrl="https://xuanwo.io/index.xml">
+  </outline>
+  <outline text="The Cloudflare Blog" xmlUrl="https://blog.cloudflare.com/rss/">
+  </outline>
+  <outline text="太隐" xmlUrl="https://wangyurui.com/feed.xml">
+  </outline>
+  <outline text="Dennis" xmlUrl="https://www.domon.cn/rss/">
+  </outline>
+  <outline text="zu1k" xmlUrl="https://zu1k.com/index.xml">
+  </outline>
+  <outline text="累牍" xmlUrl="https://chinanonfiction.com/feed/">
+  </outline>
+  <outline text="Cloudflare Status - Incident History" xmlUrl="https://www.cloudflarestatus.com/history.atom">
+  </outline>
+  <outline text="Supabase Status - Incident History" xmlUrl="https://status.supabase.com/history.atom">
+  </outline>
+  <outline text="Vercel Status - Incident History" xmlUrl="https://www.vercel-status.com/history.atom">
+  </outline>
+  <outline text="GitHub Status - Incident History" xmlUrl="https://www.githubstatus.com/history.atom">
+  </outline>
+  <outline text="小众软件" xmlUrl="https://www.appinn.com/feed/">
+  </outline>
+  <outline text="Decohack" xmlUrl="https://www.decohack.com/feed">
+  </outline>
+  <outline text="Dejavu's Blog" xmlUrl="https://www.dejavu.moe/index.xml">
+  </outline>
+  <outline text="ahhhhfs" xmlUrl="https://www.ahhhhfs.com/feed/">
+  </outline>
+  <outline text="Tw93 的博客" xmlUrl="https://tw93.fun/feed.xml">
+  </outline>
+  <outline text="音范丝|影音集" xmlUrl="http://www.yinfans.me/feed">
+  </outline>
+  <outline text="LOGI" xmlUrl="https://logi.im/feed/atom/">
+  </outline>
+  <outline text="CXPLAY World" xmlUrl="https://blog.bugimg.com/rss2.xml">
+  </outline>
+  <outline text="idealclover" xmlUrl="https://idealclover.top/feed/atom/">
+  </outline>
+  <outline text="P3TERX ZONE" xmlUrl="https://p3terx.com/feed/atom/">
+  </outline>
+  <outline text="Randy's Blog" xmlUrl="https://lutaonan.com/rss.xml">
+  </outline>
+  <outline text="构建我的被动收入" xmlUrl="https://www.bmpi.dev/index.xml">
+  </outline>
+  <outline text="GeekPlux" xmlUrl="https://geekplux.com/feed.xml">
+  </outline>
+  <outline text="酷 壳 – CoolShell" xmlUrl="https://coolshell.cn/feed">
+  </outline>
+  <outline text="程序员的喵" xmlUrl="https://catcoding.me/atom.xml">
+  </outline>
+  <outline text="王一石" xmlUrl="https://yishi.io/feed/">
+  </outline>
+  <outline text="Limboy" xmlUrl="https://limboy.me/index.xml">
+  </outline>
+  <outline text="数字移民" xmlUrl="https://blog.shuziyimin.org/feed">
+  </outline>
+ </body>
+</opml>
