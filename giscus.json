@@ -1,5 +1,6 @@
 {
   "origins": [
+    "https://www.dejavu.moe",
     "https://giscus.dejavu.moe"
   ],
   "originsRegex": [
