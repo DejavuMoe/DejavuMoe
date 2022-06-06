@@ -1,7 +1,9 @@
 {
   "origins": [
-    "https://www.dejavu.moe",
     "https://giscus.dejavu.moe"
+  ],
+  "originsRegex": [
+    "http://localhost:[0-9]+"
   ],
   "defaultCommentOrder": "oldest"
 }
