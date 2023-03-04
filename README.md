@@ -13,6 +13,14 @@
 ## Recent Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [甲骨文服务器分配并启用 IPv6 地址](https://www.dejavu.moe/posts/oracle-instance-enable-ipv6-support-with-debian/)
+- [Git 版本控制学习笔记（二）](https://www.dejavu.moe/posts/git-note-2/)
+- [Cloudflare WAF 防护策略简易指南](https://www.dejavu.moe/posts/cloudflare-waf-set-up-guide/)
+- [Mastodon 服务器批量导入自定义表情](https://www.dejavu.moe/posts/mastodon-custom-emoji/)
+- [低成本自托管 Mastodon 实例简明指南](https://www.dejavu.moe/posts/selfhosted-mastodon-instance-with-docker/)
+- [自托管服务指南──有了服务器可以做什么？](https://www.dejavu.moe/posts/what-a-server-used-for/)
+- [使用 Miniflux + RSSHub 打造个人 RSS 阅读器](https://www.dejavu.moe/posts/build-rss-reader-with-rsshub-and-miniflux/)
+- [构建支持多种 CPU 架构的 Docker 镜像](https://www.dejavu.moe/posts/build-multiarch-docker-image/)
 <!-- BLOG-POST-LIST:END -->
 
 ## GitHub Stats
