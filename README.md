@@ -13,7 +13,7 @@
 ## Recent Posts
 
 <!-- BLOG-POST-LIST:START -->
-- [简单、隐私友好的谷歌分析替代品，Plausible 自托管部署指南](https://dejavu.moe/posts/pausible-selfhosted-with-docker-complete-guide/)
+- [简单、隐私友好的谷歌分析替代品，Plausible 自托管部署指南](https://dejavu.moe/posts/plausible-selfhosted-with-docker-complete-guide/)
 - [服务器使用 Cloudflare CDN 的最佳实践](https://dejavu.moe/posts/best-server-security-practices-with-cloudflare/)
 - [甲骨文服务器分配并启用 IPv6 地址](https://dejavu.moe/posts/oracle-instance-enable-ipv6-support-with-debian/)
 - [Git 版本控制学习笔记（二）](https://dejavu.moe/posts/git-note-2/)
