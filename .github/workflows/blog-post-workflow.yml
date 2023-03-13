@@ -1,7 +1,7 @@
 name: Pull recent blog posts
 on:
   schedule:
-    - cron: '15 */4 * * *' # Run every 4 hours at the 15th minute
+    - cron: '15 */6 * * *' # Run every 6 hours at the 15th minute
   workflow_dispatch: # Run workflow manually (without waiting for the cron to be called), through the GitHub Actions Workflow page directly
 permissions:
   contents: write # To write the generated contents to the readme
