@@ -13,6 +13,7 @@
 ## Recent Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [使用 Docker 快速部署单人 Fediverse 实例](https://dejavu.moe/posts/microblog-pub-quickly-deploy-with-docker/)
 - [我是如何建立自己的个人博客的？](https://dejavu.moe/posts/how-i-built-my-personal-blog/)
 - [简单、隐私友好的谷歌分析替代品，Plausible 自托管部署指南](https://dejavu.moe/posts/plausible-selfhosted-with-docker-complete-guide/)
 - [服务器使用 Cloudflare CDN 的最佳实践](https://dejavu.moe/posts/best-server-security-practices-with-cloudflare/)
@@ -20,7 +21,6 @@
 - [Git 版本控制学习笔记（二）](https://dejavu.moe/posts/git-note-2/)
 - [Cloudflare WAF 防护策略简易指南](https://dejavu.moe/posts/cloudflare-waf-set-up-guide/)
 - [Mastodon 服务器批量导入自定义表情](https://dejavu.moe/posts/mastodon-custom-emoji/)
-- [低成本自托管 Mastodon 实例简明指南](https://dejavu.moe/posts/selfhosted-mastodon-instance-with-docker/)
 <!-- BLOG-POST-LIST:END -->
 
 ## GitHub Stats
