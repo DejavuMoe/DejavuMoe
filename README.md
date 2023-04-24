@@ -3,7 +3,7 @@
 **I am Dejavu Moe, a curious explorer.**
 
 - I am writing a **blog**: https://xvo.es/blog
-- You can reach me on **Mastodon**: [@dejavu@sink.love](https://sink.love/@dejavu)
+- You can reach me on **Fediverse**: [@dejavu@sink.love](https://@dejavu@sink.love)
 - My **PGP Key**: [`ed25519/DF96 8883 EA3B DBCC 9326 D260 1A66 6666 6666 6666`](https://xvo.es/pgp) `(master key)`
 
   - `ed25519/0x8422222222222222` `(signing subkey)`
