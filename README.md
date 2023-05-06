@@ -13,6 +13,7 @@
 ## Recent Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [使用 stagit 自托管纯静态 Git 存储库](https://dejavu.moe/posts/selfhosted-static-git-repository-with-stagit/)
 - [是的，我还是更换 Hugo 主题了](https://dejavu.moe/posts/change-hugo-theme/)
 - [使用 Docker 快速部署单人 Fediverse 实例](https://dejavu.moe/posts/microblog-pub-quickly-deploy-with-docker/)
 - [我是如何建立自己的个人博客的？](https://dejavu.moe/posts/how-i-built-my-personal-blog/)
@@ -20,7 +21,6 @@
 - [服务器使用 Cloudflare CDN 的最佳实践](https://dejavu.moe/posts/best-server-security-practices-with-cloudflare/)
 - [甲骨文服务器分配并启用 IPv6 地址](https://dejavu.moe/posts/oracle-instance-enable-ipv6-support-with-debian/)
 - [Git 版本控制学习笔记（二）](https://dejavu.moe/posts/git-note-2/)
-- [Cloudflare WAF 防护策略简易指南](https://dejavu.moe/posts/cloudflare-waf-set-up-guide/)
 <!-- BLOG-POST-LIST:END -->
 
 ## GitHub Stats
