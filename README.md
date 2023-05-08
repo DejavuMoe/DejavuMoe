@@ -13,7 +13,7 @@
 ## Recent Posts
 
 <!-- BLOG-POST-LIST:START -->
-- [托管简单的 Git 服务器的一些尝试](https://dejavu.moe/posts/try-hosting-simple-git-server/)
+- [托管简单 Git 服务器的一些尝试](https://dejavu.moe/posts/try-hosting-simple-git-server/)
 - [使用 stagit 自托管纯静态 Git 存储库](https://dejavu.moe/posts/selfhosted-static-git-repository-with-stagit/)
 - [是的，我还是更换 Hugo 主题了](https://dejavu.moe/posts/change-hugo-theme/)
 - [使用 Docker 快速部署单人 Fediverse 实例](https://dejavu.moe/posts/microblog-pub-quickly-deploy-with-docker/)
