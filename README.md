@@ -13,12 +13,12 @@
 ## Recent Posts
 
 <!-- BLOG-POST-LIST:START -->
-- [Links](https://blog.dejavu.moe/links/)
-- [About](https://blog.dejavu.moe/about/)
-- [Copyright Statement](https://blog.dejavu.moe/copyright/)
-- [Privacy Policy](https://blog.dejavu.moe/privacy/)
 - [Batch Rewriting Git Commit History](https://blog.dejavu.moe/posts/batch-rewriting-git-commit-history/)
 - [Hosting Minimal Git Server with cgit and Nginx](https://blog.dejavu.moe/posts/hosting-minimal-git-server-with-cgit/)
+- [A Few Attempts at Hosting a Simple Git Server](https://blog.dejavu.moe/posts/try-hosting-simple-git-server/)
+- [Hosting Pure Static Git Repositories with stagit](https://blog.dejavu.moe/posts/host-pure-static-git-repository-with-stagit/)
+- [Deploy a Single-User Fediverse Instance Using Docker](https://blog.dejavu.moe/posts/microblog-pub-deploy-with-docker/)
+- [Best Practices for Servers Using Cloudflare CDN](https://blog.dejavu.moe/posts/best-server-security-practices-with-cloudflare/)
 <!-- BLOG-POST-LIST:END -->
 
 ## GitHub Stats
