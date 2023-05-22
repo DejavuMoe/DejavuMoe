@@ -17,7 +17,7 @@ jobs:
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           feed_list: ${{ secrets.feed }}
-          max_post_count: 8
+          max_post_count: 6
           committer_username: ${{ secrets.username }}
           committer_email: ${{ secrets.mail }}
           commit_message: "Pull recent blog posts."
