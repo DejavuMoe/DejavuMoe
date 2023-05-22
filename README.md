@@ -13,6 +13,12 @@
 ## Recent Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Links](https://blog.dejavu.moe/links/)
+- [About](https://blog.dejavu.moe/about/)
+- [Copyright Statement](https://blog.dejavu.moe/copyright/)
+- [Privacy Policy](https://blog.dejavu.moe/privacy/)
+- [Batch Rewriting Git Commit History](https://blog.dejavu.moe/posts/batch-rewriting-git-commit-history/)
+- [Hosting Minimal Git Server with cgit and Nginx](https://blog.dejavu.moe/posts/hosting-minimal-git-server-with-cgit/)
 <!-- BLOG-POST-LIST:END -->
 
 ## GitHub Stats
