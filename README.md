@@ -13,12 +13,12 @@
 ## Recent Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Automatically Submit URLs to IndexNow with GitHub Actions](https://blog.dejavu.moe/posts/automatically-submit-urls-to-indexnow-with-github-actions/)
 - [The Birth of The New Blog](https://blog.dejavu.moe/posts/the-birth-of-the-new-blog/)
 - [Batch Rewriting Git Commit History](https://blog.dejavu.moe/posts/batch-rewriting-git-commit-history/)
 - [Hosting Minimal Git Server with cgit and Nginx](https://blog.dejavu.moe/posts/hosting-minimal-git-server-with-cgit/)
 - [A Few Attempts at Hosting a Simple Git Server](https://blog.dejavu.moe/posts/try-hosting-simple-git-server/)
 - [Hosting Pure Static Git Repositories with stagit](https://blog.dejavu.moe/posts/host-pure-static-git-repository-with-stagit/)
-- [Deploy a Single-User Fediverse Instance Using Docker](https://blog.dejavu.moe/posts/microblog-pub-deploy-with-docker/)
 <!-- BLOG-POST-LIST:END -->
 
 ## GitHub Stats
