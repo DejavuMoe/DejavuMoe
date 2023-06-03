@@ -13,12 +13,12 @@
 ## Recent Posts
 
 <!-- BLOG-POST-LIST:START -->
-- [Issue-001: Tech News Roundup, Open-Source Advancements and More](https://blog.dejavu.moe/weekly/2023/05/27/issue-001/)
+- [第 1 期 - 春色恼人眠不得，月移花影上栏杆](https://blog.dejavu.moe/weekly/2023/05/27/issue-001/)
+- [第 2 期 - 小楼一夜听春雨，深巷明朝卖杏花](https://blog.dejavu.moe/weekly/2023/06/03/issue-002/)
 - [Automatically Submit URLs to IndexNow with GitHub Actions](https://blog.dejavu.moe/posts/automatically-submit-urls-to-indexnow-with-github-actions/)
 - [The Birth of The New Blog](https://blog.dejavu.moe/posts/the-birth-of-the-new-blog/)
 - [Batch Rewriting Git Commit History](https://blog.dejavu.moe/posts/batch-rewriting-git-commit-history/)
 - [Hosting Minimal Git Server with cgit and Nginx](https://blog.dejavu.moe/posts/hosting-minimal-git-server-with-cgit/)
-- [A Few Attempts at Hosting a Simple Git Server](https://blog.dejavu.moe/posts/try-hosting-simple-git-server/)
 <!-- BLOG-POST-LIST:END -->
 
 ## GitHub Stats
