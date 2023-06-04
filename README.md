@@ -14,11 +14,11 @@
 
 <!-- BLOG-POST-LIST:START -->
 - [第 1 期 - 春色恼人眠不得，月移花影上栏杆](https://blog.dejavu.moe/weekly/2023/05/27/issue-001/)
-- [第 2 期 - 小楼一夜听春雨，深巷明朝卖杏花](https://blog.dejavu.moe/weekly/2023/06/03/issue-002/)
 - [使用 GitHub Actions 自动提交 URL 到 IndexNow](https://blog.dejavu.moe/posts/automatically-submit-urls-to-indexnow-with-github-actions/)
 - [批量重写 Git 历史提交记录](https://blog.dejavu.moe/posts/batch-rewriting-git-commit-history/)
 - [使用 cgit 托管小小的也很可爱的 Git 服务器](https://blog.dejavu.moe/posts/hosting-minimal-git-server-with-cgit/)
 - [托管简单 Git 服务器的一些尝试](https://blog.dejavu.moe/posts/try-hosting-simple-git-server/)
+- [使用 stagit 自托管纯静态 Git 存储库](https://blog.dejavu.moe/posts/host-pure-static-git-repository-with-stagit/)
 <!-- BLOG-POST-LIST:END -->
 
 ## GitHub Stats
