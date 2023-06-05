@@ -13,7 +13,7 @@
 ## Recent Posts
 
 <!-- BLOG-POST-LIST:START -->
-- [第 1 期 - 春色恼人眠不得，月移花影上栏杆](https://blog.dejavu.moe/weekly/2023/05/27/issue-001/)
+- [第 2 期 - 小楼一夜听春雨，深巷明朝卖杏花](https://blog.dejavu.moe/weekly/2023/06/03/issue-002/)
 - [使用 GitHub Actions 自动提交 URL 到 IndexNow](https://blog.dejavu.moe/posts/automatically-submit-urls-to-indexnow-with-github-actions/)
 - [批量重写 Git 历史提交记录](https://blog.dejavu.moe/posts/batch-rewriting-git-commit-history/)
 - [使用 cgit 托管小小的也很可爱的 Git 服务器](https://blog.dejavu.moe/posts/hosting-minimal-git-server-with-cgit/)
