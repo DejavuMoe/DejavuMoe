@@ -13,12 +13,12 @@
 ## Recent Posts
 
 <!-- BLOG-POST-LIST:START -->
-- [第 3 期 - 乳鸭池塘水浅深，熟梅天气半晴阴](https://blog.dejavu.moe/weekly/2023/06/10/issue-003/)
 - [使用 GitHub Actions 自动提交 URL 到 IndexNow](https://blog.dejavu.moe/posts/automatically-submit-urls-to-indexnow-with-github-actions/)
 - [批量重写 Git 历史提交记录](https://blog.dejavu.moe/posts/batch-rewriting-git-commit-history/)
 - [使用 cgit 托管小小的也很可爱的 Git 服务器](https://blog.dejavu.moe/posts/hosting-minimal-git-server-with-cgit/)
 - [在 Debian 上使用 stagit 和 Nginx 的简单 Git 服务器](https://blog.dejavu.moe/posts/simple-git-server-with-stagit-and-nginx-on-debian/)
 - [托管简单 Git 服务器的一些尝试](https://blog.dejavu.moe/posts/try-hosting-simple-git-server/)
+- [使用 stagit 自托管纯静态 Git 存储库](https://blog.dejavu.moe/posts/host-pure-static-git-repository-with-stagit/)
 <!-- BLOG-POST-LIST:END -->
 
 ## GitHub Stats
