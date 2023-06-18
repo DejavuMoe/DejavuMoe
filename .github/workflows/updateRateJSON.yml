@@ -1,8 +1,5 @@
 name: Get Exchange Rates
 
-#on:
- # schedule:
-  #  - cron: '0 16 * * *'
 on:
   watch:
     types: [started]
@@ -29,11 +26,17 @@ jobs:
 
       - name: Create Release
         id: create_release
+        run: |
+          echo "::set-env name=TAG_NAME::v$(date +%Y%m%d)"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload Release Asset
         uses: softprops/action-gh-release@v1
         with:
           files: ./foreign-exchange-rates.json
-          tag_name: "v$(date +%Y%m%d)"
-          release_name: "Release $(date +%Y%m%d)"
+          tag_name: ${{ env.TAG_NAME }}
+          release_name: "Release ${{ env.TAG_NAME }}"
           body: "Latest exchange rates"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
