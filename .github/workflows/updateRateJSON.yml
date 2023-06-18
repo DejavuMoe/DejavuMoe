@@ -1,9 +1,12 @@
 name: Get Exchange Rates
 
+#on:
+ # schedule:
+  #  - cron: '0 16 * * *'
 on:
-  schedule:
-    - cron: '0 16 * * *'
-
+  watch:
+    types: [started]
+    
 jobs:
   update-rates-json:
     runs-on: ubuntu-latest
