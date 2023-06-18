@@ -2,7 +2,7 @@ name: Get Exchange Rates
 
 on:
   schedule:
-    - cron: '0 ${{ rand(0, 59) }} 16 * * *' # 每天 UTC 时间 16 点的随机一个分钟
+    - cron: '0 16 * * *'
 
 jobs:
   update-rates-json:
