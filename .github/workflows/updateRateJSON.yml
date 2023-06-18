@@ -16,6 +16,7 @@ jobs:
         run: |
           echo "API_KEY=${{ secrets.API_KEY }}" >> $GITHUB_ENV
           echo "API_URL=${{ secrets.API_URL }}" >> $GITHUB_ENV
+          echo "TAG_NAME=v$(date +%Y%m%d)" >> $GITHUB_ENV
 
       - name: Install cURL
         run: sudo apt-get update && sudo apt-get install -y curl
@@ -26,12 +27,6 @@ jobs:
 
       - name: Create Release
         id: create_release
-        run: |
-          echo "::set-env name=TAG_NAME::v$(date +%Y%m%d)"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Upload Release Asset
         uses: softprops/action-gh-release@v1
         with:
           files: ./foreign-exchange-rates.json
