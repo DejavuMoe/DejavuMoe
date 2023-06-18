@@ -16,7 +16,7 @@ jobs:
         run: |
           echo "API_KEY=${{ secrets.API_KEY }}" >> $GITHUB_ENV
           echo "API_URL=${{ secrets.API_URL }}" >> $GITHUB_ENV
-          echo "TAG_NAME=$(date +%Y%m%d)" >> $GITHUB_ENV
+          echo "TAG_NAME=v$(date +%Y%m%d)" >> $GITHUB_ENV
 
       - name: Install cURL
         run: sudo apt-get update && sudo apt-get install -y curl
@@ -31,7 +31,6 @@ jobs:
         with:
           files: ./foreign-exchange-rates.json
           tag_name: ${{ env.TAG_NAME }}
-          release_name: "Release ${{ env.TAG_NAME }}"
-          body: "Latest exchange rates"
+          body: "Release ${{ env.TAG_NAME }}\n\nLatest exchange rates"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
