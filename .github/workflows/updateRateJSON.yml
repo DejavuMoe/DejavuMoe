@@ -1,8 +1,8 @@
 name: Get Exchange Rates
 
 on:
-  watch:
-    types: [started]
+  schedule:
+    - cron: '${{ rand(0, 59) }} 0 * * *'
     
 jobs:
   update-rates-json:
