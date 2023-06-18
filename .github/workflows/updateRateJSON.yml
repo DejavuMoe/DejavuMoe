@@ -2,7 +2,7 @@ name: Get Exchange Rates
 
 on:
   schedule:
-    - cron: '${{ rand(0, 59) }} 0 * * *'
+    - cron: '3 16 * * *'
     
 jobs:
   update-rates-json:
