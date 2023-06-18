@@ -1,0 +1,36 @@
+name: Get Exchange Rates
+
+on:
+  schedule:
+    - cron: '0 ${{ rand(0, 59) }} 16 * * *' # 每天 UTC 时间 16 点的随机一个分钟
+
+jobs:
+  update-rates-json:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up environment variables
+        env:
+          API_KEY: ${{ secrets.API_KEY }}
+          API_URL: ${{ secrets.API_URL }}
+
+      - name: Install cURL
+        run: sudo apt-get update && sudo apt-get install -y curl
+
+      - name: Get Exchange Rates
+        run: |
+          curl -o foreign-exchange-rates.json "${API_URL}?access_key=${API_KEY}"
+
+      - name: Create Release
+        id: create_release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: ./foreign-exchange-rates.json
+          tag_name: "v$(date +%Y%m%d)"
+          release_name: "Release $(date +%Y%m%d)"
+          body: "Latest exchange rates"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
