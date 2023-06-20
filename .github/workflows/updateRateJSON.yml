@@ -1,4 +1,4 @@
-name: Get Exchange Rates
+name: Get Exchange Rates JSON Update
 
 on:
   schedule:
@@ -9,28 +9,28 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v3
 
       - name: Set up environment variables
         run: |
           echo "API_KEY=${{ secrets.API_KEY }}" >> $GITHUB_ENV
           echo "API_URL=${{ secrets.API_URL }}" >> $GITHUB_ENV
-          echo "TAG_NAME=v$(date +%Y%m%d)" >> $GITHUB_ENV
+          echo "TAG_NAME=$(date +%Y%m%d)" >> $GITHUB_ENV
 
-      - name: Install cURL
-        run: sudo apt-get update && sudo apt-get install -y curl
+      #- name: Install cURL
+      #  run: sudo apt-get update && sudo apt-get install -y curl
 
-      - name: Get Exchange Rates
+      - name: Update API JSON
         run: |
           curl -o foreign-exchange-rates.json "${API_URL}?access_key=${API_KEY}"
 
-      - name: Create Release
+      - name: Release
         id: create_release
         uses: softprops/action-gh-release@v1
         with:
           files: ./foreign-exchange-rates.json
           tag_name: ${{ env.TAG_NAME }}
-          body: "Release ${{ env.TAG_NAME }}\n\nLatest exchange rates"
+          body: "Release ${{ env.TAG_NAME }}"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
