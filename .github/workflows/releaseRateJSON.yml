@@ -3,6 +3,8 @@ name: Get Exchange Rates JSON Update
 on:
   schedule:
     - cron: '3 16 * * *'
+  watch:
+    types: started
     
 jobs:
   update-rates-json:
