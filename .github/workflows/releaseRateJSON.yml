@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout Repository
         uses: actions/checkout@v3
 
       - name: Set up environment variables
@@ -24,12 +24,20 @@ jobs:
         run: |
           curl -o foreign-exchange-rates.json "${API_URL}?access_key=${API_KEY}"
 
-      - name: Release
+      - name: Create Release
         id: create_release
         uses: softprops/action-gh-release@v1
         with:
           files: ./foreign-exchange-rates.json
           tag_name: ${{ env.TAG_NAME }}
           body: "Release ${{ env.TAG_NAME }}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Remove Older Releases
+        uses: dev-drprasad/delete-older-releases@v0.2
+        with:
+            keep_latest: 2
+            delete_tags: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
