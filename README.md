@@ -13,6 +13,7 @@
 ## Recent Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [断网的这两年](https://blog.dejavu.moe/posts/long-time-no-see/)
 - [也许是 Android 上最好的本地播放器 - 椒盐音乐](https://blog.dejavu.moe/posts/android-saltplayer/)
 - [2023 半年小结](https://blog.dejavu.moe/posts/2023-semi-annual-summary/)
 - [写一个好玩的 Hugo 货币汇率转换短代码](https://blog.dejavu.moe/posts/hugo-shortcodes-exchange-rate-conversion/)
@@ -20,7 +21,6 @@
 - [海信 Touch Lite 墨水屏音乐阅读器的简单体验](https://blog.dejavu.moe/posts/hisense-touch-lite/)
 - [从 Debian 11&lpar;bullseye&rpar; 无感升级到 Debian 12&lpar;bookworm&rpar;](https://blog.dejavu.moe/posts/upgrading-debian-from-bullseye-to-bookworm/)
 - [使用 GitHub Actions 自动提交 URL 到 IndexNow](https://blog.dejavu.moe/posts/automatically-submit-urls-to-indexnow-with-github-actions/)
-- [批量重写 Git 历史提交记录](https://blog.dejavu.moe/posts/batch-rewriting-git-commit-history/)
 <!-- BLOG-POST-LIST:END -->
 
 ## GitHub Stats
