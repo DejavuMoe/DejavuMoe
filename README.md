@@ -14,13 +14,13 @@
 
 <!-- BLOG-POST-LIST:START -->
 - [断网的这两年](https://blog.dejavu.moe/posts/long-time-no-see/)
+- [从 Bitwarden/Vaultwarden 到 KeePassXC](https://blog.dejavu.moe/posts/from-vaultwarden-to-keepassxc/)
 - [也许是 Android 上最好的本地播放器 - 椒盐音乐](https://blog.dejavu.moe/posts/android-saltplayer/)
 - [2023 半年小结](https://blog.dejavu.moe/posts/2023-semi-annual-summary/)
 - [写一个好玩的 Hugo 货币汇率转换短代码](https://blog.dejavu.moe/posts/hugo-shortcodes-exchange-rate-conversion/)
 - [写一个 Hugo 短代码将不同类别的总字数统计转换为书名显示](https://blog.dejavu.moe/posts/hugo-shortcodes-word-count-with-books/)
 - [海信 Touch Lite 墨水屏音乐阅读器的简单体验](https://blog.dejavu.moe/posts/hisense-touch-lite/)
 - [从 Debian 11&lpar;bullseye&rpar; 无感升级到 Debian 12&lpar;bookworm&rpar;](https://blog.dejavu.moe/posts/upgrading-debian-from-bullseye-to-bookworm/)
-- [使用 GitHub Actions 自动提交 URL 到 IndexNow](https://blog.dejavu.moe/posts/automatically-submit-urls-to-indexnow-with-github-actions/)
 <!-- BLOG-POST-LIST:END -->
 
 ## GitHub Stats
