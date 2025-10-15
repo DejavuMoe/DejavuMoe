@@ -13,6 +13,7 @@
 ## Recent Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [聊聊静态网站的评论系统](https://blog.dejavu.moe/posts/the-comment-system-of-static-websites/)
 - [在 Hugo 站点中优雅地展示实况照片](https://blog.dejavu.moe/posts/show-live-photos-in-hugo/)
 - [使用 snac 部署一个简洁优雅的 ActivityPub 实例](https://blog.dejavu.moe/posts/selfhost-snac-activitypub-on-debian-with-nginx/)
 - [当 25 岁来临的时候](https://blog.dejavu.moe/posts/when-25-years-old-comes/)
@@ -20,7 +21,6 @@
 - [从 Bitwarden/Vaultwarden 到 KeePassXC](https://blog.dejavu.moe/posts/from-vaultwarden-to-keepassxc/)
 - [也许是 Android 上最好的本地播放器 - 椒盐音乐](https://blog.dejavu.moe/posts/android-saltplayer/)
 - [2023 半年小结](https://blog.dejavu.moe/posts/2023-semi-annual-summary/)
-- [写一个好玩的 Hugo 货币汇率转换短代码](https://blog.dejavu.moe/posts/hugo-shortcodes-exchange-rate-conversion/)
 <!-- BLOG-POST-LIST:END -->
 
 ## GitHub Stats
