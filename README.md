@@ -13,6 +13,7 @@
 ## Recent Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [巧用浏览器生成 HAR 文件批量下载所需网页资源](https://blog.dejavu.moe/posts/generate-har-in-browser-to-batch-download/)
 - [聊聊静态网站的评论系统](https://blog.dejavu.moe/posts/the-comment-system-of-static-websites/)
 - [在 Hugo 站点中优雅地展示实况照片](https://blog.dejavu.moe/posts/show-live-photos-in-hugo/)
 - [使用 snac 部署一个简洁优雅的 ActivityPub 实例](https://blog.dejavu.moe/posts/selfhost-snac-activitypub-on-debian-with-nginx/)
@@ -20,7 +21,6 @@
 - [断网的这两年](https://blog.dejavu.moe/posts/long-time-no-see/)
 - [从 Bitwarden/Vaultwarden 到 KeePassXC](https://blog.dejavu.moe/posts/from-vaultwarden-to-keepassxc/)
 - [也许是 Android 上最好的本地播放器 - 椒盐音乐](https://blog.dejavu.moe/posts/android-saltplayer/)
-- [2023 半年小结](https://blog.dejavu.moe/posts/2023-semi-annual-summary/)
 <!-- BLOG-POST-LIST:END -->
 
 ## GitHub Stats
