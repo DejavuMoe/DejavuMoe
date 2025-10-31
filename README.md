@@ -13,6 +13,7 @@
 ## Recent Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [迁移到 NameCrane Mail 域名邮箱套件服务](https://blog.dejavu.moe/posts/migrate-to-cranemail-suite-services/)
 - [香烟与咖啡](https://blog.dejavu.moe/posts/cigarettes-and-coffee/)
 - [在 Windows 中使用 Yubikey 的 OpenPGP 应用](https://blog.dejavu.moe/posts/yubikey-openpgp-on-windows/)
 - [Windows 11 IoT LTSC 养老指南](https://blog.dejavu.moe/posts/windows11-ltsc-guide/)
@@ -20,7 +21,6 @@
 - [聊聊静态网站的评论系统](https://blog.dejavu.moe/posts/the-comment-system-of-static-websites/)
 - [在 Hugo 站点中优雅地展示实况照片](https://blog.dejavu.moe/posts/show-live-photos-in-hugo/)
 - [使用 snac 部署一个简洁优雅的 ActivityPub 实例](https://blog.dejavu.moe/posts/selfhost-snac-activitypub-on-debian-with-nginx/)
-- [当 25 岁来临的时候](https://blog.dejavu.moe/posts/when-25-years-old-comes/)
 <!-- BLOG-POST-LIST:END -->
 
 ## GitHub Stats
