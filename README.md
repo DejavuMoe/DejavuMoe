@@ -3,7 +3,6 @@
 **I am Dejavu Moe, a curious explorer.**
 
 - I am writing a **blog**: https://blog.dejavu.moe
-- You can reach me on **Fediverse**: [@mod@snac.dejavu.moe](https://snac.dejavu.moe/mod)
 - My **PGP Key**: [`ed25519/DF96 8883 EA3B DBCC 9326 D260 1A66 6666 6666 6666`](https://xvo.es/pgp) `(master key)`
 
   - `ed25519/0x8422222222222222` `(signing subkey)`
