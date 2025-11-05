@@ -12,6 +12,7 @@
 ## Recent Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [简体中文互联网在变得糟糕吗？](https://blog.dejavu.moe/posts/is-the-zh-internet-getting-worse/)
 - [如何低成本申请 S/MIME 证书用于个人邮件服务](https://blog.dejavu.moe/posts/how-to-apply-for-s-mime-certs-at-low-cost/)
 - [迁移到 NameCrane Mail 域名邮箱套件服务](https://blog.dejavu.moe/posts/migrate-to-cranemail-suite-services/)
 - [香烟与咖啡](https://blog.dejavu.moe/posts/cigarettes-and-coffee/)
@@ -19,7 +20,6 @@
 - [Windows 11 IoT LTSC 养老指南](https://blog.dejavu.moe/posts/windows11-ltsc-guide/)
 - [巧用浏览器生成 HAR 文件批量下载所需网页资源](https://blog.dejavu.moe/posts/generate-har-in-browser-to-batch-download/)
 - [聊聊静态网站的评论系统](https://blog.dejavu.moe/posts/the-comment-system-of-static-websites/)
-- [在 Hugo 站点中优雅地展示实况照片](https://blog.dejavu.moe/posts/show-live-photos-in-hugo/)
 <!-- BLOG-POST-LIST:END -->
 
 ## GitHub Stats
