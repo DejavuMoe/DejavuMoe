@@ -12,6 +12,7 @@
 ## Recent Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Docker 自托管 Cloudreve Pro 私有网盘服务](https://blog.dejavu.moe/posts/docker-install-cloudreve-pro-with-nginx/)
 - [GiffGaff SIM 卡使用体验和注意事项](https://blog.dejavu.moe/posts/giffgaff-sim/)
 - [在 n8n 中使用 Ollama 的本地 LLM 模型](https://blog.dejavu.moe/posts/try-n8n-automation-with-ollama/)
 - [简体中文互联网在变得糟糕吗？](https://blog.dejavu.moe/posts/is-the-zh-internet-getting-worse/)
@@ -19,7 +20,6 @@
 - [迁移到 NameCrane Mail 域名邮箱套件服务](https://blog.dejavu.moe/posts/migrate-to-cranemail-suite-services/)
 - [香烟与咖啡](https://blog.dejavu.moe/posts/cigarettes-and-coffee/)
 - [在 Windows 中使用 Yubikey 的 OpenPGP 应用](https://blog.dejavu.moe/posts/yubikey-openpgp-on-windows/)
-- [Windows 11 IoT LTSC 养老指南](https://blog.dejavu.moe/posts/windows11-ltsc-guide/)
 <!-- BLOG-POST-LIST:END -->
 
 ## GitHub Stats
