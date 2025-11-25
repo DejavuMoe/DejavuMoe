@@ -12,6 +12,7 @@
 ## Recent Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [新到手的 Linux 服务器，我这样设置](https://blog.dejavu.moe/posts/new-linux-server-setup-guide/)
 - [Docker 自托管 Cloudreve Pro 私有网盘服务](https://blog.dejavu.moe/posts/docker-install-cloudreve-pro-with-nginx/)
 - [GiffGaff SIM 卡使用体验和注意事项](https://blog.dejavu.moe/posts/giffgaff-sim/)
 - [在 n8n 中使用 Ollama 的本地 LLM 模型](https://blog.dejavu.moe/posts/try-n8n-automation-with-ollama/)
@@ -19,7 +20,6 @@
 - [如何低成本申请 S/MIME 证书用于个人邮件服务](https://blog.dejavu.moe/posts/how-to-apply-for-s-mime-certs-at-low-cost/)
 - [迁移到 NameCrane Mail 域名邮箱套件服务](https://blog.dejavu.moe/posts/migrate-to-cranemail-suite-services/)
 - [香烟与咖啡](https://blog.dejavu.moe/posts/cigarettes-and-coffee/)
-- [在 Windows 中使用 Yubikey 的 OpenPGP 应用](https://blog.dejavu.moe/posts/yubikey-openpgp-on-windows/)
 <!-- BLOG-POST-LIST:END -->
 
 ## GitHub Stats
