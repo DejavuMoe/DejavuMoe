@@ -12,6 +12,7 @@
 ## Recent Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Netcup 免税账号注册及购买服务器全记录](https://blog.dejavu.moe/posts/buy-netup-server-with-tax-free-account-guide/)
 - [新到手的 Linux 服务器，我这样设置](https://blog.dejavu.moe/posts/new-linux-server-setup-guide/)
 - [Docker 自托管 Cloudreve Pro 私有网盘服务](https://blog.dejavu.moe/posts/docker-install-cloudreve-pro-with-nginx/)
 - [GiffGaff SIM 卡使用体验和注意事项](https://blog.dejavu.moe/posts/giffgaff-sim/)
@@ -19,7 +20,6 @@
 - [简体中文互联网在变得糟糕吗？](https://blog.dejavu.moe/posts/is-the-zh-internet-getting-worse/)
 - [如何低成本申请 S/MIME 证书用于个人邮件服务](https://blog.dejavu.moe/posts/how-to-apply-for-s-mime-certs-at-low-cost/)
 - [迁移到 NameCrane Mail 域名邮箱套件服务](https://blog.dejavu.moe/posts/migrate-to-cranemail-suite-services/)
-- [香烟与咖啡](https://blog.dejavu.moe/posts/cigarettes-and-coffee/)
 <!-- BLOG-POST-LIST:END -->
 
 ## GitHub Stats
