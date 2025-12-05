@@ -3,7 +3,7 @@
 **I am Dejavu Moe, a curious explorer.**
 
 - I am writing a **blog**: https://blog.dejavu.moe
-- My **PGP Key**: [`ed25519/DF96 8883 EA3B DBCC 9326 D260 1A66 6666 6666 6666`](https://xvo.es/pgp) `(master key)`
+- My **PGP Key**: [`ed25519/DF96 8883 EA3B DBCC 9326 D260 1A66 6666 6666 6666`](https://pgp.dejavu.moe) `(master key)`
 
   - `ed25519/0x8422222222222222` `(signing subkey)`
   - `cv25519/0x4444444444444444` `(encryption subkey)`
