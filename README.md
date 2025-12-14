@@ -12,6 +12,7 @@
 ## Recent Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Fedora Linux 安装后的配置记录](https://blog.dejavu.moe/posts/install-and-use-fedora-workstation/)
 - [2025 年优雅地自托管 RSS 服务](https://blog.dejavu.moe/posts/gracefully-selfhosted-rss-service/)
 - [自托管部署 Pocket ID 与 Tinyauth 完全指南](https://blog.dejavu.moe/posts/build-passkeys-identity-system-with-pocketid-x-tinyauth/)
 - [Woodpecker CI 和 Gitea 实现 Hugo 自动部署](https://blog.dejavu.moe/posts/build-hugo-site-with-gitea-and-woodpecker-ci/)
@@ -19,7 +20,6 @@
 - [在 Blinko 中使用 Ollama 作为 AI 供应商](https://blog.dejavu.moe/posts/blinko-with-ollama-ai-provider/)
 - [Docker 部署 Gitea 个人代码托管服务](https://blog.dejavu.moe/posts/docker-install-gitea-with-nginx-and-cloudflared/)
 - [Plausible CE 启用城市级地理位置识别](https://blog.dejavu.moe/posts/plausible-with-city-accuracy-geoip/)
-- [Blinko 开源 AI 知识库 Docker 部署指南](https://blog.dejavu.moe/posts/docker-install-blinko-with-nginx/)
 <!-- BLOG-POST-LIST:END -->
 
 ## GitHub Stats
