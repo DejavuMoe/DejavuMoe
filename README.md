@@ -12,7 +12,7 @@
 ## Recent Posts
 
 <!-- BLOG-POST-LIST:START -->
-- [Fedora Linux 安装后的配置记录](https://blog.dejavu.moe/posts/install-and-use-fedora-workstation/)
+- [Fedora Linux 安装配置记录](https://blog.dejavu.moe/posts/install-and-use-fedora-workstation/)
 - [2025 年优雅地自托管 RSS 服务](https://blog.dejavu.moe/posts/gracefully-selfhosted-rss-service/)
 - [自托管部署 Pocket ID 与 Tinyauth 完全指南](https://blog.dejavu.moe/posts/build-passkeys-identity-system-with-pocketid-x-tinyauth/)
 - [Woodpecker CI 和 Gitea 实现 Hugo 自动部署](https://blog.dejavu.moe/posts/build-hugo-site-with-gitea-and-woodpecker-ci/)
