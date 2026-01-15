@@ -12,6 +12,7 @@
 ## Recent Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [烽火 HG5582A 光猫开启桥接模式](https://blog.dejavu.moe/posts/fiberhome-hg5582a-optical-modem-bridge-mode/)
 - [Docker 自托管 Shlink 短链服务](https://blog.dejavu.moe/posts/deploy-shlink-with-docker-and-nginx/)
 - [部署 Obsidian LiveSync 实时同步服务指南](https://blog.dejavu.moe/posts/selfhosting-obsidian-livesync-service-guide/)
 - [我的 2025 年不完全回顾](https://blog.dejavu.moe/posts/2025-year-summary/)
@@ -19,7 +20,6 @@
 - [Linux 下 Intel 核显驱动配置与硬件加速](https://blog.dejavu.moe/posts/fedora-graphics-driver-with-hardware-acceleration/)
 - [Fedora Linux 安装配置记录](https://blog.dejavu.moe/posts/install-and-use-fedora-workstation/)
 - [2025 年优雅地自托管 RSS 服务](https://blog.dejavu.moe/posts/gracefully-selfhosted-rss-service/)
-- [自托管部署 Pocket ID 与 Tinyauth 完全指南](https://blog.dejavu.moe/posts/build-passkeys-identity-system-with-pocketid-x-tinyauth/)
 <!-- BLOG-POST-LIST:END -->
 
 ## GitHub Stats
