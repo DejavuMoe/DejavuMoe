@@ -12,6 +12,7 @@
 ## Recent Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [使用 Stalwart 自托管邮局服务](https://blog.dejavu.moe/posts/hosting-mail-and-collaboration-server-with-stalwart/)
 - [烽火 HG5582A 光猫开启桥接模式](https://blog.dejavu.moe/posts/fiberhome-hg5582a-optical-modem-bridge-mode/)
 - [Docker 自托管 Shlink 短链服务](https://blog.dejavu.moe/posts/deploy-shlink-with-docker-and-nginx/)
 - [部署 Obsidian LiveSync 实时同步服务指南](https://blog.dejavu.moe/posts/selfhosting-obsidian-livesync-service-guide/)
@@ -19,7 +20,6 @@
 - [我的 2025 年度自托管服务报告](https://blog.dejavu.moe/posts/my-2025-selfhosted-services-report/)
 - [Linux 下 Intel 核显驱动配置与硬件加速](https://blog.dejavu.moe/posts/fedora-graphics-driver-with-hardware-acceleration/)
 - [Fedora Linux 安装配置记录](https://blog.dejavu.moe/posts/install-and-use-fedora-workstation/)
-- [2025 年优雅地自托管 RSS 服务](https://blog.dejavu.moe/posts/gracefully-selfhosted-rss-service/)
 <!-- BLOG-POST-LIST:END -->
 
 ## GitHub Stats
