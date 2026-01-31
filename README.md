@@ -12,6 +12,7 @@
 ## Recent Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Netcup 服务器安装自定义 ISO 镜像](https://blog.dejavu.moe/posts/reinstall-netcup-server-using-custom-iso/)
 - [在 Debian 13 上自托管 Mox 邮局](https://blog.dejavu.moe/posts/hosting-mox-mail-server-on-debian-13/)
 - [使用 Stalwart 自托管邮局服务](https://blog.dejavu.moe/posts/hosting-mail-and-collaboration-server-with-stalwart/)
 - [烽火 HG5582A 光猫开启桥接模式](https://blog.dejavu.moe/posts/fiberhome-hg5582a-optical-modem-bridge-mode/)
@@ -19,7 +20,6 @@
 - [部署 Obsidian LiveSync 实时同步服务指南](https://blog.dejavu.moe/posts/selfhosting-obsidian-livesync-service-guide/)
 - [我的 2025 年不完全回顾](https://blog.dejavu.moe/posts/2025-year-summary/)
 - [我的 2025 年度自托管服务报告](https://blog.dejavu.moe/posts/my-2025-selfhosted-services-report/)
-- [Linux 下 Intel 核显驱动配置与硬件加速](https://blog.dejavu.moe/posts/fedora-graphics-driver-with-hardware-acceleration/)
 <!-- BLOG-POST-LIST:END -->
 
 ## GitHub Stats
