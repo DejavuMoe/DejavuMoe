@@ -12,6 +12,7 @@
 ## Recent Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [使用 Kopia 自动化备份服务器数据](https://blog.dejavu.moe/posts/backup-your-data-with-kopia/)
 - [给 Docker 启用 IPv6 支持](https://blog.dejavu.moe/posts/enable-ipv6-in-docker/)
 - [Netcup 服务器安装自定义 ISO 镜像](https://blog.dejavu.moe/posts/reinstall-netcup-server-using-custom-iso/)
 - [在 Debian 13 上自托管 Mox 邮局](https://blog.dejavu.moe/posts/hosting-mox-mail-server-on-debian-13/)
@@ -19,7 +20,6 @@
 - [烽火 HG5582A 光猫开启桥接模式](https://blog.dejavu.moe/posts/fiberhome-hg5582a-optical-modem-bridge-mode/)
 - [Docker 自托管 Shlink 短链服务](https://blog.dejavu.moe/posts/deploy-shlink-with-docker-and-nginx/)
 - [部署 Obsidian LiveSync 实时同步服务指南](https://blog.dejavu.moe/posts/selfhosting-obsidian-livesync-service-guide/)
-- [我的 2025 年不完全回顾](https://blog.dejavu.moe/posts/2025-year-summary/)
 <!-- BLOG-POST-LIST:END -->
 
 ## GitHub Stats
