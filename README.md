@@ -12,6 +12,7 @@
 ## Recent Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Scaleway VPS 安装 Debian 系统](https://blog.dejavu.moe/posts/scaleway-ipv6-only-vps-install-debian/)
 - [Debian 13 下部署 AsmBB 论坛](https://blog.dejavu.moe/posts/deploy-asmbb-on-debian-13-with-nginx/)
 - [使用 Kopia 自动化备份服务器数据](https://blog.dejavu.moe/posts/backup-your-data-with-kopia/)
 - [给 Docker 启用 IPv6 支持](https://blog.dejavu.moe/posts/enable-ipv6-in-docker/)
@@ -19,7 +20,6 @@
 - [在 Debian 13 上自托管 Mox 邮局](https://blog.dejavu.moe/posts/hosting-mox-mail-server-on-debian-13/)
 - [使用 Stalwart 自托管邮局服务](https://blog.dejavu.moe/posts/hosting-mail-and-collaboration-server-with-stalwart/)
 - [烽火 HG5582A 光猫开启桥接模式](https://blog.dejavu.moe/posts/fiberhome-hg5582a-optical-modem-bridge-mode/)
-- [Docker 自托管 Shlink 短链服务](https://blog.dejavu.moe/posts/deploy-shlink-with-docker-and-nginx/)
 <!-- BLOG-POST-LIST:END -->
 
 ## GitHub Stats
