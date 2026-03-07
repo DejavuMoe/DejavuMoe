@@ -12,6 +12,7 @@
 ## Recent Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [安装 Komari 服务器监控工具](https://blog.dejavu.moe/posts/install-komari-monitor/)
 - [Scaleway VPS 安装 Debian 系统](https://blog.dejavu.moe/posts/scaleway-ipv6-only-vps-install-debian/)
 - [Debian 13 下部署 AsmBB 论坛](https://blog.dejavu.moe/posts/deploy-asmbb-on-debian-13-with-nginx/)
 - [使用 Kopia 自动化备份服务器数据](https://blog.dejavu.moe/posts/backup-your-data-with-kopia/)
@@ -19,7 +20,6 @@
 - [Netcup 服务器安装自定义 ISO 镜像](https://blog.dejavu.moe/posts/reinstall-netcup-server-using-custom-iso/)
 - [在 Debian 13 上自托管 Mox 邮局](https://blog.dejavu.moe/posts/hosting-mox-mail-server-on-debian-13/)
 - [使用 Stalwart 自托管邮局服务](https://blog.dejavu.moe/posts/hosting-mail-and-collaboration-server-with-stalwart/)
-- [烽火 HG5582A 光猫开启桥接模式](https://blog.dejavu.moe/posts/fiberhome-hg5582a-optical-modem-bridge-mode/)
 <!-- BLOG-POST-LIST:END -->
 
 ## GitHub Stats
