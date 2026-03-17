@@ -12,6 +12,7 @@
 ## Recent Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [BuyVM VPS 块存储挂载教程](https://blog.dejavu.moe/posts/buyvm-mount-block-storage-slab/)
 - [Alpine Linux 服务器配置指南](https://blog.dejavu.moe/posts/alpine-linux-server-configuration-guide/)
 - [Alpine Linux 安装 Cloudflared](https://blog.dejavu.moe/posts/install-cloudflared-on-alpine-linux/)
 - [Docker 多容器共享中心数据库](https://blog.dejavu.moe/posts/multiple-docker-containers-sharing-postgresql/)
@@ -19,7 +20,6 @@
 - [Scaleway VPS 安装 Debian 系统](https://blog.dejavu.moe/posts/scaleway-ipv6-only-vps-install-debian/)
 - [Debian 13 下部署 AsmBB 论坛](https://blog.dejavu.moe/posts/deploy-asmbb-on-debian-13-with-nginx/)
 - [使用 Kopia 自动化备份服务器数据](https://blog.dejavu.moe/posts/backup-your-data-with-kopia/)
-- [给 Docker 启用 IPv6 支持](https://blog.dejavu.moe/posts/enable-ipv6-in-docker/)
 <!-- BLOG-POST-LIST:END -->
 
 ## GitHub Stats
