@@ -12,6 +12,7 @@
 ## Recent Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Headscale + Tailscale 组建虚拟专用网](https://blog.dejavu.moe/posts/building-private-networks-with-headscale-and-tailscale/)
 - [在 Linux 上使用 Yubikey OpenPGP 应用](https://blog.dejavu.moe/posts/yubikey-openpgp-on-linux/)
 - [BuyVM VPS 块存储挂载教程](https://blog.dejavu.moe/posts/buyvm-mount-block-storage-slab/)
 - [Alpine Linux 服务器配置指南](https://blog.dejavu.moe/posts/alpine-linux-server-configuration-guide/)
@@ -19,7 +20,6 @@
 - [Docker 多容器共享中心数据库](https://blog.dejavu.moe/posts/multiple-docker-containers-sharing-postgresql/)
 - [安装 Komari 服务器监控工具](https://blog.dejavu.moe/posts/install-komari-monitor/)
 - [Scaleway VPS 安装 Debian 系统](https://blog.dejavu.moe/posts/scaleway-ipv6-only-vps-install-debian/)
-- [Debian 13 下部署 AsmBB 论坛](https://blog.dejavu.moe/posts/deploy-asmbb-on-debian-13-with-nginx/)
 <!-- BLOG-POST-LIST:END -->
 
 ## GitHub Stats
