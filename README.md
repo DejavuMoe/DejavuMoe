@@ -12,6 +12,7 @@
 ## Recent Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [哪吒监控面板部署教程](https://blog.dejavu.moe/posts/nezha-dashboard-deploy-guide/)
 - [NodeBB 论坛部署教程](https://blog.dejavu.moe/posts/nodebb-install-guide/)
 - [Scaleway VPS 安装 Alpine Linux](https://blog.dejavu.moe/posts/scaleway-ipv6-only-vps-install-alpine/)
 - [甲骨文 ARM 实例部署 Gemma 4 模型](https://blog.dejavu.moe/posts/deploy-gemma-4-on-oracle-arm-instance-with-llama-dot-cpp/)
@@ -19,7 +20,6 @@
 - [在 Linux 上使用 Yubikey OpenPGP 应用](https://blog.dejavu.moe/posts/yubikey-openpgp-on-linux/)
 - [BuyVM VPS 块存储挂载教程](https://blog.dejavu.moe/posts/buyvm-mount-block-storage-slab/)
 - [Alpine Linux 服务器配置指南](https://blog.dejavu.moe/posts/alpine-linux-server-configuration-guide/)
-- [Alpine Linux 安装 Cloudflared](https://blog.dejavu.moe/posts/install-cloudflared-on-alpine-linux/)
 <!-- BLOG-POST-LIST:END -->
 
 ## GitHub Stats
