@@ -12,6 +12,7 @@
 ## Recent Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [使用 auto-cpufreq 平衡 Linux 性能功耗](https://blog.dejavu.moe/posts/fedora-balance-performance-and-power-consumption-with-auto-cpufreq/)
 - [哪吒监控面板部署教程](https://blog.dejavu.moe/posts/nezha-dashboard-deploy-guide/)
 - [NodeBB 论坛部署教程](https://blog.dejavu.moe/posts/nodebb-install-guide/)
 - [Scaleway VPS 安装 Alpine Linux](https://blog.dejavu.moe/posts/scaleway-ipv6-only-vps-install-alpine/)
@@ -19,7 +20,6 @@
 - [Headscale + Tailscale 组建虚拟专用网](https://blog.dejavu.moe/posts/building-private-networks-with-headscale-and-tailscale/)
 - [在 Linux 上使用 Yubikey OpenPGP 应用](https://blog.dejavu.moe/posts/yubikey-openpgp-on-linux/)
 - [BuyVM VPS 块存储挂载教程](https://blog.dejavu.moe/posts/buyvm-mount-block-storage-slab/)
-- [Alpine Linux 服务器配置指南](https://blog.dejavu.moe/posts/alpine-linux-server-configuration-guide/)
 <!-- BLOG-POST-LIST:END -->
 
 ## GitHub Stats
