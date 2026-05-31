@@ -12,6 +12,7 @@
 ## Recent Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [BreadCloud VPS 评测](https://blog.dejavu.moe/posts/vps-review-of-breadcloud/)
 - [使用 auto-cpufreq 平衡 Linux 性能功耗](https://blog.dejavu.moe/posts/fedora-balance-performance-and-power-consumption-with-auto-cpufreq/)
 - [哪吒监控面板部署教程](https://blog.dejavu.moe/posts/nezha-dashboard-deploy-guide/)
 - [NodeBB 论坛部署教程](https://blog.dejavu.moe/posts/nodebb-install-guide/)
@@ -19,7 +20,6 @@
 - [甲骨文 ARM 实例部署 Gemma 4 模型](https://blog.dejavu.moe/posts/deploy-gemma-4-on-oracle-arm-instance-with-llama-dot-cpp/)
 - [Headscale + Tailscale 组建虚拟专用网](https://blog.dejavu.moe/posts/building-private-networks-with-headscale-and-tailscale/)
 - [在 Linux 上使用 Yubikey OpenPGP 应用](https://blog.dejavu.moe/posts/yubikey-openpgp-on-linux/)
-- [BuyVM VPS 块存储挂载教程](https://blog.dejavu.moe/posts/buyvm-mount-block-storage-slab/)
 <!-- BLOG-POST-LIST:END -->
 
 ## GitHub Stats
