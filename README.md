@@ -12,7 +12,7 @@
 ## Recent Posts
 
 <!-- BLOG-POST-LIST:START -->
-- [「译」设置并使用 Pi 编码代理](https://blog.dejavu.moe/posts/translation-setting-up-and-using-the-pi-coding-agent/)
+- [【译】设置并使用 Pi 编码代理](https://blog.dejavu.moe/posts/translation-setting-up-and-using-the-pi-coding-agent/)
 - [BreadCloud VPS 评测](https://blog.dejavu.moe/posts/vps-review-of-breadcloud/)
 - [使用 auto-cpufreq 平衡 Linux 性能功耗](https://blog.dejavu.moe/posts/fedora-balance-performance-and-power-consumption-with-auto-cpufreq/)
 - [哪吒监控面板部署教程](https://blog.dejavu.moe/posts/nezha-dashboard-deploy-guide/)
