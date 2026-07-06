@@ -12,6 +12,7 @@
 ## Recent Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [PicForge 离线批量图片压缩工具](https://blog.dejavu.moe/posts/picforge-webapp/)
 - [光线不多的日子](https://blog.dejavu.moe/posts/days-with-not-much-light/)
 - [【译】设置并使用 Pi 编码代理](https://blog.dejavu.moe/posts/translation-setting-up-and-using-the-pi-coding-agent/)
 - [BreadCloud VPS 评测](https://blog.dejavu.moe/posts/vps-review-of-breadcloud/)
@@ -19,7 +20,6 @@
 - [哪吒监控面板部署教程](https://blog.dejavu.moe/posts/nezha-dashboard-deploy-guide/)
 - [NodeBB 论坛部署教程](https://blog.dejavu.moe/posts/nodebb-install-guide/)
 - [Scaleway VPS 安装 Alpine Linux](https://blog.dejavu.moe/posts/scaleway-ipv6-only-vps-install-alpine/)
-- [甲骨文 ARM 实例部署 Gemma 4 模型](https://blog.dejavu.moe/posts/deploy-gemma-4-on-oracle-arm-instance-with-llama-dot-cpp/)
 <!-- BLOG-POST-LIST:END -->
 
 ## GitHub Stats
