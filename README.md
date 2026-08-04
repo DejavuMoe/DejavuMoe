@@ -12,6 +12,7 @@
 ## Recent Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Riven Cloud 新加坡 Premium VPS 测评](https://blog.dejavu.moe/posts/review-of-rivencloud-premium-vps/)
 - [PicForge 离线批量图片压缩工具](https://blog.dejavu.moe/posts/picforge-webapp/)
 - [光线不多的日子](https://blog.dejavu.moe/posts/days-with-not-much-light/)
 - [【译】设置并使用 Pi 编码代理](https://blog.dejavu.moe/posts/translation-setting-up-and-using-the-pi-coding-agent/)
@@ -19,7 +20,6 @@
 - [使用 auto-cpufreq 平衡 Linux 性能功耗](https://blog.dejavu.moe/posts/fedora-balance-performance-and-power-consumption-with-auto-cpufreq/)
 - [哪吒监控面板部署教程](https://blog.dejavu.moe/posts/nezha-dashboard-deploy-guide/)
 - [NodeBB 论坛部署教程](https://blog.dejavu.moe/posts/nodebb-install-guide/)
-- [Scaleway VPS 安装 Alpine Linux](https://blog.dejavu.moe/posts/scaleway-ipv6-only-vps-install-alpine/)
 <!-- BLOG-POST-LIST:END -->
 
 ## GitHub Stats
