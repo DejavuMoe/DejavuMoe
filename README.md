@@ -16,7 +16,7 @@
 - [Riven Cloud 新加坡 Premium VPS 测评](https://blog.dejavu.moe/posts/review-of-rivencloud-premium-vps/)
 - [PicForge 离线批量图片压缩工具](https://blog.dejavu.moe/posts/picforge-webapp/)
 - [光线不多的日子](https://blog.dejavu.moe/posts/days-with-not-much-light/)
-- [【译】设置并使用 Pi 编码代理](https://blog.dejavu.moe/posts/translation-setting-up-and-using-the-pi-coding-agent/)
+- [译 &gt; 设置并使用 Pi 编码代理](https://blog.dejavu.moe/posts/translation-setting-up-and-using-the-pi-coding-agent/)
 - [BreadCloud VPS 评测](https://blog.dejavu.moe/posts/vps-review-of-breadcloud/)
 - [使用 auto-cpufreq 平衡 Linux 性能功耗](https://blog.dejavu.moe/posts/fedora-balance-performance-and-power-consumption-with-auto-cpufreq/)
 - [哪吒监控面板部署教程](https://blog.dejavu.moe/posts/nezha-dashboard-deploy-guide/)
