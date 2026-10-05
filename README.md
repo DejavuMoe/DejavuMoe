@@ -12,6 +12,7 @@
 ## Recent Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Windows 搭建 WSL2 AI 开发环境](https://blog.dejavu.moe/posts/windows-wsl2-ai-dev-environment/)
 - [edgeTTS 自托管语音合成 API](https://blog.dejavu.moe/posts/edgetts/)
 - [第一次起飞](https://blog.dejavu.moe/posts/first-time-flying/)
 - [Hugo 实现页面加密](https://blog.dejavu.moe/posts/hugo-protected-leaf-bundle-encryption/)
@@ -19,7 +20,6 @@
 - [PicForge 本地图片工具箱](https://blog.dejavu.moe/posts/picforge-webapp/)
 - [光线不多的日子](https://blog.dejavu.moe/posts/days-with-not-much-light/)
 - [译 &gt; 设置并使用 Pi 编码代理](https://blog.dejavu.moe/posts/translation-setting-up-and-using-the-pi-coding-agent/)
-- [BreadCloud VPS 评测](https://blog.dejavu.moe/posts/vps-review-of-breadcloud/)
 <!-- BLOG-POST-LIST:END -->
 
 ## GitHub Stats
