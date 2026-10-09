@@ -12,6 +12,7 @@
 ## Recent Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [寒露与幻梦](https://blog.dejavu.moe/posts/cold-dew/)
 - [介绍 Ecoku 评论系统](https://blog.dejavu.moe/posts/ecoku-comment-system/)
 - [Windows 搭建 WSL2 AI 开发环境](https://blog.dejavu.moe/posts/windows-wsl2-ai-dev-environment/)
 - [edgeTTS 自托管语音合成 API](https://blog.dejavu.moe/posts/edgetts/)
@@ -19,7 +20,6 @@
 - [Hugo 实现页面加密](https://blog.dejavu.moe/posts/hugo-protected-leaf-bundle-encryption/)
 - [Riven Cloud 新加坡 Premium VPS 测评](https://blog.dejavu.moe/posts/review-of-rivencloud-premium-vps/)
 - [PicForge 本地图片工具箱](https://blog.dejavu.moe/posts/picforge-webapp/)
-- [光线不多的日子](https://blog.dejavu.moe/posts/days-with-not-much-light/)
 <!-- BLOG-POST-LIST:END -->
 
 ## GitHub Stats
