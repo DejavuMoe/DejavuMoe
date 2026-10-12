@@ -24,7 +24,7 @@
 
 **I am Dejavu Moe, a curious explorer.**
 
-I am writing a **blog**: https://dejavu.moe
+My **personal website**: https://dejavu.moe
 
 <br>
 
