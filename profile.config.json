@@ -1,0 +1,19 @@
+{
+  "owner": "DejavuMoe",
+  "blog_url": "https://blog.dejavu.moe",
+  "feed_url": "https://blog.dejavu.moe/index.xml",
+  "project_count": 6,
+  "post_count": 8,
+  "exclude": ["DejavuMoe"],
+  "descriptions": {
+    "edgeTTS": "A self-hosted speech API and browser workbench for Edge TTS.",
+    "Ecoku": "Self-hosted comments for blogs. Multi-site, text-first.",
+    "Smoji": "An image-emoji workspace, with a picker for the open web.",
+    "PicForge": "Images and motion photos, processed in your browser. No uploads.",
+    "sani": "Short links, text and file sharing. One self-hosted binary.",
+    "romi": "Self-hosted Linux monitoring, with status pages and alerts.",
+    "prototype-first-ui": "An agent skill: review the prototype before building the UI.",
+    "STranslate.Plugin.Tts.edgeTTS": "Connect STranslate to your own edgeTTS server.",
+    "deepseek_wale_girl": "104 fan-made DeepSeek whale-girl emoji, in GIF and WebM."
+  }
+}

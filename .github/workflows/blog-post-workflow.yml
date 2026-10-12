@@ -1,24 +1,70 @@
-name: Pull recent blog posts
+name: Update profile
+
 on:
   schedule:
-    - cron: '15 */6 * * *' # Run every 6 hours at the 15th minute
-  workflow_dispatch: # Run workflow manually (without waiting for the cron to be called), through the GitHub Actions Workflow page directly
+    - cron: '23 0 * * *' # Projects + blog, daily at 08:23 UTC+8.
+    - cron: '23 6,12,18 * * *' # Blog-only refreshes, every 6 hours overall.
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths:
+      - README.md
+      - profile.config.json
+      - scripts/**
+      - tests/**
+      - .github/workflows/blog-post-workflow.yml
+
 permissions:
-  contents: write # To write the generated contents to the readme
+  contents: read
+
+concurrency:
+  group: profile-update
+  cancel-in-progress: false
 
 jobs:
-  update-readme-with-blog:
-    name: Update the latest blog posts
+  update:
+    if: github.repository == 'DejavuMoe/DejavuMoe'
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Pull the latest blog posts
-        uses: gautamkrishnar/blog-post-workflow@v1
+      - name: Check out the default branch
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
-          feed_list: ${{ secrets.feed }}
-          max_post_count: 8
-          committer_username: ${{ secrets.username }}
-          committer_email: ${{ secrets.mail }}
-          commit_message: "Pull recent blog posts."
-          remove_duplicates: true
+          ref: master
+
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.13'
+
+      - name: Test the generator
+        run: python -m unittest discover -s tests -v
+
+      - name: Refresh public data and render the profile
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BLOG_ONLY: ${{ github.event_name == 'schedule' && github.event.schedule == '23 6,12,18 * * *' }}
+        run: |
+          if [ "$BLOG_ONLY" = "true" ]; then
+            python scripts/update_profile.py --blog-only
+          else
+            python scripts/update_profile.py
+          fi
+
+      - name: Verify every output and the generated file inventory
+        run: python scripts/update_profile.py --check
+
+      - name: Commit only changed profile artifacts
+        run: |
+          git add -- README.md data/profile.json assets/generated/
+          if git diff --cached --quiet; then
+            echo "The profile is already up to date."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git -c commit.gpgsign=false commit -m 'chore(profile): refresh projects and writing'
+          # A concurrent human push must never be overwritten. Retry on the next run.
+          git push origin HEAD:master

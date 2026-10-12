@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="285" viewBox="0 0 600 285" role="img" aria-labelledby="title">
+<title id="title">Smoji: An image-emoji workspace, with a picker for the open web. — 115 stars, 53 commits, 0 releases.</title>
+<rect width="600" height="285" fill="#f3f1e9"/>
+<path d="M0,0H600" stroke="#d4d8cc" stroke-width="2"/>
+<text x="30" y="34" font-family="'Courier New', monospace" font-size="13" font-weight="400" fill="#c74226" >03</text>
+<text x="30" y="85" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" fill="#22251f" letter-spacing="-1">Smoji</text>
+<text x="570" y="34" font-family="'Courier New', monospace" font-size="17" font-weight="400" fill="#62695e" text-anchor="end">JAVASCRIPT</text>
+<text x="570" y="85" font-family="Arial, Helvetica, sans-serif" font-size="35" font-weight="400" fill="#c74226" text-anchor="end">↗</text>
+<text x="30" y="125" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#62695e" >An image-emoji workspace, with a picker for</text>
+<text x="30" y="153" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#62695e" >the open web.</text>
+<path d="M30,182H570" stroke="#d4d8cc"/>
+<text x="30" y="227" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#22251f" >115</text>
+<text x="30" y="258" font-family="'Courier New', monospace" font-size="18" font-weight="400" fill="#62695e" >STARS</text>
+<text x="225" y="227" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#22251f" >53</text>
+<text x="225" y="258" font-family="'Courier New', monospace" font-size="18" font-weight="400" fill="#62695e" >COMMITS</text>
+<text x="418" y="227" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#22251f" >0</text>
+<text x="418" y="258" font-family="'Courier New', monospace" font-size="18" font-weight="400" fill="#62695e" >RELEASES</text>
+</svg>
