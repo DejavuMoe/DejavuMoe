@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="285" viewBox="0 0 600 285" role="img" aria-labelledby="title">
-<title id="title">sani: Short links, text and file sharing. One self-hosted binary. — 3 stars, 78 commits, 17 releases.</title>
+<title id="title">sani: Short links, text and file sharing. One self-hosted binary. — 5 stars, 78 commits, 17 releases.</title>
 <rect width="600" height="285" fill="#171b17"/>
 <path d="M0,0H600" stroke="#374132" stroke-width="2"/>
 <text x="30" y="34" font-family="'Courier New', monospace" font-size="13" font-weight="400" fill="#ff8768" >04</text>
@@ -9,7 +9,7 @@
 <text x="30" y="125" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#a5b09e" >Short links, text and file sharing. One</text>
 <text x="30" y="153" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#a5b09e" >self-hosted binary.</text>
 <path d="M30,182H570" stroke="#374132"/>
-<text x="30" y="227" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#f0f1e6" >3</text>
+<text x="30" y="227" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#f0f1e6" >5</text>
 <text x="30" y="258" font-family="'Courier New', monospace" font-size="18" font-weight="400" fill="#a5b09e" >STARS</text>
 <text x="225" y="227" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#f0f1e6" >78</text>
 <text x="225" y="258" font-family="'Courier New', monospace" font-size="18" font-weight="400" fill="#a5b09e" >COMMITS</text>

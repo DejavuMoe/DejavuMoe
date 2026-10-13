@@ -50,14 +50,14 @@ Things I build, maintain, and use. Small tools, on my own terms.
 <a href="https://github.com/DejavuMoe/Ecoku#gh-light-mode-only">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/project-02-light-mobile.svg">
-  <img src="assets/generated/project-02-light.svg" width="100%" alt="Ecoku — Self-hosted comments for blogs. Multi-site, text-first. | 14 stars · 162 commits · 11 releases">
+  <img src="assets/generated/project-02-light.svg" width="100%" alt="Ecoku — Self-hosted comments for blogs. Multi-site, text-first. | 17 stars · 163 commits · 11 releases">
 </picture>
 </a>
 
 <a href="https://github.com/DejavuMoe/Ecoku#gh-dark-mode-only">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/project-02-dark-mobile.svg">
-  <img src="assets/generated/project-02-dark.svg" width="100%" alt="Ecoku — Self-hosted comments for blogs. Multi-site, text-first. | 14 stars · 162 commits · 11 releases">
+  <img src="assets/generated/project-02-dark.svg" width="100%" alt="Ecoku — Self-hosted comments for blogs. Multi-site, text-first. | 17 stars · 163 commits · 11 releases">
 </picture>
 </a>
 
@@ -78,14 +78,14 @@ Things I build, maintain, and use. Small tools, on my own terms.
 <a href="https://github.com/DejavuMoe/sani#gh-light-mode-only">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/project-04-light-mobile.svg">
-  <img src="assets/generated/project-04-light.svg" width="100%" alt="sani — Short links, text and file sharing. One self-hosted binary. | 3 stars · 78 commits · 17 releases">
+  <img src="assets/generated/project-04-light.svg" width="100%" alt="sani — Short links, text and file sharing. One self-hosted binary. | 5 stars · 78 commits · 17 releases">
 </picture>
 </a>
 
 <a href="https://github.com/DejavuMoe/sani#gh-dark-mode-only">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/project-04-dark-mobile.svg">
-  <img src="assets/generated/project-04-dark.svg" width="100%" alt="sani — Short links, text and file sharing. One self-hosted binary. | 3 stars · 78 commits · 17 releases">
+  <img src="assets/generated/project-04-dark.svg" width="100%" alt="sani — Short links, text and file sharing. One self-hosted binary. | 5 stars · 78 commits · 17 releases">
 </picture>
 </a>
 
@@ -117,7 +117,7 @@ Things I build, maintain, and use. Small tools, on my own terms.
 </picture>
 </a>
 
-<sub>Snapshot 2026-10-12 UTC · 17 indexed repositories · 239 stars across this index</sub>
+<sub>Snapshot 2026-10-13 UTC · 17 indexed repositories · 244 stars across this index</sub>
 
 <details>
 <summary>Selection notes &amp; full project index</summary>
@@ -128,9 +128,9 @@ Only my public, non-fork, non-archived repositories with commit history are elig
 | Project | Stars | Commits | Releases |
 | :--- | ---: | ---: | ---: |
 | [edgeTTS](https://github.com/DejavuMoe/edgeTTS) | 46 | 118 | 13 |
-| [Ecoku](https://github.com/DejavuMoe/Ecoku) | 14 | 162 | 11 |
+| [Ecoku](https://github.com/DejavuMoe/Ecoku) | 17 | 163 | 11 |
 | [Smoji](https://github.com/DejavuMoe/Smoji) | 115 | 53 | 0 |
-| [sani](https://github.com/DejavuMoe/sani) | 3 | 78 | 17 |
+| [sani](https://github.com/DejavuMoe/sani) | 5 | 78 | 17 |
 | [PicForge](https://github.com/DejavuMoe/PicForge) | 24 | 63 | 0 |
 | [romi](https://github.com/DejavuMoe/romi) | 0 | 127 | 2 |
 | [webfonts](https://github.com/DejavuMoe/webfonts) | 5 | 20 | 5 |

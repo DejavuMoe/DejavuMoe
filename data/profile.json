@@ -1,7 +1,7 @@
 {
   "version": 1,
   "github": {
-    "updated": "2026-10-12",
+    "updated": "2026-10-13",
     "repositories": [
       {
         "name": "deepseek_wale_girl",
@@ -21,9 +21,9 @@
         "language": "Python",
         "archived": false,
         "stars": 1,
-        "commits": 153,
+        "commits": 155,
         "releases": 4,
-        "latest_release": "20261011"
+        "latest_release": "20261012"
       },
       {
         "name": "Ecoku",
@@ -31,8 +31,8 @@
         "description": "Self-hosted, multi-site, focused on text-based discussions. Suitable for static blogs and personal websites.",
         "language": "JavaScript",
         "archived": false,
-        "stars": 14,
-        "commits": 162,
+        "stars": 17,
+        "commits": 163,
         "releases": 11,
         "latest_release": "v0.5.0"
       },
@@ -152,7 +152,7 @@
         "description": "A small, fast link shortener you host yourself: one binary, one SQLite file.",
         "language": "JavaScript",
         "archived": false,
-        "stars": 3,
+        "stars": 5,
         "commits": 78,
         "releases": 17,
         "latest_release": "v0.9.7"
