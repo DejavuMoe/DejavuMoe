@@ -36,70 +36,70 @@ Things I build, maintain, and use. Small tools, on my own terms.
 <a href="https://github.com/DejavuMoe/edgeTTS#gh-light-mode-only">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/project-01-light-mobile.svg">
-  <img src="assets/generated/project-01-light.svg" width="100%" alt="edgeTTS — A self-hosted speech API and browser workbench for Edge TTS. | 46 stars · 118 commits · 13 releases">
+  <img src="assets/generated/project-01-light.svg" width="100%" alt="edgeTTS — A self-hosted speech API and browser workbench for Edge TTS. | 49 stars · 118 commits · 13 releases">
 </picture>
 </a>
 
 <a href="https://github.com/DejavuMoe/edgeTTS#gh-dark-mode-only">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/project-01-dark-mobile.svg">
-  <img src="assets/generated/project-01-dark.svg" width="100%" alt="edgeTTS — A self-hosted speech API and browser workbench for Edge TTS. | 46 stars · 118 commits · 13 releases">
+  <img src="assets/generated/project-01-dark.svg" width="100%" alt="edgeTTS — A self-hosted speech API and browser workbench for Edge TTS. | 49 stars · 118 commits · 13 releases">
 </picture>
 </a>
 
 <a href="https://github.com/DejavuMoe/Ecoku#gh-light-mode-only">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/project-02-light-mobile.svg">
-  <img src="assets/generated/project-02-light.svg" width="100%" alt="Ecoku — Self-hosted comments for blogs. Multi-site, text-first. | 17 stars · 163 commits · 11 releases">
+  <img src="assets/generated/project-02-light.svg" width="100%" alt="Ecoku — Self-hosted comments for blogs. Multi-site, text-first. | 20 stars · 163 commits · 11 releases">
 </picture>
 </a>
 
 <a href="https://github.com/DejavuMoe/Ecoku#gh-dark-mode-only">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/project-02-dark-mobile.svg">
-  <img src="assets/generated/project-02-dark.svg" width="100%" alt="Ecoku — Self-hosted comments for blogs. Multi-site, text-first. | 17 stars · 163 commits · 11 releases">
+  <img src="assets/generated/project-02-dark.svg" width="100%" alt="Ecoku — Self-hosted comments for blogs. Multi-site, text-first. | 20 stars · 163 commits · 11 releases">
 </picture>
 </a>
 
 <a href="https://github.com/DejavuMoe/Smoji#gh-light-mode-only">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/project-03-light-mobile.svg">
-  <img src="assets/generated/project-03-light.svg" width="100%" alt="Smoji — An image-emoji workspace, with a picker for the open web. | 115 stars · 53 commits · 0 releases">
+  <img src="assets/generated/project-03-light.svg" width="100%" alt="Smoji — An image-emoji workspace, with a picker for the open web. | 116 stars · 53 commits · 0 releases">
 </picture>
 </a>
 
 <a href="https://github.com/DejavuMoe/Smoji#gh-dark-mode-only">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/project-03-dark-mobile.svg">
-  <img src="assets/generated/project-03-dark.svg" width="100%" alt="Smoji — An image-emoji workspace, with a picker for the open web. | 115 stars · 53 commits · 0 releases">
+  <img src="assets/generated/project-03-dark.svg" width="100%" alt="Smoji — An image-emoji workspace, with a picker for the open web. | 116 stars · 53 commits · 0 releases">
 </picture>
 </a>
 
 <a href="https://github.com/DejavuMoe/sani#gh-light-mode-only">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/project-04-light-mobile.svg">
-  <img src="assets/generated/project-04-light.svg" width="100%" alt="sani — Short links, text and file sharing. One self-hosted binary. | 5 stars · 78 commits · 17 releases">
+  <img src="assets/generated/project-04-light.svg" width="100%" alt="sani — Short links, text and file sharing. One self-hosted binary. | 6 stars · 78 commits · 17 releases">
 </picture>
 </a>
 
 <a href="https://github.com/DejavuMoe/sani#gh-dark-mode-only">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/project-04-dark-mobile.svg">
-  <img src="assets/generated/project-04-dark.svg" width="100%" alt="sani — Short links, text and file sharing. One self-hosted binary. | 5 stars · 78 commits · 17 releases">
+  <img src="assets/generated/project-04-dark.svg" width="100%" alt="sani — Short links, text and file sharing. One self-hosted binary. | 6 stars · 78 commits · 17 releases">
 </picture>
 </a>
 
 <a href="https://github.com/DejavuMoe/PicForge#gh-light-mode-only">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/project-05-light-mobile.svg">
-  <img src="assets/generated/project-05-light.svg" width="100%" alt="PicForge — Images and motion photos, processed in your browser. No uploads. | 24 stars · 63 commits · 0 releases">
+  <img src="assets/generated/project-05-light.svg" width="100%" alt="PicForge — Images and motion photos, processed in your browser. No uploads. | 25 stars · 63 commits · 0 releases">
 </picture>
 </a>
 
 <a href="https://github.com/DejavuMoe/PicForge#gh-dark-mode-only">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/project-05-dark-mobile.svg">
-  <img src="assets/generated/project-05-dark.svg" width="100%" alt="PicForge — Images and motion photos, processed in your browser. No uploads. | 24 stars · 63 commits · 0 releases">
+  <img src="assets/generated/project-05-dark.svg" width="100%" alt="PicForge — Images and motion photos, processed in your browser. No uploads. | 25 stars · 63 commits · 0 releases">
 </picture>
 </a>
 
@@ -117,7 +117,7 @@ Things I build, maintain, and use. Small tools, on my own terms.
 </picture>
 </a>
 
-<sub>Snapshot 2026-10-13 UTC · 17 indexed repositories · 244 stars across this index</sub>
+<sub>Snapshot 2026-10-14 UTC · 17 indexed repositories · 253 stars across this index</sub>
 
 <details>
 <summary>Selection notes &amp; full project index</summary>
@@ -127,11 +127,11 @@ Only my public, non-fork, non-archived repositories with commit history are elig
 
 | Project | Stars | Commits | Releases |
 | :--- | ---: | ---: | ---: |
-| [edgeTTS](https://github.com/DejavuMoe/edgeTTS) | 46 | 118 | 13 |
-| [Ecoku](https://github.com/DejavuMoe/Ecoku) | 17 | 163 | 11 |
-| [Smoji](https://github.com/DejavuMoe/Smoji) | 115 | 53 | 0 |
-| [sani](https://github.com/DejavuMoe/sani) | 5 | 78 | 17 |
-| [PicForge](https://github.com/DejavuMoe/PicForge) | 24 | 63 | 0 |
+| [edgeTTS](https://github.com/DejavuMoe/edgeTTS) | 49 | 118 | 13 |
+| [Ecoku](https://github.com/DejavuMoe/Ecoku) | 20 | 163 | 11 |
+| [Smoji](https://github.com/DejavuMoe/Smoji) | 116 | 53 | 0 |
+| [sani](https://github.com/DejavuMoe/sani) | 6 | 78 | 17 |
+| [PicForge](https://github.com/DejavuMoe/PicForge) | 25 | 63 | 0 |
 | [romi](https://github.com/DejavuMoe/romi) | 0 | 127 | 2 |
 | [webfonts](https://github.com/DejavuMoe/webfonts) | 5 | 20 | 5 |
 | [hugo\-start](https://github.com/DejavuMoe/hugo-start) | 4 | 17 | 0 |

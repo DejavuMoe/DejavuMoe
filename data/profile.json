@@ -1,7 +1,7 @@
 {
   "version": 1,
   "github": {
-    "updated": "2026-10-13",
+    "updated": "2026-10-14",
     "repositories": [
       {
         "name": "deepseek_wale_girl",
@@ -21,9 +21,9 @@
         "language": "Python",
         "archived": false,
         "stars": 1,
-        "commits": 155,
-        "releases": 4,
-        "latest_release": "20261012"
+        "commits": 156,
+        "releases": 3,
+        "latest_release": "20261013"
       },
       {
         "name": "Ecoku",
@@ -31,7 +31,7 @@
         "description": "Self-hosted, multi-site, focused on text-based discussions. Suitable for static blogs and personal websites.",
         "language": "JavaScript",
         "archived": false,
-        "stars": 17,
+        "stars": 20,
         "commits": 163,
         "releases": 11,
         "latest_release": "v0.5.0"
@@ -42,7 +42,7 @@
         "description": "a self-hosted API and browser workbench for Microsoft Edge speech synthesis.",
         "language": "TypeScript",
         "archived": false,
-        "stars": 46,
+        "stars": 49,
         "commits": 118,
         "releases": 13,
         "latest_release": "v0.9.6"
@@ -119,7 +119,7 @@
         "description": "a local-first browser app for batch image compression and resizing. It uses Canvas, Web Workers, and WebAssembly codecs to process images on your device. There are no accounts, uploads, or server-side image processing.",
         "language": "TypeScript",
         "archived": false,
-        "stars": 24,
+        "stars": 25,
         "commits": 63,
         "releases": 0,
         "latest_release": null
@@ -152,7 +152,7 @@
         "description": "A small, fast link shortener you host yourself: one binary, one SQLite file.",
         "language": "JavaScript",
         "archived": false,
-        "stars": 5,
+        "stars": 6,
         "commits": 78,
         "releases": 17,
         "latest_release": "v0.9.7"
@@ -174,7 +174,7 @@
         "description": "Social emoji for mastodon, pleroma, misskey...",
         "language": "JavaScript",
         "archived": false,
-        "stars": 115,
+        "stars": 116,
         "commits": 53,
         "releases": 0,
         "latest_release": null
@@ -237,7 +237,7 @@
     ]
   },
   "blog": {
-    "updated": "2026-10-13",
+    "updated": "2026-10-14",
     "posts": [
       {
         "title": "寒露与幻梦",
