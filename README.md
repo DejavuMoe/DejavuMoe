@@ -117,7 +117,7 @@ Things I build, maintain, and use. Small tools, on my own terms.
 </picture>
 </a>
 
-<sub>Snapshot 2026-10-14 UTC · 17 indexed repositories · 253 stars across this index</sub>
+<sub>Snapshot 2026-10-15 UTC · 17 indexed repositories · 253 stars across this index</sub>
 
 <details>
 <summary>Selection notes &amp; full project index</summary>
