@@ -1,7 +1,7 @@
 {
   "version": 1,
   "github": {
-    "updated": "2026-10-15",
+    "updated": "2026-10-16",
     "repositories": [
       {
         "name": "deepseek_wale_girl",
@@ -21,9 +21,9 @@
         "language": "Python",
         "archived": false,
         "stars": 1,
-        "commits": 157,
+        "commits": 158,
         "releases": 3,
-        "latest_release": "20261014"
+        "latest_release": "20261015"
       },
       {
         "name": "Ecoku",
@@ -31,10 +31,10 @@
         "description": "Self-hosted, multi-site, focused on text-based discussions. Suitable for static blogs and personal websites.",
         "language": "JavaScript",
         "archived": false,
-        "stars": 20,
-        "commits": 163,
-        "releases": 11,
-        "latest_release": "v0.5.0"
+        "stars": 21,
+        "commits": 166,
+        "releases": 12,
+        "latest_release": "v0.5.1"
       },
       {
         "name": "edgeTTS",
@@ -174,7 +174,7 @@
         "description": "Social emoji for mastodon, pleroma, misskey...",
         "language": "JavaScript",
         "archived": false,
-        "stars": 116,
+        "stars": 117,
         "commits": 53,
         "releases": 0,
         "latest_release": null
@@ -237,7 +237,7 @@
     ]
   },
   "blog": {
-    "updated": "2026-10-15",
+    "updated": "2026-10-16",
     "posts": [
       {
         "title": "寒露与幻梦",

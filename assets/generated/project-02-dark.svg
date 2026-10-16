@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="152" viewBox="0 0 1000 152" role="img" aria-labelledby="title">
-<title id="title">Ecoku: Self-hosted comments for blogs. Multi-site, text-first. — 20 stars, 163 commits, 11 releases.</title>
+<title id="title">Ecoku: Self-hosted comments for blogs. Multi-site, text-first. — 21 stars, 166 commits, 12 releases.</title>
 <rect width="1000" height="152" fill="#171b17"/>
 <path d="M0,0H1000" stroke="#374132" stroke-width="2"/>
 <text x="36" y="34" font-family="'Courier New', monospace" font-size="13" font-weight="400" fill="#ff8768" >02</text>
@@ -8,10 +8,10 @@
 <path d="M604,30V122" stroke="#374132"/>
 <text x="965" y="85" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="400" fill="#ff8768" text-anchor="end">↗</text>
 <text x="83" y="77" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#a5b09e" >Self-hosted comments for blogs. Multi-site, text-first.</text>
-<text x="637" y="75" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#f0f1e6" >20</text>
+<text x="637" y="75" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#f0f1e6" >21</text>
 <text x="637" y="99" font-family="'Courier New', monospace" font-size="10" font-weight="400" fill="#a5b09e" >STARS</text>
-<text x="738" y="75" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#f0f1e6" >163</text>
+<text x="738" y="75" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#f0f1e6" >166</text>
 <text x="738" y="99" font-family="'Courier New', monospace" font-size="10" font-weight="400" fill="#a5b09e" >COMMITS</text>
-<text x="847" y="75" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#f0f1e6" >11</text>
+<text x="847" y="75" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#f0f1e6" >12</text>
 <text x="847" y="99" font-family="'Courier New', monospace" font-size="10" font-weight="400" fill="#a5b09e" >RELEASES</text>
 </svg>
