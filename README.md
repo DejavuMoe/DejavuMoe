@@ -50,14 +50,14 @@ Things I build, maintain, and use. Small tools, on my own terms.
 <a href="https://github.com/DejavuMoe/Ecoku#gh-light-mode-only">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/project-02-light-mobile.svg">
-  <img src="assets/generated/project-02-light.svg" width="100%" alt="Ecoku — Self-hosted comments for blogs. Multi-site, text-first. | 21 stars · 166 commits · 12 releases">
+  <img src="assets/generated/project-02-light.svg" width="100%" alt="Ecoku — Self-hosted comments for blogs. Multi-site, text-first. | 22 stars · 167 commits · 12 releases">
 </picture>
 </a>
 
 <a href="https://github.com/DejavuMoe/Ecoku#gh-dark-mode-only">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/project-02-dark-mobile.svg">
-  <img src="assets/generated/project-02-dark.svg" width="100%" alt="Ecoku — Self-hosted comments for blogs. Multi-site, text-first. | 21 stars · 166 commits · 12 releases">
+  <img src="assets/generated/project-02-dark.svg" width="100%" alt="Ecoku — Self-hosted comments for blogs. Multi-site, text-first. | 22 stars · 167 commits · 12 releases">
 </picture>
 </a>
 
@@ -117,7 +117,7 @@ Things I build, maintain, and use. Small tools, on my own terms.
 </picture>
 </a>
 
-<sub>Snapshot 2026-10-16 UTC · 17 indexed repositories · 255 stars across this index</sub>
+<sub>Snapshot 2026-10-17 UTC · 17 indexed repositories · 256 stars across this index</sub>
 
 <details>
 <summary>Selection notes &amp; full project index</summary>
@@ -128,7 +128,7 @@ Only my public, non-fork, non-archived repositories with commit history are elig
 | Project | Stars | Commits | Releases |
 | :--- | ---: | ---: | ---: |
 | [edgeTTS](https://github.com/DejavuMoe/edgeTTS) | 49 | 118 | 13 |
-| [Ecoku](https://github.com/DejavuMoe/Ecoku) | 21 | 166 | 12 |
+| [Ecoku](https://github.com/DejavuMoe/Ecoku) | 22 | 167 | 12 |
 | [Smoji](https://github.com/DejavuMoe/Smoji) | 117 | 53 | 0 |
 | [sani](https://github.com/DejavuMoe/sani) | 6 | 78 | 17 |
 | [PicForge](https://github.com/DejavuMoe/PicForge) | 25 | 63 | 0 |

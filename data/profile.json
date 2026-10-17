@@ -1,7 +1,7 @@
 {
   "version": 1,
   "github": {
-    "updated": "2026-10-16",
+    "updated": "2026-10-17",
     "repositories": [
       {
         "name": "deepseek_wale_girl",
@@ -21,9 +21,9 @@
         "language": "Python",
         "archived": false,
         "stars": 1,
-        "commits": 158,
-        "releases": 3,
-        "latest_release": "20261015"
+        "commits": 159,
+        "releases": 4,
+        "latest_release": "20261016"
       },
       {
         "name": "Ecoku",
@@ -31,8 +31,8 @@
         "description": "Self-hosted, multi-site, focused on text-based discussions. Suitable for static blogs and personal websites.",
         "language": "JavaScript",
         "archived": false,
-        "stars": 21,
-        "commits": 166,
+        "stars": 22,
+        "commits": 167,
         "releases": 12,
         "latest_release": "v0.5.1"
       },
@@ -237,7 +237,7 @@
     ]
   },
   "blog": {
-    "updated": "2026-10-16",
+    "updated": "2026-10-17",
     "posts": [
       {
         "title": "寒露与幻梦",
