@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600" role="img" aria-labelledby="title">
+<title id="title">The Dejavu Times — latest post: 寒露与幻梦 (2026-10-08).</title>
+<style>
+text{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC",sans-serif}
+.t-name{font-weight:800;letter-spacing:-1.5px}
+.t-mono{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;font-weight:600;letter-spacing:1.4px}
+.t-label{font-size:11px;font-weight:650}
+.t-tag{font-size:9px;font-weight:800}
+.t-glyph{font-weight:800}
+.t-serif{font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman","Songti SC","Noto Serif CJK SC","Source Han Serif SC",SimSun,serif}
+</style>
+<defs><filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect x=".5" y=".5" width="599" height="599" rx="18" fill="#12172b" stroke="#2b3350"/>
+<text x="30" y="40" font-size="12" fill="#8b93ba" class="t-mono">NOTES ON SELF-HOSTING, THINGS I LEARN</text>
+<path d="M30,54H570" stroke="#d9ddf5" stroke-width="2.5"/><path d="M30,59H570" stroke="#d9ddf5" stroke-width=".8"/>
+<text x="30" y="114" font-size="54" fill="#f1f3ff" class="t-serif" font-weight="700">The Dejavu Times</text>
+<path d="M30,134H570" stroke="#d9ddf5" stroke-width=".8"/>
+<g transform="translate(540 76)"><g><path d="M7,0L-8,-6L-4,0L-8,6Z" fill="#ffffff" stroke="#8ea4bd" stroke-width=".8"/><path d="M7,0L-4,0" stroke="#8ea4bd" stroke-width=".8"/><animateMotion path="M0,0c22,-24 44,-4 26,10s-44,4 -26,-10z" dur="7s" begin="0s" repeatCount="indefinite" rotate="auto"/></g></g>
+<text x="30" y="160" font-size="13" fill="#e5483f" class="t-mono">LATEST DISPATCH · THURSDAY, OCTOBER 8, 2026</text>
+<text x="30" y="204" font-size="36" fill="#f1f3ff" class="t-serif" font-weight="700">寒露与幻梦</text>
+<text x="30" y="238" font-size="19" fill="#b3bbe0" class="t-serif">我的青春症候群结束了。</text>
+<text x="30" y="570" font-size="16" fill="#b3bbe0" font-weight="600">Read it on the blog ↗  ·  more stories below ↓</text>
+<path d="M30,270H570" stroke="#2b3350"/>
+<text x="30" y="300" font-size="13" fill="#8b93ba" class="t-mono">ALSO IN THIS EDITION</text>
+<text x="30" y="336" font-size="21" fill="#f1f3ff" class="t-serif" font-weight="700">介绍 Ecoku 评论系统</text>
+<text x="30" y="356" font-size="12" fill="#8b93ba" class="t-mono">2026.10.07</text>
+<text x="30" y="386" font-size="21" fill="#f1f3ff" class="t-serif" font-weight="700">Windows 搭建 WSL2 AI 开发环境</text>
+<text x="30" y="406" font-size="12" fill="#8b93ba" class="t-mono">2026.10.04</text>
+</svg>

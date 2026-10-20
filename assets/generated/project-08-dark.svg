@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="214" viewBox="0 0 1000 214" role="img" aria-labelledby="title">
+<title id="title">Pail: A desktop manager for S3-compatible object storage, plus a CLI. — 1 stars, 22 commits, 1 releases.</title>
+<style>
+text{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC",sans-serif}
+.t-name{font-weight:800;letter-spacing:-1.5px}
+.t-mono{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;font-weight:600;letter-spacing:1.4px}
+.t-label{font-size:11px;font-weight:650}
+.t-tag{font-size:9px;font-weight:800}
+.t-glyph{font-weight:800}
+.t-serif{font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman","Songti SC","Noto Serif CJK SC","Source Han Serif SC",SimSun,serif}
+</style>
+<defs><filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><linearGradient id="sky1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#060a22"/><stop offset=".62" stop-color="#141a48"/><stop offset="1" stop-color="#3a2766"/></linearGradient><clipPath id="frame2"><rect width="174" height="174" rx="14"/></clipPath><clipPath id="card3"><rect width="1000" height="214" rx="18"/></clipPath><radialGradient id="halo4" cx="0" cy="0" r="1"><stop offset="0" stop-color="#14b8a6" stop-opacity="0.24"/><stop offset="1" stop-color="#14b8a6" stop-opacity="0"/></radialGradient><clipPath id="frame5"><rect x="20" y="20" width="174" height="174" rx="14"/></clipPath></defs>
+<g clip-path="url(#card3)">
+<rect width="1000" height="214" fill="#111729"/>
+<ellipse cx="1000" cy="0" rx="550" ry="235.4" fill="url(#halo4)"/>
+<g transform="translate(20 20)"><g clip-path="url(#frame2)"><rect width="174" height="174" fill="url(#sky1)"/>
+<circle cx="42.7" cy="11.3" r="1.1" fill="#fff" opacity="0.4"/>
+<circle cx="167.9" cy="53.3" r="0.9" fill="#fff" opacity="0.6"/>
+<circle cx="37.1" cy="9.3" r="0.7" fill="#fff" opacity="0.4"/>
+<circle cx="72" cy="29.3" r="0.6" fill="#fff" opacity="0.5"/>
+<circle cx="16.2" cy="29.1" r="1" fill="#fff" opacity="0.6"/>
+<circle cx="86.6" cy="80.9" r="1.2" fill="#fff"><animate attributeName="opacity" values="0.4;.1;0.4" dur="4.8s" begin="-2.4s" repeatCount="indefinite"/></circle>
+<circle cx="37.4" cy="47.2" r="1.1" fill="#fff" opacity="0.9"/>
+<circle cx="63.8" cy="11.8" r="1.1" fill="#fff" opacity="0.4"/>
+<circle cx="119.7" cy="74.4" r="0.9" fill="#fff" opacity="0.5"/>
+<circle cx="91.7" cy="8.4" r="1.3" fill="#fff" opacity="0.7"/>
+<circle cx="41.6" cy="6.2" r="0.8" fill="#fff" opacity="0.5"/>
+<circle cx="67.1" cy="79.8" r="0.6" fill="#fff" opacity="0.6"/>
+<circle cx="113.4" cy="15.9" r="1.3" fill="#fff"><animate attributeName="opacity" values="0.5;.1;0.5" dur="4.3s" begin="-1.7s" repeatCount="indefinite"/></circle>
+<circle cx="33.6" cy="18" r="0.8" fill="#fff" opacity="0.6"/>
+<circle cx="101.3" cy="9.6" r="0.5" fill="#fff" opacity="0.4"/>
+<circle cx="64.3" cy="40.2" r="1.3" fill="#fff"><animate attributeName="opacity" values="1;.1;1" dur="2.1s" begin="-0.7s" repeatCount="indefinite"/></circle>
+<circle cx="68.6" cy="63.8" r="1" fill="#fff"><animate attributeName="opacity" values="1;.1;1" dur="4.5s" begin="-1.1s" repeatCount="indefinite"/></circle>
+<circle cx="147.8" cy="88.1" r="1.1" fill="#fff" opacity="1"/>
+<circle cx="34.8" cy="34.6" r="0.5" fill="#fff" opacity="0.7"/>
+<circle cx="82.7" cy="11" r="1.2" fill="#fff"><animate attributeName="opacity" values="0.6;.1;0.6" dur="3.3s" begin="-3.6s" repeatCount="indefinite"/></circle>
+<circle cx="121.9" cy="30.5" r="0.8" fill="#fff" opacity="0.5"/>
+<circle cx="78.3" cy="61.8" r="1.3" fill="#fff"><animate attributeName="opacity" values="0.7;.1;0.7" dur="3.1s" begin="-2.2s" repeatCount="indefinite"/></circle>
+<circle cx="21.1" cy="65" r="0.9" fill="#fff" opacity="0.8"/>
+<circle cx="43.2" cy="63.8" r="1" fill="#fff" opacity="0.4"/>
+<circle cx="153.2" cy="83.8" r="1.3" fill="#fff" opacity="0.5"/>
+<circle cx="94.7" cy="28.4" r="1.3" fill="#fff" opacity="0.9"/>
+<circle cx="107.3" cy="67.9" r="0.7" fill="#fff" opacity="0.9"/>
+<circle cx="65.9" cy="74.8" r="0.7" fill="#fff" opacity="0.5"/>
+<path d="M132.9,32.1Q132.9,37.5 138.3,37.5Q132.9,37.5 132.9,42.8Q132.9,37.5 127.6,37.5Q132.9,37.5 132.9,32.1Z" fill="#fff8d6"><animate attributeName="opacity" values="1;.25;1" dur="4s" begin="-3.3s" repeatCount="indefinite"/></path>
+<path d="M101.1,22.8Q101.1,26.9 105.1,26.9Q101.1,26.9 101.1,31Q101.1,26.9 97,26.9Q101.1,26.9 101.1,22.8Z" fill="#fff8d6"><animate attributeName="opacity" values="1;.25;1" dur="3.5s" begin="-2.1s" repeatCount="indefinite"/></path>
+<path d="M132.3,20.7Q132.3,23.8 135.5,23.8Q132.3,23.8 132.3,27Q132.3,23.8 129.1,23.8Q132.3,23.8 132.3,20.7Z" fill="#fff8d6"><animate attributeName="opacity" values="1;.25;1" dur="4s" begin="-1.1s" repeatCount="indefinite"/></path>
+<path d="M76.2,13.8Q76.2,18.8 81.3,18.8Q76.2,18.8 76.2,23.9Q76.2,18.8 71.2,18.8Q76.2,18.8 76.2,13.8Z" fill="#fff8d6"><animate attributeName="opacity" values="1;.25;1" dur="3s" begin="-1.2s" repeatCount="indefinite"/></path>
+<path d="M127.8,27.9Q127.8,31.6 131.5,31.6Q127.8,31.6 127.8,35.3Q127.8,31.6 124.1,31.6Q127.8,31.6 127.8,27.9Z" fill="#fff8d6"><animate attributeName="opacity" values="1;.25;1" dur="4.3s" begin="-1.6s" repeatCount="indefinite"/></path>
+<path d="M68.4,41.7Q68.4,46.7 73.4,46.7Q68.4,46.7 68.4,51.7Q68.4,46.7 63.4,46.7Q68.4,46.7 68.4,41.7Z" fill="#fff8d6"><animate attributeName="opacity" values="1;.25;1" dur="4s" begin="-1s" repeatCount="indefinite"/></path>
+</g></g>
+<g clip-path="url(#frame5)"><g><path d="M156.4,134.8 156.4,146.8 142.4,174.8 113,229.5 73.6,172.8 57.6,146.8 57.6,134.8Z" fill="#413846"/><path d="M156.4,134.8 156.4,146.8 142.4,174.8 113,229.5Z" fill="#000" opacity=".18"/><path d="M57.6,134.8 107,159.5 107,171.5 57.6,146.8Z" fill="#564546"/><path d="M107,159.5 156.4,134.8 156.4,146.8 107,171.5Z" fill="#44353c"/><path d="M107,110.1 156.4,134.8 107,159.5 57.6,134.8Z" fill="#425c4b"/><path d="M57.6,134.8 107,159.5 107,162.5 57.6,137.8Z" fill="#2f5041"/><path d="M107,159.5 156.4,134.8 156.4,137.8 107,162.5Z" fill="#29483d"/><path d="M107,125.3 107,95.1" stroke="#353e5a" stroke-width="2.2"/><path d="M126,134.8 121.4,102.3" stroke="#353e5a" stroke-width="2.2"/><path d="M88,134.8 92.6,102.3" stroke="#353e5a" stroke-width="2.2"/><path d="M107,144.3 107,109.5" stroke="#353e5a" stroke-width="2.2"/><path d="M88,134.8 107,125.3M107,144.3 90.3,116.9" stroke="#353e5a" stroke-width="1" opacity=".8"/><path d="M95.2,102.3A11.8,5.9 0 0 0 107,108.2L107,105.9A11.8,5.9 0 0 1 95.2,100Z" fill="#2a324d"/><path d="M107,108.2A11.8,5.9 0 0 0 118.8,102.3L118.8,100A11.8,5.9 0 0 1 107,105.9Z" fill="#222943"/><ellipse cx="107" cy="100" rx="11.8" ry="5.9" fill="#333a56"/><path d="M92,100A15,7.5 0 0 0 107,107.5L107,91.5A21,10.5 0 0 1 86,81Z" fill="#41516e"/><path d="M107,107.5A15,7.5 0 0 0 122,100L128,81A21,10.5 0 0 1 107,91.5Z" fill="#34415c"/><path d="M90.2,94.3A16.8,8.4 0 0 0 123.8,94.3" stroke="#354563" stroke-width="1.6" fill="none"/><path d="M87.8,86.7A19.2,9.6 0 0 0 126.2,86.7" stroke="#354563" stroke-width="1.6" fill="none"/><ellipse cx="107" cy="81" rx="21" ry="10.5" fill="#2f4160"/><ellipse cx="107" cy="82.5" rx="18" ry="8.5" fill="#22487d"/><ellipse cx="101" cy="81" rx="6" ry="1.6" fill="#fff" opacity=".6"><animate attributeName="cx" values="99;113;99" dur="4s" begin="0s" repeatCount="indefinite"/></ellipse><path d="M86,81C86,37 128,37 128,81" stroke="#282e49" stroke-width="2.2" fill="none"/><text x="107" y="95.5" class="t-tag" text-anchor="middle" fill="#1d2a49">S3</text><path d="M0,-4q3,4 0,6q-3,-2 0,-6z" fill="#5ab8ff" opacity="0" transform="translate(107 0)"><animateTransform attributeName="transform" type="translate" values="107 108;107 140.5" dur="2.6s" repeatCount="indefinite" calcMode="spline" keySplines=".5 0 1 1"/><animate attributeName="opacity" values="0;1;1;0" dur="2.6s" begin="0s" repeatCount="indefinite" keyTimes="0;.1;.9;1"/></path><path d="M107,87.1V71.1" stroke="#2d2d3e" stroke-width="1.4"/><path d="M107,72.1 q6,-2 12,1 q-6,3 -12,6z" fill="#125361"><animate attributeName="d" values="M107,72.1 q6,-2 12,1 q-6,3 -12,6z;M107,72.1 q6,3 12,1 q-6,1 -12,6z;M107,72.1 q6,-2 12,1 q-6,3 -12,6z" dur="1.6s" begin="0s" repeatCount="indefinite"/></path><animateTransform attributeName="transform" type="translate" values="0 0;0 -4;0 0" dur="6.4s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/></g></g>
+<rect x="20" y="20" width="174" height="174" rx="14" fill="none" stroke="#2b3350"/>
+<text x="222" y="46" font-size="12" fill="#14b8a6" class="t-mono">08 / 08</text>
+<text x="221" y="84" font-size="34" fill="#f1f3ff" class="t-name">Pail</text>
+<circle cx="228" cy="107" r="6" fill="#00add8"/>
+<text x="240" y="112" font-size="14" fill="#b3bbe0" font-weight="600">Go</text>
+<circle cx="956" cy="44" r="20" fill="#123440"/>
+<path d="M950.5,49.5L961.5,38.5M954.9,38.5H961.5V45.1" stroke="#14b8a6" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="222" y="142" font-size="16" fill="#b3bbe0">A desktop manager for S3-compatible object storage, plus a CLI.</text>
+<rect x="222" y="163" width="43.3" height="26" rx="13" fill="#1a2138" stroke="#2b3350"/>
+<path d="M237,170.7 235.7,174.1 232,174.4 234.8,176.7 233.9,180.3 237,178.3 240.1,180.3 239.2,176.7 242,174.4 238.3,174.1Z" fill="#f5b800"/>
+<text x="250" y="180.5" font-size="13" fill="#f1f3ff" font-weight="600">1</text>
+<rect x="273.3" y="163" width="108.8" height="26" rx="13" fill="#1a2138" stroke="#2b3350"/>
+<path d="M282.3,176H294.2" stroke="#5b8def" stroke-width="1.5"/><circle cx="288.3" cy="176" r="2.9" fill="#fff" fill-opacity="0" stroke="#5b8def" stroke-width="1.5"/>
+<text x="301.3" y="180.5" font-size="13" fill="#f1f3ff" font-weight="600">22 commits</text>
+<rect x="390.1" y="163" width="167" height="26" rx="13" fill="#1a2138" stroke="#2b3350"/>
+<path d="M401.7,181.9V170.1" stroke="#ef4444" stroke-width="1.5" stroke-linecap="round"/><path d="M401.7,170.1h7.6l-2.1,3 2.1,3h-7.6z" fill="#ef4444"/>
+<text x="418.1" y="180.5" font-size="13" fill="#f1f3ff" font-weight="600">1 release · v0.1.0</text>
+</g>
+<rect x=".5" y=".5" width="999" height="213" rx="18" fill="none" stroke="#2b3350"/>
+</svg>

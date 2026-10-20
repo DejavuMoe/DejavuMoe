@@ -1,0 +1,349 @@
+{
+  "version": 1,
+  "github": {
+    "updated": "2026-10-20",
+    "repositories": [
+      {
+        "name": "deepseek_wale_girl",
+        "url": "https://github.com/DejavuMoe/deepseek_wale_girl",
+        "description": "104 款 DeepSeek 鲸鱼娘同人动态表情，每款提供 GIF 和 Telegram WebM 文件。",
+        "homepage": "https://smoji.zsh.moe",
+        "language": "",
+        "archived": false,
+        "stars": 19,
+        "commits": 1,
+        "releases": 0,
+        "latest_release": null
+      },
+      {
+        "name": "DejavuMoe",
+        "url": "https://github.com/DejavuMoe/DejavuMoe",
+        "description": "This is my special repository, the commit of Linus Torvalds is just a joke, don't  mind it.🫣",
+        "homepage": "",
+        "language": "Python",
+        "archived": false,
+        "stars": 1,
+        "commits": 154,
+        "releases": 3,
+        "latest_release": "20261020"
+      },
+      {
+        "name": "Ecoku",
+        "url": "https://github.com/DejavuMoe/Ecoku",
+        "description": "Self-hosted, multi-site, focused on text-based discussions. Suitable for static blogs and personal websites.",
+        "homepage": "https://ecoku.zsh.moe",
+        "language": "Go",
+        "archived": false,
+        "stars": 24,
+        "commits": 183,
+        "releases": 14,
+        "latest_release": "v0.5.3"
+      },
+      {
+        "name": "edgeTTS",
+        "url": "https://github.com/DejavuMoe/edgeTTS",
+        "description": "a self-hosted API and browser workbench for Microsoft Edge speech synthesis.",
+        "homepage": "https://tts-api.via.moe",
+        "language": "TypeScript",
+        "archived": false,
+        "stars": 49,
+        "commits": 118,
+        "releases": 13,
+        "latest_release": "v0.9.6"
+      },
+      {
+        "name": "Gxif-Converter",
+        "url": "https://github.com/DejavuMoe/Gxif-Converter",
+        "description": "This is a Next.js application for converting decimal degree coordinates to degrees and fractional minutes (DMM) format.",
+        "homepage": "https://gxif.via.moe",
+        "language": "TypeScript",
+        "archived": false,
+        "stars": 0,
+        "commits": 2,
+        "releases": 0,
+        "latest_release": null
+      },
+      {
+        "name": "hugo-start",
+        "url": "https://github.com/DejavuMoe/hugo-start",
+        "description": "",
+        "homepage": "https://hugo-start.pages.dev",
+        "language": "HTML",
+        "archived": false,
+        "stars": 4,
+        "commits": 17,
+        "releases": 0,
+        "latest_release": null
+      },
+      {
+        "name": "MotionFlow",
+        "url": "https://github.com/DejavuMoe/MotionFlow",
+        "description": "Built for privacy. All processing is done in your browser. Upload Android Motion Photos, extract static images (.jpg) and video clips (.mp4). MotionFlow 是一款简单、安全的 Android 动态照片解析工具，处理过程完全在浏览器本地完成。快速地从原始 Android 动态照片 (Motion Photos) 中分离并提取出静态图片和视频片段。",
+        "homepage": "https://motionflow.dejavu.moe",
+        "language": "TypeScript",
+        "archived": true,
+        "stars": 11,
+        "commits": 4,
+        "releases": 0,
+        "latest_release": null
+      },
+      {
+        "name": "omarchy-ai-usage-plugin",
+        "url": "https://github.com/DejavuMoe/omarchy-ai-usage-plugin",
+        "description": "Local AI coding-agent usage collector and Omarchy Shell widget",
+        "homepage": "",
+        "language": "Rust",
+        "archived": false,
+        "stars": 0,
+        "commits": 4,
+        "releases": 1,
+        "latest_release": "v0.1.0"
+      },
+      {
+        "name": "omarchy-singbox-plugin",
+        "url": "https://github.com/DejavuMoe/omarchy-singbox-plugin",
+        "description": "",
+        "homepage": "",
+        "language": "Python",
+        "archived": false,
+        "stars": 1,
+        "commits": 2,
+        "releases": 1,
+        "latest_release": "v1.14.0"
+      },
+      {
+        "name": "paddle-vanity-pgp",
+        "url": "https://github.com/DejavuMoe/paddle-vanity-pgp",
+        "description": "calculating vanity pgp with ai studio. mirror of https://git.xvo.es/paddle-vanity-pgp/",
+        "homepage": "",
+        "language": "Shell",
+        "archived": false,
+        "stars": 0,
+        "commits": 9,
+        "releases": 0,
+        "latest_release": null
+      },
+      {
+        "name": "Pail",
+        "url": "https://github.com/DejavuMoe/Pail",
+        "description": "",
+        "homepage": "",
+        "language": "Go",
+        "archived": false,
+        "stars": 1,
+        "commits": 22,
+        "releases": 1,
+        "latest_release": "v0.1.0"
+      },
+      {
+        "name": "PicForge",
+        "url": "https://github.com/DejavuMoe/PicForge",
+        "description": "a local-first browser app for batch image compression and resizing. It uses Canvas, Web Workers, and WebAssembly codecs to process images on your device. There are no accounts, uploads, or server-side image processing.",
+        "homepage": "https://picforge.de",
+        "language": "TypeScript",
+        "archived": false,
+        "stars": 25,
+        "commits": 63,
+        "releases": 0,
+        "latest_release": null
+      },
+      {
+        "name": "prototype-first-ui",
+        "url": "https://github.com/DejavuMoe/prototype-first-ui",
+        "description": "An Agent Skill for designing and implementing UI changes through reviewed prototypes. It works with Baoyu-Design to connect product audits, interactive prototypes, approval, and implementation.",
+        "homepage": "",
+        "language": "Python",
+        "archived": false,
+        "stars": 8,
+        "commits": 1,
+        "releases": 1,
+        "latest_release": "v2.1.0"
+      },
+      {
+        "name": "romi",
+        "url": "https://github.com/DejavuMoe/romi",
+        "description": "🚧WIP",
+        "homepage": "",
+        "language": "JavaScript",
+        "archived": false,
+        "stars": 0,
+        "commits": 127,
+        "releases": 2,
+        "latest_release": "v0.2.0"
+      },
+      {
+        "name": "sani",
+        "url": "https://github.com/DejavuMoe/sani",
+        "description": "A small, fast link shortener you host yourself: one binary, one SQLite file.",
+        "homepage": "https://sani.zsh.moe",
+        "language": "Go",
+        "archived": false,
+        "stars": 7,
+        "commits": 83,
+        "releases": 18,
+        "latest_release": "v0.9.8"
+      },
+      {
+        "name": "selfhosted",
+        "url": "https://github.com/DejavuMoe/selfhosted",
+        "description": "Readonly mirror of https://git.via.moe/dejavu/selfhosted",
+        "homepage": "",
+        "language": "",
+        "archived": false,
+        "stars": 0,
+        "commits": 47,
+        "releases": 0,
+        "latest_release": null
+      },
+      {
+        "name": "Smoji",
+        "url": "https://github.com/DejavuMoe/Smoji",
+        "description": "Social emoji for mastodon, pleroma, misskey...",
+        "homepage": "https://smoji.zsh.moe",
+        "language": "TypeScript",
+        "archived": false,
+        "stars": 118,
+        "commits": 54,
+        "releases": 0,
+        "latest_release": null
+      },
+      {
+        "name": "STranslate.Plugin.Tts.edgeTTS",
+        "url": "https://github.com/DejavuMoe/STranslate.Plugin.Tts.edgeTTS",
+        "description": "STranslate speech plugin for self-hosted edgeTTS: token authentication, voice discovery, native and OpenAI-compatible APIs.",
+        "homepage": "",
+        "language": "C#",
+        "archived": false,
+        "stars": 1,
+        "commits": 4,
+        "releases": 1,
+        "latest_release": "v1.0.0"
+      },
+      {
+        "name": "TAdmin",
+        "url": "https://github.com/DejavuMoe/TAdmin",
+        "description": "🚧WIP",
+        "homepage": "",
+        "language": "Go",
+        "archived": false,
+        "stars": 0,
+        "commits": 9,
+        "releases": 1,
+        "latest_release": "v0.1.0"
+      },
+      {
+        "name": "twikoo2waline",
+        "url": "https://github.com/DejavuMoe/twikoo2waline",
+        "description": "Readonly mirror of https://git.via.moe/dejavu/twikoo2waline",
+        "homepage": "https://git.via.moe/dejavu/twikoo2waline",
+        "language": "JavaScript",
+        "archived": true,
+        "stars": 0,
+        "commits": 2,
+        "releases": 0,
+        "latest_release": null
+      },
+      {
+        "name": "uPaste",
+        "url": "https://github.com/DejavuMoe/uPaste",
+        "description": "Deprecated: text and file sharing now lives in Sani (github.com/DejavuMoe/sani)",
+        "homepage": "",
+        "language": "Go",
+        "archived": true,
+        "stars": 0,
+        "commits": 49,
+        "releases": 0,
+        "latest_release": null
+      },
+      {
+        "name": "via.moe",
+        "url": "https://github.com/DejavuMoe/via.moe",
+        "description": "Readonly mirror of https://git.via.moe/dejavu/via.moe",
+        "homepage": "",
+        "language": "HTML",
+        "archived": false,
+        "stars": 0,
+        "commits": 1,
+        "releases": 0,
+        "latest_release": null
+      },
+      {
+        "name": "webfont-slice",
+        "url": "https://github.com/DejavuMoe/webfont-slice",
+        "description": "Slice Chinese, Japanese and Korean web fonts into on-demand WOFF2 shards and generate unicode-range CSS you can deploy as-is. Latin and monospace code fonts are split by script, with ligatures and stylistic sets intact. Everything runs locally in the browser — fonts are never uploaded.",
+        "homepage": "https://webfont.zsh.moe",
+        "language": "TypeScript",
+        "archived": false,
+        "stars": 2,
+        "commits": 13,
+        "releases": 0,
+        "latest_release": null
+      },
+      {
+        "name": "webfonts",
+        "url": "https://github.com/DejavuMoe/webfonts",
+        "description": "Free web fonts out of the box, which can be used for personal use.",
+        "homepage": "https://web-fonts.pages.dev",
+        "language": "",
+        "archived": false,
+        "stars": 5,
+        "commits": 20,
+        "releases": 5,
+        "latest_release": "v0.0.5"
+      }
+    ]
+  },
+  "blog": {
+    "updated": "2026-10-20",
+    "posts": [
+      {
+        "title": "寒露与幻梦",
+        "url": "https://blog.dejavu.moe/posts/cold-dew/",
+        "date": "2026-10-08",
+        "summary": "我的青春症候群结束了。"
+      },
+      {
+        "title": "介绍 Ecoku 评论系统",
+        "url": "https://blog.dejavu.moe/posts/ecoku-comment-system/",
+        "date": "2026-10-07",
+        "summary": "开源本博客正在使用的自托管评论系统 Ecoku——轻量、纯粹、支持多站点，更适合个人网站。"
+      },
+      {
+        "title": "Windows 搭建 WSL2 AI 开发环境",
+        "url": "https://blog.dejavu.moe/posts/windows-wsl2-ai-dev-environment/",
+        "date": "2026-10-04",
+        "summary": "介绍我在 Windows 上使用 WSL2 打造 AI 开发环境的一些思路，源码和 AI Agent 留在 Windows，WSL2 只当编译测试沙盒，用调度脚本和约束规则串联工作流"
+      },
+      {
+        "title": "edgeTTS 自托管语音合成 API",
+        "url": "https://blog.dejavu.moe/posts/edgetts/",
+        "date": "2026-09-27",
+        "summary": "基于微软 Edge TTS 在线语音服务的自托管 API 和 Web 工作台，支持 MP3 流式合成与长文本。"
+      },
+      {
+        "title": "第一次起飞",
+        "url": "https://blog.dejavu.moe/posts/first-time-flying/",
+        "date": "2026-08-24",
+        "summary": "第一次坐飞机，去广州出差。去程穿过了云层，回程把钱包落在了网约车上。"
+      },
+      {
+        "title": "Hugo 实现页面加密",
+        "url": "https://blog.dejavu.moe/posts/hugo-protected-leaf-bundle-encryption/",
+        "date": "2026-08-19",
+        "summary": "使用密码保护 Hugo 页面内容，在构建静态网站时对指定的 Leaf Bundle 进行加密，使正文、图片与附件一同密封，并在访问时直接在浏览器中通过密码解密。"
+      },
+      {
+        "title": "Riven Cloud 新加坡 Premium VPS 测评",
+        "url": "https://blog.dejavu.moe/posts/review-of-rivencloud-premium-vps/",
+        "date": "2026-08-04",
+        "summary": "Riven Cloud 新加坡 Premium VPS 测评记录。"
+      },
+      {
+        "title": "PicForge 本地图片工具箱",
+        "url": "https://blog.dejavu.moe/posts/picforge-webapp/",
+        "date": "2026-07-06",
+        "summary": "在浏览器里压缩图片、处理实况照片，文件不上传。"
+      }
+    ]
+  }
+}

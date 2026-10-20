@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="214" viewBox="0 0 1000 214" role="img" aria-labelledby="title">
+<title id="title">Smoji: An image-emoji workspace, with a picker for the open web. — 118 stars, 54 commits, 0 releases.</title>
+<style>
+text{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC",sans-serif}
+.t-name{font-weight:800;letter-spacing:-1.5px}
+.t-mono{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;font-weight:600;letter-spacing:1.4px}
+.t-label{font-size:11px;font-weight:650}
+.t-tag{font-size:9px;font-weight:800}
+.t-glyph{font-weight:800}
+.t-serif{font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman","Songti SC","Noto Serif CJK SC","Source Han Serif SC",SimSun,serif}
+</style>
+<defs><filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><linearGradient id="sky1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#060a22"/><stop offset=".62" stop-color="#141a48"/><stop offset="1" stop-color="#3a2766"/></linearGradient><clipPath id="frame2"><rect width="174" height="174" rx="14"/></clipPath><clipPath id="card3"><rect width="1000" height="214" rx="18"/></clipPath><radialGradient id="halo4" cx="0" cy="0" r="1"><stop offset="0" stop-color="#f5b800" stop-opacity="0.24"/><stop offset="1" stop-color="#f5b800" stop-opacity="0"/></radialGradient><clipPath id="frame5"><rect x="20" y="20" width="174" height="174" rx="14"/></clipPath></defs>
+<g clip-path="url(#card3)">
+<rect width="1000" height="214" fill="#111729"/>
+<ellipse cx="1000" cy="0" rx="550" ry="235.4" fill="url(#halo4)"/>
+<g transform="translate(20 20)"><g clip-path="url(#frame2)"><rect width="174" height="174" fill="url(#sky1)"/>
+<circle cx="44.6" cy="28.5" r="1.2" fill="#fff"><animate attributeName="opacity" values="0.8;.1;0.8" dur="2s" begin="-4.2s" repeatCount="indefinite"/></circle>
+<circle cx="48" cy="91.6" r="0.9" fill="#fff" opacity="0.9"/>
+<circle cx="109.5" cy="52.6" r="1.2" fill="#fff" opacity="0.7"/>
+<circle cx="114.8" cy="65.3" r="1.2" fill="#fff"><animate attributeName="opacity" values="0.5;.1;0.5" dur="4.6s" begin="-2.4s" repeatCount="indefinite"/></circle>
+<circle cx="122.4" cy="60.7" r="1.3" fill="#fff" opacity="0.6"/>
+<circle cx="78" cy="78.4" r="0.5" fill="#fff" opacity="0.4"/>
+<circle cx="162.4" cy="51.8" r="0.7" fill="#fff" opacity="0.7"/>
+<circle cx="62.8" cy="47.7" r="1.3" fill="#fff" opacity="0.8"/>
+<circle cx="144.7" cy="56.3" r="0.6" fill="#fff" opacity="0.9"/>
+<circle cx="152.6" cy="60.6" r="0.6" fill="#fff" opacity="0.9"/>
+<circle cx="52.2" cy="75.6" r="1.3" fill="#fff" opacity="0.4"/>
+<circle cx="72.5" cy="22.5" r="1.3" fill="#fff"><animate attributeName="opacity" values="0.9;.1;0.9" dur="3.8s" begin="-0.2s" repeatCount="indefinite"/></circle>
+<circle cx="122.4" cy="78.6" r="1.3" fill="#fff" opacity="0.7"/>
+<circle cx="56.2" cy="49.2" r="0.5" fill="#fff" opacity="0.5"/>
+<circle cx="104.9" cy="7.2" r="1.2" fill="#fff" opacity="0.6"/>
+<circle cx="151.3" cy="36.2" r="0.9" fill="#fff" opacity="0.8"/>
+<circle cx="96.6" cy="85.3" r="0.9" fill="#fff" opacity="0.6"/>
+<circle cx="44.5" cy="89.6" r="1.1" fill="#fff"><animate attributeName="opacity" values="0.7;.1;0.7" dur="3.2s" begin="-2.9s" repeatCount="indefinite"/></circle>
+<circle cx="9.2" cy="52.4" r="0.5" fill="#fff" opacity="0.8"/>
+<circle cx="116" cy="59.9" r="1.3" fill="#fff"><animate attributeName="opacity" values="0.4;.1;0.4" dur="4s" begin="-4.8s" repeatCount="indefinite"/></circle>
+<circle cx="46.7" cy="48.5" r="0.7" fill="#fff" opacity="0.6"/>
+<circle cx="65.8" cy="23" r="1" fill="#fff"><animate attributeName="opacity" values="0.9;.1;0.9" dur="3.7s" begin="-3.7s" repeatCount="indefinite"/></circle>
+<circle cx="56.2" cy="70.1" r="0.7" fill="#fff" opacity="0.5"/>
+<circle cx="119.1" cy="24.7" r="0.8" fill="#fff" opacity="0.9"/>
+<circle cx="144.6" cy="25.8" r="1" fill="#fff" opacity="0.9"/>
+<circle cx="42.5" cy="42.5" r="0.6" fill="#fff" opacity="0.9"/>
+<circle cx="35.7" cy="70.5" r="1" fill="#fff" opacity="0.9"/>
+<circle cx="27" cy="69.1" r="0.7" fill="#fff" opacity="0.6"/>
+<path d="M76.2,23.2Q76.2,28.5 81.6,28.5Q76.2,28.5 76.2,33.8Q76.2,28.5 70.9,28.5Q76.2,28.5 76.2,23.2Z" fill="#fff8d6"><animate attributeName="opacity" values="1;.25;1" dur="2.8s" begin="0s" repeatCount="indefinite"/></path>
+<path d="M146.4,38.4Q146.4,43.9 151.9,43.9Q146.4,43.9 146.4,49.4Q146.4,43.9 140.9,43.9Q146.4,43.9 146.4,38.4Z" fill="#fff8d6"><animate attributeName="opacity" values="1;.25;1" dur="3.4s" begin="-3.8s" repeatCount="indefinite"/></path>
+<path d="M144.3,17.4Q144.3,22.3 149.1,22.3Q144.3,22.3 144.3,27.2Q144.3,22.3 139.4,22.3Q144.3,22.3 144.3,17.4Z" fill="#fff8d6"><animate attributeName="opacity" values="1;.25;1" dur="4.2s" begin="-2.7s" repeatCount="indefinite"/></path>
+<path d="M89.5,20.6Q89.5,24.5 93.4,24.5Q89.5,24.5 89.5,28.3Q89.5,24.5 85.7,24.5Q89.5,24.5 89.5,20.6Z" fill="#fff8d6"><animate attributeName="opacity" values="1;.25;1" dur="3s" begin="-0.3s" repeatCount="indefinite"/></path>
+<path d="M98.9,19.4Q98.9,24.4 103.9,24.4Q98.9,24.4 98.9,29.5Q98.9,24.4 93.9,24.4Q98.9,24.4 98.9,19.4Z" fill="#fff8d6"><animate attributeName="opacity" values="1;.25;1" dur="2.6s" begin="-3.6s" repeatCount="indefinite"/></path>
+<path d="M113,40.1Q113,45.3 118.2,45.3Q113,45.3 113,50.6Q113,45.3 107.7,45.3Q113,45.3 113,40.1Z" fill="#fff8d6"><animate attributeName="opacity" values="1;.25;1" dur="4.3s" begin="-2.3s" repeatCount="indefinite"/></path>
+</g></g>
+<g clip-path="url(#frame5)"><g><path d="M156.4,134.8 156.4,146.8 142.4,174.8 113,229.5 73.6,172.8 57.6,146.8 57.6,134.8Z" fill="#413846"/><path d="M156.4,134.8 156.4,146.8 142.4,174.8 113,229.5Z" fill="#000" opacity=".18"/><path d="M57.6,134.8 107,159.5 107,171.5 57.6,146.8Z" fill="#564546"/><path d="M107,159.5 156.4,134.8 156.4,146.8 107,171.5Z" fill="#44353c"/><path d="M107,110.1 156.4,134.8 107,159.5 57.6,134.8Z" fill="#425c4b"/><path d="M57.6,134.8 107,159.5 107,162.5 57.6,137.8Z" fill="#2f5041"/><path d="M107,159.5 156.4,134.8 156.4,137.8 107,162.5Z" fill="#29483d"/><path d="M86,134.8A21,10.5 0 0 0 107,145.3L107,141.1A21,10.5 0 0 1 86,130.7Z" fill="#534445"/><path d="M107,145.3A21,10.5 0 0 0 128,134.8L128,130.7A21,10.5 0 0 1 107,141.1Z" fill="#42373d"/><ellipse cx="107" cy="130.7" rx="21" ry="10.5" fill="#63595c"/><ellipse cx="107" cy="130.7" rx="12" ry="6" fill="#000" opacity=".12"><animate attributeName="rx" values="12;10;12" dur="5s" begin="0s" repeatCount="indefinite"/></ellipse><path d="M97.5,132.7L85,103.6" stroke="#3f3843" stroke-width=".9"><animate attributeName="d" values="M97.5,132.7L85,103.6;M97.5,132.7L85,99.6;M97.5,132.7L85,103.6" dur="4.2s" begin="-1.3s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/></path><path d="M105.5,132.7L85,103.6" stroke="#3f3843" stroke-width=".9"><animate attributeName="d" values="M105.5,132.7L85,103.6;M105.5,132.7L85,99.6;M105.5,132.7L85,103.6" dur="4.2s" begin="-1.3s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/></path><g><animateTransform attributeName="transform" type="translate" values="0 0;0 -4;0 0" dur="4.2s" begin="-1.3s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/><circle cx="85" cy="85.6" r="9" fill="#6a4465"/><path d="M76,85.6A9,9 0 0 0 94,85.6A9,5 0 0 1 76,85.6Z" fill="#573958"/><ellipse cx="81.6" cy="81.8" rx="2.5" ry="1.6" fill="#fff" opacity=".45" transform="rotate(-35 81.6 81.8)"/><path d="M81.2,77.3Q79.6,85.6 82.1,93.7M88.8,77.3Q90.4,85.6 87.9,93.7" stroke="#593b59" stroke-width="1" fill="none"/><path d="M81.8,93.7L82,100.6M88.2,93.7L88,100.6" stroke="#3f3843" stroke-width=".8"/><rect x="81" y="99.6" width="8" height="6" rx="1.5" fill="#4d3c3f"/><path d="M80,83.6l2.5,-2 2.5,2M86,83.1h4M81,88.1q4,3.5 8,0" stroke="#27202c" stroke-width="1.4" fill="none" stroke-linecap="round"/></g><path d="M108.2,132.7L128,96.1" stroke="#3f3843" stroke-width=".9"><animate attributeName="d" values="M108.2,132.7L128,96.1;M108.2,132.7L128,91.1;M108.2,132.7L128,96.1" dur="3.8s" begin="-2.1s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/></path><path d="M116.2,132.7L128,96.1" stroke="#3f3843" stroke-width=".9"><animate attributeName="d" values="M116.2,132.7L128,96.1;M116.2,132.7L128,91.1;M116.2,132.7L128,96.1" dur="3.8s" begin="-2.1s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/></path><g><animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="3.8s" begin="-2.1s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/><circle cx="128" cy="77.6" r="9.5" fill="#3b5f82"/><path d="M118.5,77.6A9.5,9.5 0 0 0 137.5,77.6A9.5,5.2 0 0 1 118.5,77.6Z" fill="#314e6f"/><ellipse cx="124.4" cy="73.6" rx="2.7" ry="1.7" fill="#fff" opacity=".45" transform="rotate(-35 124.4 73.6)"/><path d="M124,68.8Q122.3,77.6 125,86.1M132,68.8Q133.7,77.6 131,86.1" stroke="#325071" stroke-width="1" fill="none"/><path d="M124.7,86.1L125,93.1M131.3,86.1L131,93.1" stroke="#3f3843" stroke-width=".8"/><rect x="124" y="92.1" width="8" height="6" rx="1.5" fill="#4d3c3f"/><path d="M124.5,77.6l-1.6,-1.6a1,1 0 0 1 1.6,-1.2a1,1 0 0 1 1.6,1.2z" fill="#e8364f"/><path d="M131.5,77.6l-1.6,-1.6a1,1 0 0 1 1.6,-1.2a1,1 0 0 1 1.6,1.2z" fill="#e8364f"/><path d="M125,80.6q3,2.5 6,0" stroke="#27202c" stroke-width="1.2" fill="none" stroke-linecap="round"/></g><path d="M103,132.7L107,95.6" stroke="#3f3843" stroke-width=".9"><animate attributeName="d" values="M103,132.7L107,95.6;M103,132.7L107,89.6;M103,132.7L107,95.6" dur="5s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/></path><path d="M111,132.7L107,95.6" stroke="#3f3843" stroke-width=".9"><animate attributeName="d" values="M111,132.7L107,95.6;M111,132.7L107,89.6;M111,132.7L107,95.6" dur="5s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/></path><g><animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="5s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/><circle cx="107" cy="65.6" r="21" fill="#6a5d3b"/><path d="M86,65.6A21,21 0 0 0 128,65.6A21,11.6 0 0 1 86,65.6Z" fill="#574d36"/><ellipse cx="99" cy="56.8" rx="5.9" ry="3.8" fill="#fff" opacity=".45" transform="rotate(-35 99 56.8)"/><path d="M98.2,46.3Q94.4,65.6 100.3,84.5M115.8,46.3Q119.6,65.6 113.7,84.5" stroke="#594f36" stroke-width="1" fill="none"/><path d="M99.7,84.5L104,92.6M114.3,84.5L110,92.6" stroke="#3f3843" stroke-width=".8"/><rect x="103" y="91.6" width="8" height="6" rx="1.5" fill="#4d3c3f"/><ellipse cx="100" cy="61.6" rx="2.4" ry="3.2" fill="#27202c"><animate attributeName="ry" values="3.2;3.2;0.4;3.2" dur="4.6s" begin="0s" repeatCount="indefinite" keyTimes="0;.9;.94;1"/></ellipse><ellipse cx="114" cy="61.6" rx="2.4" ry="3.2" fill="#27202c"><animate attributeName="ry" values="3.2;3.2;0.4;3.2" dur="4.6s" begin="0s" repeatCount="indefinite" keyTimes="0;.9;.94;1"/></ellipse><path d="M99,68.6Q107,78.6 115,68.6" stroke="#27202c" stroke-width="2.4" fill="none" stroke-linecap="round"/><circle cx="95" cy="69.6" r="3" fill="#ff7a8a" opacity=".55"/><circle cx="119" cy="69.6" r="3" fill="#ff7a8a" opacity=".55"/></g><animateTransform attributeName="transform" type="translate" values="0 0;0 -4;0 0" dur="5s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/></g></g>
+<rect x="20" y="20" width="174" height="174" rx="14" fill="none" stroke="#2b3350"/>
+<text x="222" y="46" font-size="12" fill="#f5b800" class="t-mono">03 / 08</text>
+<text x="221" y="84" font-size="34" fill="#f1f3ff" class="t-name">Smoji</text>
+<circle cx="228" cy="107" r="6" fill="#3178c6"/>
+<text x="240" y="112" font-size="14" fill="#b3bbe0" font-weight="600">TypeScript</text>
+<circle cx="342.4" cy="107" r="5.1" fill="none" stroke="#8b93ba" stroke-width="1.3"/><ellipse cx="342.4" cy="107" rx="2.3" ry="5.1" fill="none" stroke="#8b93ba" stroke-width="1"/><path d="M337.3,107H347.5" stroke="#8b93ba" stroke-width="1"/>
+<text x="353.4" y="112" font-size="14" fill="#8b93ba" font-weight="500">smoji.zsh.moe</text>
+<circle cx="956" cy="44" r="20" fill="#3a3422"/>
+<path d="M950.5,49.5L961.5,38.5M954.9,38.5H961.5V45.1" stroke="#f5b800" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="222" y="142" font-size="16" fill="#b3bbe0">An image-emoji workspace, with a picker for the open web.</text>
+<rect x="222" y="163" width="57.8" height="26" rx="13" fill="#1a2138" stroke="#2b3350"/>
+<path d="M237,170.7 235.7,174.1 232,174.4 234.8,176.7 233.9,180.3 237,178.3 240.1,180.3 239.2,176.7 242,174.4 238.3,174.1Z" fill="#f5b800"/>
+<text x="250" y="180.5" font-size="13" fill="#f1f3ff" font-weight="600">118</text>
+<rect x="287.8" y="163" width="108.8" height="26" rx="13" fill="#1a2138" stroke="#2b3350"/>
+<path d="M296.9,176H308.8" stroke="#5b8def" stroke-width="1.5"/><circle cx="302.8" cy="176" r="2.9" fill="#fff" fill-opacity="0" stroke="#5b8def" stroke-width="1.5"/>
+<text x="315.8" y="180.5" font-size="13" fill="#f1f3ff" font-weight="600">54 commits</text>
+<rect x="404.6" y="163" width="145.2" height="26" rx="13" fill="#1a2138" stroke="#2b3350"/>
+<path d="M416.2,181.9V170.1" stroke="#ef4444" stroke-width="1.5" stroke-linecap="round"/><path d="M416.2,170.1h7.6l-2.1,3 2.1,3h-7.6z" fill="#ef4444"/>
+<text x="432.6" y="180.5" font-size="13" fill="#f1f3ff" font-weight="600">no releases yet</text>
+</g>
+<rect x=".5" y=".5" width="999" height="213" rx="18" fill="none" stroke="#2b3350"/>
+</svg>

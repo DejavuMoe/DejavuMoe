@@ -1,0 +1,33 @@
+{
+  "owner": "DejavuMoe",
+  "blog_url": "https://blog.dejavu.moe",
+  "feed_url": "https://blog.dejavu.moe/index.xml",
+  "project_count": 8,
+  "post_count": 8,
+  "exclude": ["DejavuMoe"],
+  "featured": ["Ecoku", "edgeTTS", "Smoji", "sani", "PicForge", "romi", "webfont-slice", "Pail"],
+  "buildings": {
+    "Ecoku": "cafe",
+    "edgeTTS": "radio",
+    "Smoji": "balloon",
+    "sani": "post",
+    "PicForge": "studio",
+    "romi": "lighthouse",
+    "webfont-slice": "press",
+    "Pail": "bucket"
+  },
+  "descriptions": {
+    "edgeTTS": "A self-hosted speech API and browser workbench for Edge TTS.",
+    "Ecoku": "Self-hosted comments for blogs. Multi-site, text-first.",
+    "Smoji": "An image-emoji workspace, with a picker for the open web.",
+    "PicForge": "Compress images and split motion photos in your browser. No uploads.",
+    "sani": "Short links, text and file sharing. One binary, one SQLite file.",
+    "romi": "Self-hosted Linux monitoring, with status pages and alerts.",
+    "webfont-slice": "Slice CJK web fonts into on-demand WOFF2 shards, in your browser.",
+    "Pail": "A desktop manager for S3-compatible object storage, plus a CLI.",
+    "TAdmin": "A self-hosted Telegram group admin bot. Go, SQLite, optional Mini App.",
+    "prototype-first-ui": "An agent skill: review the prototype before building the UI.",
+    "STranslate.Plugin.Tts.edgeTTS": "Connect STranslate to your own edgeTTS server.",
+    "deepseek_wale_girl": "104 fan-made DeepSeek whale-girl emoji, in GIF and WebM."
+  }
+}

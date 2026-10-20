@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="372" viewBox="0 0 600 372" role="img" aria-labelledby="title">
+<title id="title">webfont-slice: Slice CJK web fonts into on-demand WOFF2 shards, in your browser. — 2 stars, 13 commits, 0 releases.</title>
+<style>
+text{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC",sans-serif}
+.t-name{font-weight:800;letter-spacing:-1.5px}
+.t-mono{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;font-weight:600;letter-spacing:1.4px}
+.t-label{font-size:11px;font-weight:650}
+.t-tag{font-size:9px;font-weight:800}
+.t-glyph{font-weight:800}
+.t-serif{font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman","Songti SC","Noto Serif CJK SC","Source Han Serif SC",SimSun,serif}
+</style>
+<defs><filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><linearGradient id="sky1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#060a22"/><stop offset=".62" stop-color="#141a48"/><stop offset="1" stop-color="#3a2766"/></linearGradient><clipPath id="frame2"><rect width="176" height="176" rx="14"/></clipPath><clipPath id="card3"><rect width="600" height="372" rx="18"/></clipPath><radialGradient id="halo4" cx="0" cy="0" r="1"><stop offset="0" stop-color="#8b5cf6" stop-opacity="0.24"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient><clipPath id="frame5"><rect x="20" y="20" width="176" height="176" rx="14"/></clipPath></defs>
+<g clip-path="url(#card3)">
+<rect width="600" height="372" fill="#111729"/>
+<ellipse cx="600" cy="0" rx="330" ry="409.2" fill="url(#halo4)"/>
+<g transform="translate(20 20)"><g clip-path="url(#frame2)"><rect width="176" height="176" fill="url(#sky1)"/>
+<circle cx="59.1" cy="54.8" r="0.5" fill="#fff" opacity="0.7"/>
+<circle cx="15.5" cy="7" r="1" fill="#fff"><animate attributeName="opacity" values="0.4;.1;0.4" dur="3.3s" begin="-4.1s" repeatCount="indefinite"/></circle>
+<circle cx="26.3" cy="52.4" r="1.3" fill="#fff" opacity="0.7"/>
+<circle cx="166.1" cy="76.9" r="0.9" fill="#fff"><animate attributeName="opacity" values="0.4;.1;0.4" dur="2.9s" begin="-4.1s" repeatCount="indefinite"/></circle>
+<circle cx="35.6" cy="53.6" r="1" fill="#fff"><animate attributeName="opacity" values="0.7;.1;0.7" dur="2.2s" begin="-1s" repeatCount="indefinite"/></circle>
+<circle cx="117.6" cy="24.2" r="1" fill="#fff" opacity="0.6"/>
+<circle cx="136.3" cy="19" r="1" fill="#fff" opacity="0.7"/>
+<circle cx="125.6" cy="90.8" r="0.6" fill="#fff" opacity="0.6"/>
+<circle cx="30.9" cy="7.1" r="1.1" fill="#fff" opacity="0.8"/>
+<circle cx="149.6" cy="59.3" r="1" fill="#fff" opacity="0.7"/>
+<circle cx="143.8" cy="37.8" r="1" fill="#fff" opacity="0.4"/>
+<circle cx="112.1" cy="72.9" r="0.7" fill="#fff" opacity="0.6"/>
+<circle cx="9.7" cy="13.8" r="0.6" fill="#fff" opacity="0.4"/>
+<circle cx="27.2" cy="30.5" r="1.2" fill="#fff" opacity="0.4"/>
+<circle cx="96.1" cy="72.6" r="1.2" fill="#fff" opacity="0.5"/>
+<circle cx="64.8" cy="88.2" r="0.6" fill="#fff" opacity="0.5"/>
+<circle cx="44.3" cy="48.6" r="0.7" fill="#fff" opacity="0.4"/>
+<circle cx="66.6" cy="87.6" r="1.1" fill="#fff" opacity="0.7"/>
+<circle cx="116.9" cy="81.5" r="1.2" fill="#fff" opacity="0.9"/>
+<circle cx="70.4" cy="10.1" r="1.2" fill="#fff"><animate attributeName="opacity" values="0.4;.1;0.4" dur="2.6s" begin="-0.8s" repeatCount="indefinite"/></circle>
+<circle cx="61.8" cy="6" r="0.6" fill="#fff" opacity="0.4"/>
+<circle cx="10.2" cy="51.1" r="0.6" fill="#fff" opacity="0.5"/>
+<circle cx="65.7" cy="75.8" r="1.3" fill="#fff" opacity="0.7"/>
+<circle cx="20.1" cy="26.5" r="0.7" fill="#fff" opacity="0.9"/>
+<circle cx="9.8" cy="42.8" r="0.8" fill="#fff"><animate attributeName="opacity" values="0.7;.1;0.7" dur="3.6s" begin="-4.9s" repeatCount="indefinite"/></circle>
+<circle cx="147.6" cy="20.2" r="0.8" fill="#fff" opacity="0.5"/>
+<circle cx="93.3" cy="25.5" r="0.7" fill="#fff" opacity="0.9"/>
+<circle cx="145.8" cy="72.5" r="1.1" fill="#fff" opacity="0.5"/>
+<path d="M68.4,12.9Q68.4,16 71.4,16Q68.4,16 68.4,19Q68.4,16 65.3,16Q68.4,16 68.4,12.9Z" fill="#fff8d6"><animate attributeName="opacity" values="1;.25;1" dur="3.1s" begin="-1s" repeatCount="indefinite"/></path>
+<path d="M114.2,42.8Q114.2,46.9 118.3,46.9Q114.2,46.9 114.2,51.1Q114.2,46.9 110.1,46.9Q114.2,46.9 114.2,42.8Z" fill="#fff8d6"><animate attributeName="opacity" values="1;.25;1" dur="4.4s" begin="-4s" repeatCount="indefinite"/></path>
+<path d="M149.9,23.6Q149.9,27.2 153.4,27.2Q149.9,27.2 149.9,30.7Q149.9,27.2 146.3,27.2Q149.9,27.2 149.9,23.6Z" fill="#fff8d6"><animate attributeName="opacity" values="1;.25;1" dur="3s" begin="-0.8s" repeatCount="indefinite"/></path>
+<path d="M47.8,30.6Q47.8,35.8 53,35.8Q47.8,35.8 47.8,41.1Q47.8,35.8 42.5,35.8Q47.8,35.8 47.8,30.6Z" fill="#fff8d6"><animate attributeName="opacity" values="1;.25;1" dur="4.2s" begin="-1.9s" repeatCount="indefinite"/></path>
+<path d="M108.8,38.5Q108.8,41.7 112,41.7Q108.8,41.7 108.8,44.9Q108.8,41.7 105.6,41.7Q108.8,41.7 108.8,38.5Z" fill="#fff8d6"><animate attributeName="opacity" values="1;.25;1" dur="3.8s" begin="-3.6s" repeatCount="indefinite"/></path>
+<path d="M126.4,35.9Q126.4,40.1 130.6,40.1Q126.4,40.1 126.4,44.2Q126.4,40.1 122.2,40.1Q126.4,40.1 126.4,35.9Z" fill="#fff8d6"><animate attributeName="opacity" values="1;.25;1" dur="2.9s" begin="-3.2s" repeatCount="indefinite"/></path>
+</g></g>
+<g clip-path="url(#frame5)"><g><path d="M157.4,136.2 157.4,148.2 143.4,176.2 114,230.9 74.6,174.2 58.6,148.2 58.6,136.2Z" fill="#413846"/><path d="M157.4,136.2 157.4,148.2 143.4,176.2 114,230.9Z" fill="#000" opacity=".18"/><path d="M58.6,136.2 108,160.9 108,172.9 58.6,148.2Z" fill="#564546"/><path d="M108,160.9 157.4,136.2 157.4,148.2 108,172.9Z" fill="#44353c"/><path d="M108,111.5 157.4,136.2 108,160.9 58.6,136.2Z" fill="#425c4b"/><path d="M58.6,136.2 108,160.9 108,163.9 58.6,139.2Z" fill="#2f5041"/><path d="M108,160.9 157.4,136.2 157.4,139.2 108,163.9Z" fill="#29483d"/><path d="M81.4,136.2 108,149.5 108,125.7 81.4,112.4Z" fill="#5a5c77"/><path d="M108,149.5 134.6,136.2 134.6,112.4 108,125.7Z" fill="#4a4d66"/><path d="M108,99.1 134.6,112.4 108,125.7 81.4,112.4Z" fill="#636580"/><g transform="matrix(19 9.5 0 19 81.4 112.4)"><rect x="0.1" y="0.1" width="0.2" height="0.2" fill="#2a3266"/><rect x="0.6" y="0.1" width="0.2" height="0.2" fill="#ffd166"/><rect x="1" y="0.1" width="0.2" height="0.2" fill="#ffd166"/><rect x="0.1" y="0.7" width="0.2" height="0.2" fill="#ffe08a"/><rect x="0.6" y="0.8" width="0.2" height="0.5" fill="#ffb347"/><rect x="1" y="0.7" width="0.2" height="0.2" fill="#ffd166"/></g><g transform="matrix(19 -9.5 0 19 108 125.7)"><rect x="0.2" y="0.1" width="0.3" height="0.2" fill="#ffd166"/><rect x="0.9" y="0.1" width="0.3" height="0.2" fill="#2a3266"/><rect x="0.2" y="0.7" width="0.3" height="0.2" fill="#ffd166"/><rect x="0.9" y="0.7" width="0.3" height="0.2" fill="#2a3266"/></g><path d="M85.2,112.4 108,123.8 108,121.9 85.2,110.5Z" fill="#3f3f66"/><path d="M108,123.8 130.8,112.4 130.8,110.5 108,121.9Z" fill="#353559"/><path d="M108,99.1 130.8,110.5 108,121.9 85.2,110.5Z" fill="#47476f"/><path d="M97.5,107.2 97.5,99.6" stroke="#2b2d51" stroke-width="2"/><path d="M114.7,115.7 114.7,108.1" stroke="#2b2d51" stroke-width="2"/><g transform="matrix(19 9.5 0 19 93.8 79.6)"><rect x="0" y="0" width="1.3" height=".98" fill="#141938"/><rect x="0" y=".9" width="1.3" height=".08" fill="#333179"/><text x="0.6" y=".72" class="t-glyph" font-size=".7" text-anchor="middle" fill="#6c5ce7" opacity="1">字<animate attributeName="opacity" values="1;0;0;0;1" dur="8s" begin="0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.2;0.5;0.8;1"/></text><text x="0.6" y=".72" class="t-glyph" font-size=".7" text-anchor="middle" fill="#e5483f" opacity="0">Aa<animate attributeName="opacity" values="0;1;0;0;0" dur="8s" begin="0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.2;0.5;0.8;1"/></text><text x="0.6" y=".72" class="t-glyph" font-size=".7" text-anchor="middle" fill="#0ea5e9" opacity="0">あ<animate attributeName="opacity" values="0;0;1;0;0" dur="8s" begin="0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.2;0.5;0.8;1"/></text><text x="0.6" y=".72" class="t-glyph" font-size=".7" text-anchor="middle" fill="#10b981" opacity="0">한<animate attributeName="opacity" values="0;0;0;1;0" dur="8s" begin="0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.2;0.5;0.8;1"/></text></g><animateTransform attributeName="transform" type="translate" values="0 0;0 -4;0 0" dur="5.7s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/></g></g>
+<rect x="20" y="20" width="176" height="176" rx="14" fill="none" stroke="#2b3350"/>
+<text x="218" y="52" font-size="14" fill="#8b5cf6" class="t-mono">07 / 08</text>
+<text x="217" y="96" font-size="34" fill="#f1f3ff" class="t-name">webfont-slice</text>
+<circle cx="224" cy="127" r="6" fill="#3178c6"/>
+<text x="236" y="132" font-size="16" fill="#b3bbe0" font-weight="600">TypeScript</text>
+<circle cx="224" cy="157" r="5.4" fill="none" stroke="#8b93ba" stroke-width="1.4"/><ellipse cx="224" cy="157" rx="2.4" ry="5.4" fill="none" stroke="#8b93ba" stroke-width="1.1"/><path d="M218.6,157H229.4" stroke="#8b93ba" stroke-width="1.1"/>
+<text x="236" y="162" font-size="16" fill="#8b93ba" font-weight="500">webfont.zsh.moe</text>
+<circle cx="556" cy="44" r="20" fill="#27234e"/>
+<path d="M550.5,49.5L561.5,38.5M554.9,38.5H561.5V45.1" stroke="#8b5cf6" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="22" y="238" font-size="19" fill="#b3bbe0">Slice CJK web fonts into on-demand WOFF2</text>
+<text x="22" y="265" font-size="19" fill="#b3bbe0">shards, in your browser.</text>
+<rect x="22" y="327" width="44.4" height="26" rx="13" fill="#1a2138" stroke="#2b3350"/>
+<path d="M37,334.7 35.7,338.1 32,338.4 34.8,340.7 33.9,344.3 37,342.3 40.1,344.3 39.2,340.7 42,338.4 38.3,338.1Z" fill="#f5b800"/>
+<text x="50" y="344.5" font-size="15" fill="#f1f3ff" font-weight="600">2</text>
+<rect x="74.4" y="327" width="120" height="26" rx="13" fill="#1a2138" stroke="#2b3350"/>
+<path d="M83.5,340H95.4" stroke="#5b8def" stroke-width="1.5"/><circle cx="89.4" cy="340" r="2.9" fill="#fff" fill-opacity="0" stroke="#5b8def" stroke-width="1.5"/>
+<text x="102.4" y="344.5" font-size="15" fill="#f1f3ff" font-weight="600">13 commits</text>
+<rect x="202.4" y="327" width="162" height="26" rx="13" fill="#1a2138" stroke="#2b3350"/>
+<path d="M214,345.9V334.1" stroke="#ef4444" stroke-width="1.5" stroke-linecap="round"/><path d="M214,334.1h7.6l-2.1,3 2.1,3h-7.6z" fill="#ef4444"/>
+<text x="230.4" y="344.5" font-size="15" fill="#f1f3ff" font-weight="600">no releases yet</text>
+</g>
+<rect x=".5" y=".5" width="599" height="371" rx="18" fill="none" stroke="#2b3350"/>
+</svg>

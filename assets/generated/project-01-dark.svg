@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="214" viewBox="0 0 1000 214" role="img" aria-labelledby="title">
+<title id="title">Ecoku: Self-hosted comments for blogs. Multi-site, text-first. — 24 stars, 183 commits, 14 releases.</title>
+<style>
+text{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC",sans-serif}
+.t-name{font-weight:800;letter-spacing:-1.5px}
+.t-mono{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;font-weight:600;letter-spacing:1.4px}
+.t-label{font-size:11px;font-weight:650}
+.t-tag{font-size:9px;font-weight:800}
+.t-glyph{font-weight:800}
+.t-serif{font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman","Songti SC","Noto Serif CJK SC","Source Han Serif SC",SimSun,serif}
+</style>
+<defs><filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><linearGradient id="sky1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#060a22"/><stop offset=".62" stop-color="#141a48"/><stop offset="1" stop-color="#3a2766"/></linearGradient><clipPath id="frame2"><rect width="174" height="174" rx="14"/></clipPath><clipPath id="card3"><rect width="1000" height="214" rx="18"/></clipPath><radialGradient id="halo4" cx="0" cy="0" r="1"><stop offset="0" stop-color="#f97362" stop-opacity="0.24"/><stop offset="1" stop-color="#f97362" stop-opacity="0"/></radialGradient><clipPath id="frame5"><rect x="20" y="20" width="174" height="174" rx="14"/></clipPath></defs>
+<g clip-path="url(#card3)">
+<rect width="1000" height="214" fill="#111729"/>
+<ellipse cx="1000" cy="0" rx="550" ry="235.4" fill="url(#halo4)"/>
+<g transform="translate(20 20)"><g clip-path="url(#frame2)"><rect width="174" height="174" fill="url(#sky1)"/>
+<circle cx="27.8" cy="65.9" r="0.7" fill="#fff" opacity="0.7"/>
+<circle cx="111.6" cy="9.5" r="0.5" fill="#fff" opacity="0.9"/>
+<circle cx="129.5" cy="34.9" r="1.1" fill="#fff" opacity="0.5"/>
+<circle cx="152" cy="6.6" r="0.9" fill="#fff" opacity="1"/>
+<circle cx="41.1" cy="6.7" r="0.6" fill="#fff" opacity="0.6"/>
+<circle cx="43.8" cy="17.1" r="1.1" fill="#fff"><animate attributeName="opacity" values="0.5;.1;0.5" dur="4.5s" begin="-2.8s" repeatCount="indefinite"/></circle>
+<circle cx="110.1" cy="91.3" r="1.2" fill="#fff" opacity="0.4"/>
+<circle cx="122.9" cy="84.8" r="0.8" fill="#fff" opacity="0.9"/>
+<circle cx="55.1" cy="78.8" r="1.2" fill="#fff" opacity="0.7"/>
+<circle cx="11.6" cy="69.4" r="0.8" fill="#fff" opacity="0.5"/>
+<circle cx="119.9" cy="28.9" r="0.8" fill="#fff" opacity="0.7"/>
+<circle cx="90.4" cy="38.9" r="0.5" fill="#fff" opacity="0.4"/>
+<circle cx="165.3" cy="30.5" r="0.6" fill="#fff" opacity="0.7"/>
+<circle cx="130.8" cy="76.3" r="0.7" fill="#fff" opacity="0.7"/>
+<circle cx="99.6" cy="20.7" r="1.1" fill="#fff"><animate attributeName="opacity" values="1;.1;1" dur="4.4s" begin="-4.1s" repeatCount="indefinite"/></circle>
+<circle cx="149.6" cy="70.7" r="0.9" fill="#fff" opacity="0.7"/>
+<circle cx="15.1" cy="46.3" r="0.6" fill="#fff" opacity="0.7"/>
+<circle cx="63.8" cy="43.3" r="1" fill="#fff" opacity="0.7"/>
+<circle cx="10.5" cy="14.3" r="1" fill="#fff" opacity="0.9"/>
+<circle cx="135.1" cy="19.6" r="1.4" fill="#fff"><animate attributeName="opacity" values="0.8;.1;0.8" dur="2.1s" begin="-0.1s" repeatCount="indefinite"/></circle>
+<circle cx="128.4" cy="10.3" r="1.2" fill="#fff"><animate attributeName="opacity" values="0.6;.1;0.6" dur="2.5s" begin="-2.6s" repeatCount="indefinite"/></circle>
+<circle cx="33.2" cy="60.4" r="0.9" fill="#fff" opacity="0.6"/>
+<circle cx="9.8" cy="32.8" r="0.6" fill="#fff" opacity="0.4"/>
+<circle cx="88.6" cy="49.8" r="1.4" fill="#fff"><animate attributeName="opacity" values="0.4;.1;0.4" dur="2.4s" begin="-3.6s" repeatCount="indefinite"/></circle>
+<circle cx="32" cy="57" r="0.9" fill="#fff" opacity="0.5"/>
+<circle cx="135.2" cy="17.4" r="1" fill="#fff" opacity="0.6"/>
+<circle cx="58" cy="7.9" r="0.7" fill="#fff" opacity="1"/>
+<circle cx="55.6" cy="23.7" r="1.3" fill="#fff" opacity="0.8"/>
+<path d="M53.8,10.1Q53.8,15.3 59,15.3Q53.8,15.3 53.8,20.5Q53.8,15.3 48.6,15.3Q53.8,15.3 53.8,10.1Z" fill="#fff8d6"><animate attributeName="opacity" values="1;.25;1" dur="2.6s" begin="-3.3s" repeatCount="indefinite"/></path>
+<path d="M148.9,30.3Q148.9,33.7 152.4,33.7Q148.9,33.7 148.9,37.2Q148.9,33.7 145.5,33.7Q148.9,33.7 148.9,30.3Z" fill="#fff8d6"><animate attributeName="opacity" values="1;.25;1" dur="4.2s" begin="-3.9s" repeatCount="indefinite"/></path>
+<path d="M114.3,27.8Q114.3,31.7 118.3,31.7Q114.3,31.7 114.3,35.7Q114.3,31.7 110.4,31.7Q114.3,31.7 114.3,27.8Z" fill="#fff8d6"><animate attributeName="opacity" values="1;.25;1" dur="3.2s" begin="-0.8s" repeatCount="indefinite"/></path>
+<path d="M110.3,25.7Q110.3,29.2 113.8,29.2Q110.3,29.2 110.3,32.7Q110.3,29.2 106.9,29.2Q110.3,29.2 110.3,25.7Z" fill="#fff8d6"><animate attributeName="opacity" values="1;.25;1" dur="2.7s" begin="-2.7s" repeatCount="indefinite"/></path>
+<path d="M59.7,27.6Q59.7,31.4 63.5,31.4Q59.7,31.4 59.7,35.2Q59.7,31.4 55.9,31.4Q59.7,31.4 59.7,27.6Z" fill="#fff8d6"><animate attributeName="opacity" values="1;.25;1" dur="4.2s" begin="-3.6s" repeatCount="indefinite"/></path>
+<path d="M22.4,17.8Q22.4,21.6 26.2,21.6Q22.4,21.6 22.4,25.4Q22.4,21.6 18.6,21.6Q22.4,21.6 22.4,17.8Z" fill="#fff8d6"><animate attributeName="opacity" values="1;.25;1" dur="4.5s" begin="-3.1s" repeatCount="indefinite"/></path>
+</g></g>
+<g clip-path="url(#frame5)"><g><path d="M156.4,134.8 156.4,146.8 142.4,174.8 113,229.5 73.6,172.8 57.6,146.8 57.6,134.8Z" fill="#413846"/><path d="M156.4,134.8 156.4,146.8 142.4,174.8 113,229.5Z" fill="#000" opacity=".18"/><path d="M57.6,134.8 107,159.5 107,171.5 57.6,146.8Z" fill="#564546"/><path d="M107,159.5 156.4,134.8 156.4,146.8 107,171.5Z" fill="#44353c"/><path d="M107,110.1 156.4,134.8 107,159.5 57.6,134.8Z" fill="#425c4b"/><path d="M57.6,134.8 107,159.5 107,162.5 57.6,137.8Z" fill="#2f5041"/><path d="M107,159.5 156.4,134.8 156.4,137.8 107,162.5Z" fill="#29483d"/><path d="M78.5,133.9 108.9,149.1 108.9,92.1 78.5,76.9Z" fill="#5f5c69"/><path d="M108.9,149.1 135.5,135.8 135.5,78.8 108.9,92.1Z" fill="#4e4d5b"/><path d="M105.1,63.6 135.5,78.8 108.9,92.1 78.5,76.9Z" fill="#696572"/><g transform="matrix(19 9.5 0 19 78.5 76.9)"><rect x="0.1" y="0.1" width="0.3" height="0.3" fill="#ffd166"/><rect x="0.7" y="0.1" width="0.3" height="0.3" fill="#2a3266"><animate attributeName="fill" values="#ffd166;#2a3266;#ffd166" dur="10.3s" begin="-4.6s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.7;1"/></rect><rect x="1.2" y="0.1" width="0.3" height="0.3" fill="#ffc24b"/><rect x="0.1" y="0.7" width="0.3" height="0.3" fill="#ffe08a"/><rect x="0.7" y="0.7" width="0.3" height="0.3" fill="#ffc24b"><animate attributeName="fill" values="#ffc24b;#2a3266;#ffc24b" dur="9.2s" begin="-18.8s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.7;1"/></rect><rect x="1.2" y="0.7" width="0.3" height="0.3" fill="#ffd166"/><rect x="0.1" y="1.3" width="0.3" height="0.3" fill="#2a3266"/><rect x="0.7" y="1.3" width="0.3" height="0.3" fill="#ffe08a"/><rect x="1.2" y="1.3" width="0.3" height="0.3" fill="#2a3266"/><rect x="0.1" y="1.9" width="0.3" height="0.3" fill="#ffd166"/><rect x="0.7" y="1.9" width="0.3" height="0.3" fill="#2a3266"><animate attributeName="fill" values="#ffd166;#2a3266;#ffd166" dur="17.8s" begin="-17.4s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.7;1"/></rect><rect x="1.2" y="1.9" width="0.3" height="0.3" fill="#ffc24b"/><rect x="0.1" y="2.4" width="0.3" height="0.3" fill="#ffe08a"/><rect x="0.7" y="2.5" width="0.2" height="0.5" fill="#ffb347"/><rect x="1.2" y="2.4" width="0.3" height="0.3" fill="#ffe08a"/></g><g transform="matrix(19 -9.5 0 19 108.9 92.1)"><rect x="0.2" y="0.1" width="0.3" height="0.3" fill="#ffe08a"/><rect x="0.9" y="0.1" width="0.3" height="0.3" fill="#2a3266"/><rect x="0.2" y="0.7" width="0.3" height="0.3" fill="#2a3266"/><rect x="0.9" y="0.7" width="0.3" height="0.3" fill="#ffd166"/><rect x="0.2" y="1.3" width="0.3" height="0.3" fill="#ffc24b"><animate attributeName="fill" values="#ffc24b;#2a3266;#ffc24b" dur="11.3s" begin="-18.4s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.7;1"/></rect><rect x="0.9" y="1.3" width="0.3" height="0.3" fill="#2a3266"><animate attributeName="fill" values="#ffd166;#2a3266;#ffd166" dur="13.8s" begin="-18.2s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.7;1"/></rect><rect x="0.2" y="1.9" width="0.3" height="0.3" fill="#2a3266"/><rect x="0.9" y="1.9" width="0.3" height="0.3" fill="#ffc24b"/><rect x="0.2" y="2.4" width="0.3" height="0.3" fill="#2a3266"/><rect x="0.9" y="2.4" width="0.3" height="0.3" fill="#ffd166"/></g><path d="M105.1,61.3 140.1,78.8 124.5,73.3 89.5,55.8Z" fill="#502f3f"/><path d="M135.5,78.8 108.9,92.1 122.2,72.1Z" fill="#4e4d5b"/><path d="M73.9,76.9 108.9,94.4 124.5,73.3 89.5,55.8Z" fill="#623848"/><path d="M78.5,119.1 83.6,121.6 77.9,128.3 72.8,125.7Z" fill="#653045"/><path d="M83.6,121.6 88.6,124.1 82.9,130.8 77.9,128.3Z" fill="#6a6e82"/><path d="M88.6,124.1 93.7,126.7 88,133.3 82.9,130.8Z" fill="#653045"/><path d="M93.7,126.7 98.8,129.2 93.1,135.9 88,133.3Z" fill="#6a6e82"/><path d="M98.8,129.2 103.8,131.7 98.1,138.4 93.1,135.9Z" fill="#653045"/><path d="M103.8,131.7 108.9,134.3 103.2,140.9 98.1,138.4Z" fill="#6a6e82"/><path d="M72.8,125.7 103.2,140.9 103.2,142.1 72.8,126.9Z" fill="#56293d"/><g transform="translate(85 56.5)"><g transform="scale(0)"><rect x="-13" y="-17" width="26" height="15" rx="6" fill="#ffffff"/><path d="M-4,-2.5 l-2,5 l7,-5z" fill="#ffffff"/><circle cx="-6" cy="-9.5" r="1.7" fill="#4b4f6b"/><circle cx="0" cy="-9.5" r="1.7" fill="#4b4f6b"/><circle cx="6" cy="-9.5" r="1.7" fill="#4b4f6b"/><animateTransform attributeName="transform" type="scale" values="0;1.08;1;1;0" keyTimes="0;.08;.12;.7;.78" dur="6s" begin="0s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -10" keyTimes="0;.12;.78" dur="6s" begin="0s" repeatCount="indefinite" additive="sum"/></g></g><g transform="translate(125 44.5)"><g transform="scale(0)"><rect x="-13" y="-17" width="26" height="15" rx="6" fill="#ffe9a8"/><path d="M-4,-2.5 l-2,5 l7,-5z" fill="#ffe9a8"/><circle cx="-6" cy="-9.5" r="1.7" fill="#4b4f6b"/><circle cx="0" cy="-9.5" r="1.7" fill="#4b4f6b"/><circle cx="6" cy="-9.5" r="1.7" fill="#4b4f6b"/><animateTransform attributeName="transform" type="scale" values="0;1.08;1;1;0" keyTimes="0;.08;.12;.7;.78" dur="6s" begin="-2s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -10" keyTimes="0;.12;.78" dur="6s" begin="-2s" repeatCount="indefinite" additive="sum"/></g></g><g transform="translate(103 30.5)"><g transform="scale(0)"><rect x="-13" y="-17" width="26" height="15" rx="6" fill="#c9f0ff"/><path d="M-4,-2.5 l-2,5 l7,-5z" fill="#c9f0ff"/><circle cx="-6" cy="-9.5" r="1.7" fill="#4b4f6b"/><circle cx="0" cy="-9.5" r="1.7" fill="#4b4f6b"/><circle cx="6" cy="-9.5" r="1.7" fill="#4b4f6b"/><animateTransform attributeName="transform" type="scale" values="0;1.08;1;1;0" keyTimes="0;.08;.12;.7;.78" dur="6s" begin="-4s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -10" keyTimes="0;.12;.78" dur="6s" begin="-4s" repeatCount="indefinite" additive="sum"/></g></g><path d="M117.5,73.6V57.6" stroke="#2d2d3e" stroke-width="1.4"/><path d="M117.5,58.6 q6,-2 12,1 q-6,3 -12,6z" fill="#683948"><animate attributeName="d" values="M117.5,58.6 q6,-2 12,1 q-6,3 -12,6z;M117.5,58.6 q6,3 12,1 q-6,1 -12,6z;M117.5,58.6 q6,-2 12,1 q-6,3 -12,6z" dur="1.6s" begin="0s" repeatCount="indefinite"/></path><animateTransform attributeName="transform" type="translate" values="0 0;0 -4;0 0" dur="5.7s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/></g></g>
+<rect x="20" y="20" width="174" height="174" rx="14" fill="none" stroke="#2b3350"/>
+<text x="222" y="46" font-size="12" fill="#f97362" class="t-mono">01 / 08</text>
+<text x="221" y="84" font-size="34" fill="#f1f3ff" class="t-name">Ecoku</text>
+<circle cx="228" cy="107" r="6" fill="#00add8"/>
+<text x="240" y="112" font-size="14" fill="#b3bbe0" font-weight="600">Go</text>
+<circle cx="279.7" cy="107" r="5.1" fill="none" stroke="#8b93ba" stroke-width="1.3"/><ellipse cx="279.7" cy="107" rx="2.3" ry="5.1" fill="none" stroke="#8b93ba" stroke-width="1"/><path d="M274.6,107H284.8" stroke="#8b93ba" stroke-width="1"/>
+<text x="290.7" y="112" font-size="14" fill="#8b93ba" font-weight="500">ecoku.zsh.moe</text>
+<circle cx="956" cy="44" r="20" fill="#3b2833"/>
+<path d="M950.5,49.5L961.5,38.5M954.9,38.5H961.5V45.1" stroke="#f97362" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="222" y="142" font-size="16" fill="#b3bbe0">Self-hosted comments for blogs. Multi-site, text-first.</text>
+<rect x="222" y="163" width="50.6" height="26" rx="13" fill="#1a2138" stroke="#2b3350"/>
+<path d="M237,170.7 235.7,174.1 232,174.4 234.8,176.7 233.9,180.3 237,178.3 240.1,180.3 239.2,176.7 242,174.4 238.3,174.1Z" fill="#f5b800"/>
+<text x="250" y="180.5" font-size="13" fill="#f1f3ff" font-weight="600">24</text>
+<rect x="280.6" y="163" width="116.1" height="26" rx="13" fill="#1a2138" stroke="#2b3350"/>
+<path d="M289.6,176H301.5" stroke="#5b8def" stroke-width="1.5"/><circle cx="295.6" cy="176" r="2.9" fill="#fff" fill-opacity="0" stroke="#5b8def" stroke-width="1.5"/>
+<text x="308.6" y="180.5" font-size="13" fill="#f1f3ff" font-weight="600">183 commits</text>
+<rect x="404.6" y="163" width="181.6" height="26" rx="13" fill="#1a2138" stroke="#2b3350"/>
+<path d="M416.2,181.9V170.1" stroke="#ef4444" stroke-width="1.5" stroke-linecap="round"/><path d="M416.2,170.1h7.6l-2.1,3 2.1,3h-7.6z" fill="#ef4444"/>
+<text x="432.6" y="180.5" font-size="13" fill="#f1f3ff" font-weight="600">14 releases · v0.5.3</text>
+</g>
+<rect x=".5" y=".5" width="999" height="213" rx="18" fill="none" stroke="#2b3350"/>
+</svg>

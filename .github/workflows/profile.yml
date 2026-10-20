@@ -1,0 +1,124 @@
+name: Déjà-vu Town
+
+on:
+  schedule:
+    - cron: '23 0 * * *' # The whole town + newspaper, daily at 08:23 UTC+8.
+    - cron: '23 6,12,18 * * *' # Newspaper-only editions, every 6 hours overall.
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: What to rebuild
+        type: choice
+        options: [full, blog-only, offline]
+        default: full
+  push:
+    branches: [master]
+    paths:
+      - README.md
+      - profile.config.json
+      - scripts/**
+      - tests/**
+      - .github/workflows/profile.yml
+  pull_request:
+    paths:
+      - README.md
+      - profile.config.json
+      - scripts/**
+      - tests/**
+      - .github/workflows/profile.yml
+
+permissions:
+  contents: read
+
+concurrency:
+  # Pull requests cancel stale previews; the single writer on master never cancels.
+  group: ${{ github.event_name == 'pull_request' && format('preview-{0}', github.ref) || 'profile-update' }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  verify:
+    name: Test & preview
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.13'
+
+      - name: Compile
+        run: python -m compileall -q scripts tests
+
+      - name: Test the generator
+        run: python -m unittest discover -s tests -v
+
+      - name: Committed artwork matches its sources
+        # A PR must ship regenerated output; on master the update job regenerates it.
+        if: github.event_name == 'pull_request'
+        run: python scripts/update_profile.py --check
+
+      - name: Render from the committed snapshot
+        run: python scripts/update_profile.py --offline
+
+      - name: Build a preview, rendered by GitHub's own Markdown API
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/preview.py --out preview
+
+      - name: Upload the preview
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: profile-preview
+          path: preview/
+          retention-days: 14
+
+  update:
+    name: Rebuild the town
+    needs: verify
+    if: github.repository == 'DejavuMoe/DejavuMoe' && github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Check out the default branch
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: master
+
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.13'
+
+      - name: Refresh public data and rebuild the artwork
+        env:
+          GH_TOKEN: ${{ github.token }}
+          MODE: ${{ github.event_name == 'schedule' && (github.event.schedule == '23 6,12,18 * * *' && 'blog-only' || 'full') || inputs.mode || 'full' }}
+        run: |
+          case "$MODE" in
+            blog-only) python scripts/update_profile.py --blog-only --summary "$GITHUB_STEP_SUMMARY" ;;
+            offline)   python scripts/update_profile.py --offline   --summary "$GITHUB_STEP_SUMMARY" ;;
+            *)         python scripts/update_profile.py             --summary "$GITHUB_STEP_SUMMARY" ;;
+          esac
+
+      - name: Verify every output and the generated file inventory
+        run: python scripts/update_profile.py --check
+
+      - name: Commit only changed profile artifacts
+        run: |
+          git add -A -- README.md data/profile.json assets/generated/
+          if git diff --cached --quiet; then
+            echo "The town is already up to date." | tee -a "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git -c commit.gpgsign=false commit -m 'chore(profile): rebuild the town and the newspaper'
+          # A concurrent human push must never be overwritten. Retry on the next run.
+          git push origin HEAD:master
