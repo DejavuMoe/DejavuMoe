@@ -1,7 +1,7 @@
 {
   "version": 1,
   "github": {
-    "updated": "2026-10-20",
+    "updated": "2026-10-21",
     "repositories": [
       {
         "name": "deepseek_wale_girl",
@@ -23,7 +23,7 @@
         "language": "Python",
         "archived": false,
         "stars": 1,
-        "commits": 1,
+        "commits": 2,
         "releases": 3,
         "latest_release": "20261020"
       },
@@ -34,7 +34,7 @@
         "homepage": "https://ecoku.zsh.moe",
         "language": "Go",
         "archived": false,
-        "stars": 24,
+        "stars": 25,
         "commits": 183,
         "releases": 14,
         "latest_release": "v0.5.3"
@@ -126,14 +126,14 @@
       {
         "name": "Pail",
         "url": "https://github.com/DejavuMoe/Pail",
-        "description": "",
-        "homepage": "",
+        "description": "Cross-platform desktop manager for S3-compatible object storage: Amazon S3, MinIO, Cloudflare R2, VersityGW, Wasabi and other services that speak the S3 API.",
+        "homepage": "https://pail.download",
         "language": "Go",
         "archived": false,
-        "stars": 1,
-        "commits": 22,
-        "releases": 1,
-        "latest_release": "v0.1.0"
+        "stars": 11,
+        "commits": 41,
+        "releases": 2,
+        "latest_release": "v0.2.0"
       },
       {
         "name": "PicForge",
@@ -294,7 +294,7 @@
     ]
   },
   "blog": {
-    "updated": "2026-10-20",
+    "updated": "2026-10-21",
     "posts": [
       {
         "title": "寒露与幻梦",
