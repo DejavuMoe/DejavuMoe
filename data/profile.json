@@ -23,9 +23,9 @@
         "language": "Python",
         "archived": false,
         "stars": 1,
-        "commits": 2,
+        "commits": 3,
         "releases": 3,
-        "latest_release": "20261020"
+        "latest_release": "20261021"
       },
       {
         "name": "Ecoku",
@@ -34,7 +34,7 @@
         "homepage": "https://ecoku.zsh.moe",
         "language": "Go",
         "archived": false,
-        "stars": 25,
+        "stars": 26,
         "commits": 183,
         "releases": 14,
         "latest_release": "v0.5.3"
@@ -130,10 +130,10 @@
         "homepage": "https://pail.download",
         "language": "Go",
         "archived": false,
-        "stars": 11,
-        "commits": 41,
-        "releases": 2,
-        "latest_release": "v0.2.0"
+        "stars": 21,
+        "commits": 45,
+        "releases": 3,
+        "latest_release": "v0.3.0"
       },
       {
         "name": "PicForge",

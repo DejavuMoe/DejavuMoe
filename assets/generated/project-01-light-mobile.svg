@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="372" viewBox="0 0 600 372" role="img" aria-labelledby="title">
-<title id="title">Ecoku: Self-hosted comments for blogs. Multi-site, text-first. — 25 stars, 183 commits, 14 releases.</title>
+<title id="title">Ecoku: Self-hosted comments for blogs. Multi-site, text-first. — 26 stars, 183 commits, 14 releases.</title>
 <style>
 text{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC",sans-serif}
 .t-name{font-weight:800;letter-spacing:-1.5px}
@@ -30,7 +30,7 @@ text{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe 
 <text x="22" y="265" font-size="19" fill="#4a5578">text-first.</text>
 <rect x="22" y="327" width="52.8" height="26" rx="13" fill="#f3f5f9" stroke="#d0d7de"/>
 <path d="M37,334.7 35.7,338.1 32,338.4 34.8,340.7 33.9,344.3 37,342.3 40.1,344.3 39.2,340.7 42,338.4 38.3,338.1Z" fill="#f5b800"/>
-<text x="50" y="344.5" font-size="15" fill="#1f2340" font-weight="600">25</text>
+<text x="50" y="344.5" font-size="15" fill="#1f2340" font-weight="600">26</text>
 <rect x="82.8" y="327" width="128.4" height="26" rx="13" fill="#f3f5f9" stroke="#d0d7de"/>
 <path d="M91.8,340H103.8" stroke="#5b8def" stroke-width="1.5"/><circle cx="97.8" cy="340" r="2.9" fill="#fff" fill-opacity="0" stroke="#5b8def" stroke-width="1.5"/>
 <text x="110.8" y="344.5" font-size="15" fill="#1f2340" font-weight="600">183 commits</text>
