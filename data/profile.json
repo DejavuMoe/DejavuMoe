@@ -1,7 +1,7 @@
 {
   "version": 1,
   "github": {
-    "updated": "2026-10-21",
+    "updated": "2026-10-22",
     "repositories": [
       {
         "name": "deepseek_wale_girl",
@@ -23,7 +23,7 @@
         "language": "Python",
         "archived": false,
         "stars": 1,
-        "commits": 3,
+        "commits": 4,
         "releases": 3,
         "latest_release": "20261021"
       },
@@ -130,7 +130,7 @@
         "homepage": "https://pail.download",
         "language": "Go",
         "archived": false,
-        "stars": 21,
+        "stars": 26,
         "commits": 45,
         "releases": 3,
         "latest_release": "v0.3.0"
@@ -256,18 +256,6 @@
         "latest_release": null
       },
       {
-        "name": "via.moe",
-        "url": "https://github.com/DejavuMoe/via.moe",
-        "description": "Readonly mirror of https://git.via.moe/dejavu/via.moe",
-        "homepage": "",
-        "language": "HTML",
-        "archived": false,
-        "stars": 0,
-        "commits": 1,
-        "releases": 0,
-        "latest_release": null
-      },
-      {
         "name": "webfont-slice",
         "url": "https://github.com/DejavuMoe/webfont-slice",
         "description": "Slice Chinese, Japanese and Korean web fonts into on-demand WOFF2 shards and generate unicode-range CSS you can deploy as-is. Latin and monospace code fonts are split by script, with ligatures and stylistic sets intact. Everything runs locally in the browser — fonts are never uploaded.",
@@ -278,23 +266,11 @@
         "commits": 13,
         "releases": 0,
         "latest_release": null
-      },
-      {
-        "name": "webfonts",
-        "url": "https://github.com/DejavuMoe/webfonts",
-        "description": "Free web fonts out of the box, which can be used for personal use.",
-        "homepage": "https://web-fonts.pages.dev",
-        "language": "",
-        "archived": false,
-        "stars": 5,
-        "commits": 20,
-        "releases": 5,
-        "latest_release": "v0.0.5"
       }
     ]
   },
   "blog": {
-    "updated": "2026-10-21",
+    "updated": "2026-10-22",
     "posts": [
       {
         "title": "寒露与幻梦",
