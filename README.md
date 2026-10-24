@@ -32,14 +32,14 @@ Every building on the island is one of these projects. Tap a card to open its re
 <a href="https://github.com/DejavuMoe/Ecoku#gh-light-mode-only">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/project-01-light-mobile.svg">
-  <img src="assets/generated/project-01-light.svg" width="100%" alt="Ecoku — Self-hosted comments for blogs. Multi-site, text-first. | 26 stars · 183 commits · 14 releases">
+  <img src="assets/generated/project-01-light.svg" width="100%" alt="Ecoku — Self-hosted comments for blogs. Multi-site, text-first. | 26 stars · 187 commits · 15 releases">
 </picture>
 </a>
 
 <a href="https://github.com/DejavuMoe/Ecoku#gh-dark-mode-only">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/project-01-dark-mobile.svg">
-  <img src="assets/generated/project-01-dark.svg" width="100%" alt="Ecoku — Self-hosted comments for blogs. Multi-site, text-first. | 26 stars · 183 commits · 14 releases">
+  <img src="assets/generated/project-01-dark.svg" width="100%" alt="Ecoku — Self-hosted comments for blogs. Multi-site, text-first. | 26 stars · 187 commits · 15 releases">
 </picture>
 </a>
 
@@ -74,14 +74,14 @@ Every building on the island is one of these projects. Tap a card to open its re
 <a href="https://github.com/DejavuMoe/sani#gh-light-mode-only">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/project-04-light-mobile.svg">
-  <img src="assets/generated/project-04-light.svg" width="100%" alt="sani — Short links, text and file sharing. One binary, one SQLite file. | 7 stars · 83 commits · 18 releases">
+  <img src="assets/generated/project-04-light.svg" width="100%" alt="sani — Short links, text and file sharing. One binary, one SQLite file. | 7 stars · 89 commits · 20 releases">
 </picture>
 </a>
 
 <a href="https://github.com/DejavuMoe/sani#gh-dark-mode-only">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/project-04-dark-mobile.svg">
-  <img src="assets/generated/project-04-dark.svg" width="100%" alt="sani — Short links, text and file sharing. One binary, one SQLite file. | 7 stars · 83 commits · 18 releases">
+  <img src="assets/generated/project-04-dark.svg" width="100%" alt="sani — Short links, text and file sharing. One binary, one SQLite file. | 7 stars · 89 commits · 20 releases">
 </picture>
 </a>
 
@@ -130,20 +130,20 @@ Every building on the island is one of these projects. Tap a card to open its re
 <a href="https://github.com/DejavuMoe/Pail#gh-light-mode-only">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/project-08-light-mobile.svg">
-  <img src="assets/generated/project-08-light.svg" width="100%" alt="Pail — A desktop manager for S3-compatible object storage, plus a CLI. | 27 stars · 45 commits · 3 releases">
+  <img src="assets/generated/project-08-light.svg" width="100%" alt="Pail — A desktop manager for S3-compatible object storage, plus a CLI. | 27 stars · 52 commits · 4 releases">
 </picture>
 </a>
 
 <a href="https://github.com/DejavuMoe/Pail#gh-dark-mode-only">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/project-08-dark-mobile.svg">
-  <img src="assets/generated/project-08-dark.svg" width="100%" alt="Pail — A desktop manager for S3-compatible object storage, plus a CLI. | 27 stars · 45 commits · 3 releases">
+  <img src="assets/generated/project-08-dark.svg" width="100%" alt="Pail — A desktop manager for S3-compatible object storage, plus a CLI. | 27 stars · 52 commits · 4 releases">
 </picture>
 </a>
 
 <p align="center"><b>Try them live&nbsp;→</b>&nbsp; <a href="https://ecoku.zsh.moe">Ecoku</a> &nbsp;·&nbsp; <a href="https://tts-api.via.moe">edgeTTS</a> &nbsp;·&nbsp; <a href="https://smoji.zsh.moe">Smoji</a> &nbsp;·&nbsp; <a href="https://sani.zsh.moe">sani</a> &nbsp;·&nbsp; <a href="https://picforge.de">PicForge</a> &nbsp;·&nbsp; <a href="https://webfont.zsh.moe">webfont-slice</a> &nbsp;·&nbsp; <a href="https://pail.download">Pail</a></p>
 
-<p align="center"><sub>Snapshot 2026-10-23 UTC · 18 indexed repositories · 287 stars across this index</sub></p>
+<p align="center"><sub>Snapshot 2026-10-24 UTC · 18 indexed repositories · 287 stars across this index</sub></p>
 
 <details>
 <summary>How the town is built &amp; the full project index</summary>
@@ -152,11 +152,11 @@ Only my public, non-fork, non-archived repositories with commit history are elig
 
 | Project | In town | Stars | Commits | Releases |
 | :--- | :---: | ---: | ---: | ---: |
+| [Ecoku](https://github.com/DejavuMoe/Ecoku) | 🏠 | 26 | 187 | 15 |
 | [edgeTTS](https://github.com/DejavuMoe/edgeTTS) | 🏠 | 49 | 118 | 13 |
-| [Ecoku](https://github.com/DejavuMoe/Ecoku) | 🏠 | 26 | 183 | 14 |
 | [Smoji](https://github.com/DejavuMoe/Smoji) | 🏠 | 118 | 54 | 0 |
-| [sani](https://github.com/DejavuMoe/sani) | 🏠 | 7 | 83 | 18 |
-| [Pail](https://github.com/DejavuMoe/Pail) | 🏠 | 27 | 45 | 3 |
+| [sani](https://github.com/DejavuMoe/sani) | 🏠 | 7 | 89 | 20 |
+| [Pail](https://github.com/DejavuMoe/Pail) | 🏠 | 27 | 52 | 4 |
 | [PicForge](https://github.com/DejavuMoe/PicForge) | 🏠 | 25 | 63 | 0 |
 | [romi](https://github.com/DejavuMoe/romi) | 🏠 | 0 | 127 | 2 |
 | [hugo\-start](https://github.com/DejavuMoe/hugo-start) |  | 4 | 17 | 0 |

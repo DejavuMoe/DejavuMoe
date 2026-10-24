@@ -1,7 +1,7 @@
 {
   "version": 1,
   "github": {
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "repositories": [
       {
         "name": "deepseek_wale_girl",
@@ -23,9 +23,9 @@
         "language": "Python",
         "archived": false,
         "stars": 1,
-        "commits": 5,
+        "commits": 6,
         "releases": 4,
-        "latest_release": "20261022"
+        "latest_release": "20261023"
       },
       {
         "name": "Ecoku",
@@ -35,9 +35,9 @@
         "language": "Go",
         "archived": false,
         "stars": 26,
-        "commits": 183,
-        "releases": 14,
-        "latest_release": "v0.5.3"
+        "commits": 187,
+        "releases": 15,
+        "latest_release": "v0.5.4"
       },
       {
         "name": "edgeTTS",
@@ -131,9 +131,9 @@
         "language": "Go",
         "archived": false,
         "stars": 27,
-        "commits": 45,
-        "releases": 3,
-        "latest_release": "v0.3.0"
+        "commits": 52,
+        "releases": 4,
+        "latest_release": "v0.3.1"
       },
       {
         "name": "PicForge",
@@ -179,9 +179,9 @@
         "language": "Go",
         "archived": false,
         "stars": 7,
-        "commits": 83,
-        "releases": 18,
-        "latest_release": "v0.9.8"
+        "commits": 89,
+        "releases": 20,
+        "latest_release": "v0.9.10"
       },
       {
         "name": "selfhosted",
@@ -270,7 +270,7 @@
     ]
   },
   "blog": {
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "posts": [
       {
         "title": "寒露与幻梦",
