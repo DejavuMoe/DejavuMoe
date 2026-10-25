@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="372" viewBox="0 0 600 372" role="img" aria-labelledby="title">
-<title id="title">edgeTTS: A self-hosted speech API and browser workbench for Edge TTS. — 49 stars, 118 commits, 13 releases.</title>
+<title id="title">edgeTTS: A self-hosted speech API and browser workbench for Edge TTS. — 49 stars, 133 commits, 15 releases.</title>
 <style>
 text{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC",sans-serif}
 .t-name{font-weight:800;letter-spacing:-1.5px}
@@ -66,10 +66,10 @@ text{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe 
 <text x="50" y="344.5" font-size="15" fill="#f1f3ff" font-weight="600">49</text>
 <rect x="82.8" y="327" width="128.4" height="26" rx="13" fill="#1a2138" stroke="#2b3350"/>
 <path d="M91.8,340H103.8" stroke="#5b8def" stroke-width="1.5"/><circle cx="97.8" cy="340" r="2.9" fill="#fff" fill-opacity="0" stroke="#5b8def" stroke-width="1.5"/>
-<text x="110.8" y="344.5" font-size="15" fill="#f1f3ff" font-weight="600">118 commits</text>
+<text x="110.8" y="344.5" font-size="15" fill="#f1f3ff" font-weight="600">133 commits</text>
 <rect x="219.2" y="327" width="204" height="26" rx="13" fill="#1a2138" stroke="#2b3350"/>
 <path d="M230.8,345.9V334.1" stroke="#ef4444" stroke-width="1.5" stroke-linecap="round"/><path d="M230.8,334.1h7.6l-2.1,3 2.1,3h-7.6z" fill="#ef4444"/>
-<text x="247.2" y="344.5" font-size="15" fill="#f1f3ff" font-weight="600">13 releases · v0.9.6</text>
+<text x="247.2" y="344.5" font-size="15" fill="#f1f3ff" font-weight="600">15 releases · v1.0.1</text>
 </g>
 <rect x=".5" y=".5" width="599" height="371" rx="18" fill="none" stroke="#2b3350"/>
 </svg>

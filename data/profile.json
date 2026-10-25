@@ -1,7 +1,7 @@
 {
   "version": 1,
   "github": {
-    "updated": "2026-10-24",
+    "updated": "2026-10-25",
     "repositories": [
       {
         "name": "deepseek_wale_girl",
@@ -23,9 +23,9 @@
         "language": "Python",
         "archived": false,
         "stars": 1,
-        "commits": 6,
-        "releases": 4,
-        "latest_release": "20261023"
+        "commits": 7,
+        "releases": 3,
+        "latest_release": "20261024"
       },
       {
         "name": "Ecoku",
@@ -47,9 +47,9 @@
         "language": "TypeScript",
         "archived": false,
         "stars": 49,
-        "commits": 118,
-        "releases": 13,
-        "latest_release": "v0.9.6"
+        "commits": 133,
+        "releases": 15,
+        "latest_release": "v1.0.1"
       },
       {
         "name": "Gxif-Converter",
@@ -130,7 +130,7 @@
         "homepage": "https://pail.download",
         "language": "Go",
         "archived": false,
-        "stars": 27,
+        "stars": 30,
         "commits": 52,
         "releases": 4,
         "latest_release": "v0.3.1"
@@ -179,9 +179,9 @@
         "language": "Go",
         "archived": false,
         "stars": 7,
-        "commits": 89,
-        "releases": 20,
-        "latest_release": "v0.9.10"
+        "commits": 98,
+        "releases": 22,
+        "latest_release": "v1.0.1"
       },
       {
         "name": "selfhosted",
@@ -202,7 +202,7 @@
         "homepage": "https://smoji.zsh.moe",
         "language": "TypeScript",
         "archived": false,
-        "stars": 118,
+        "stars": 119,
         "commits": 54,
         "releases": 0,
         "latest_release": null
@@ -270,7 +270,7 @@
     ]
   },
   "blog": {
-    "updated": "2026-10-24",
+    "updated": "2026-10-25",
     "posts": [
       {
         "title": "寒露与幻梦",
