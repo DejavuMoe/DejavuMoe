@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="1030" viewBox="0 0 600 1030" role="img" aria-labelledby="title">
-<title id="title">Déjà-vu Town: a floating island where each building is one of Dejavu Moe&#x27;s projects. 8 buildings, 291 GitHub stars.</title>
+<title id="title">Déjà-vu Town: a floating island where each building is one of Dejavu Moe&#x27;s projects. 8 buildings, 290 GitHub stars.</title>
 <style>
 text{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC",sans-serif}
 .t-name{font-weight:800;letter-spacing:-1.5px}
@@ -302,13 +302,12 @@ text{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe 
 <circle cx="165.5" cy="638" r="0.5" fill="#fff" opacity="0.6"/>
 <circle cx="314.4" cy="552.1" r="1" fill="#fff" opacity="0.8"/>
 <circle cx="166.2" cy="655.8" r="1.3" fill="#fff" opacity="0.8"/>
-<circle cx="145.2" cy="577.3" r="1" fill="#fff" opacity="0.8"/>
-<path d="M564.1,250.5Q564.1,255.8 569.3,255.8Q564.1,255.8 564.1,261.1Q564.1,255.8 558.8,255.8Q564.1,255.8 564.1,250.5Z" fill="#fff8d6"><animate attributeName="opacity" values="1;.25;1" dur="4.2s" begin="-0.5s" repeatCount="indefinite"/></path>
-<path d="M174.5,162.9Q174.5,166.2 177.8,166.2Q174.5,166.2 174.5,169.6Q174.5,166.2 171.2,166.2Q174.5,166.2 174.5,162.9Z" fill="#fff8d6"><animate attributeName="opacity" values="1;.25;1" dur="2.8s" begin="-2.7s" repeatCount="indefinite"/></path>
-<path d="M262.1,32.4Q262.1,36.2 265.9,36.2Q262.1,36.2 262.1,40Q262.1,36.2 258.3,36.2Q262.1,36.2 262.1,32.4Z" fill="#fff8d6"><animate attributeName="opacity" values="1;.25;1" dur="4.3s" begin="-2.8s" repeatCount="indefinite"/></path>
-<path d="M136.3,139.7Q136.3,143.6 140.2,143.6Q136.3,143.6 136.3,147.5Q136.3,143.6 132.4,143.6Q136.3,143.6 136.3,139.7Z" fill="#fff8d6"><animate attributeName="opacity" values="1;.25;1" dur="3s" begin="-2.6s" repeatCount="indefinite"/></path>
-<path d="M422.6,56.9Q422.6,61.9 427.6,61.9Q422.6,61.9 422.6,66.9Q422.6,61.9 417.6,61.9Q422.6,61.9 422.6,56.9Z" fill="#fff8d6"><animate attributeName="opacity" values="1;.25;1" dur="2.7s" begin="-0.7s" repeatCount="indefinite"/></path>
-<path d="M307.3,506.5Q307.3,510.1 310.8,510.1Q307.3,510.1 307.3,513.6Q307.3,510.1 303.7,510.1Q307.3,510.1 307.3,506.5Z" fill="#fff8d6"><animate attributeName="opacity" values="1;.25;1" dur="4.5s" begin="-3.8s" repeatCount="indefinite"/></path>
+<path d="M152.6,231.1Q152.6,235.9 157.3,235.9Q152.6,235.9 152.6,240.6Q152.6,235.9 147.8,235.9Q152.6,235.9 152.6,231.1Z" fill="#fff8d6"><animate attributeName="opacity" values="1;.25;1" dur="3.8s" begin="-3s" repeatCount="indefinite"/></path>
+<path d="M401.8,496.6Q401.8,500.8 406,500.8Q401.8,500.8 401.8,505Q401.8,500.8 397.6,500.8Q401.8,500.8 401.8,496.6Z" fill="#fff8d6"><animate attributeName="opacity" values="1;.25;1" dur="4.3s" begin="-3.3s" repeatCount="indefinite"/></path>
+<path d="M88.7,149.2Q88.7,152.9 92.5,152.9Q88.7,152.9 88.7,156.7Q88.7,152.9 85,152.9Q88.7,152.9 88.7,149.2Z" fill="#fff8d6"><animate attributeName="opacity" values="1;.25;1" dur="2.8s" begin="-0.5s" repeatCount="indefinite"/></path>
+<path d="M402.6,228Q402.6,231.1 405.7,231.1Q402.6,231.1 402.6,234.3Q402.6,231.1 399.5,231.1Q402.6,231.1 402.6,228Z" fill="#fff8d6"><animate attributeName="opacity" values="1;.25;1" dur="3.1s" begin="-3.7s" repeatCount="indefinite"/></path>
+<path d="M411.4,115.2Q411.4,118.8 415,118.8Q411.4,118.8 411.4,122.5Q411.4,118.8 407.8,118.8Q411.4,118.8 411.4,115.2Z" fill="#fff8d6"><animate attributeName="opacity" values="1;.25;1" dur="3.2s" begin="-1s" repeatCount="indefinite"/></path>
+<path d="M387.5,371.2Q387.5,374.4 390.7,374.4Q387.5,374.4 387.5,377.7Q387.5,374.4 384.3,374.4Q387.5,374.4 387.5,371.2Z" fill="#fff8d6"><animate attributeName="opacity" values="1;.25;1" dur="4.1s" begin="-0.4s" repeatCount="indefinite"/></path>
 <g transform="translate(330 40) rotate(28)"><g opacity="0"><rect x="-70" y="-1" width="70" height="2" rx="1" fill="url(#streak3)"/><circle r="1.8" fill="#fff"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;220 0;220 0" keyTimes="0;.7;.8;1" dur="9s" begin="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;1;0;0" dur="9s" begin="3s" repeatCount="indefinite" keyTimes="0;.7;.74;.8;1"/></g></g>
 <g transform="translate(120 440) rotate(28)"><g opacity="0"><rect x="-70" y="-1" width="70" height="2" rx="1" fill="url(#streak4)"/><circle r="1.8" fill="#fff"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;220 0;220 0" keyTimes="0;.7;.8;1" dur="9s" begin="7.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;1;0;0" dur="9s" begin="7.5s" repeatCount="indefinite" keyTimes="0;.7;.74;.8;1"/></g></g>
 <circle cx="528" cy="470" r="52" fill="#fff3c4" opacity=".08"/>
@@ -322,30 +321,30 @@ text{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe 
 <g><path d="M114.2,961.6 101.5,969.5 85.8,963.1 87.8,969.1 101.5,987.5 113.2,968.4Z" fill="#3f3745"/><path d="M101.5,969.5 85.8,963.1 87.8,969.1 101.5,987.5Z" fill="#483f4b"/><path d="M98.5,955.2 114.2,961.6 101.5,969.5 85.8,963.1Z" fill="#415d4b"/><animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="5.8s" begin="-2s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/></g>
 <g><path d="M558.3,751.6 546.4,759 531.7,753 533.7,758.6 546.4,775.8 557.3,757.9Z" fill="#3f3745"/><path d="M546.4,759 531.7,753 533.7,758.6 546.4,775.8Z" fill="#483f4b"/><path d="M543.6,745.7 558.3,751.6 546.4,759 531.7,753Z" fill="#415d4b"/><animateTransform attributeName="transform" type="translate" values="0 0;0 -7.5;0 0" dur="6.7s" begin="-3s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/></g>
 <g><animateTransform attributeName="transform" type="translate" values="0 0;0 -7;0 0" dur="7s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/>
-<path d="M48.8,725.4 49.2,728.3 50.2,731.3 51.7,734.2 53.8,737.1 56.4,739.9 59.4,742.8 62.8,745.6 66.6,748.4 70.6,751.2 74.8,754 79.2,756.8 83.8,759.7 88.5,762.7 93.3,765.7 98.4,768.8 103.9,772.2 109.7,775.7 116.2,779.4 123.7,783.6 132.8,788.5 148.8,796.6 164.9,804.7 174.6,809.4 182.8,813.2 190.4,816.4 197.4,819.3 204.2,821.9 210.7,824.3 216.9,826.4 223,828.5 229,830.3 234.8,832.1 240.6,833.8 246.2,835.5 251.9,837 257.5,838.4 263.1,839.7 268.7,840.9 274.4,841.9 280,842.7 285.7,843.2 291.4,843.6 297.1,843.7 302.9,843.6 308.6,843.3 314.2,842.8 319.9,842.2 325.5,841.4 331.2,840.5 336.9,839.6 342.6,838.5 348.3,837.5 354.2,836.4 360.2,835.2 366.3,834 372.5,832.6 378.9,831.1 385.4,829.5 392.2,827.6 399.1,825.4 406.3,822.9 413.7,820 421.6,816.7 430.2,812.7 440.1,807.8 456.7,799.4 473,790.8 482.2,785.7 489.5,781.2 495.8,777.2 501.3,773.5 506.3,770 510.8,766.6 515,763.3 518.8,760.2 522.2,757.1 525.4,754 528.2,751 530.6,748.1 532.7,745.1 534.4,742.2 535.6,739.3 536.5,736.4 537,733.6 537.2,730.7 505.9,739.2 472,758.3 438.3,773.9 409.5,802.3 385,822.1 366.8,851.2 348.3,877.6 335.3,902.8 324.5,928.5 318.4,962 313,989.3 307.2,959.7 303.3,926.5 288.7,898.6 272.1,871.4 252.1,846.1 227.3,820.2 195.8,793.7 164,770.2 126.6,751.7 92.1,735.1Z" fill="url(#rock6)"/>
-<path d="M48.8,725.4 49.2,728.3 50.2,731.3 51.7,734.2 53.8,737.1 56.4,739.9 59.4,742.8 62.8,745.6 66.6,748.4 70.6,751.2 74.8,754 79.2,756.8 83.8,759.7 88.5,762.7 93.3,765.7 98.4,768.8 103.9,772.2 109.7,775.7 116.2,779.4 123.7,783.6 132.8,788.5 148.8,796.6 164.9,804.7 174.6,809.4 182.8,813.2 190.4,816.4 197.4,819.3 204.2,821.9 210.7,824.3 216.9,826.4 223,828.5 229,830.3 234.8,832.1 240.6,833.8 246.2,835.5 251.9,837 257.5,838.4 263.1,839.7 268.7,840.9 274.4,841.9 280,842.7 285.7,843.2 291.4,843.6 297.1,843.7 302.9,843.6 308.6,843.3 314.2,842.8 319.9,842.2 325.5,841.4 331.2,840.5 336.9,839.6 342.6,838.5 348.3,837.5 354.2,836.4 360.2,835.2 366.3,834 372.5,832.6 378.9,831.1 385.4,829.5 392.2,827.6 399.1,825.4 406.3,822.9 413.7,820 421.6,816.7 430.2,812.7 440.1,807.8 456.7,799.4 473,790.8 482.2,785.7 489.5,781.2 495.8,777.2 501.3,773.5 506.3,770 510.8,766.6 515,763.3 518.8,760.2 522.2,757.1 525.4,754 528.2,751 530.6,748.1 532.7,745.1 534.4,742.2 535.6,739.3 536.5,736.4 537,733.6 537.2,730.7 505.9,739.2 472,758.3 438.3,773.9 409.5,802.3 385,822.1 366.8,851.2 348.3,877.6 335.3,902.8 324.5,928.5 318.4,962 313,989.3 307.2,959.7 303.3,926.5 288.7,898.6 272.1,871.4 252.1,846.1 227.3,820.2 195.8,793.7 164,770.2 126.6,751.7 92.1,735.1Z" fill="url(#shade8)"/>
-<path d="M129.6,751.7Q299.3,773.1 469,758.3" stroke="#2e293d" stroke-width="1.3" fill="none" opacity=".45"/>
-<path d="M230.3,820.2Q306.2,833.9 382,822.1" stroke="#2e293d" stroke-width="1.3" fill="none" opacity=".45"/>
-<path d="M275.1,871.4Q310.2,881.9 345.3,877.6" stroke="#2e293d" stroke-width="1.3" fill="none" opacity=".45"/>
-<path d="M218.8,784.9l-4,-7.7 4,-9.4 4,9.4z" fill="#8b5cf6" filter="url(#glow)"><animate attributeName="opacity" values="1;.5;1" dur="3.4s" begin="-1.7s" repeatCount="indefinite"/></path>
-<path d="M218.8,784.9l4,-7.7 0,-9.4z" fill="#fff" opacity=".3"/>
-<path d="M240.8,785.2l-4,-5 4,-6.1 4,6.1z" fill="#22d3ee" filter="url(#glow)"><animate attributeName="opacity" values="1;.5;1" dur="3.4s" begin="-0.1s" repeatCount="indefinite"/></path>
-<path d="M240.8,785.2l4,-5 0,-6.1z" fill="#fff" opacity=".3"/>
-<path d="M345.4,813.7l-4,-6.3 4,-7.7 4,7.7z" fill="#22d3ee" filter="url(#glow)"><animate attributeName="opacity" values="1;.5;1" dur="2.9s" begin="-0.2s" repeatCount="indefinite"/></path>
-<path d="M345.4,813.7l4,-6.3 0,-7.7z" fill="#fff" opacity=".3"/>
-<path d="M377.9,787.1l-4,-4 4,-5 4,5z" fill="#a78bfa" filter="url(#glow)"><animate attributeName="opacity" values="1;.5;1" dur="4s" begin="-1.5s" repeatCount="indefinite"/></path>
-<path d="M377.9,787.1l4,-4 0,-5z" fill="#fff" opacity=".3"/>
-<path d="M303.7,862.4l-4,-5.9 4,-7.2 4,7.2z" fill="#8b5cf6" filter="url(#glow)"><animate attributeName="opacity" values="1;.5;1" dur="3s" begin="-2.5s" repeatCount="indefinite"/></path>
-<path d="M303.7,862.4l4,-5.9 0,-7.2z" fill="#fff" opacity=".3"/>
-<path d="M316.3,862.9l-4,-3.6 4,-4.4 4,4.4z" fill="#f472b6" filter="url(#glow)"><animate attributeName="opacity" values="1;.5;1" dur="4s" begin="-0.8s" repeatCount="indefinite"/></path>
-<path d="M316.3,862.9l4,-3.6 0,-4.4z" fill="#fff" opacity=".3"/>
-<path d="M59.4,740.8q-3.8,13.3 -1,26.5" stroke="#332a37" stroke-width="1.3" fill="none" opacity=".8"/>
-<path d="M116.2,777.4q-0.5,11.8 -2.3,23.7" stroke="#332a37" stroke-width="1.3" fill="none" opacity=".8"/>
-<path d="M223,826.5q-4.3,8 -2.5,16" stroke="#332a37" stroke-width="1.3" fill="none" opacity=".8"/>
-<path d="M297.1,841.7q-3,8.7 -2.2,17.3" stroke="#332a37" stroke-width="1.3" fill="none" opacity=".8"/>
-<path d="M366.3,832q2.9,10.6 1.6,21.1" stroke="#332a37" stroke-width="1.3" fill="none" opacity=".8"/>
-<path d="M473,788.8q-0.9,9.2 -3.8,18.3" stroke="#332a37" stroke-width="1.3" fill="none" opacity=".8"/>
-<path d="M530.6,746.1q-2.7,8.9 -3.4,17.7" stroke="#332a37" stroke-width="1.3" fill="none" opacity=".8"/>
+<path d="M48.8,725.4 49.2,728.3 50.2,731.3 51.7,734.2 53.8,737.1 56.4,739.9 59.4,742.8 62.8,745.6 66.6,748.4 70.6,751.2 74.8,754 79.2,756.8 83.8,759.7 88.5,762.7 93.3,765.7 98.4,768.8 103.9,772.2 109.7,775.7 116.2,779.4 123.7,783.6 132.8,788.5 148.8,796.6 164.9,804.7 174.6,809.4 182.8,813.2 190.4,816.4 197.4,819.3 204.2,821.9 210.7,824.3 216.9,826.4 223,828.5 229,830.3 234.8,832.1 240.6,833.8 246.2,835.5 251.9,837 257.5,838.4 263.1,839.7 268.7,840.9 274.4,841.9 280,842.7 285.7,843.2 291.4,843.6 297.1,843.7 302.9,843.6 308.6,843.3 314.2,842.8 319.9,842.2 325.5,841.4 331.2,840.5 336.9,839.6 342.6,838.5 348.3,837.5 354.2,836.4 360.2,835.2 366.3,834 372.5,832.6 378.9,831.1 385.4,829.5 392.2,827.6 399.1,825.4 406.3,822.9 413.7,820 421.6,816.7 430.2,812.7 440.1,807.8 456.7,799.4 473,790.8 482.2,785.7 489.5,781.2 495.8,777.2 501.3,773.5 506.3,770 510.8,766.6 515,763.3 518.8,760.2 522.2,757.1 525.4,754 528.2,751 530.6,748.1 532.7,745.1 534.4,742.2 535.6,739.3 536.5,736.4 537,733.6 537.2,730.7 503,735.9 465.5,753.3 441.7,777.5 414.5,800.7 389.3,825.7 365.2,845.8 346.3,877.9 332.1,901.1 324.1,933.1 317.3,962.1 313,989.3 308.5,957.5 301.8,929.6 289.9,900.7 271.1,870.9 250.4,843.5 223.8,820.4 198.7,797.8 162,775.3 126.2,749.8 93.2,732.9Z" fill="url(#rock6)"/>
+<path d="M48.8,725.4 49.2,728.3 50.2,731.3 51.7,734.2 53.8,737.1 56.4,739.9 59.4,742.8 62.8,745.6 66.6,748.4 70.6,751.2 74.8,754 79.2,756.8 83.8,759.7 88.5,762.7 93.3,765.7 98.4,768.8 103.9,772.2 109.7,775.7 116.2,779.4 123.7,783.6 132.8,788.5 148.8,796.6 164.9,804.7 174.6,809.4 182.8,813.2 190.4,816.4 197.4,819.3 204.2,821.9 210.7,824.3 216.9,826.4 223,828.5 229,830.3 234.8,832.1 240.6,833.8 246.2,835.5 251.9,837 257.5,838.4 263.1,839.7 268.7,840.9 274.4,841.9 280,842.7 285.7,843.2 291.4,843.6 297.1,843.7 302.9,843.6 308.6,843.3 314.2,842.8 319.9,842.2 325.5,841.4 331.2,840.5 336.9,839.6 342.6,838.5 348.3,837.5 354.2,836.4 360.2,835.2 366.3,834 372.5,832.6 378.9,831.1 385.4,829.5 392.2,827.6 399.1,825.4 406.3,822.9 413.7,820 421.6,816.7 430.2,812.7 440.1,807.8 456.7,799.4 473,790.8 482.2,785.7 489.5,781.2 495.8,777.2 501.3,773.5 506.3,770 510.8,766.6 515,763.3 518.8,760.2 522.2,757.1 525.4,754 528.2,751 530.6,748.1 532.7,745.1 534.4,742.2 535.6,739.3 536.5,736.4 537,733.6 537.2,730.7 503,735.9 465.5,753.3 441.7,777.5 414.5,800.7 389.3,825.7 365.2,845.8 346.3,877.9 332.1,901.1 324.1,933.1 317.3,962.1 313,989.3 308.5,957.5 301.8,929.6 289.9,900.7 271.1,870.9 250.4,843.5 223.8,820.4 198.7,797.8 162,775.3 126.2,749.8 93.2,732.9Z" fill="url(#shade8)"/>
+<path d="M129.2,749.8Q295.9,769.5 462.5,753.3" stroke="#2e293d" stroke-width="1.3" fill="none" opacity=".45"/>
+<path d="M226.8,820.4Q306.6,835.8 386.3,825.7" stroke="#2e293d" stroke-width="1.3" fill="none" opacity=".45"/>
+<path d="M274.1,870.9Q308.7,881.9 343.3,877.9" stroke="#2e293d" stroke-width="1.3" fill="none" opacity=".45"/>
+<path d="M217.9,789.7l-4,-7.7 4,-9.4 4,9.4z" fill="#8b5cf6" filter="url(#glow)"><animate attributeName="opacity" values="1;.5;1" dur="4.3s" begin="-1.7s" repeatCount="indefinite"/></path>
+<path d="M217.9,789.7l4,-7.7 0,-9.4z" fill="#fff" opacity=".3"/>
+<path d="M240.3,789.9l-4,-5 4,-6.1 4,6.1z" fill="#22d3ee" filter="url(#glow)"><animate attributeName="opacity" values="1;.5;1" dur="4.1s" begin="-0.4s" repeatCount="indefinite"/></path>
+<path d="M240.3,789.9l4,-5 0,-6.1z" fill="#fff" opacity=".3"/>
+<path d="M349.8,813.8l-4,-6.3 4,-7.7 4,7.7z" fill="#22d3ee" filter="url(#glow)"><animate attributeName="opacity" values="1;.5;1" dur="4.3s" begin="-2.7s" repeatCount="indefinite"/></path>
+<path d="M349.8,813.8l4,-6.3 0,-7.7z" fill="#fff" opacity=".3"/>
+<path d="M380.1,791l-4,-4 4,-5 4,5z" fill="#a78bfa" filter="url(#glow)"><animate attributeName="opacity" values="1;.5;1" dur="3.4s" begin="-1.7s" repeatCount="indefinite"/></path>
+<path d="M380.1,791l4,-4 0,-5z" fill="#fff" opacity=".3"/>
+<path d="M302,858.6l-4,-5.9 4,-7.2 4,7.2z" fill="#8b5cf6" filter="url(#glow)"><animate attributeName="opacity" values="1;.5;1" dur="3.4s" begin="-0.1s" repeatCount="indefinite"/></path>
+<path d="M302,858.6l4,-5.9 0,-7.2z" fill="#fff" opacity=".3"/>
+<path d="M314.7,858.8l-4,-3.6 4,-4.4 4,4.4z" fill="#f472b6" filter="url(#glow)"><animate attributeName="opacity" values="1;.5;1" dur="2.9s" begin="-0.2s" repeatCount="indefinite"/></path>
+<path d="M314.7,858.8l4,-3.6 0,-4.4z" fill="#fff" opacity=".3"/>
+<path d="M59.4,740.8q0.2,13 -1.9,25.9" stroke="#332a37" stroke-width="1.3" fill="none" opacity=".8"/>
+<path d="M116.2,777.4q3,13.8 -1.9,27.6" stroke="#332a37" stroke-width="1.3" fill="none" opacity=".8"/>
+<path d="M223,826.5q-3.8,13.3 -1,26.5" stroke="#332a37" stroke-width="1.3" fill="none" opacity=".8"/>
+<path d="M297.1,841.7q-0.5,11.8 -2.3,23.7" stroke="#332a37" stroke-width="1.3" fill="none" opacity=".8"/>
+<path d="M366.3,832q-4.3,8 -2.5,16" stroke="#332a37" stroke-width="1.3" fill="none" opacity=".8"/>
+<path d="M473,788.8q-3,8.7 -2.2,17.3" stroke="#332a37" stroke-width="1.3" fill="none" opacity=".8"/>
+<path d="M530.6,746.1q2.9,10.6 1.6,21.1" stroke="#332a37" stroke-width="1.3" fill="none" opacity=".8"/>
 <path d="M456.7,778.4 440.1,786.8 440.1,807.8 456.7,799.4Z" fill="url(#earth7)"/>
 <path d="M440.1,786.8 430.2,791.7 430.2,812.7 440.1,807.8Z" fill="url(#earth7)"/>
 <path d="M430.2,791.7 421.6,795.7 421.6,816.7 430.2,812.7Z" fill="url(#earth7)"/>
@@ -725,31 +724,32 @@ text{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe 
 <path d="M204.2,800.9v122.3" stroke="#ffffff" stroke-width="1.1" stroke-dasharray="9 12" opacity=".7"><animate attributeName="stroke-dashoffset" values="0;-42" dur="1.1s" begin="0s" repeatCount="indefinite"/></path>
 <path d="M206.7,800.9v122.3" stroke="#ffffff" stroke-width="1.1" stroke-dasharray="9 12" opacity=".7"><animate attributeName="stroke-dashoffset" values="0;-42" dur="1.2s" begin="0s" repeatCount="indefinite"/></path>
 <ellipse cx="204.2" cy="802.9" rx="7" ry="2.5" fill="#ffffff" opacity=".6"/>
-<path d="M207.4,790.2l1,-3.5M209.9,790.2v-4.5M212.4,790.2l-1,-3.5" stroke="#29483d" stroke-width="1"/>
-<circle cx="344.7" cy="623.6" r="1.8" fill="#6a5d3b"/>
-<circle cx="399.9" cy="682.3" r="1.8" fill="#6a5d3b"/>
+<path d="M239.1,595.7l1,-3.5M241.6,595.7v-4.5M244.1,595.7l-1,-3.5" stroke="#29483d" stroke-width="1"/>
+<circle cx="209.9" cy="790.2" r="1.8" fill="#6a5d3b"/>
+<path d="M342.2,623.6l1,-3.5M344.7,623.6v-4.5M347.2,623.6l-1,-3.5" stroke="#29483d" stroke-width="1"/>
+<path d="M397.4,682.3l1,-3.5M399.9,682.3v-4.5M402.4,682.3l-1,-3.5" stroke="#29483d" stroke-width="1"/>
 <path d="M120.9,710.9l1,-3.5M123.4,710.9v-4.5M125.9,710.9l-1,-3.5" stroke="#29483d" stroke-width="1"/>
-<path d="M470.8,651.2l1,-3.5M473.3,651.2v-4.5M475.8,651.2l-1,-3.5" stroke="#29483d" stroke-width="1"/>
+<circle cx="473.3" cy="651.2" r="1.8" fill="#6a5d3b"/>
 <path d="M361,765.8l1,-3.5M363.5,765.8v-4.5M366,765.8l-1,-3.5" stroke="#29483d" stroke-width="1"/>
 <path d="M383.2,632.6l1,-3.5M385.7,632.6v-4.5M388.2,632.6l-1,-3.5" stroke="#29483d" stroke-width="1"/>
 <path d="M239.5,780.3l1,-3.5M242,780.3v-4.5M244.5,780.3l-1,-3.5" stroke="#29483d" stroke-width="1"/>
-<path d="M467.7,714.2l1,-3.5M470.2,714.2v-4.5M472.7,714.2l-1,-3.5" stroke="#29483d" stroke-width="1"/>
+<circle cx="470.2" cy="714.2" r="1.8" fill="#6a365c"/>
 <path d="M420.8,741.7l1,-3.5M423.3,741.7v-4.5M425.8,741.7l-1,-3.5" stroke="#29483d" stroke-width="1"/>
 <path d="M187.7,618.5l1,-3.5M190.2,618.5v-4.5M192.7,618.5l-1,-3.5" stroke="#29483d" stroke-width="1"/>
-<path d="M144.9,673.6l1,-3.5M147.4,673.6v-4.5M149.9,673.6l-1,-3.5" stroke="#29483d" stroke-width="1"/>
+<circle cx="147.4" cy="673.6" r="1.8" fill="#4e4182"/>
 <ellipse cx="300" cy="597.3" rx="8.5" ry="4.3" fill="#000" opacity=".12"/>
-<g><animateTransform attributeName="transform" type="rotate" values="-2.5 300 597.3;2.5 300 597.3;-2.5 300 597.3" dur="4.5s" begin="-2.2s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/>
+<g><animateTransform attributeName="transform" type="rotate" values="-2.5 300 597.3;2.5 300 597.3;-2.5 300 597.3" dur="4.9s" begin="-4.5s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/>
 <rect x="298.3" y="586.8" width="3.4" height="10.4" fill="#3f3239"/>
-<circle cx="295.2" cy="583" r="6.6" fill="#2c5247"/>
-<path d="M288.6,583A6.6,6.6 0 0 0 301.9,583A6.6,3.7 0 0 1 288.6,583Z" fill="#25443f"/>
-<circle cx="304.8" cy="582.1" r="7.1" fill="#294d44"/>
-<path d="M297.6,582.1A7.1,7.1 0 0 0 311.9,582.1A7.1,3.9 0 0 1 297.6,582.1Z" fill="#23403d"/>
-<circle cx="300" cy="576.4" r="8.1" fill="#2c5247"/>
-<path d="M291.9,576.4A8.1,8.1 0 0 0 308.1,576.4A8.1,4.4 0 0 1 291.9,576.4Z" fill="#25443f"/>
+<circle cx="295.2" cy="583" r="6.6" fill="#3b5c4b"/>
+<path d="M288.6,583A6.6,6.6 0 0 0 301.9,583A6.6,3.7 0 0 1 288.6,583Z" fill="#314d43"/>
+<circle cx="304.8" cy="582.1" r="7.1" fill="#375648"/>
+<path d="M297.6,582.1A7.1,7.1 0 0 0 311.9,582.1A7.1,3.9 0 0 1 297.6,582.1Z" fill="#2e4740"/>
+<circle cx="300" cy="576.4" r="8.1" fill="#3b5c4b"/>
+<path d="M291.9,576.4A8.1,8.1 0 0 0 308.1,576.4A8.1,4.4 0 0 1 291.9,576.4Z" fill="#314d43"/>
 <ellipse cx="296.9" cy="573" rx="2.3" ry="1.5" fill="#fff" opacity=".45" transform="rotate(-35 296.9 573)"/>
 </g>
 <ellipse cx="190.8" cy="616.8" rx="8.5" ry="4.3" fill="#000" opacity=".12"/>
-<g><animateTransform attributeName="transform" type="rotate" values="-2.5 190.8 616.8;2.5 190.8 616.8;-2.5 190.8 616.8" dur="6s" begin="-2.9s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/>
+<g><animateTransform attributeName="transform" type="rotate" values="-2.5 190.8 616.8;2.5 190.8 616.8;-2.5 190.8 616.8" dur="6.8s" begin="-2.9s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/>
 <rect x="189.1" y="606.3" width="3.4" height="10.4" fill="#3f3239"/>
 <path d="M180.4,608.2 190.8,595.9 190.8,610.1Z" fill="#264a48"/>
 <path d="M190.8,595.9 201.2,608.2 190.8,610.1Z" fill="#1d3c3d"/>
@@ -759,18 +759,18 @@ text{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe 
 <path d="M190.8,584.5 197,594 190.8,595.9Z" fill="#1d3c3d"/>
 </g>
 <ellipse cx="413.1" cy="617.5" rx="8.5" ry="4.3" fill="#000" opacity=".12"/>
-<g><animateTransform attributeName="transform" type="rotate" values="-2.5 413.1 617.5;2.5 413.1 617.5;-2.5 413.1 617.5" dur="6.4s" begin="-2.3s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/>
+<g><animateTransform attributeName="transform" type="rotate" values="-2.5 413.1 617.5;2.5 413.1 617.5;-2.5 413.1 617.5" dur="4.5s" begin="-1s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/>
 <rect x="411.4" y="607" width="3.4" height="10.4" fill="#3f3239"/>
-<circle cx="408.4" cy="603.2" r="6.6" fill="#3b5c4b"/>
-<path d="M401.7,603.2A6.6,6.6 0 0 0 415,603.2A6.6,3.7 0 0 1 401.7,603.2Z" fill="#314d43"/>
-<circle cx="417.9" cy="602.2" r="7.1" fill="#375648"/>
-<path d="M410.7,602.2A7.1,7.1 0 0 0 425,602.2A7.1,3.9 0 0 1 410.7,602.2Z" fill="#2e4740"/>
-<circle cx="413.1" cy="596.6" r="8.1" fill="#3b5c4b"/>
-<path d="M405,596.6A8.1,8.1 0 0 0 421.2,596.6A8.1,4.4 0 0 1 405,596.6Z" fill="#314d43"/>
+<circle cx="408.4" cy="603.2" r="6.6" fill="#2c5247"/>
+<path d="M401.7,603.2A6.6,6.6 0 0 0 415,603.2A6.6,3.7 0 0 1 401.7,603.2Z" fill="#25443f"/>
+<circle cx="417.9" cy="602.2" r="7.1" fill="#294d44"/>
+<path d="M410.7,602.2A7.1,7.1 0 0 0 425,602.2A7.1,3.9 0 0 1 410.7,602.2Z" fill="#23403d"/>
+<circle cx="413.1" cy="596.6" r="8.1" fill="#2c5247"/>
+<path d="M405,596.6A8.1,8.1 0 0 0 421.2,596.6A8.1,4.4 0 0 1 405,596.6Z" fill="#25443f"/>
 <ellipse cx="410" cy="593.2" rx="2.3" ry="1.5" fill="#fff" opacity=".45" transform="rotate(-35 410 593.2)"/>
 </g>
 <ellipse cx="453.4" cy="636.3" rx="8.5" ry="4.3" fill="#000" opacity=".12"/>
-<g><animateTransform attributeName="transform" type="rotate" values="-2.5 453.4 636.3;2.5 453.4 636.3;-2.5 453.4 636.3" dur="7s" begin="-0.4s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/>
+<g><animateTransform attributeName="transform" type="rotate" values="-2.5 453.4 636.3;2.5 453.4 636.3;-2.5 453.4 636.3" dur="5.4s" begin="-4s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/>
 <rect x="451.7" y="625.8" width="3.4" height="10.4" fill="#3f3239"/>
 <path d="M442.9,627.8 453.4,615.4 453.4,629.6Z" fill="#264a48"/>
 <path d="M453.4,615.4 463.8,627.8 453.4,629.6Z" fill="#1d3c3d"/>
@@ -780,7 +780,7 @@ text{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe 
 <path d="M453.4,604 459.6,613.5 453.4,615.4Z" fill="#1d3c3d"/>
 </g>
 <ellipse cx="153.1" cy="637" rx="8.5" ry="4.3" fill="#000" opacity=".12"/>
-<g><animateTransform attributeName="transform" type="rotate" values="-2.5 153.1 637;2.5 153.1 637;-2.5 153.1 637" dur="5.1s" begin="-1s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/>
+<g><animateTransform attributeName="transform" type="rotate" values="-2.5 153.1 637;2.5 153.1 637;-2.5 153.1 637" dur="5.5s" begin="-4.7s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/>
 <rect x="151.4" y="626.5" width="3.4" height="10.4" fill="#3f3239"/>
 <circle cx="148.3" cy="622.7" r="6.6" fill="#2c5247"/>
 <path d="M141.7,622.7A6.6,6.6 0 0 0 155,622.7A6.6,3.7 0 0 1 141.7,622.7Z" fill="#25443f"/>
@@ -791,7 +791,7 @@ text{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe 
 <ellipse cx="150" cy="612.7" rx="2.3" ry="1.5" fill="#fff" opacity=".45" transform="rotate(-35 150 612.7)"/>
 </g>
 <ellipse cx="479.4" cy="659.7" rx="8.5" ry="4.3" fill="#000" opacity=".12"/>
-<g><animateTransform attributeName="transform" type="rotate" values="-2.5 479.4 659.7;2.5 479.4 659.7;-2.5 479.4 659.7" dur="5.8s" begin="-5.7s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/>
+<g><animateTransform attributeName="transform" type="rotate" values="-2.5 479.4 659.7;2.5 479.4 659.7;-2.5 479.4 659.7" dur="6.3s" begin="-6s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/>
 <rect x="477.7" y="649.2" width="3.4" height="10.4" fill="#3f3239"/>
 <path d="M468.9,651.2 479.4,638.8 479.4,653.1Z" fill="#264a48"/>
 <path d="M479.4,638.8 489.8,651.2 479.4,653.1Z" fill="#1d3c3d"/>
@@ -801,7 +801,7 @@ text{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe 
 <path d="M479.4,627.4 485.6,636.9 479.4,638.8Z" fill="#1d3c3d"/>
 </g>
 <ellipse cx="121.9" cy="660.4" rx="8.5" ry="4.3" fill="#000" opacity=".12"/>
-<g><animateTransform attributeName="transform" type="rotate" values="-2.5 121.9 660.4;2.5 121.9 660.4;-2.5 121.9 660.4" dur="6.4s" begin="-1.9s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/>
+<g><animateTransform attributeName="transform" type="rotate" values="-2.5 121.9 660.4;2.5 121.9 660.4;-2.5 121.9 660.4" dur="4.2s" begin="-2.1s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/>
 <rect x="120.2" y="649.9" width="3.4" height="10.4" fill="#3f3239"/>
 <circle cx="117.2" cy="646.1" r="6.6" fill="#33584b"/>
 <path d="M110.5,646.1A6.6,6.6 0 0 0 123.8,646.1A6.6,3.7 0 0 1 110.5,646.1Z" fill="#2b4a43"/>
@@ -818,37 +818,37 @@ text{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe 
 <path d="M302.6,651.9 339,633.7 339,531.5 302.6,549.7Z" fill="#4e4d5b"/>
 <path d="M297.4,510.7 339,531.5 302.6,549.7 261,528.9Z" fill="#696572"/>
 <g transform="matrix(26 13 0 28 261 528.9)">
-<rect x="0.1" y="0.1" width="0.3" height="0.3" fill="#2a3266"/>
+<rect x="0.1" y="0.1" width="0.3" height="0.3" fill="#ffc24b"/>
 <rect x="0.7" y="0.1" width="0.3" height="0.3" fill="#ffe08a"/>
-<rect x="1.2" y="0.1" width="0.3" height="0.3" fill="#ffc24b"/>
-<rect x="0.1" y="0.7" width="0.3" height="0.3" fill="#ffc24b"/>
-<rect x="0.7" y="0.7" width="0.3" height="0.3" fill="#ffd166"/>
-<rect x="1.2" y="0.7" width="0.3" height="0.3" fill="#ffd166"/>
+<rect x="1.2" y="0.1" width="0.3" height="0.3" fill="#2a3266"/>
+<rect x="0.1" y="0.7" width="0.3" height="0.3" fill="#2a3266"><animate attributeName="fill" values="#ffd166;#2a3266;#ffd166" dur="9.9s" begin="-15.7s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.7;1"/></rect>
+<rect x="0.7" y="0.7" width="0.3" height="0.3" fill="#ffe08a"/>
+<rect x="1.2" y="0.7" width="0.3" height="0.3" fill="#ffc24b"/>
 <rect x="0.1" y="1.3" width="0.3" height="0.3" fill="#ffc24b"/>
-<rect x="0.7" y="1.3" width="0.3" height="0.3" fill="#2a3266"/>
-<rect x="1.2" y="1.3" width="0.3" height="0.3" fill="#2a3266"/>
-<rect x="0.1" y="1.9" width="0.3" height="0.3" fill="#ffd166"/>
-<rect x="0.7" y="1.9" width="0.3" height="0.3" fill="#ffc24b"/>
+<rect x="0.7" y="1.3" width="0.3" height="0.3" fill="#ffd166"/>
+<rect x="1.2" y="1.3" width="0.3" height="0.3" fill="#ffd166"/>
+<rect x="0.1" y="1.9" width="0.3" height="0.3" fill="#ffc24b"/>
+<rect x="0.7" y="1.9" width="0.3" height="0.3" fill="#2a3266"/>
 <rect x="1.2" y="1.9" width="0.3" height="0.3" fill="#2a3266"/>
-<rect x="0.1" y="2.5" width="0.3" height="0.3" fill="#ffe08a"/>
-<rect x="0.7" y="2.5" width="0.3" height="0.3" fill="#2a3266"/>
-<rect x="1.2" y="2.5" width="0.3" height="0.3" fill="#ffd166"/>
-<rect x="0.1" y="3.1" width="0.3" height="0.3" fill="#ffc24b"/>
+<rect x="0.1" y="2.5" width="0.3" height="0.3" fill="#ffd166"/>
+<rect x="0.7" y="2.5" width="0.3" height="0.3" fill="#ffc24b"/>
+<rect x="1.2" y="2.5" width="0.3" height="0.3" fill="#2a3266"/>
+<rect x="0.1" y="3.1" width="0.3" height="0.3" fill="#ffe08a"/>
 <rect x="0.7" y="3.2" width="0.2" height="0.5" fill="#ffb347"/>
-<rect x="1.2" y="3.1" width="0.3" height="0.3" fill="#ffe08a"/>
+<rect x="1.2" y="3.1" width="0.3" height="0.3" fill="#2a3266"/>
 </g>
 <g transform="matrix(26 -13 0 28 302.6 549.7)">
-<rect x="0.2" y="0.1" width="0.3" height="0.3" fill="#ffc24b"/>
-<rect x="0.9" y="0.1" width="0.3" height="0.3" fill="#ffe08a"/>
+<rect x="0.2" y="0.1" width="0.3" height="0.3" fill="#ffd166"/>
+<rect x="0.9" y="0.1" width="0.3" height="0.3" fill="#ffc24b"/>
 <rect x="0.2" y="0.7" width="0.3" height="0.3" fill="#ffe08a"/>
 <rect x="0.9" y="0.7" width="0.3" height="0.3" fill="#ffc24b"/>
-<rect x="0.2" y="1.3" width="0.3" height="0.3" fill="#ffd166"><animate attributeName="fill" values="#ffd166;#2a3266;#ffd166" dur="10.8s" begin="-9.7s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.7;1"/></rect>
-<rect x="0.9" y="1.3" width="0.3" height="0.3" fill="#2a3266"/>
-<rect x="0.2" y="1.9" width="0.3" height="0.3" fill="#2a3266"/>
-<rect x="0.9" y="1.9" width="0.3" height="0.3" fill="#ffd166"><animate attributeName="fill" values="#ffd166;#2a3266;#ffd166" dur="17.2s" begin="-14.7s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.6;1"/></rect>
+<rect x="0.2" y="1.3" width="0.3" height="0.3" fill="#ffe08a"/>
+<rect x="0.9" y="1.3" width="0.3" height="0.3" fill="#ffe08a"/>
+<rect x="0.2" y="1.9" width="0.3" height="0.3" fill="#ffc24b"/>
+<rect x="0.9" y="1.9" width="0.3" height="0.3" fill="#ffd166"><animate attributeName="fill" values="#ffd166;#2a3266;#ffd166" dur="10.8s" begin="-9.7s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.7;1"/></rect>
 <rect x="0.2" y="2.5" width="0.3" height="0.3" fill="#2a3266"/>
-<rect x="0.9" y="2.5" width="0.3" height="0.3" fill="#ffc24b"/>
-<rect x="0.2" y="3.1" width="0.3" height="0.3" fill="#2a3266"/>
+<rect x="0.9" y="2.5" width="0.3" height="0.3" fill="#2a3266"/>
+<rect x="0.2" y="3.1" width="0.3" height="0.3" fill="#ffd166"><animate attributeName="fill" values="#ffd166;#2a3266;#ffd166" dur="17.2s" begin="-14.7s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.6;1"/></rect>
 <rect x="0.9" y="3.1" width="0.3" height="0.3" fill="#2a3266"/>
 </g>
 <path d="M297.4,507.6 345.2,531.5 323.9,522.6 276.1,498.6Z" fill="#502f3f"/>
@@ -865,9 +865,9 @@ text{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe 
 <g transform="translate(318 490.6)"><g transform="scale(0)"><rect x="-13" y="-17" width="26" height="15" rx="6" fill="#ffe9a8"/><path d="M-4,-2.5 l-2,5 l7,-5z" fill="#ffe9a8"/><circle cx="-6" cy="-9.5" r="1.7" fill="#4b4f6b"/><circle cx="0" cy="-9.5" r="1.7" fill="#4b4f6b"/><circle cx="6" cy="-9.5" r="1.7" fill="#4b4f6b"/><animateTransform attributeName="transform" type="scale" values="0;1.08;1;1;0" keyTimes="0;.08;.12;.7;.78" dur="6s" begin="-2s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -10" keyTimes="0;.12;.78" dur="6s" begin="-2s" repeatCount="indefinite" additive="sum"/></g></g>
 <g transform="translate(296 476.6)"><g transform="scale(0)"><rect x="-13" y="-17" width="26" height="15" rx="6" fill="#c9f0ff"/><path d="M-4,-2.5 l-2,5 l7,-5z" fill="#c9f0ff"/><circle cx="-6" cy="-9.5" r="1.7" fill="#4b4f6b"/><circle cx="0" cy="-9.5" r="1.7" fill="#4b4f6b"/><circle cx="6" cy="-9.5" r="1.7" fill="#4b4f6b"/><animateTransform attributeName="transform" type="scale" values="0;1.08;1;1;0" keyTimes="0;.08;.12;.7;.78" dur="6s" begin="-4s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -10" keyTimes="0;.12;.78" dur="6s" begin="-4s" repeatCount="indefinite" additive="sum"/></g></g>
 <path d="M314.3,523.3V507.3" stroke="#2d2d3e" stroke-width="1.4"/>
-<path d="M314.3,508.3 q6,-2 12,1 q-6,3 -12,6z" fill="#683948"><animate attributeName="d" values="M314.3,508.3 q6,-2 12,1 q-6,3 -12,6z;M314.3,508.3 q6,3 12,1 q-6,1 -12,6z;M314.3,508.3 q6,-2 12,1 q-6,3 -12,6z" dur="1.6s" begin="-1.4s" repeatCount="indefinite"/></path>
+<path d="M314.3,508.3 q6,-2 12,1 q-6,3 -12,6z" fill="#683948"><animate attributeName="d" values="M314.3,508.3 q6,-2 12,1 q-6,3 -12,6z;M314.3,508.3 q6,3 12,1 q-6,1 -12,6z;M314.3,508.3 q6,-2 12,1 q-6,3 -12,6z" dur="1.6s" begin="-0.1s" repeatCount="indefinite"/></path>
 <ellipse cx="300" cy="666.2" rx="7.6" ry="3.8" fill="#000" opacity=".12"/>
-<g><animateTransform attributeName="transform" type="rotate" values="-2.5 300 666.2;2.5 300 666.2;-2.5 300 666.2" dur="6.7s" begin="-0.5s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/>
+<g><animateTransform attributeName="transform" type="rotate" values="-2.5 300 666.2;2.5 300 666.2;-2.5 300 666.2" dur="4.5s" begin="-2.6s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/>
 <rect x="298.5" y="656.9" width="3.1" height="9.3" fill="#3f3239"/>
 <circle cx="295.8" cy="653.5" r="6" fill="#33584b"/>
 <path d="M289.8,653.5A6,6 0 0 0 301.7,653.5A6,3.3 0 0 1 289.8,653.5Z" fill="#2b4a43"/>
@@ -909,14 +909,14 @@ text{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe 
 <path d="M366.3,653.4 385,662.8 368.9,670.8 350.2,661.4Z" fill="#646980"/>
 <g transform="matrix(26 13 0 28 350.2 661.4)">
 <rect x="0.1" y="0.2" width="0.2" height="0.4" fill="#ffb347"/>
-<rect x="0.4" y="0.1" width="0.2" height="0.2" fill="#ffd166"/>
+<rect x="0.4" y="0.1" width="0.2" height="0.2" fill="#ffc24b"/>
 </g>
 <path d="M348.1,661.4 368.9,671.9 368.9,669.6 348.1,659.2Z" fill="#20294c"/>
 <path d="M368.9,671.9 387.1,662.8 387.1,660.5 368.9,669.6Z" fill="#1b2444"/>
 <path d="M366.3,650.1 387.1,660.5 368.9,669.6 348.1,659.2Z" fill="#283254"/>
 <path d="M364.2,654.9a7,4 -25 0 0 12,2" stroke="#5b607a" stroke-width="3" fill="none"/>
 <path d="M368.9,655V639" stroke="#2d2d3e" stroke-width="1.4"/>
-<path d="M368.9,640 q6,-2 12,1 q-6,3 -12,6z" fill="#205580"><animate attributeName="d" values="M368.9,640 q6,-2 12,1 q-6,3 -12,6z;M368.9,640 q6,3 12,1 q-6,1 -12,6z;M368.9,640 q6,-2 12,1 q-6,3 -12,6z" dur="1.6s" begin="-0.7s" repeatCount="indefinite"/></path>
+<path d="M368.9,640 q6,-2 12,1 q-6,3 -12,6z" fill="#205580"><animate attributeName="d" values="M368.9,640 q6,-2 12,1 q-6,3 -12,6z;M368.9,640 q6,3 12,1 q-6,1 -12,6z;M368.9,640 q6,-2 12,1 q-6,3 -12,6z" dur="1.6s" begin="-1.4s" repeatCount="indefinite"/></path>
 <path d="M212.2,659.7A20.2,10.1 0 0 0 232.4,669.8L232.4,645.1A19,9.5 0 0 1 213.4,635.6Z" fill="#5a2739"/>
 <path d="M232.4,669.8A20.2,10.1 0 0 0 252.6,659.7L251.4,635.6A19,9.5 0 0 1 232.4,645.1Z" fill="#472133"/>
 <path d="M213.4,635.6A19,9.5 0 0 0 232.4,645.1L232.4,620.5A17.7,8.9 0 0 1 214.7,611.6Z" fill="#5f6272"/>
@@ -944,26 +944,26 @@ text{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe 
 <path d="M233.7,655.4 250.9,663.9 233.7,672.5 216.5,663.9Z" fill="#656879"/>
 <g transform="matrix(26 13 0 28 216.5 663.9)">
 <rect x="0.1" y="0.2" width="0.2" height="0.3" fill="#ffb347"/>
-<rect x="0.4" y="0.1" width="0.2" height="0.2" fill="#ffe08a"/>
+<rect x="0.4" y="0.1" width="0.2" height="0.2" fill="#2a3266"/>
 </g>
 <path d="M233.7,652.2 245.4,648.3 222,660 210.3,663.9Z" fill="#2b355a"/>
 <path d="M257.1,663.9 245.4,648.3 222,660 233.7,675.6Z" fill="#20294b"/>
 <path d="M216.5,663.9 233.7,672.5 225.1,658.4Z" fill="#5c5e6f"/>
 <circle cx="243.8" cy="672.7" r="2.4" fill="#34d399"><animate attributeName="opacity" values="1;1;.15;1;.15;1" dur="2.2s" begin="0s" repeatCount="indefinite" keyTimes="0;.6;.68;.76;.84;1"/></circle>
 <path d="M233.7,654.1V638.1" stroke="#2d2d3e" stroke-width="1.4"/>
-<path d="M233.7,639.1 q6,-2 12,1 q-6,3 -12,6z" fill="#64283c"><animate attributeName="d" values="M233.7,639.1 q6,-2 12,1 q-6,3 -12,6z;M233.7,639.1 q6,3 12,1 q-6,1 -12,6z;M233.7,639.1 q6,-2 12,1 q-6,3 -12,6z" dur="1.6s" begin="-0.4s" repeatCount="indefinite"/></path>
+<path d="M233.7,639.1 q6,-2 12,1 q-6,3 -12,6z" fill="#64283c"><animate attributeName="d" values="M233.7,639.1 q6,-2 12,1 q-6,3 -12,6z;M233.7,639.1 q6,3 12,1 q-6,1 -12,6z;M233.7,639.1 q6,-2 12,1 q-6,3 -12,6z" dur="1.6s" begin="-1.2s" repeatCount="indefinite"/></path>
 <path d="M263.6,700 300,718.2 300,698.6 263.6,680.4Z" fill="#5b5a68"/>
 <path d="M300,718.2 336.4,700 336.4,680.4 300,698.6Z" fill="#4b4b5a"/>
 <path d="M300,662.2 336.4,680.4 300,698.6 263.6,680.4Z" fill="#656471"/>
 <g transform="matrix(26 13 0 28 263.6 680.4)">
-<rect x="0.1" y="0.1" width="0.2" height="0.3" fill="#ffd166"><animate attributeName="fill" values="#ffd166;#2a3266;#ffd166" dur="13.3s" begin="-6.1s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.6;1"/></rect>
+<rect x="0.1" y="0.1" width="0.2" height="0.3" fill="#ffe08a"/>
 <rect x="0.6" y="0.2" width="0.2" height="0.5" fill="#ffb347"/>
 <rect x="1" y="0.1" width="0.2" height="0.3" fill="#2a3266"/>
 </g>
 <g transform="matrix(26 -13 0 28 300 698.6)">
 <rect x="0.1" y="0.1" width="0.2" height="0.3" fill="#ffe08a"/>
-<rect x="0.6" y="0.1" width="0.2" height="0.3" fill="#ffd166"/>
-<rect x="1" y="0.1" width="0.2" height="0.3" fill="#ffd166"/>
+<rect x="0.6" y="0.1" width="0.2" height="0.3" fill="#ffe08a"/>
+<rect x="1" y="0.1" width="0.2" height="0.3" fill="#ffc24b"/>
 </g>
 <path d="M263.6,680.4 300,698.6 300,696.9 263.6,678.7Z" fill="#49454d"/>
 <path d="M300,698.6 336.4,680.4 336.4,678.7 300,696.9Z" fill="#3c3b44"/>
@@ -978,8 +978,8 @@ text{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe 
 <path d="M0.4,0.4V0.3" stroke="#1b203a" stroke-width="2" vector-effect="non-scaling-stroke" stroke-linecap="round"><animateTransform attributeName="transform" type="rotate" from="0 0.4 0.4" to="360 0.4 0.4" dur="120s" begin="0s" repeatCount="indefinite"/></path>
 </g>
 <g transform="matrix(26 13 0 28 280.2 636.2)">
-<rect x="0.2" y="0.2" width="0.4" height="0.3" fill="#ffc24b"/>
-<rect x="0.2" y="0.8" width="0.4" height="0.3" fill="#2a3266"/>
+<rect x="0.2" y="0.2" width="0.4" height="0.3" fill="#ffe08a"/>
+<rect x="0.2" y="0.8" width="0.4" height="0.3" fill="#ffd166"/>
 </g>
 <g transform="matrix(26 -13 0 28 300 628.7)">
 <ellipse cx="0.4" cy="0.4" rx="0.3" ry="0.3" fill="#564c45"/>
@@ -988,8 +988,8 @@ text{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe 
 <path d="M0.4,0.4V0.3" stroke="#1b203a" stroke-width="2" vector-effect="non-scaling-stroke" stroke-linecap="round"><animateTransform attributeName="transform" type="rotate" from="0 0.4 0.4" to="360 0.4 0.4" dur="120s" begin="0s" repeatCount="indefinite"/></path>
 </g>
 <g transform="matrix(26 -13 0 28 300 646)">
-<rect x="0.2" y="0.2" width="0.4" height="0.3" fill="#ffc24b"><animate attributeName="fill" values="#ffc24b;#2a3266;#ffc24b" dur="15.8s" begin="-10.6s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.6;1"/></rect>
-<rect x="0.2" y="0.8" width="0.4" height="0.3" fill="#ffd166"/>
+<rect x="0.2" y="0.2" width="0.4" height="0.3" fill="#ffd166"/>
+<rect x="0.2" y="0.8" width="0.4" height="0.3" fill="#ffc24b"/>
 </g>
 <path d="M300,606.3 275,618.8 300,590.8Z" fill="#383574"/>
 <path d="M300,606.3 325,618.8 300,590.8Z" fill="#2d2c68"/>
@@ -1001,31 +1001,31 @@ text{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe 
 <path d="M433.9,595.6 472.9,615.1 436.5,633.3 397.5,613.8Z" fill="#6a6a78"/>
 <g transform="matrix(26 13 0 28 397.5 613.8)">
 <rect x="0.1" y="0.1" width="0.2" height="0.3" fill="#2a3266"/>
-<rect x="0.6" y="0.1" width="0.2" height="0.3" fill="#2a3266"/>
+<rect x="0.6" y="0.1" width="0.2" height="0.3" fill="#ffd166"/>
 <rect x="1.1" y="0.1" width="0.2" height="0.3" fill="#ffe08a"/>
-<rect x="0.1" y="0.7" width="0.2" height="0.3" fill="#ffd166"><animate attributeName="fill" values="#ffd166;#2a3266;#ffd166" dur="18.9s" begin="-15.1s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.6;1"/></rect>
-<rect x="0.6" y="0.7" width="0.2" height="0.3" fill="#ffd166"/>
+<rect x="0.1" y="0.7" width="0.2" height="0.3" fill="#2a3266"/>
+<rect x="0.6" y="0.7" width="0.2" height="0.3" fill="#2a3266"/>
 <rect x="1.1" y="0.7" width="0.2" height="0.3" fill="#ffe08a"/>
-<rect x="0.1" y="1.3" width="0.2" height="0.3" fill="#ffc24b"/>
-<rect x="0.6" y="1.3" width="0.2" height="0.3" fill="#ffc24b"/>
-<rect x="1.1" y="1.3" width="0.2" height="0.3" fill="#ffc24b"/>
-<rect x="0.1" y="1.9" width="0.2" height="0.3" fill="#2a3266"><animate attributeName="fill" values="#ffd166;#2a3266;#ffd166" dur="20.1s" begin="-13.6s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.7;1"/></rect>
-<rect x="0.6" y="1.9" width="0.2" height="0.3" fill="#ffe08a"/>
-<rect x="1.1" y="1.9" width="0.2" height="0.3" fill="#2a3266"/>
-<rect x="0.1" y="2.5" width="0.2" height="0.3" fill="#ffc24b"/>
+<rect x="0.1" y="1.3" width="0.2" height="0.3" fill="#ffd166"><animate attributeName="fill" values="#ffd166;#2a3266;#ffd166" dur="18.9s" begin="-15.1s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.6;1"/></rect>
+<rect x="0.6" y="1.3" width="0.2" height="0.3" fill="#ffd166"/>
+<rect x="1.1" y="1.3" width="0.2" height="0.3" fill="#ffe08a"/>
+<rect x="0.1" y="1.9" width="0.2" height="0.3" fill="#ffc24b"/>
+<rect x="0.6" y="1.9" width="0.2" height="0.3" fill="#ffc24b"/>
+<rect x="1.1" y="1.9" width="0.2" height="0.3" fill="#ffc24b"/>
+<rect x="0.1" y="2.5" width="0.2" height="0.3" fill="#2a3266"><animate attributeName="fill" values="#ffd166;#2a3266;#ffd166" dur="20.1s" begin="-13.6s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.7;1"/></rect>
 <rect x="0.6" y="2.6" width="0.2" height="0.5" fill="#ffb347"/>
-<rect x="1.1" y="2.5" width="0.2" height="0.3" fill="#2a3266"/>
+<rect x="1.1" y="2.5" width="0.2" height="0.3" fill="#ffe08a"/>
 </g>
 <g transform="matrix(26 -13 0 28 436.5 633.3)">
 <rect x="0.2" y="0.1" width="0.3" height="0.3" fill="#2a3266"/>
-<rect x="0.9" y="0.1" width="0.3" height="0.3" fill="#ffe08a"/>
-<rect x="0.2" y="0.7" width="0.3" height="0.3" fill="#2a3266"><animate attributeName="fill" values="#ffd166;#2a3266;#ffd166" dur="18.3s" begin="-5.1s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.6;1"/></rect>
-<rect x="0.9" y="0.7" width="0.3" height="0.3" fill="#ffc24b"/>
-<rect x="0.2" y="1.3" width="0.3" height="0.3" fill="#ffd166"/>
-<rect x="0.9" y="1.3" width="0.3" height="0.3" fill="#ffd166"/>
-<rect x="0.2" y="1.9" width="0.3" height="0.3" fill="#ffd166"/>
-<rect x="0.9" y="1.9" width="0.3" height="0.3" fill="#2a3266"/>
-<rect x="0.2" y="2.5" width="0.3" height="0.3" fill="#ffe08a"/>
+<rect x="0.9" y="0.1" width="0.3" height="0.3" fill="#ffc24b"/>
+<rect x="0.2" y="0.7" width="0.3" height="0.3" fill="#2a3266"/>
+<rect x="0.9" y="0.7" width="0.3" height="0.3" fill="#2a3266"/>
+<rect x="0.2" y="1.3" width="0.3" height="0.3" fill="#ffe08a"/>
+<rect x="0.9" y="1.3" width="0.3" height="0.3" fill="#2a3266"><animate attributeName="fill" values="#ffd166;#2a3266;#ffd166" dur="18.3s" begin="-5.1s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.6;1"/></rect>
+<rect x="0.2" y="1.9" width="0.3" height="0.3" fill="#ffc24b"/>
+<rect x="0.9" y="1.9" width="0.3" height="0.3" fill="#ffd166"/>
+<rect x="0.2" y="2.5" width="0.3" height="0.3" fill="#ffd166"/>
 <rect x="0.9" y="2.5" width="0.3" height="0.3" fill="#ffd166"/>
 </g>
 <path d="M433.9,593 392.3,613.8 435.2,592Z" fill="#284275"/>
@@ -1038,7 +1038,7 @@ text{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe 
 <g transform="translate(435.2 588)"><g opacity="0"><path d="M5,0L-6,-4.5L-3,0L-6,4.5Z" fill="#ffffff"/><path d="M5,0L-3,0" stroke="#9fb3c8" stroke-width=".7"/><animateMotion path="M0,0 C30,-30 70,-20 110,-60" dur="6s" begin="0s" repeatCount="indefinite" rotate="auto"/><animate attributeName="opacity" values="0;1;1;0" dur="6s" begin="0s" repeatCount="indefinite" keyTimes="0;.08;.6;.8"/></g></g>
 <g transform="translate(435.2 588)"><g opacity="0"><path d="M5,0L-6,-4.5L-3,0L-6,4.5Z" fill="#ffffff"/><path d="M5,0L-3,0" stroke="#9fb3c8" stroke-width=".7"/><animateMotion path="M0,0 C30,-30 70,-20 110,-60" dur="6s" begin="-3s" repeatCount="indefinite" rotate="auto"/><animate attributeName="opacity" values="0;1;1;0" dur="6s" begin="-3s" repeatCount="indefinite" keyTimes="0;.08;.6;.8"/></g></g>
 <path d="M444.3,611.8V595.8" stroke="#2d2d3e" stroke-width="1.4"/>
-<path d="M444.3,596.8 q6,-2 12,1 q-6,3 -12,6z" fill="#233e74"><animate attributeName="d" values="M444.3,596.8 q6,-2 12,1 q-6,3 -12,6z;M444.3,596.8 q6,3 12,1 q-6,1 -12,6z;M444.3,596.8 q6,-2 12,1 q-6,3 -12,6z" dur="1.6s" begin="-0.1s" repeatCount="indefinite"/></path>
+<path d="M444.3,596.8 q6,-2 12,1 q-6,3 -12,6z" fill="#233e74"><animate attributeName="d" values="M444.3,596.8 q6,-2 12,1 q-6,3 -12,6z;M444.3,596.8 q6,3 12,1 q-6,1 -12,6z;M444.3,596.8 q6,-2 12,1 q-6,3 -12,6z" dur="1.6s" begin="-0.4s" repeatCount="indefinite"/></path>
 <path d="M153.9,615.5 162.2,619.7 162.2,598.7 153.9,594.5Z" fill="#4e303c"/>
 <path d="M162.2,619.7 170.5,615.5 170.5,594.5 162.2,598.7Z" fill="#412a37"/>
 <path d="M162.2,590.4 170.5,594.5 162.2,598.7 153.9,594.5Z" fill="#573844"/>
@@ -1053,14 +1053,14 @@ text{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe 
 <path d="M162.2,619.7 170.5,615.5 170.5,594.5 162.2,598.7Z" fill="#412a37"/>
 <path d="M162.2,590.4 170.5,594.5 162.2,598.7 153.9,594.5Z" fill="#573844"/>
 <g transform="matrix(26 -13 0 28 167.4 645.2)">
-<rect x="0.2" y="0.2" width="0.3" height="0.3" fill="#ffd166"/>
-<rect x="0.9" y="0.2" width="0.3" height="0.3" fill="#2a3266"/>
-<rect x="0.2" y="0.8" width="0.3" height="0.3" fill="#ffc24b"/>
-<rect x="0.9" y="0.8" width="0.3" height="0.3" fill="#ffe08a"/>
-<rect x="0.2" y="1.4" width="0.3" height="0.3" fill="#ffc24b"/>
-<rect x="0.9" y="1.4" width="0.3" height="0.3" fill="#ffd166"/>
-<rect x="0.2" y="2.1" width="0.3" height="0.3" fill="#ffd166"><animate attributeName="fill" values="#ffd166;#2a3266;#ffd166" dur="19.5s" begin="-10.4s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.6;1"/></rect>
-<rect x="0.9" y="2.1" width="0.3" height="0.3" fill="#2a3266"/>
+<rect x="0.2" y="0.2" width="0.3" height="0.3" fill="#2a3266"/>
+<rect x="0.9" y="0.2" width="0.3" height="0.3" fill="#ffe08a"/>
+<rect x="0.2" y="0.8" width="0.3" height="0.3" fill="#ffd166"/>
+<rect x="0.9" y="0.8" width="0.3" height="0.3" fill="#ffd166"/>
+<rect x="0.2" y="1.4" width="0.3" height="0.3" fill="#2a3266"/>
+<rect x="0.9" y="1.4" width="0.3" height="0.3" fill="#ffc24b"/>
+<rect x="0.2" y="2.1" width="0.3" height="0.3" fill="#ffe08a"/>
+<rect x="0.9" y="2.1" width="0.3" height="0.3" fill="#ffc24b"/>
 </g>
 <g transform="matrix(26 13 0 28 125.8 624.4)">
 <rect x="0.1" y="2.2" width="0.3" height="0.5" fill="#ffb347"/>
@@ -1073,7 +1073,7 @@ text{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe 
 <rect x="1.2" y="0.2" width="0.2" height="0.1" rx="0" fill="#ff5c5c"><animate attributeName="opacity" values="1;.2;1" dur="1.2s" begin="0s" repeatCount="indefinite"/></rect>
 </g>
 <ellipse cx="231.1" cy="700.6" rx="7.6" ry="3.8" fill="#000" opacity=".12"/>
-<g><animateTransform attributeName="transform" type="rotate" values="-2.5 231.1 700.6;2.5 231.1 700.6;-2.5 231.1 700.6" dur="5.5s" begin="-4.7s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/>
+<g><animateTransform attributeName="transform" type="rotate" values="-2.5 231.1 700.6;2.5 231.1 700.6;-2.5 231.1 700.6" dur="7s" begin="-0.8s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/>
 <rect x="229.6" y="691.3" width="3.1" height="9.3" fill="#3f3239"/>
 <path d="M221.8,693 231.1,681.9 231.1,694.7Z" fill="#264a48"/>
 <path d="M231.1,681.9 240.4,693 231.1,694.7Z" fill="#1d3c3d"/>
@@ -1083,7 +1083,7 @@ text{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe 
 <path d="M231.1,671.8 236.6,680.2 231.1,682Z" fill="#1d3c3d"/>
 </g>
 <ellipse cx="368.9" cy="700.6" rx="7.6" ry="3.8" fill="#000" opacity=".12"/>
-<g><animateTransform attributeName="transform" type="rotate" values="-2.5 368.9 700.6;2.5 368.9 700.6;-2.5 368.9 700.6" dur="6.1s" begin="-4.7s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/>
+<g><animateTransform attributeName="transform" type="rotate" values="-2.5 368.9 700.6;2.5 368.9 700.6;-2.5 368.9 700.6" dur="5.7s" begin="-3.2s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/>
 <rect x="367.4" y="691.3" width="3.1" height="9.3" fill="#3f3239"/>
 <path d="M359.5,693 368.9,681.9 368.9,694.7Z" fill="#264a48"/>
 <path d="M368.9,681.9 378.2,693 368.9,694.7Z" fill="#1d3c3d"/>
@@ -1093,95 +1093,95 @@ text{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe 
 <path d="M368.9,671.8 374.4,680.2 368.9,682Z" fill="#1d3c3d"/>
 </g>
 <ellipse cx="300" cy="733.8" rx="7.6" ry="3.8" fill="#000" opacity=".12"/>
-<g><animateTransform attributeName="transform" type="rotate" values="-2.5 300 733.8;2.5 300 733.8;-2.5 300 733.8" dur="6.4s" begin="-4.5s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/>
+<g><animateTransform attributeName="transform" type="rotate" values="-2.5 300 733.8;2.5 300 733.8;-2.5 300 733.8" dur="6.1s" begin="-2.8s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/>
 <rect x="298.5" y="724.4" width="3.1" height="9.3" fill="#3f3239"/>
-<circle cx="295.8" cy="721" r="6" fill="#33584b"/>
-<path d="M289.8,721A6,6 0 0 0 301.7,721A6,3.3 0 0 1 289.8,721Z" fill="#2b4a43"/>
-<circle cx="304.2" cy="720.2" r="6.4" fill="#305248"/>
-<path d="M297.9,720.2A6.4,6.4 0 0 0 310.6,720.2A6.4,3.5 0 0 1 297.9,720.2Z" fill="#294540"/>
-<circle cx="300" cy="715.1" r="7.2" fill="#33584b"/>
-<path d="M292.8,715.1A7.2,7.2 0 0 0 307.2,715.1A7.2,4 0 0 1 292.8,715.1Z" fill="#2b4a43"/>
+<circle cx="295.8" cy="721" r="6" fill="#2c5247"/>
+<path d="M289.8,721A6,6 0 0 0 301.7,721A6,3.3 0 0 1 289.8,721Z" fill="#25443f"/>
+<circle cx="304.2" cy="720.2" r="6.4" fill="#294d44"/>
+<path d="M297.9,720.2A6.4,6.4 0 0 0 310.6,720.2A6.4,3.5 0 0 1 297.9,720.2Z" fill="#23403d"/>
+<circle cx="300" cy="715.1" r="7.2" fill="#2c5247"/>
+<path d="M292.8,715.1A7.2,7.2 0 0 0 307.2,715.1A7.2,4 0 0 1 292.8,715.1Z" fill="#25443f"/>
 <ellipse cx="297.3" cy="712.1" rx="2" ry="1.3" fill="#fff" opacity=".45" transform="rotate(-35 297.3 712.1)"/>
 </g>
-<path d="M338.9,733.8A28.7,14.3 0 0 0 367.6,748.1L367.6,742A28.7,14.3 0 0 1 338.9,727.6Z" fill="#534445"/>
-<path d="M367.6,748.1A28.7,14.3 0 0 0 396.3,733.8L396.3,727.6A28.7,14.3 0 0 1 367.6,742Z" fill="#42373d"/>
-<ellipse cx="367.6" cy="727.6" rx="28.7" ry="14.3" fill="#63595c"/>
-<ellipse cx="367.6" cy="727.6" rx="12" ry="6" fill="#000" opacity=".12"><animate attributeName="rx" values="12;10;12" dur="5s" begin="0s" repeatCount="indefinite"/></ellipse>
-<path d="M358.1,729.6L345.6,670" stroke="#3f3843" stroke-width=".9"><animate attributeName="d" values="M358.1,729.6L345.6,670;M358.1,729.6L345.6,666;M358.1,729.6L345.6,670" dur="4.2s" begin="-1.3s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/></path>
-<path d="M366.1,729.6L345.6,670" stroke="#3f3843" stroke-width=".9"><animate attributeName="d" values="M366.1,729.6L345.6,670;M366.1,729.6L345.6,666;M366.1,729.6L345.6,670" dur="4.2s" begin="-1.3s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/></path>
+<path d="M367.6,720.8 367.6,651.7" stroke="#353e5a" stroke-width="2.2"/>
+<path d="M393.6,733.8 387.4,661.6" stroke="#353e5a" stroke-width="2.2"/>
+<path d="M341.6,733.8 347.8,661.6" stroke="#353e5a" stroke-width="2.2"/>
+<path d="M367.6,746.8 367.6,671.5" stroke="#353e5a" stroke-width="2.2"/>
+<path d="M341.6,733.8 367.6,705.5M367.6,746.8 344.7,694.1" stroke="#353e5a" stroke-width="1" opacity=".8"/>
+<path d="M351.4,661.6A16.2,8.1 0 0 0 367.6,669.7L367.6,666.3A16.2,8.1 0 0 1 351.4,658.2Z" fill="#2a324d"/>
+<path d="M367.6,669.7A16.2,8.1 0 0 0 383.8,661.6L383.8,658.2A16.2,8.1 0 0 1 367.6,666.3Z" fill="#222943"/>
+<ellipse cx="367.6" cy="658.2" rx="16.2" ry="8.1" fill="#333a56"/>
+<path d="M347,658.2A20.6,10.3 0 0 0 367.6,668.5L367.6,644.6A28.7,14.3 0 0 1 338.9,630.2Z" fill="#41516e"/>
+<path d="M367.6,668.5A20.6,10.3 0 0 0 388.2,658.2L396.3,630.2A28.7,14.3 0 0 1 367.6,644.6Z" fill="#34415c"/>
+<path d="M344.6,649.8A23,11.5 0 0 0 390.6,649.8" stroke="#354563" stroke-width="1.6" fill="none"/>
+<path d="M341.3,638.6A26.3,13.1 0 0 0 393.9,638.6" stroke="#354563" stroke-width="1.6" fill="none"/>
+<ellipse cx="367.6" cy="630.2" rx="28.7" ry="14.3" fill="#2f4160"/>
+<ellipse cx="367.6" cy="631.7" rx="25.7" ry="12.3" fill="#22487d"/>
+<ellipse cx="361.6" cy="630.2" rx="6" ry="1.6" fill="#fff" opacity=".6"><animate attributeName="cx" values="359.6;373.6;359.6" dur="4s" begin="0s" repeatCount="indefinite"/></ellipse>
+<path d="M338.9,630.2C338.9,586.2 396.3,586.2 396.3,630.2" stroke="#282e49" stroke-width="2.2" fill="none"/>
+<text x="367.6" y="649.2" class="t-tag" text-anchor="middle" fill="#1d2a49">S3</text>
+<path d="M0,-4q3,4 0,6q-3,-2 0,-6z" fill="#5ab8ff" opacity="0" transform="translate(367.6 0)"><animateTransform attributeName="transform" type="translate" values="367.6 669.4;367.6 741.6" dur="2.6s" repeatCount="indefinite" calcMode="spline" keySplines=".5 0 1 1"/><animate attributeName="opacity" values="0;1;1;0" dur="2.6s" begin="0s" repeatCount="indefinite" keyTimes="0;.1;.9;1"/></path>
+<path d="M367.6,640.2V624.2" stroke="#2d2d3e" stroke-width="1.4"/>
+<path d="M367.6,625.2 q6,-2 12,1 q-6,3 -12,6z" fill="#125361"><animate attributeName="d" values="M367.6,625.2 q6,-2 12,1 q-6,3 -12,6z;M367.6,625.2 q6,3 12,1 q-6,1 -12,6z;M367.6,625.2 q6,-2 12,1 q-6,3 -12,6z" dur="1.6s" begin="-0.5s" repeatCount="indefinite"/></path>
+<path d="M203.7,733.8A28.7,14.3 0 0 0 232.4,748.1L232.4,742A28.7,14.3 0 0 1 203.7,727.6Z" fill="#534445"/>
+<path d="M232.4,748.1A28.7,14.3 0 0 0 261.1,733.8L261.1,727.6A28.7,14.3 0 0 1 232.4,742Z" fill="#42373d"/>
+<ellipse cx="232.4" cy="727.6" rx="28.7" ry="14.3" fill="#63595c"/>
+<ellipse cx="232.4" cy="727.6" rx="12" ry="6" fill="#000" opacity=".12"><animate attributeName="rx" values="12;10;12" dur="5s" begin="0s" repeatCount="indefinite"/></ellipse>
+<path d="M222.9,729.6L210.4,670" stroke="#3f3843" stroke-width=".9"><animate attributeName="d" values="M222.9,729.6L210.4,670;M222.9,729.6L210.4,666;M222.9,729.6L210.4,670" dur="4.2s" begin="-1.3s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/></path>
+<path d="M230.9,729.6L210.4,670" stroke="#3f3843" stroke-width=".9"><animate attributeName="d" values="M230.9,729.6L210.4,670;M230.9,729.6L210.4,666;M230.9,729.6L210.4,670" dur="4.2s" begin="-1.3s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/></path>
 <g><animateTransform attributeName="transform" type="translate" values="0 0;0 -4;0 0" dur="4.2s" begin="-1.3s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/>
-<circle cx="345.6" cy="652" r="9" fill="#6a4465"/>
-<path d="M336.6,652A9,9 0 0 0 354.6,652A9,5 0 0 1 336.6,652Z" fill="#573958"/>
-<ellipse cx="342.2" cy="648.3" rx="2.5" ry="1.6" fill="#fff" opacity=".45" transform="rotate(-35 342.2 648.3)"/>
-<path d="M341.8,643.8Q340.2,652 342.7,660.1M349.4,643.8Q351,652 348.5,660.1" stroke="#593b59" stroke-width="1" fill="none"/>
-<path d="M342.5,660.1L342.6,667M348.8,660.1L348.6,667" stroke="#3f3843" stroke-width=".8"/>
-<rect x="341.6" y="666" width="8" height="6" rx="1.5" fill="#4d3c3f"/>
-<path d="M340.6,650l2.5,-2 2.5,2M346.6,649.5h4M341.6,654.5q4,3.5 8,0" stroke="#27202c" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+<circle cx="210.4" cy="652" r="9" fill="#6a4465"/>
+<path d="M201.4,652A9,9 0 0 0 219.4,652A9,5 0 0 1 201.4,652Z" fill="#573958"/>
+<ellipse cx="207" cy="648.3" rx="2.5" ry="1.6" fill="#fff" opacity=".45" transform="rotate(-35 207 648.3)"/>
+<path d="M206.6,643.8Q205,652 207.5,660.1M214.2,643.8Q215.8,652 213.3,660.1" stroke="#593b59" stroke-width="1" fill="none"/>
+<path d="M207.2,660.1L207.4,667M213.5,660.1L213.4,667" stroke="#3f3843" stroke-width=".8"/>
+<rect x="206.4" y="666" width="8" height="6" rx="1.5" fill="#4d3c3f"/>
+<path d="M205.4,650l2.5,-2 2.5,2M211.4,649.5h4M206.4,654.5q4,3.5 8,0" stroke="#27202c" stroke-width="1.4" fill="none" stroke-linecap="round"/>
 </g>
-<path d="M368.9,729.6L388.6,662.5" stroke="#3f3843" stroke-width=".9"><animate attributeName="d" values="M368.9,729.6L388.6,662.5;M368.9,729.6L388.6,657.5;M368.9,729.6L388.6,662.5" dur="3.8s" begin="-2.1s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/></path>
-<path d="M376.9,729.6L388.6,662.5" stroke="#3f3843" stroke-width=".9"><animate attributeName="d" values="M376.9,729.6L388.6,662.5;M376.9,729.6L388.6,657.5;M376.9,729.6L388.6,662.5" dur="3.8s" begin="-2.1s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/></path>
+<path d="M233.6,729.6L253.4,662.5" stroke="#3f3843" stroke-width=".9"><animate attributeName="d" values="M233.6,729.6L253.4,662.5;M233.6,729.6L253.4,657.5;M233.6,729.6L253.4,662.5" dur="3.8s" begin="-2.1s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/></path>
+<path d="M241.6,729.6L253.4,662.5" stroke="#3f3843" stroke-width=".9"><animate attributeName="d" values="M241.6,729.6L253.4,662.5;M241.6,729.6L253.4,657.5;M241.6,729.6L253.4,662.5" dur="3.8s" begin="-2.1s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/></path>
 <g><animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="3.8s" begin="-2.1s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/>
-<circle cx="388.6" cy="644" r="9.5" fill="#3b5f82"/>
-<path d="M379.1,644A9.5,9.5 0 0 0 398.1,644A9.5,5.2 0 0 1 379.1,644Z" fill="#314e6f"/>
-<ellipse cx="385" cy="640.1" rx="2.7" ry="1.7" fill="#fff" opacity=".45" transform="rotate(-35 385 640.1)"/>
-<path d="M384.6,635.3Q382.9,644 385.6,652.6M392.6,635.3Q394.3,644 391.6,652.6" stroke="#325071" stroke-width="1" fill="none"/>
-<path d="M385.3,652.6L385.6,659.5M391.9,652.6L391.6,659.5" stroke="#3f3843" stroke-width=".8"/>
-<rect x="384.6" y="658.5" width="8" height="6" rx="1.5" fill="#4d3c3f"/>
-<path d="M385.1,644l-1.6,-1.6a1,1 0 0 1 1.6,-1.2a1,1 0 0 1 1.6,1.2z" fill="#e8364f"/>
-<path d="M392.1,644l-1.6,-1.6a1,1 0 0 1 1.6,-1.2a1,1 0 0 1 1.6,1.2z" fill="#e8364f"/>
-<path d="M385.6,647q3,2.5 6,0" stroke="#27202c" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+<circle cx="253.4" cy="644" r="9.5" fill="#3b5f82"/>
+<path d="M243.9,644A9.5,9.5 0 0 0 262.9,644A9.5,5.2 0 0 1 243.9,644Z" fill="#314e6f"/>
+<ellipse cx="249.8" cy="640.1" rx="2.7" ry="1.7" fill="#fff" opacity=".45" transform="rotate(-35 249.8 640.1)"/>
+<path d="M249.4,635.3Q247.7,644 250.4,652.6M257.4,635.3Q259.1,644 256.4,652.6" stroke="#325071" stroke-width="1" fill="none"/>
+<path d="M250.1,652.6L250.4,659.5M256.7,652.6L256.4,659.5" stroke="#3f3843" stroke-width=".8"/>
+<rect x="249.4" y="658.5" width="8" height="6" rx="1.5" fill="#4d3c3f"/>
+<path d="M249.9,644l-1.6,-1.6a1,1 0 0 1 1.6,-1.2a1,1 0 0 1 1.6,1.2z" fill="#e8364f"/>
+<path d="M256.9,644l-1.6,-1.6a1,1 0 0 1 1.6,-1.2a1,1 0 0 1 1.6,1.2z" fill="#e8364f"/>
+<path d="M250.4,647q3,2.5 6,0" stroke="#27202c" stroke-width="1.2" fill="none" stroke-linecap="round"/>
 </g>
-<path d="M363.6,729.6L367.6,662" stroke="#3f3843" stroke-width=".9"><animate attributeName="d" values="M363.6,729.6L367.6,662;M363.6,729.6L367.6,656;M363.6,729.6L367.6,662" dur="5s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/></path>
-<path d="M371.6,729.6L367.6,662" stroke="#3f3843" stroke-width=".9"><animate attributeName="d" values="M371.6,729.6L367.6,662;M371.6,729.6L367.6,656;M371.6,729.6L367.6,662" dur="5s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/></path>
+<path d="M228.4,729.6L232.4,662" stroke="#3f3843" stroke-width=".9"><animate attributeName="d" values="M228.4,729.6L232.4,662;M228.4,729.6L232.4,656;M228.4,729.6L232.4,662" dur="5s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/></path>
+<path d="M236.4,729.6L232.4,662" stroke="#3f3843" stroke-width=".9"><animate attributeName="d" values="M236.4,729.6L232.4,662;M236.4,729.6L232.4,656;M236.4,729.6L232.4,662" dur="5s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/></path>
 <g><animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="5s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/>
-<circle cx="367.6" cy="632" r="21" fill="#6a5d3b"/>
-<path d="M346.6,632A21,21 0 0 0 388.6,632A21,11.6 0 0 1 346.6,632Z" fill="#574d36"/>
-<ellipse cx="359.6" cy="623.2" rx="5.9" ry="3.8" fill="#fff" opacity=".45" transform="rotate(-35 359.6 623.2)"/>
-<path d="M358.8,612.7Q355,632 360.9,650.9M376.4,612.7Q380.2,632 374.3,650.9" stroke="#594f36" stroke-width="1" fill="none"/>
-<path d="M360.2,650.9L364.6,659M375,650.9L370.6,659" stroke="#3f3843" stroke-width=".8"/>
-<rect x="363.6" y="658" width="8" height="6" rx="1.5" fill="#4d3c3f"/>
-<ellipse cx="360.6" cy="628" rx="2.4" ry="3.2" fill="#27202c"><animate attributeName="ry" values="3.2;3.2;0.4;3.2" dur="4.6s" begin="0s" repeatCount="indefinite" keyTimes="0;.9;.94;1"/></ellipse>
-<ellipse cx="374.6" cy="628" rx="2.4" ry="3.2" fill="#27202c"><animate attributeName="ry" values="3.2;3.2;0.4;3.2" dur="4.6s" begin="0s" repeatCount="indefinite" keyTimes="0;.9;.94;1"/></ellipse>
-<path d="M359.6,635Q367.6,645 375.6,635" stroke="#27202c" stroke-width="2.4" fill="none" stroke-linecap="round"/>
-<circle cx="355.6" cy="636" r="3" fill="#ff7a8a" opacity=".55"/>
-<circle cx="379.6" cy="636" r="3" fill="#ff7a8a" opacity=".55"/>
+<circle cx="232.4" cy="632" r="21" fill="#6a5d3b"/>
+<path d="M211.4,632A21,21 0 0 0 253.4,632A21,11.6 0 0 1 211.4,632Z" fill="#574d36"/>
+<ellipse cx="224.4" cy="623.2" rx="5.9" ry="3.8" fill="#fff" opacity=".45" transform="rotate(-35 224.4 623.2)"/>
+<path d="M223.6,612.7Q219.8,632 225.7,650.9M241.2,612.7Q245,632 239.1,650.9" stroke="#594f36" stroke-width="1" fill="none"/>
+<path d="M225,650.9L229.4,659M239.7,650.9L235.4,659" stroke="#3f3843" stroke-width=".8"/>
+<rect x="228.4" y="658" width="8" height="6" rx="1.5" fill="#4d3c3f"/>
+<ellipse cx="225.4" cy="628" rx="2.4" ry="3.2" fill="#27202c"><animate attributeName="ry" values="3.2;3.2;0.4;3.2" dur="4.6s" begin="0s" repeatCount="indefinite" keyTimes="0;.9;.94;1"/></ellipse>
+<ellipse cx="239.4" cy="628" rx="2.4" ry="3.2" fill="#27202c"><animate attributeName="ry" values="3.2;3.2;0.4;3.2" dur="4.6s" begin="0s" repeatCount="indefinite" keyTimes="0;.9;.94;1"/></ellipse>
+<path d="M224.4,635Q232.4,645 240.4,635" stroke="#27202c" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+<circle cx="220.4" cy="636" r="3" fill="#ff7a8a" opacity=".55"/>
+<circle cx="244.4" cy="636" r="3" fill="#ff7a8a" opacity=".55"/>
 </g>
-<path d="M232.4,720.8 232.4,654.5" stroke="#353e5a" stroke-width="2.2"/>
-<path d="M258.4,733.8 252.2,664.4" stroke="#353e5a" stroke-width="2.2"/>
-<path d="M206.4,733.8 212.6,664.4" stroke="#353e5a" stroke-width="2.2"/>
-<path d="M232.4,746.8 232.4,674.2" stroke="#353e5a" stroke-width="2.2"/>
-<path d="M206.4,733.8 232.4,707M232.4,746.8 209.5,695.6" stroke="#353e5a" stroke-width="1" opacity=".8"/>
-<path d="M216.2,664.4A16.2,8.1 0 0 0 232.4,672.4L232.4,669.1A16.2,8.1 0 0 1 216.2,661Z" fill="#2a324d"/>
-<path d="M232.4,672.4A16.2,8.1 0 0 0 248.6,664.4L248.6,661A16.2,8.1 0 0 1 232.4,669.1Z" fill="#222943"/>
-<ellipse cx="232.4" cy="661" rx="16.2" ry="8.1" fill="#333a56"/>
-<path d="M211.8,661A20.6,10.3 0 0 0 232.4,671.3L232.4,647.3A28.7,14.3 0 0 1 203.7,633Z" fill="#41516e"/>
-<path d="M232.4,671.3A20.6,10.3 0 0 0 253,661L261.1,633A28.7,14.3 0 0 1 232.4,647.3Z" fill="#34415c"/>
-<path d="M209.4,652.6A23,11.5 0 0 0 255.4,652.6" stroke="#354563" stroke-width="1.6" fill="none"/>
-<path d="M206.1,641.4A26.3,13.1 0 0 0 258.7,641.4" stroke="#354563" stroke-width="1.6" fill="none"/>
-<ellipse cx="232.4" cy="633" rx="28.7" ry="14.3" fill="#2f4160"/>
-<ellipse cx="232.4" cy="634.5" rx="25.7" ry="12.3" fill="#22487d"/>
-<ellipse cx="226.4" cy="633" rx="6" ry="1.6" fill="#fff" opacity=".6"><animate attributeName="cx" values="224.4;238.4;224.4" dur="4s" begin="0s" repeatCount="indefinite"/></ellipse>
-<path d="M203.7,633C203.7,589 261.1,589 261.1,633" stroke="#282e49" stroke-width="2.2" fill="none"/>
-<text x="232.4" y="652" class="t-tag" text-anchor="middle" fill="#1d2a49">S3</text>
-<path d="M0,-4q3,4 0,6q-3,-2 0,-6z" fill="#5ab8ff" opacity="0" transform="translate(232.4 0)"><animateTransform attributeName="transform" type="translate" values="232.4 672.2;232.4 741.6" dur="2.6s" repeatCount="indefinite" calcMode="spline" keySplines=".5 0 1 1"/><animate attributeName="opacity" values="0;1;1;0" dur="2.6s" begin="0s" repeatCount="indefinite" keyTimes="0;.1;.9;1"/></path>
-<path d="M232.4,643V627" stroke="#2d2d3e" stroke-width="1.4"/>
-<path d="M232.4,628 q6,-2 12,1 q-6,3 -12,6z" fill="#125361"><animate attributeName="d" values="M232.4,628 q6,-2 12,1 q-6,3 -12,6z;M232.4,628 q6,3 12,1 q-6,1 -12,6z;M232.4,628 q6,-2 12,1 q-6,3 -12,6z" dur="1.6s" begin="-0.6s" repeatCount="indefinite"/></path>
 <path d="M263.6,767.6 300,785.8 300,750.8 263.6,732.6Z" fill="#5a5c77"/>
 <path d="M300,785.8 336.4,767.6 336.4,732.6 300,750.8Z" fill="#4a4d66"/>
 <path d="M300,714.4 336.4,732.6 300,750.8 263.6,732.6Z" fill="#636580"/>
 <g transform="matrix(26 13 0 28 263.6 732.6)">
-<rect x="0.1" y="0.1" width="0.2" height="0.2" fill="#2a3266"/>
-<rect x="0.6" y="0.1" width="0.2" height="0.2" fill="#ffc24b"/>
-<rect x="1" y="0.1" width="0.2" height="0.2" fill="#ffe08a"/>
-<rect x="0.1" y="0.7" width="0.2" height="0.2" fill="#ffe08a"/>
+<rect x="0.1" y="0.1" width="0.2" height="0.2" fill="#ffd166"/>
+<rect x="0.6" y="0.1" width="0.2" height="0.2" fill="#ffd166"><animate attributeName="fill" values="#ffd166;#2a3266;#ffd166" dur="19.5s" begin="-10.4s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.6;1"/></rect>
+<rect x="1" y="0.1" width="0.2" height="0.2" fill="#2a3266"/>
+<rect x="0.1" y="0.7" width="0.2" height="0.2" fill="#2a3266"/>
 <rect x="0.6" y="0.8" width="0.2" height="0.5" fill="#ffb347"/>
-<rect x="1" y="0.7" width="0.2" height="0.2" fill="#ffe08a"/>
+<rect x="1" y="0.7" width="0.2" height="0.2" fill="#ffc24b"/>
 </g>
 <g transform="matrix(26 -13 0 28 300 750.8)">
-<rect x="0.2" y="0.1" width="0.3" height="0.2" fill="#2a3266"/>
-<rect x="0.9" y="0.1" width="0.3" height="0.2" fill="#ffc24b"/>
-<rect x="0.2" y="0.7" width="0.3" height="0.2" fill="#ffd166"/>
-<rect x="0.9" y="0.7" width="0.3" height="0.2" fill="#2a3266"><animate attributeName="fill" values="#ffd166;#2a3266;#ffd166" dur="21s" begin="-15.9s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.7;1"/></rect>
+<rect x="0.2" y="0.1" width="0.3" height="0.2" fill="#ffe08a"/>
+<rect x="0.9" y="0.1" width="0.3" height="0.2" fill="#ffe08a"/>
+<rect x="0.2" y="0.7" width="0.3" height="0.2" fill="#ffe08a"/>
+<rect x="0.9" y="0.7" width="0.3" height="0.2" fill="#2a3266"/>
 </g>
 <path d="M268.8,732.6 300,748.2 300,745.4 268.8,729.8Z" fill="#3f3f66"/>
 <path d="M300,748.2 331.2,732.6 331.2,729.8 300,745.4Z" fill="#353559"/>
@@ -1199,18 +1199,18 @@ text{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe 
 <g opacity="0"><rect x="-10" y="-15" width="20" height="13" rx="4" fill="#6a4e40"/><rect x="-10" y="-6" width="20" height="2.2" fill="#6a6977"/><rect x="-8" y="-12.5" width="16" height="5" rx="1.5" fill="#ffe08a"/><path d="M-3,-12.5v5M3,-12.5v5" stroke="#6a4e40" stroke-width="1"/><rect x="-6" y="-17" width="12" height="2.4" rx="1" fill="#212642"/><circle cx="-5.5" cy="-1.6" r="1.8" fill="#212642"/><circle cx="5.5" cy="-1.6" r="1.8" fill="#212642"/><animateMotion path="M91.9,700 92,698.7 92.1,697.4 92.4,696.1 92.7,694.8 93.2,693.5 93.8,692.2 94.5,690.8 95.3,689.5 96.2,688.2 97.2,686.8 98.3,685.4 99.6,684 101,682.6 102.5,681.2 104.1,679.7 105.9,678.3 107.9,676.7 110,675.2 112.3,673.6 114.8,671.9 117.5,670.1 120.5,668.3 123.7,666.4 127.3,664.4 131.2,662.2 135.7,659.7 140.9,657 147.2,653.7 155.6,649.5 177.3,638.6 199,627.8 207.5,623.6 214,620.5 219.5,617.9 224.3,615.6 228.7,613.6 232.8,611.9 236.7,610.2 240.3,608.8 243.8,607.4 247.1,606.2 250.3,605 253.5,604 256.5,603 259.5,602.1 262.4,601.2 265.3,600.5 268.1,599.8 270.9,599.2 273.6,598.6 276.3,598.1 279,597.6 281.7,597.2 284.3,596.9 287,596.6 289.6,596.4 292.2,596.2 294.8,596.1 297.4,596 300,596 302.6,596 305.2,596.1 307.8,596.2 310.4,596.4 313,596.6 315.7,596.9 318.3,597.2 321,597.6 323.7,598.1 326.4,598.6 329.1,599.2 331.9,599.8 334.7,600.5 337.6,601.2 340.5,602.1 343.5,603 346.5,604 349.7,605 352.9,606.2 356.2,607.4 359.7,608.8 363.3,610.2 367.2,611.9 371.3,613.6 375.7,615.6 380.5,617.9 386,620.5 392.5,623.6 401,627.8 422.7,638.6 444.4,649.5 452.8,653.7 459.1,657 464.3,659.7 468.8,662.2 472.7,664.4 476.3,666.4 479.5,668.3 482.5,670.1 485.2,671.9 487.7,673.6 490,675.2 492.1,676.7 494.1,678.3 495.9,679.7 497.5,681.2 499,682.6 500.4,684 501.7,685.4 502.8,686.8 503.8,688.2 504.7,689.5 505.5,690.8 506.2,692.2 506.8,693.5 507.3,694.8 507.6,696.1 507.9,697.4 508,698.7 508.1,700 508,701.3 507.9,702.6 507.6,703.9 507.3,705.2 506.8,706.5 506.2,707.8 505.5,709.2 504.7,710.5 503.8,711.8 502.8,713.2 501.7,714.6 500.4,716 499,717.4 497.5,718.8 495.9,720.3 494.1,721.7 492.1,723.3 490,724.8 487.7,726.4 485.2,728.1 482.5,729.9 479.5,731.7 476.3,733.6 472.7,735.6 468.8,737.8 464.3,740.3 459.1,743 452.8,746.3 444.4,750.5 422.7,761.4 401,772.2 392.5,776.4 386,779.5 380.5,782.1 375.7,784.4 371.3,786.4 367.2,788.1 363.3,789.8 359.7,791.2 356.2,792.6 352.9,793.8 349.7,795 346.5,796 343.5,797 340.5,797.9 337.6,798.8 334.7,799.5 331.9,800.2 329.1,800.8 326.4,801.4 323.7,801.9 321,802.4 318.3,802.8 315.7,803.1 313,803.4 310.4,803.6 307.8,803.8 305.2,803.9 302.6,804 300,804 297.4,804 294.8,803.9 292.2,803.8 289.6,803.6 287,803.4 284.3,803.1 281.7,802.8 279,802.4 276.3,801.9 273.6,801.4 270.9,800.8 268.1,800.2 265.3,799.5 262.4,798.8 259.5,797.9 256.5,797 253.5,796 250.3,795 247.1,793.8 243.8,792.6 240.3,791.2 236.7,789.8 232.8,788.1 228.7,786.4 224.3,784.4 219.5,782.1 214,779.5 207.5,776.4 199,772.2 177.3,761.4 155.6,750.5 147.2,746.3 140.9,743 135.7,740.3 131.2,737.8 127.3,735.6 123.7,733.6 120.5,731.7 117.5,729.9 114.8,728.1 112.3,726.4 110,724.8 107.9,723.3 105.9,721.7 104.1,720.3 102.5,718.8 101,717.4 99.6,716 98.3,714.6 97.2,713.2 96.2,711.8 95.3,710.5 94.5,709.2 93.8,707.8 93.2,706.5 92.7,705.2 92.4,703.9 92.1,702.6 92,701.3Z" dur="30s" begin="0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1" dur="30s" begin="0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.5000"/></g>
 <g opacity="0"><rect x="-10" y="-15" width="20" height="13" rx="4" fill="#6a4e40"/><rect x="-10" y="-6" width="20" height="2.2" fill="#6a6977"/><rect x="-8" y="-12.5" width="16" height="5" rx="1.5" fill="#ffe08a"/><path d="M-3,-12.5v5M3,-12.5v5" stroke="#6a4e40" stroke-width="1"/><rect x="-6" y="-17" width="12" height="2.4" rx="1" fill="#212642"/><circle cx="-5.5" cy="-1.6" r="1.8" fill="#212642"/><circle cx="5.5" cy="-1.6" r="1.8" fill="#212642"/><animateMotion path="M91.9,700 92,698.7 92.1,697.4 92.4,696.1 92.7,694.8 93.2,693.5 93.8,692.2 94.5,690.8 95.3,689.5 96.2,688.2 97.2,686.8 98.3,685.4 99.6,684 101,682.6 102.5,681.2 104.1,679.7 105.9,678.3 107.9,676.7 110,675.2 112.3,673.6 114.8,671.9 117.5,670.1 120.5,668.3 123.7,666.4 127.3,664.4 131.2,662.2 135.7,659.7 140.9,657 147.2,653.7 155.6,649.5 177.3,638.6 199,627.8 207.5,623.6 214,620.5 219.5,617.9 224.3,615.6 228.7,613.6 232.8,611.9 236.7,610.2 240.3,608.8 243.8,607.4 247.1,606.2 250.3,605 253.5,604 256.5,603 259.5,602.1 262.4,601.2 265.3,600.5 268.1,599.8 270.9,599.2 273.6,598.6 276.3,598.1 279,597.6 281.7,597.2 284.3,596.9 287,596.6 289.6,596.4 292.2,596.2 294.8,596.1 297.4,596 300,596 302.6,596 305.2,596.1 307.8,596.2 310.4,596.4 313,596.6 315.7,596.9 318.3,597.2 321,597.6 323.7,598.1 326.4,598.6 329.1,599.2 331.9,599.8 334.7,600.5 337.6,601.2 340.5,602.1 343.5,603 346.5,604 349.7,605 352.9,606.2 356.2,607.4 359.7,608.8 363.3,610.2 367.2,611.9 371.3,613.6 375.7,615.6 380.5,617.9 386,620.5 392.5,623.6 401,627.8 422.7,638.6 444.4,649.5 452.8,653.7 459.1,657 464.3,659.7 468.8,662.2 472.7,664.4 476.3,666.4 479.5,668.3 482.5,670.1 485.2,671.9 487.7,673.6 490,675.2 492.1,676.7 494.1,678.3 495.9,679.7 497.5,681.2 499,682.6 500.4,684 501.7,685.4 502.8,686.8 503.8,688.2 504.7,689.5 505.5,690.8 506.2,692.2 506.8,693.5 507.3,694.8 507.6,696.1 507.9,697.4 508,698.7 508.1,700 508,701.3 507.9,702.6 507.6,703.9 507.3,705.2 506.8,706.5 506.2,707.8 505.5,709.2 504.7,710.5 503.8,711.8 502.8,713.2 501.7,714.6 500.4,716 499,717.4 497.5,718.8 495.9,720.3 494.1,721.7 492.1,723.3 490,724.8 487.7,726.4 485.2,728.1 482.5,729.9 479.5,731.7 476.3,733.6 472.7,735.6 468.8,737.8 464.3,740.3 459.1,743 452.8,746.3 444.4,750.5 422.7,761.4 401,772.2 392.5,776.4 386,779.5 380.5,782.1 375.7,784.4 371.3,786.4 367.2,788.1 363.3,789.8 359.7,791.2 356.2,792.6 352.9,793.8 349.7,795 346.5,796 343.5,797 340.5,797.9 337.6,798.8 334.7,799.5 331.9,800.2 329.1,800.8 326.4,801.4 323.7,801.9 321,802.4 318.3,802.8 315.7,803.1 313,803.4 310.4,803.6 307.8,803.8 305.2,803.9 302.6,804 300,804 297.4,804 294.8,803.9 292.2,803.8 289.6,803.6 287,803.4 284.3,803.1 281.7,802.8 279,802.4 276.3,801.9 273.6,801.4 270.9,800.8 268.1,800.2 265.3,799.5 262.4,798.8 259.5,797.9 256.5,797 253.5,796 250.3,795 247.1,793.8 243.8,792.6 240.3,791.2 236.7,789.8 232.8,788.1 228.7,786.4 224.3,784.4 219.5,782.1 214,779.5 207.5,776.4 199,772.2 177.3,761.4 155.6,750.5 147.2,746.3 140.9,743 135.7,740.3 131.2,737.8 127.3,735.6 123.7,733.6 120.5,731.7 117.5,729.9 114.8,728.1 112.3,726.4 110,724.8 107.9,723.3 105.9,721.7 104.1,720.3 102.5,718.8 101,717.4 99.6,716 98.3,714.6 97.2,713.2 96.2,711.8 95.3,710.5 94.5,709.2 93.8,707.8 93.2,706.5 92.7,705.2 92.4,703.9 92.1,702.6 92,701.3Z" dur="30s" begin="-0.7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1" dur="30s" begin="-0.7s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.5000"/></g>
 <g opacity="0"><rect x="-10" y="-15" width="20" height="13" rx="4" fill="#6a364b"/><rect x="-10" y="-6" width="20" height="2.2" fill="#6a6977"/><rect x="-8" y="-12.5" width="16" height="5" rx="1.5" fill="#ffe08a"/><path d="M-3,-12.5v5M3,-12.5v5" stroke="#6a364b" stroke-width="1"/><rect x="-6" y="-17" width="12" height="2.4" rx="1" fill="#212642"/><circle cx="-5.5" cy="-1.6" r="1.8" fill="#212642"/><circle cx="5.5" cy="-1.6" r="1.8" fill="#212642"/><circle cx="0" cy="-5" r="3" fill="#fff6c2" opacity=".7" filter="url(#glow)"/><animateMotion path="M91.9,700 92,698.7 92.1,697.4 92.4,696.1 92.7,694.8 93.2,693.5 93.8,692.2 94.5,690.8 95.3,689.5 96.2,688.2 97.2,686.8 98.3,685.4 99.6,684 101,682.6 102.5,681.2 104.1,679.7 105.9,678.3 107.9,676.7 110,675.2 112.3,673.6 114.8,671.9 117.5,670.1 120.5,668.3 123.7,666.4 127.3,664.4 131.2,662.2 135.7,659.7 140.9,657 147.2,653.7 155.6,649.5 177.3,638.6 199,627.8 207.5,623.6 214,620.5 219.5,617.9 224.3,615.6 228.7,613.6 232.8,611.9 236.7,610.2 240.3,608.8 243.8,607.4 247.1,606.2 250.3,605 253.5,604 256.5,603 259.5,602.1 262.4,601.2 265.3,600.5 268.1,599.8 270.9,599.2 273.6,598.6 276.3,598.1 279,597.6 281.7,597.2 284.3,596.9 287,596.6 289.6,596.4 292.2,596.2 294.8,596.1 297.4,596 300,596 302.6,596 305.2,596.1 307.8,596.2 310.4,596.4 313,596.6 315.7,596.9 318.3,597.2 321,597.6 323.7,598.1 326.4,598.6 329.1,599.2 331.9,599.8 334.7,600.5 337.6,601.2 340.5,602.1 343.5,603 346.5,604 349.7,605 352.9,606.2 356.2,607.4 359.7,608.8 363.3,610.2 367.2,611.9 371.3,613.6 375.7,615.6 380.5,617.9 386,620.5 392.5,623.6 401,627.8 422.7,638.6 444.4,649.5 452.8,653.7 459.1,657 464.3,659.7 468.8,662.2 472.7,664.4 476.3,666.4 479.5,668.3 482.5,670.1 485.2,671.9 487.7,673.6 490,675.2 492.1,676.7 494.1,678.3 495.9,679.7 497.5,681.2 499,682.6 500.4,684 501.7,685.4 502.8,686.8 503.8,688.2 504.7,689.5 505.5,690.8 506.2,692.2 506.8,693.5 507.3,694.8 507.6,696.1 507.9,697.4 508,698.7 508.1,700 508,701.3 507.9,702.6 507.6,703.9 507.3,705.2 506.8,706.5 506.2,707.8 505.5,709.2 504.7,710.5 503.8,711.8 502.8,713.2 501.7,714.6 500.4,716 499,717.4 497.5,718.8 495.9,720.3 494.1,721.7 492.1,723.3 490,724.8 487.7,726.4 485.2,728.1 482.5,729.9 479.5,731.7 476.3,733.6 472.7,735.6 468.8,737.8 464.3,740.3 459.1,743 452.8,746.3 444.4,750.5 422.7,761.4 401,772.2 392.5,776.4 386,779.5 380.5,782.1 375.7,784.4 371.3,786.4 367.2,788.1 363.3,789.8 359.7,791.2 356.2,792.6 352.9,793.8 349.7,795 346.5,796 343.5,797 340.5,797.9 337.6,798.8 334.7,799.5 331.9,800.2 329.1,800.8 326.4,801.4 323.7,801.9 321,802.4 318.3,802.8 315.7,803.1 313,803.4 310.4,803.6 307.8,803.8 305.2,803.9 302.6,804 300,804 297.4,804 294.8,803.9 292.2,803.8 289.6,803.6 287,803.4 284.3,803.1 281.7,802.8 279,802.4 276.3,801.9 273.6,801.4 270.9,800.8 268.1,800.2 265.3,799.5 262.4,798.8 259.5,797.9 256.5,797 253.5,796 250.3,795 247.1,793.8 243.8,792.6 240.3,791.2 236.7,789.8 232.8,788.1 228.7,786.4 224.3,784.4 219.5,782.1 214,779.5 207.5,776.4 199,772.2 177.3,761.4 155.6,750.5 147.2,746.3 140.9,743 135.7,740.3 131.2,737.8 127.3,735.6 123.7,733.6 120.5,731.7 117.5,729.9 114.8,728.1 112.3,726.4 110,724.8 107.9,723.3 105.9,721.7 104.1,720.3 102.5,718.8 101,717.4 99.6,716 98.3,714.6 97.2,713.2 96.2,711.8 95.3,710.5 94.5,709.2 93.8,707.8 93.2,706.5 92.7,705.2 92.4,703.9 92.1,702.6 92,701.3Z" dur="30s" begin="-1.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1" dur="30s" begin="-1.4s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.5000"/></g>
-<g transform="translate(77.3 758.2)"><circle r="1.7" fill="#fff59d" filter="url(#glow)"><animateMotion path="M0,0c23.8,-9.5 14.3,23.8 0,14.3s-19.1,-23.8 0,-14.3" dur="7.3s" begin="-2.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;.2;1;0" dur="5.6s" begin="-4.9s" repeatCount="indefinite"/></circle></g>
-<g transform="translate(406.9 716.8)"><circle r="1.7" fill="#fff59d" filter="url(#glow)"><animateMotion path="M0,0c25.4,-10.1 15.2,25.4 0,15.2s-20.3,-25.4 0,-15.2" dur="10.9s" begin="-5.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;.2;1;0" dur="5.7s" begin="-4.8s" repeatCount="indefinite"/></circle></g>
-<g transform="translate(358.3 669.5)"><circle r="1.7" fill="#fff59d" filter="url(#glow)"><animateMotion path="M0,0c11.8,-4.7 7.1,11.8 0,7.1s-9.5,-11.8 0,-7.1" dur="7.6s" begin="-6.9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;.2;1;0" dur="5.5s" begin="-2s" repeatCount="indefinite"/></circle></g>
-<g transform="translate(320 556)"><circle r="1.7" fill="#fff59d" filter="url(#glow)"><animateMotion path="M0,0c23.8,-9.5 14.3,23.8 0,14.3s-19.1,-23.8 0,-14.3" dur="7.3s" begin="-7.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;.2;1;0" dur="5.3s" begin="-4.3s" repeatCount="indefinite"/></circle></g>
-<g transform="translate(204.5 618.8)"><circle r="1.7" fill="#fff59d" filter="url(#glow)"><animateMotion path="M0,0c10.9,-4.4 6.6,10.9 0,6.6s-8.7,-10.9 0,-6.6" dur="7.1s" begin="-3.1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;.2;1;0" dur="4.8s" begin="-6s" repeatCount="indefinite"/></circle></g>
-<g transform="translate(148.5 757.8)"><circle r="1.7" fill="#fff59d" filter="url(#glow)"><animateMotion path="M0,0c23.2,-9.3 13.9,23.2 0,13.9s-18.5,-23.2 0,-13.9" dur="9.5s" begin="-5.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;.2;1;0" dur="5.7s" begin="-3.1s" repeatCount="indefinite"/></circle></g>
-<g transform="translate(494.7 552.8)"><circle r="1.7" fill="#fff59d" filter="url(#glow)"><animateMotion path="M0,0c15.3,-6.1 9.2,15.3 0,9.2s-12.3,-15.3 0,-9.2" dur="7.2s" begin="-7.1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;.2;1;0" dur="4.9s" begin="-4.9s" repeatCount="indefinite"/></circle></g>
-<g transform="translate(227.7 595.3)"><circle r="1.7" fill="#fff59d" filter="url(#glow)"><animateMotion path="M0,0c25.5,-10.2 15.3,25.5 0,15.3s-20.4,-25.5 0,-15.3" dur="8.6s" begin="-7.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;.2;1;0" dur="4.9s" begin="-4.5s" repeatCount="indefinite"/></circle></g>
-<g transform="translate(115.9 674.2)"><circle r="1.7" fill="#fff59d" filter="url(#glow)"><animateMotion path="M0,0c24,-9.6 14.4,24 0,14.4s-19.2,-24 0,-14.4" dur="9.9s" begin="-0.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;.2;1;0" dur="3.1s" begin="-3.2s" repeatCount="indefinite"/></circle></g>
-<g transform="translate(516.9 576.9)"><circle r="1.7" fill="#fff59d" filter="url(#glow)"><animateMotion path="M0,0c22.7,-9.1 13.6,22.7 0,13.6s-18.2,-22.7 0,-13.6" dur="10.5s" begin="-7.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;.2;1;0" dur="4.4s" begin="-1s" repeatCount="indefinite"/></circle></g>
-<g transform="translate(405.1 578.8)"><circle r="1.7" fill="#fff59d" filter="url(#glow)"><animateMotion path="M0,0c25.7,-10.3 15.4,25.7 0,15.4s-20.6,-25.7 0,-15.4" dur="8.5s" begin="-5.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;.2;1;0" dur="3.2s" begin="-1s" repeatCount="indefinite"/></circle></g>
-<g transform="translate(173.7 764.2)"><circle r="1.7" fill="#fff59d" filter="url(#glow)"><animateMotion path="M0,0c24.3,-9.7 14.6,24.3 0,14.6s-19.5,-24.3 0,-14.6" dur="6.2s" begin="-2.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;.2;1;0" dur="3.8s" begin="-3s" repeatCount="indefinite"/></circle></g>
+<g transform="translate(295.9 745.2)"><circle r="1.7" fill="#fff59d" filter="url(#glow)"><animateMotion path="M0,0c12,-4.8 7.2,12 0,7.2s-9.6,-12 0,-7.2" dur="11s" begin="-6.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;.2;1;0" dur="4.6s" begin="-5.3s" repeatCount="indefinite"/></circle></g>
+<g transform="translate(282.1 598.6)"><circle r="1.7" fill="#fff59d" filter="url(#glow)"><animateMotion path="M0,0c11.1,-4.5 6.7,11.1 0,6.7s-8.9,-11.1 0,-6.7" dur="7.8s" begin="-0.1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;.2;1;0" dur="5.8s" begin="-5.2s" repeatCount="indefinite"/></circle></g>
+<g transform="translate(187.8 613.4)"><circle r="1.7" fill="#fff59d" filter="url(#glow)"><animateMotion path="M0,0c23.7,-9.5 14.2,23.7 0,14.2s-18.9,-23.7 0,-14.2" dur="10.1s" begin="-5.9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;.2;1;0" dur="5.3s" begin="-5.8s" repeatCount="indefinite"/></circle></g>
+<g transform="translate(520.7 703.3)"><circle r="1.7" fill="#fff59d" filter="url(#glow)"><animateMotion path="M0,0c24.4,-9.8 14.7,24.4 0,14.7s-19.5,-24.4 0,-14.7" dur="10s" begin="-5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;.2;1;0" dur="4.6s" begin="-0.7s" repeatCount="indefinite"/></circle></g>
+<g transform="translate(221.3 740.9)"><circle r="1.7" fill="#fff59d" filter="url(#glow)"><animateMotion path="M0,0c23.4,-9.3 14,23.4 0,14s-18.7,-23.4 0,-14" dur="7.7s" begin="-4.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;.2;1;0" dur="3.1s" begin="-5.2s" repeatCount="indefinite"/></circle></g>
+<g transform="translate(187.6 748.1)"><circle r="1.7" fill="#fff59d" filter="url(#glow)"><animateMotion path="M0,0c22.5,-9 13.5,22.5 0,13.5s-18,-22.5 0,-13.5" dur="9.5s" begin="-2.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;.2;1;0" dur="3.9s" begin="-0.3s" repeatCount="indefinite"/></circle></g>
+<g transform="translate(174.6 635.9)"><circle r="1.7" fill="#fff59d" filter="url(#glow)"><animateMotion path="M0,0c19.4,-7.7 11.6,19.4 0,11.6s-15.5,-19.4 0,-11.6" dur="11s" begin="-1.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;.2;1;0" dur="5.8s" begin="-4.9s" repeatCount="indefinite"/></circle></g>
+<g transform="translate(395.2 700.3)"><circle r="1.7" fill="#fff59d" filter="url(#glow)"><animateMotion path="M0,0c24.2,-9.7 14.5,24.2 0,14.5s-19.4,-24.2 0,-14.5" dur="8.6s" begin="-7.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;.2;1;0" dur="3s" begin="-2s" repeatCount="indefinite"/></circle></g>
+<g transform="translate(177 744.6)"><circle r="1.7" fill="#fff59d" filter="url(#glow)"><animateMotion path="M0,0c20.2,-8.1 12.1,20.2 0,12.1s-16.2,-20.2 0,-12.1" dur="10.1s" begin="-2.7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;.2;1;0" dur="3.6s" begin="-5.8s" repeatCount="indefinite"/></circle></g>
+<g transform="translate(307.3 757)"><circle r="1.7" fill="#fff59d" filter="url(#glow)"><animateMotion path="M0,0c19.9,-8 11.9,19.9 0,11.9s-15.9,-19.9 0,-11.9" dur="9.7s" begin="-0.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;.2;1;0" dur="4.7s" begin="-5.2s" repeatCount="indefinite"/></circle></g>
+<g transform="translate(430.4 560.9)"><circle r="1.7" fill="#fff59d" filter="url(#glow)"><animateMotion path="M0,0c10.3,-4.1 6.2,10.3 0,6.2s-8.2,-10.3 0,-6.2" dur="8.7s" begin="-7.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;.2;1;0" dur="3.4s" begin="-4.8s" repeatCount="indefinite"/></circle></g>
+<g transform="translate(481.4 764.1)"><circle r="1.7" fill="#fff59d" filter="url(#glow)"><animateMotion path="M0,0c17.2,-6.9 10.3,17.2 0,10.3s-13.8,-17.2 0,-10.3" dur="6.8s" begin="-5.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;.2;1;0" dur="3.4s" begin="-5.9s" repeatCount="indefinite"/></circle></g>
 <g class="label">
 <path d="M293.4,683.5 l4,5 l4,-5z" fill="#0d1117"/>
 <rect x="244.8" y="665.5" width="105.2" height="18" rx="9" fill="#0d1117" stroke="#ffffff30" opacity=".94"/>
@@ -1224,16 +1224,16 @@ text{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe 
 <text x="145.2" y="608.1" class="t-label" fill="#e6edf3">PicForge</text>
 </g>
 <g class="label">
-<path d="M363.6,595 l4,5 l4,-5z" fill="#0d1117"/>
-<rect x="340.6" y="577" width="54" height="18" rx="9" fill="#0d1117" stroke="#ffffff30" opacity=".94"/>
-<circle cx="350.6" cy="586" r="3" fill="#f5b800"/>
-<text x="357.6" y="590" class="t-label" fill="#e6edf3">Smoji</text>
+<path d="M228.4,595 l4,5 l4,-5z" fill="#0d1117"/>
+<rect x="205.4" y="577" width="54" height="18" rx="9" fill="#0d1117" stroke="#ffffff30" opacity=".94"/>
+<circle cx="215.4" cy="586" r="3" fill="#f5b800"/>
+<text x="222.4" y="590" class="t-label" fill="#e6edf3">Smoji</text>
 </g>
 <g class="label">
-<path d="M228.4,588 l4,5 l4,-5z" fill="#0d1117"/>
-<rect x="208.6" y="570" width="47.6" height="18" rx="9" fill="#0d1117" stroke="#ffffff30" opacity=".94"/>
-<circle cx="218.6" cy="579" r="3" fill="#14b8a6"/>
-<text x="225.6" y="583" class="t-label" fill="#e6edf3">Pail</text>
+<path d="M363.6,585.2 l4,5 l4,-5z" fill="#0d1117"/>
+<rect x="343.8" y="567.2" width="47.6" height="18" rx="9" fill="#0d1117" stroke="#ffffff30" opacity=".94"/>
+<circle cx="353.8" cy="576.2" r="3" fill="#14b8a6"/>
+<text x="360.8" y="580.2" class="t-label" fill="#e6edf3">Pail</text>
 </g>
 <g class="label">
 <path d="M431.2,579 l4,5 l4,-5z" fill="#0d1117"/>
@@ -1274,8 +1274,8 @@ text{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe 
 <text x="78" y="377" font-size="17" fill="#f1f3ff" font-weight="600">Flag on the roof = shipped releases</text>
 <rect x="40" y="395" width="26" height="26" rx="8" fill="#3a3422"/>
 <path d="M53,402.1Q53,408 59,408Q53,408 53,413.9Q53,408 47,408Q53,408 53,402.1Z" fill="#f5b800"/>
-<text x="78" y="413" font-size="17" fill="#f1f3ff" font-weight="600">291 stars in the sky — one per GitHub ★</text>
-<text x="40" y="996" font-size="13" fill="#8b93ba" class="t-mono">REBUILT 2026-10-26 · 18 REPOS · JUST FOR FUN.</text>
+<text x="78" y="413" font-size="17" fill="#f1f3ff" font-weight="600">290 stars in the sky — one per GitHub ★</text>
+<text x="40" y="996" font-size="13" fill="#8b93ba" class="t-mono">REBUILT 2026-10-27 · 18 REPOS · JUST FOR FUN.</text>
 </g>
 <rect x=".5" y=".5" width="599" height="1029" rx="18" fill="none" stroke="#2b3350" opacity=".7"/>
 </svg>
