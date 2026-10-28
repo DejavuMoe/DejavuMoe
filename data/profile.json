@@ -1,7 +1,7 @@
 {
   "version": 1,
   "github": {
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "repositories": [
       {
         "name": "deepseek_wale_girl",
@@ -23,9 +23,9 @@
         "language": "Python",
         "archived": false,
         "stars": 1,
-        "commits": 9,
+        "commits": 10,
         "releases": 3,
-        "latest_release": "20261026"
+        "latest_release": "20261027"
       },
       {
         "name": "Ecoku",
@@ -34,7 +34,7 @@
         "homepage": "https://ecoku.zsh.moe",
         "language": "Go",
         "archived": false,
-        "stars": 25,
+        "stars": 26,
         "commits": 187,
         "releases": 15,
         "latest_release": "v0.5.4"
@@ -46,7 +46,7 @@
         "homepage": "https://tts-api.via.moe",
         "language": "TypeScript",
         "archived": false,
-        "stars": 49,
+        "stars": 51,
         "commits": 133,
         "releases": 15,
         "latest_release": "v1.0.1"
@@ -270,7 +270,7 @@
     ]
   },
   "blog": {
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "posts": [
       {
         "title": "寒露与幻梦",
