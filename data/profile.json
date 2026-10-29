@@ -1,7 +1,7 @@
 {
   "version": 1,
   "github": {
-    "updated": "2026-10-28",
+    "updated": "2026-10-29",
     "repositories": [
       {
         "name": "deepseek_wale_girl",
@@ -10,7 +10,7 @@
         "homepage": "https://smoji.zsh.moe",
         "language": "",
         "archived": false,
-        "stars": 19,
+        "stars": 20,
         "commits": 1,
         "releases": 0,
         "latest_release": null
@@ -23,9 +23,9 @@
         "language": "Python",
         "archived": false,
         "stars": 1,
-        "commits": 10,
+        "commits": 11,
         "releases": 3,
-        "latest_release": "20261027"
+        "latest_release": "20261028"
       },
       {
         "name": "Ecoku",
@@ -270,7 +270,7 @@
     ]
   },
   "blog": {
-    "updated": "2026-10-28",
+    "updated": "2026-10-29",
     "posts": [
       {
         "title": "寒露与幻梦",
