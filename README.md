@@ -143,7 +143,7 @@ Every building on the island is one of these projects. Tap a card to open its re
 
 <p align="center"><b>Try them live&nbsp;→</b>&nbsp; <a href="https://ecoku.zsh.moe">Ecoku</a> &nbsp;·&nbsp; <a href="https://tts-api.via.moe">edgeTTS</a> &nbsp;·&nbsp; <a href="https://smoji.zsh.moe">Smoji</a> &nbsp;·&nbsp; <a href="https://sani.zsh.moe">sani</a> &nbsp;·&nbsp; <a href="https://picforge.de">PicForge</a> &nbsp;·&nbsp; <a href="https://webfont.zsh.moe">webfont-slice</a> &nbsp;·&nbsp; <a href="https://pail.download">Pail</a></p>
 
-<p align="center"><sub>Snapshot 2026-10-30 UTC · 18 indexed repositories · 296 stars across this index</sub></p>
+<p align="center"><sub>Snapshot 2026-10-31 UTC · 18 indexed repositories · 296 stars across this index</sub></p>
 
 <details>
 <summary>How the town is built &amp; the full project index</summary>
