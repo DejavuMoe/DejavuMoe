@@ -1,7 +1,7 @@
 {
   "version": 1,
   "github": {
-    "updated": "2026-11-02",
+    "updated": "2026-11-03",
     "repositories": [
       {
         "name": "deepseek_wale_girl",
@@ -23,9 +23,9 @@
         "language": "Python",
         "archived": false,
         "stars": 1,
-        "commits": 15,
+        "commits": 17,
         "releases": 3,
-        "latest_release": "20261101"
+        "latest_release": "20261102"
       },
       {
         "name": "Ecoku",
@@ -130,10 +130,10 @@
         "homepage": "https://pail.download",
         "language": "Go",
         "archived": false,
-        "stars": 53,
-        "commits": 62,
-        "releases": 6,
-        "latest_release": "v0.3.3"
+        "stars": 58,
+        "commits": 71,
+        "releases": 7,
+        "latest_release": "v0.4.0"
       },
       {
         "name": "PicForge",
@@ -179,9 +179,9 @@
         "language": "Go",
         "archived": false,
         "stars": 7,
-        "commits": 98,
-        "releases": 22,
-        "latest_release": "v1.0.1"
+        "commits": 105,
+        "releases": 24,
+        "latest_release": "v1.0.3"
       },
       {
         "name": "selfhosted",
@@ -202,7 +202,7 @@
         "homepage": "https://smoji.zsh.moe",
         "language": "TypeScript",
         "archived": false,
-        "stars": 119,
+        "stars": 120,
         "commits": 54,
         "releases": 0,
         "latest_release": null
