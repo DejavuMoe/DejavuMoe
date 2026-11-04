@@ -1,7 +1,7 @@
 {
   "version": 1,
   "github": {
-    "updated": "2026-11-03",
+    "updated": "2026-11-04",
     "repositories": [
       {
         "name": "deepseek_wale_girl",
@@ -10,7 +10,7 @@
         "homepage": "https://smoji.zsh.moe",
         "language": "",
         "archived": false,
-        "stars": 21,
+        "stars": 20,
         "commits": 1,
         "releases": 0,
         "latest_release": null
@@ -23,9 +23,9 @@
         "language": "Python",
         "archived": false,
         "stars": 1,
-        "commits": 17,
+        "commits": 18,
         "releases": 3,
-        "latest_release": "20261102"
+        "latest_release": "20261103"
       },
       {
         "name": "Ecoku",
@@ -34,7 +34,7 @@
         "homepage": "https://ecoku.zsh.moe",
         "language": "Go",
         "archived": false,
-        "stars": 26,
+        "stars": 27,
         "commits": 187,
         "releases": 15,
         "latest_release": "v0.5.4"
@@ -70,7 +70,7 @@
         "homepage": "https://hugo-start.pages.dev",
         "language": "HTML",
         "archived": false,
-        "stars": 4,
+        "stars": 5,
         "commits": 17,
         "releases": 0,
         "latest_release": null
@@ -202,7 +202,7 @@
         "homepage": "https://smoji.zsh.moe",
         "language": "TypeScript",
         "archived": false,
-        "stars": 120,
+        "stars": 122,
         "commits": 54,
         "releases": 0,
         "latest_release": null
@@ -270,7 +270,7 @@
     ]
   },
   "blog": {
-    "updated": "2026-11-03",
+    "updated": "2026-11-04",
     "posts": [
       {
         "title": "寒露与幻梦",

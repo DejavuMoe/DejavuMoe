@@ -2,14 +2,14 @@
 <a href="https://github.com/DejavuMoe#gh-light-mode-only">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/hero-light-mobile.svg">
-  <img src="assets/generated/hero-light.svg" width="100%" alt="Déjà-vu Town — a floating island where every building is one of Dejavu Moe&#x27;s projects (Ecoku, edgeTTS, Smoji, sani, PicForge, romi, webfont-slice, Pail). Taller buildings have more commits, roof flags mark releases, and at night the sky holds 324 stars, one per GitHub star.">
+  <img src="assets/generated/hero-light.svg" width="100%" alt="Déjà-vu Town — a floating island where every building is one of Dejavu Moe&#x27;s projects (Ecoku, edgeTTS, Smoji, sani, PicForge, romi, webfont-slice, Pail). Taller buildings have more commits, roof flags mark releases, and at night the sky holds 327 stars, one per GitHub star.">
 </picture>
 </a>
 
 <a href="https://github.com/DejavuMoe#gh-dark-mode-only">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/hero-dark-mobile.svg">
-  <img src="assets/generated/hero-dark.svg" width="100%" alt="Déjà-vu Town — a floating island where every building is one of Dejavu Moe&#x27;s projects (Ecoku, edgeTTS, Smoji, sani, PicForge, romi, webfont-slice, Pail). Taller buildings have more commits, roof flags mark releases, and at night the sky holds 324 stars, one per GitHub star.">
+  <img src="assets/generated/hero-dark.svg" width="100%" alt="Déjà-vu Town — a floating island where every building is one of Dejavu Moe&#x27;s projects (Ecoku, edgeTTS, Smoji, sani, PicForge, romi, webfont-slice, Pail). Taller buildings have more commits, roof flags mark releases, and at night the sky holds 327 stars, one per GitHub star.">
 </picture>
 </a>
 <!-- PROFILE-HERO:END -->
@@ -32,14 +32,14 @@ Every building on the island is one of these projects. Tap a card to open its re
 <a href="https://github.com/DejavuMoe/Ecoku#gh-light-mode-only">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/project-01-light-mobile.svg">
-  <img src="assets/generated/project-01-light.svg" width="100%" alt="Ecoku — Self-hosted comments for blogs. Multi-site, text-first. | 26 stars · 187 commits · 15 releases">
+  <img src="assets/generated/project-01-light.svg" width="100%" alt="Ecoku — Self-hosted comments for blogs. Multi-site, text-first. | 27 stars · 187 commits · 15 releases">
 </picture>
 </a>
 
 <a href="https://github.com/DejavuMoe/Ecoku#gh-dark-mode-only">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/project-01-dark-mobile.svg">
-  <img src="assets/generated/project-01-dark.svg" width="100%" alt="Ecoku — Self-hosted comments for blogs. Multi-site, text-first. | 26 stars · 187 commits · 15 releases">
+  <img src="assets/generated/project-01-dark.svg" width="100%" alt="Ecoku — Self-hosted comments for blogs. Multi-site, text-first. | 27 stars · 187 commits · 15 releases">
 </picture>
 </a>
 
@@ -60,14 +60,14 @@ Every building on the island is one of these projects. Tap a card to open its re
 <a href="https://github.com/DejavuMoe/Smoji#gh-light-mode-only">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/project-03-light-mobile.svg">
-  <img src="assets/generated/project-03-light.svg" width="100%" alt="Smoji — An image-emoji workspace, with a picker for the open web. | 120 stars · 54 commits · 0 releases">
+  <img src="assets/generated/project-03-light.svg" width="100%" alt="Smoji — An image-emoji workspace, with a picker for the open web. | 122 stars · 54 commits · 0 releases">
 </picture>
 </a>
 
 <a href="https://github.com/DejavuMoe/Smoji#gh-dark-mode-only">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/project-03-dark-mobile.svg">
-  <img src="assets/generated/project-03-dark.svg" width="100%" alt="Smoji — An image-emoji workspace, with a picker for the open web. | 120 stars · 54 commits · 0 releases">
+  <img src="assets/generated/project-03-dark.svg" width="100%" alt="Smoji — An image-emoji workspace, with a picker for the open web. | 122 stars · 54 commits · 0 releases">
 </picture>
 </a>
 
@@ -143,7 +143,7 @@ Every building on the island is one of these projects. Tap a card to open its re
 
 <p align="center"><b>Try them live&nbsp;→</b>&nbsp; <a href="https://ecoku.zsh.moe">Ecoku</a> &nbsp;·&nbsp; <a href="https://tts-api.via.moe">edgeTTS</a> &nbsp;·&nbsp; <a href="https://smoji.zsh.moe">Smoji</a> &nbsp;·&nbsp; <a href="https://sani.zsh.moe">sani</a> &nbsp;·&nbsp; <a href="https://picforge.de">PicForge</a> &nbsp;·&nbsp; <a href="https://webfont.zsh.moe">webfont-slice</a> &nbsp;·&nbsp; <a href="https://pail.download">Pail</a></p>
 
-<p align="center"><sub>Snapshot 2026-11-03 UTC · 18 indexed repositories · 324 stars across this index</sub></p>
+<p align="center"><sub>Snapshot 2026-11-04 UTC · 18 indexed repositories · 327 stars across this index</sub></p>
 
 <details>
 <summary>How the town is built &amp; the full project index</summary>
@@ -153,16 +153,16 @@ Only my public, non-fork, non-archived repositories with commit history are elig
 | Project | In town | Stars | Commits | Releases |
 | :--- | :---: | ---: | ---: | ---: |
 | [edgeTTS](https://github.com/DejavuMoe/edgeTTS) | 🏠 | 51 | 133 | 15 |
-| [Ecoku](https://github.com/DejavuMoe/Ecoku) | 🏠 | 26 | 187 | 15 |
+| [Ecoku](https://github.com/DejavuMoe/Ecoku) | 🏠 | 27 | 187 | 15 |
 | [Pail](https://github.com/DejavuMoe/Pail) | 🏠 | 58 | 71 | 7 |
-| [Smoji](https://github.com/DejavuMoe/Smoji) | 🏠 | 120 | 54 | 0 |
+| [Smoji](https://github.com/DejavuMoe/Smoji) | 🏠 | 122 | 54 | 0 |
 | [sani](https://github.com/DejavuMoe/sani) | 🏠 | 7 | 105 | 24 |
 | [PicForge](https://github.com/DejavuMoe/PicForge) | 🏠 | 25 | 63 | 0 |
 | [romi](https://github.com/DejavuMoe/romi) | 🏠 | 0 | 127 | 2 |
-| [hugo\-start](https://github.com/DejavuMoe/hugo-start) |  | 4 | 17 | 0 |
+| [hugo\-start](https://github.com/DejavuMoe/hugo-start) |  | 5 | 17 | 0 |
 | [selfhosted](https://github.com/DejavuMoe/selfhosted) |  | 0 | 47 | 0 |
 | [webfont\-slice](https://github.com/DejavuMoe/webfont-slice) | 🏠 | 2 | 13 | 0 |
-| [deepseek\_wale\_girl](https://github.com/DejavuMoe/deepseek_wale_girl) |  | 21 | 1 | 0 |
+| [deepseek\_wale\_girl](https://github.com/DejavuMoe/deepseek_wale_girl) |  | 20 | 1 | 0 |
 | [prototype\-first\-ui](https://github.com/DejavuMoe/prototype-first-ui) |  | 8 | 1 | 1 |
 | [TAdmin](https://github.com/DejavuMoe/TAdmin) |  | 0 | 9 | 1 |
 | [STranslate\.Plugin\.Tts\.edgeTTS](https://github.com/DejavuMoe/STranslate.Plugin.Tts.edgeTTS) |  | 1 | 4 | 1 |
