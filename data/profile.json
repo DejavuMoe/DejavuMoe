@@ -1,7 +1,7 @@
 {
   "version": 1,
   "github": {
-    "updated": "2026-11-04",
+    "updated": "2026-11-05",
     "repositories": [
       {
         "name": "deepseek_wale_girl",
@@ -23,9 +23,9 @@
         "language": "Python",
         "archived": false,
         "stars": 1,
-        "commits": 18,
+        "commits": 19,
         "releases": 3,
-        "latest_release": "20261103"
+        "latest_release": "20261104"
       },
       {
         "name": "Ecoku",
@@ -130,10 +130,10 @@
         "homepage": "https://pail.download",
         "language": "Go",
         "archived": false,
-        "stars": 58,
-        "commits": 71,
-        "releases": 7,
-        "latest_release": "v0.4.0"
+        "stars": 61,
+        "commits": 74,
+        "releases": 8,
+        "latest_release": "v0.4.1"
       },
       {
         "name": "PicForge",
@@ -270,7 +270,7 @@
     ]
   },
   "blog": {
-    "updated": "2026-11-04",
+    "updated": "2026-11-05",
     "posts": [
       {
         "title": "寒露与幻梦",
