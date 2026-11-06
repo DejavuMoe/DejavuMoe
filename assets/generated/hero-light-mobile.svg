@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="1030" viewBox="0 0 600 1030" role="img" aria-labelledby="title">
-<title id="title">Déjà-vu Town: a floating island where each building is one of Dejavu Moe&#x27;s projects. 8 buildings, 330 GitHub stars.</title>
+<title id="title">Déjà-vu Town: a floating island where each building is one of Dejavu Moe&#x27;s projects. 8 buildings, 332 GitHub stars.</title>
 <style>
 text{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC",sans-serif}
 .t-name{font-weight:800;letter-spacing:-1.5px}
@@ -810,26 +810,26 @@ text{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe 
 <g transform="translate(435.2 586.2)"><g opacity="0"><path d="M5,0L-6,-4.5L-3,0L-6,4.5Z" fill="#ffffff"/><path d="M5,0L-3,0" stroke="#9fb3c8" stroke-width=".7"/><animateMotion path="M0,0 C30,-30 70,-20 110,-60" dur="6s" begin="-3s" repeatCount="indefinite" rotate="auto"/><animate attributeName="opacity" values="0;1;1;0" dur="6s" begin="-3s" repeatCount="indefinite" keyTimes="0;.08;.6;.8"/></g></g>
 <path d="M444.3,610V594" stroke="#5b5148" stroke-width="1.4"/>
 <path d="M444.3,595 q6,-2 12,1 q-6,3 -12,6z" fill="#3f7fd9"><animate attributeName="d" values="M444.3,595 q6,-2 12,1 q-6,3 -12,6z;M444.3,595 q6,3 12,1 q-6,1 -12,6z;M444.3,595 q6,-2 12,1 q-6,3 -12,6z" dur="1.6s" begin="-1.1s" repeatCount="indefinite"/></path>
-<path d="M164.8,687 164.8,611.7" stroke="#6f7d92" stroke-width="2.2"/>
-<path d="M190.8,700 184.6,621.6" stroke="#6f7d92" stroke-width="2.2"/>
-<path d="M138.8,700 145,621.6" stroke="#6f7d92" stroke-width="2.2"/>
-<path d="M164.8,713 164.8,631.5" stroke="#6f7d92" stroke-width="2.2"/>
-<path d="M138.8,700 164.8,668.3M164.8,713 141.9,656.9" stroke="#6f7d92" stroke-width="1" opacity=".8"/>
-<path d="M148.6,621.6A16.2,8.1 0 0 0 164.8,629.7L164.8,626.3A16.2,8.1 0 0 1 148.6,618.2Z" fill="#525d70"/>
-<path d="M164.8,629.7A16.2,8.1 0 0 0 181,621.6L181,618.2A16.2,8.1 0 0 1 164.8,626.3Z" fill="#3e4755"/>
-<ellipse cx="164.8" cy="618.2" rx="16.2" ry="8.1" fill="#6a7487"/>
-<path d="M144.2,618.2A20.6,10.3 0 0 0 164.8,628.5L164.8,604.6A28.7,14.3 0 0 1 136.1,590.2Z" fill="#90b3ca"/>
-<path d="M164.8,628.5A20.6,10.3 0 0 0 185.4,618.2L193.5,590.2A28.7,14.3 0 0 1 164.8,604.6Z" fill="#6d889a"/>
-<path d="M141.8,609.8A23,11.5 0 0 0 187.8,609.8" stroke="#6f93ad" stroke-width="1.6" fill="none"/>
-<path d="M138.5,598.6A26.3,13.1 0 0 0 191.1,598.6" stroke="#6f93ad" stroke-width="1.6" fill="none"/>
-<ellipse cx="164.8" cy="590.2" rx="28.7" ry="14.3" fill="#5f86a3"/>
-<ellipse cx="164.8" cy="591.7" rx="25.7" ry="12.3" fill="#3d9bf0"/>
-<ellipse cx="158.8" cy="590.2" rx="6" ry="1.6" fill="#fff" opacity=".6"><animate attributeName="cx" values="156.8;170.8;156.8" dur="4s" begin="0s" repeatCount="indefinite"/></ellipse>
-<path d="M136.1,590.2C136.1,546.2 193.5,546.2 193.5,590.2" stroke="#4d5466" stroke-width="2.2" fill="none"/>
-<text x="164.8" y="609.2" class="t-tag" text-anchor="middle" fill="#2e4a66">S3</text>
-<path d="M0,-4q3,4 0,6q-3,-2 0,-6z" fill="#5ab8ff" opacity="0" transform="translate(164.8 0)"><animateTransform attributeName="transform" type="translate" values="164.8 629.4;164.8 707.8" dur="2.6s" repeatCount="indefinite" calcMode="spline" keySplines=".5 0 1 1"/><animate attributeName="opacity" values="0;1;1;0" dur="2.6s" begin="0s" repeatCount="indefinite" keyTimes="0;.1;.9;1"/></path>
-<path d="M164.8,600.2V584.2" stroke="#5b5148" stroke-width="1.4"/>
-<path d="M164.8,585.2 q6,-2 12,1 q-6,3 -12,6z" fill="#14b8a6"><animate attributeName="d" values="M164.8,585.2 q6,-2 12,1 q-6,3 -12,6z;M164.8,585.2 q6,3 12,1 q-6,1 -12,6z;M164.8,585.2 q6,-2 12,1 q-6,3 -12,6z" dur="1.6s" begin="-0.1s" repeatCount="indefinite"/></path>
+<path d="M164.8,687 164.8,610.3" stroke="#6f7d92" stroke-width="2.2"/>
+<path d="M190.8,700 184.6,620.2" stroke="#6f7d92" stroke-width="2.2"/>
+<path d="M138.8,700 145,620.2" stroke="#6f7d92" stroke-width="2.2"/>
+<path d="M164.8,713 164.8,630.1" stroke="#6f7d92" stroke-width="2.2"/>
+<path d="M138.8,700 164.8,667.6M164.8,713 141.9,656.1" stroke="#6f7d92" stroke-width="1" opacity=".8"/>
+<path d="M148.6,620.2A16.2,8.1 0 0 0 164.8,628.3L164.8,625A16.2,8.1 0 0 1 148.6,616.9Z" fill="#525d70"/>
+<path d="M164.8,628.3A16.2,8.1 0 0 0 181,620.2L181,616.9A16.2,8.1 0 0 1 164.8,625Z" fill="#3e4755"/>
+<ellipse cx="164.8" cy="616.9" rx="16.2" ry="8.1" fill="#6a7487"/>
+<path d="M144.2,616.9A20.6,10.3 0 0 0 164.8,627.2L164.8,603.2A28.7,14.3 0 0 1 136.1,588.9Z" fill="#90b3ca"/>
+<path d="M164.8,627.2A20.6,10.3 0 0 0 185.4,616.9L193.5,588.9A28.7,14.3 0 0 1 164.8,603.2Z" fill="#6d889a"/>
+<path d="M141.8,608.5A23,11.5 0 0 0 187.8,608.5" stroke="#6f93ad" stroke-width="1.6" fill="none"/>
+<path d="M138.5,597.3A26.3,13.1 0 0 0 191.1,597.3" stroke="#6f93ad" stroke-width="1.6" fill="none"/>
+<ellipse cx="164.8" cy="588.9" rx="28.7" ry="14.3" fill="#5f86a3"/>
+<ellipse cx="164.8" cy="590.4" rx="25.7" ry="12.3" fill="#3d9bf0"/>
+<ellipse cx="158.8" cy="588.9" rx="6" ry="1.6" fill="#fff" opacity=".6"><animate attributeName="cx" values="156.8;170.8;156.8" dur="4s" begin="0s" repeatCount="indefinite"/></ellipse>
+<path d="M136.1,588.9C136.1,544.9 193.5,544.9 193.5,588.9" stroke="#4d5466" stroke-width="2.2" fill="none"/>
+<text x="164.8" y="607.9" class="t-tag" text-anchor="middle" fill="#2e4a66">S3</text>
+<path d="M0,-4q3,4 0,6q-3,-2 0,-6z" fill="#5ab8ff" opacity="0" transform="translate(164.8 0)"><animateTransform attributeName="transform" type="translate" values="164.8 628;164.8 707.8" dur="2.6s" repeatCount="indefinite" calcMode="spline" keySplines=".5 0 1 1"/><animate attributeName="opacity" values="0;1;1;0" dur="2.6s" begin="0s" repeatCount="indefinite" keyTimes="0;.1;.9;1"/></path>
+<path d="M164.8,598.8V582.8" stroke="#5b5148" stroke-width="1.4"/>
+<path d="M164.8,583.8 q6,-2 12,1 q-6,3 -12,6z" fill="#14b8a6"><animate attributeName="d" values="M164.8,583.8 q6,-2 12,1 q-6,3 -12,6z;M164.8,583.8 q6,3 12,1 q-6,1 -12,6z;M164.8,583.8 q6,-2 12,1 q-6,3 -12,6z" dur="1.6s" begin="-0.1s" repeatCount="indefinite"/></path>
 <ellipse cx="231.1" cy="700.6" rx="7.6" ry="3.8" fill="#000" opacity=".12"/>
 <g><animateTransform attributeName="transform" type="rotate" values="-2.5 231.1 700.6;2.5 231.1 700.6;-2.5 231.1 700.6" dur="6.7s" begin="-4.1s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/>
 <rect x="229.6" y="691.3" width="3.1" height="9.3" fill="#8b5e3c"/>
@@ -1012,10 +1012,10 @@ text{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe 
 <text x="428.4" y="572.2" class="t-label" fill="#1f2340">sani</text>
 </g>
 <g class="label">
-<path d="M160.8,545.2 l4,5 l4,-5z" fill="#ffffff"/>
-<rect x="141" y="527.2" width="47.6" height="18" rx="9" fill="#ffffff" stroke="#1f234022" opacity=".94"/>
-<circle cx="151" cy="536.2" r="3" fill="#14b8a6"/>
-<text x="158" y="540.2" class="t-label" fill="#1f2340">Pail</text>
+<path d="M160.8,543.9 l4,5 l4,-5z" fill="#ffffff"/>
+<rect x="141" y="525.9" width="47.6" height="18" rx="9" fill="#ffffff" stroke="#1f234022" opacity=".94"/>
+<circle cx="151" cy="534.9" r="3" fill="#14b8a6"/>
+<text x="158" y="538.9" class="t-label" fill="#1f2340">Pail</text>
 </g>
 <g class="label">
 <path d="M228.4,501.8 l4,5 l4,-5z" fill="#ffffff"/>
@@ -1050,8 +1050,8 @@ text{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe 
 <text x="78" y="377" font-size="17" fill="#1f2340" font-weight="600">Flag on the roof = shipped releases</text>
 <rect x="40" y="395" width="26" height="26" rx="8" fill="#fdf2d1"/>
 <path d="M53,402.1Q53,408 59,408Q53,408 53,413.9Q53,408 47,408Q53,408 53,402.1Z" fill="#f5b800"/>
-<text x="78" y="413" font-size="17" fill="#1f2340" font-weight="600">Dark mode turns on 330 stars ✦</text>
-<text x="40" y="996" font-size="13" fill="#6b7697" class="t-mono">REBUILT 2026-11-05 · 18 REPOS · JUST FOR FUN.</text>
+<text x="78" y="413" font-size="17" fill="#1f2340" font-weight="600">Dark mode turns on 332 stars ✦</text>
+<text x="40" y="996" font-size="13" fill="#6b7697" class="t-mono">REBUILT 2026-11-06 · 18 REPOS · JUST FOR FUN.</text>
 </g>
 <rect x=".5" y=".5" width="599" height="1029" rx="18" fill="none" stroke="#d0d7de" opacity=".7"/>
 </svg>
