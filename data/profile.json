@@ -1,7 +1,7 @@
 {
   "version": 1,
   "github": {
-    "updated": "2026-11-06",
+    "updated": "2026-11-07",
     "repositories": [
       {
         "name": "deepseek_wale_girl",
@@ -10,7 +10,7 @@
         "homepage": "https://smoji.zsh.moe",
         "language": "",
         "archived": false,
-        "stars": 20,
+        "stars": 21,
         "commits": 1,
         "releases": 0,
         "latest_release": null
@@ -23,9 +23,9 @@
         "language": "Python",
         "archived": false,
         "stars": 1,
-        "commits": 21,
+        "commits": 22,
         "releases": 3,
-        "latest_release": "20261105"
+        "latest_release": "20261106"
       },
       {
         "name": "Ecoku",
@@ -35,7 +35,7 @@
         "language": "Go",
         "archived": false,
         "stars": 27,
-        "commits": 187,
+        "commits": 189,
         "releases": 15,
         "latest_release": "v0.5.4"
       },
@@ -130,10 +130,10 @@
         "homepage": "https://pail.download",
         "language": "Go",
         "archived": false,
-        "stars": 63,
-        "commits": 78,
-        "releases": 9,
-        "latest_release": "v0.4.2"
+        "stars": 70,
+        "commits": 91,
+        "releases": 10,
+        "latest_release": "v0.5.0"
       },
       {
         "name": "PicForge",
@@ -154,7 +154,7 @@
         "homepage": "",
         "language": "Python",
         "archived": false,
-        "stars": 8,
+        "stars": 9,
         "commits": 1,
         "releases": 1,
         "latest_release": "v2.1.0"
@@ -178,8 +178,8 @@
         "homepage": "https://sani.zsh.moe",
         "language": "Go",
         "archived": false,
-        "stars": 7,
-        "commits": 105,
+        "stars": 8,
+        "commits": 107,
         "releases": 24,
         "latest_release": "v1.0.3"
       },
@@ -270,7 +270,7 @@
     ]
   },
   "blog": {
-    "updated": "2026-11-06",
+    "updated": "2026-11-07",
     "posts": [
       {
         "title": "寒露与幻梦",
