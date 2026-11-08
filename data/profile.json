@@ -1,7 +1,7 @@
 {
   "version": 1,
   "github": {
-    "updated": "2026-11-07",
+    "updated": "2026-11-08",
     "repositories": [
       {
         "name": "deepseek_wale_girl",
@@ -23,9 +23,9 @@
         "language": "Python",
         "archived": false,
         "stars": 1,
-        "commits": 22,
+        "commits": 23,
         "releases": 3,
-        "latest_release": "20261106"
+        "latest_release": "20261107"
       },
       {
         "name": "Ecoku",
@@ -46,7 +46,7 @@
         "homepage": "https://tts-api.via.moe",
         "language": "TypeScript",
         "archived": false,
-        "stars": 51,
+        "stars": 53,
         "commits": 133,
         "releases": 15,
         "latest_release": "v1.0.1"
@@ -130,8 +130,8 @@
         "homepage": "https://pail.download",
         "language": "Go",
         "archived": false,
-        "stars": 70,
-        "commits": 91,
+        "stars": 79,
+        "commits": 108,
         "releases": 10,
         "latest_release": "v0.5.0"
       },
@@ -178,7 +178,7 @@
         "homepage": "https://sani.zsh.moe",
         "language": "Go",
         "archived": false,
-        "stars": 8,
+        "stars": 10,
         "commits": 107,
         "releases": 24,
         "latest_release": "v1.0.3"
@@ -270,7 +270,7 @@
     ]
   },
   "blog": {
-    "updated": "2026-11-07",
+    "updated": "2026-11-08",
     "posts": [
       {
         "title": "寒露与幻梦",
