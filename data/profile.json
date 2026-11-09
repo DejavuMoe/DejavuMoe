@@ -1,7 +1,7 @@
 {
   "version": 1,
   "github": {
-    "updated": "2026-11-08",
+    "updated": "2026-11-09",
     "repositories": [
       {
         "name": "deepseek_wale_girl",
@@ -23,9 +23,9 @@
         "language": "Python",
         "archived": false,
         "stars": 1,
-        "commits": 23,
+        "commits": 24,
         "releases": 3,
-        "latest_release": "20261107"
+        "latest_release": "20261108"
       },
       {
         "name": "Ecoku",
@@ -35,9 +35,9 @@
         "language": "Go",
         "archived": false,
         "stars": 27,
-        "commits": 189,
-        "releases": 15,
-        "latest_release": "v0.5.4"
+        "commits": 196,
+        "releases": 16,
+        "latest_release": "v0.5.6"
       },
       {
         "name": "edgeTTS",
@@ -130,10 +130,22 @@
         "homepage": "https://pail.download",
         "language": "Go",
         "archived": false,
-        "stars": 79,
-        "commits": 108,
-        "releases": 10,
-        "latest_release": "v0.5.0"
+        "stars": 118,
+        "commits": 122,
+        "releases": 12,
+        "latest_release": "v0.5.2"
+      },
+      {
+        "name": "PicBerth",
+        "url": "https://github.com/DejavuMoe/PicBerth",
+        "description": "",
+        "homepage": "",
+        "language": "Go",
+        "archived": false,
+        "stars": 0,
+        "commits": 46,
+        "releases": 0,
+        "latest_release": null
       },
       {
         "name": "PicForge",
@@ -178,10 +190,10 @@
         "homepage": "https://sani.zsh.moe",
         "language": "Go",
         "archived": false,
-        "stars": 10,
-        "commits": 107,
-        "releases": 24,
-        "latest_release": "v1.0.3"
+        "stars": 13,
+        "commits": 112,
+        "releases": 25,
+        "latest_release": "v1.0.4"
       },
       {
         "name": "selfhosted",
@@ -202,7 +214,7 @@
         "homepage": "https://smoji.zsh.moe",
         "language": "TypeScript",
         "archived": false,
-        "stars": 122,
+        "stars": 123,
         "commits": 54,
         "releases": 0,
         "latest_release": null
@@ -270,7 +282,7 @@
     ]
   },
   "blog": {
-    "updated": "2026-11-08",
+    "updated": "2026-11-09",
     "posts": [
       {
         "title": "寒露与幻梦",

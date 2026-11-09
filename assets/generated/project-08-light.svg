@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="214" viewBox="0 0 1000 214" role="img" aria-labelledby="title">
-<title id="title">Pail: A desktop manager for S3-compatible object storage, plus a CLI. — 79 stars, 108 commits, 10 releases.</title>
+<title id="title">Pail: A desktop manager for S3-compatible object storage, plus a CLI. — 118 stars, 122 commits, 12 releases.</title>
 <style>
 text{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC",sans-serif}
 .t-name{font-weight:800;letter-spacing:-1.5px}
@@ -27,15 +27,15 @@ text{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe 
 <circle cx="956" cy="44" r="20" fill="#d5f2ef"/>
 <path d="M950.5,49.5L961.5,38.5M954.9,38.5H961.5V45.1" stroke="#14b8a6" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="222" y="142" font-size="16" fill="#4a5578">A desktop manager for S3-compatible object storage, plus a CLI.</text>
-<rect x="222" y="163" width="50.6" height="26" rx="13" fill="#f3f5f9" stroke="#d0d7de"/>
+<rect x="222" y="163" width="57.8" height="26" rx="13" fill="#f3f5f9" stroke="#d0d7de"/>
 <path d="M237,170.7 235.7,174.1 232,174.4 234.8,176.7 233.9,180.3 237,178.3 240.1,180.3 239.2,176.7 242,174.4 238.3,174.1Z" fill="#f5b800"/>
-<text x="250" y="180.5" font-size="13" fill="#1f2340" font-weight="600">79</text>
-<rect x="280.6" y="163" width="116.1" height="26" rx="13" fill="#f3f5f9" stroke="#d0d7de"/>
-<path d="M289.6,176H301.5" stroke="#5b8def" stroke-width="1.5"/><circle cx="295.6" cy="176" r="2.9" fill="#fff" fill-opacity="0" stroke="#5b8def" stroke-width="1.5"/>
-<text x="308.6" y="180.5" font-size="13" fill="#1f2340" font-weight="600">108 commits</text>
-<rect x="404.6" y="163" width="181.6" height="26" rx="13" fill="#f3f5f9" stroke="#d0d7de"/>
-<path d="M416.2,181.9V170.1" stroke="#ef4444" stroke-width="1.5" stroke-linecap="round"/><path d="M416.2,170.1h7.6l-2.1,3 2.1,3h-7.6z" fill="#ef4444"/>
-<text x="432.6" y="180.5" font-size="13" fill="#1f2340" font-weight="600">10 releases · v0.5.0</text>
+<text x="250" y="180.5" font-size="13" fill="#1f2340" font-weight="600">118</text>
+<rect x="287.8" y="163" width="116.1" height="26" rx="13" fill="#f3f5f9" stroke="#d0d7de"/>
+<path d="M296.9,176H308.8" stroke="#5b8def" stroke-width="1.5"/><circle cx="302.8" cy="176" r="2.9" fill="#fff" fill-opacity="0" stroke="#5b8def" stroke-width="1.5"/>
+<text x="315.8" y="180.5" font-size="13" fill="#1f2340" font-weight="600">122 commits</text>
+<rect x="411.9" y="163" width="181.6" height="26" rx="13" fill="#f3f5f9" stroke="#d0d7de"/>
+<path d="M423.5,181.9V170.1" stroke="#ef4444" stroke-width="1.5" stroke-linecap="round"/><path d="M423.5,170.1h7.6l-2.1,3 2.1,3h-7.6z" fill="#ef4444"/>
+<text x="439.9" y="180.5" font-size="13" fill="#1f2340" font-weight="600">12 releases · v0.5.2</text>
 </g>
 <rect x=".5" y=".5" width="999" height="213" rx="18" fill="none" stroke="#d0d7de"/>
 </svg>
