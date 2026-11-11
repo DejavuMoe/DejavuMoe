@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="1030" viewBox="0 0 600 1030" role="img" aria-labelledby="title">
-<title id="title">Déjà-vu Town: a floating island where each building is one of Dejavu Moe&#x27;s projects. 8 buildings, 405 GitHub stars.</title>
+<title id="title">Déjà-vu Town: a floating island where each building is one of Dejavu Moe&#x27;s projects. 8 buildings, 412 GitHub stars.</title>
 <style>
 text{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC",sans-serif}
 .t-name{font-weight:800;letter-spacing:-1.5px}
@@ -614,26 +614,26 @@ text{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe 
 <path d="M292.8,647.5A7.2,7.2 0 0 0 307.2,647.5A7.2,4 0 0 1 292.8,647.5Z" fill="#66a655"/>
 <ellipse cx="297.3" cy="644.5" rx="2" ry="1.3" fill="#fff" opacity=".45" transform="rotate(-35 297.3 644.5)"/>
 </g>
-<path d="M367.6,653.2 367.6,558.3" stroke="#6f7d92" stroke-width="2.2"/>
-<path d="M393.6,666.2 387.4,568.2" stroke="#6f7d92" stroke-width="2.2"/>
-<path d="M341.6,666.2 347.8,568.2" stroke="#6f7d92" stroke-width="2.2"/>
-<path d="M367.6,679.2 367.6,578.1" stroke="#6f7d92" stroke-width="2.2"/>
-<path d="M341.6,666.2 367.6,623.7M367.6,679.2 344.7,612.3" stroke="#6f7d92" stroke-width="1" opacity=".8"/>
-<path d="M351.4,568.2A16.2,8.1 0 0 0 367.6,576.3L367.6,572.9A16.2,8.1 0 0 1 351.4,564.8Z" fill="#525d70"/>
-<path d="M367.6,576.3A16.2,8.1 0 0 0 383.8,568.2L383.8,564.8A16.2,8.1 0 0 1 367.6,572.9Z" fill="#3e4755"/>
-<ellipse cx="367.6" cy="564.8" rx="16.2" ry="8.1" fill="#6a7487"/>
-<path d="M347,564.8A20.6,10.3 0 0 0 367.6,575.1L367.6,551.2A28.7,14.3 0 0 1 338.9,536.8Z" fill="#90b3ca"/>
-<path d="M367.6,575.1A20.6,10.3 0 0 0 388.2,564.8L396.3,536.8A28.7,14.3 0 0 1 367.6,551.2Z" fill="#6d889a"/>
-<path d="M344.6,556.4A23,11.5 0 0 0 390.6,556.4" stroke="#6f93ad" stroke-width="1.6" fill="none"/>
-<path d="M341.3,545.2A26.3,13.1 0 0 0 393.9,545.2" stroke="#6f93ad" stroke-width="1.6" fill="none"/>
-<ellipse cx="367.6" cy="536.8" rx="28.7" ry="14.3" fill="#5f86a3"/>
-<ellipse cx="367.6" cy="538.3" rx="25.7" ry="12.3" fill="#3d9bf0"/>
-<ellipse cx="361.6" cy="536.8" rx="6" ry="1.6" fill="#fff" opacity=".6"><animate attributeName="cx" values="359.6;373.6;359.6" dur="4s" begin="0s" repeatCount="indefinite"/></ellipse>
-<path d="M338.9,536.8C338.9,492.8 396.3,492.8 396.3,536.8" stroke="#4d5466" stroke-width="2.2" fill="none"/>
-<text x="367.6" y="555.8" class="t-tag" text-anchor="middle" fill="#2e4a66">S3</text>
-<path d="M0,-4q3,4 0,6q-3,-2 0,-6z" fill="#5ab8ff" opacity="0" transform="translate(367.6 0)"><animateTransform attributeName="transform" type="translate" values="367.6 576;367.6 674" dur="2.6s" repeatCount="indefinite" calcMode="spline" keySplines=".5 0 1 1"/><animate attributeName="opacity" values="0;1;1;0" dur="2.6s" begin="0s" repeatCount="indefinite" keyTimes="0;.1;.9;1"/></path>
-<path d="M367.6,546.8V530.8" stroke="#5b5148" stroke-width="1.4"/>
-<path d="M367.6,531.8 q6,-2 12,1 q-6,3 -12,6z" fill="#14b8a6"><animate attributeName="d" values="M367.6,531.8 q6,-2 12,1 q-6,3 -12,6z;M367.6,531.8 q6,3 12,1 q-6,1 -12,6z;M367.6,531.8 q6,-2 12,1 q-6,3 -12,6z" dur="1.6s" begin="-0.9s" repeatCount="indefinite"/></path>
+<path d="M367.6,653.2 367.6,557.9" stroke="#6f7d92" stroke-width="2.2"/>
+<path d="M393.6,666.2 387.4,567.8" stroke="#6f7d92" stroke-width="2.2"/>
+<path d="M341.6,666.2 347.8,567.8" stroke="#6f7d92" stroke-width="2.2"/>
+<path d="M367.6,679.2 367.6,577.6" stroke="#6f7d92" stroke-width="2.2"/>
+<path d="M341.6,666.2 367.6,623.5M367.6,679.2 344.7,612.1" stroke="#6f7d92" stroke-width="1" opacity=".8"/>
+<path d="M351.4,567.8A16.2,8.1 0 0 0 367.6,575.8L367.6,572.5A16.2,8.1 0 0 1 351.4,564.4Z" fill="#525d70"/>
+<path d="M367.6,575.8A16.2,8.1 0 0 0 383.8,567.8L383.8,564.4A16.2,8.1 0 0 1 367.6,572.5Z" fill="#3e4755"/>
+<ellipse cx="367.6" cy="564.4" rx="16.2" ry="8.1" fill="#6a7487"/>
+<path d="M347,564.4A20.6,10.3 0 0 0 367.6,574.7L367.6,550.7A28.7,14.3 0 0 1 338.9,536.4Z" fill="#90b3ca"/>
+<path d="M367.6,574.7A20.6,10.3 0 0 0 388.2,564.4L396.3,536.4A28.7,14.3 0 0 1 367.6,550.7Z" fill="#6d889a"/>
+<path d="M344.6,556A23,11.5 0 0 0 390.6,556" stroke="#6f93ad" stroke-width="1.6" fill="none"/>
+<path d="M341.3,544.8A26.3,13.1 0 0 0 393.9,544.8" stroke="#6f93ad" stroke-width="1.6" fill="none"/>
+<ellipse cx="367.6" cy="536.4" rx="28.7" ry="14.3" fill="#5f86a3"/>
+<ellipse cx="367.6" cy="537.9" rx="25.7" ry="12.3" fill="#3d9bf0"/>
+<ellipse cx="361.6" cy="536.4" rx="6" ry="1.6" fill="#fff" opacity=".6"><animate attributeName="cx" values="359.6;373.6;359.6" dur="4s" begin="0s" repeatCount="indefinite"/></ellipse>
+<path d="M338.9,536.4C338.9,492.4 396.3,492.4 396.3,536.4" stroke="#4d5466" stroke-width="2.2" fill="none"/>
+<text x="367.6" y="555.4" class="t-tag" text-anchor="middle" fill="#2e4a66">S3</text>
+<path d="M0,-4q3,4 0,6q-3,-2 0,-6z" fill="#5ab8ff" opacity="0" transform="translate(367.6 0)"><animateTransform attributeName="transform" type="translate" values="367.6 575.6;367.6 674" dur="2.6s" repeatCount="indefinite" calcMode="spline" keySplines=".5 0 1 1"/><animate attributeName="opacity" values="0;1;1;0" dur="2.6s" begin="0s" repeatCount="indefinite" keyTimes="0;.1;.9;1"/></path>
+<path d="M367.6,546.4V530.4" stroke="#5b5148" stroke-width="1.4"/>
+<path d="M367.6,531.4 q6,-2 12,1 q-6,3 -12,6z" fill="#14b8a6"><animate attributeName="d" values="M367.6,531.4 q6,-2 12,1 q-6,3 -12,6z;M367.6,531.4 q6,3 12,1 q-6,1 -12,6z;M367.6,531.4 q6,-2 12,1 q-6,3 -12,6z" dur="1.6s" begin="-0.9s" repeatCount="indefinite"/></path>
 <path d="M232.4,648.5 232.4,529.2" stroke="#e5483f" stroke-width="1.6"/>
 <path d="M257.4,661 238.1,532" stroke="#e5483f" stroke-width="1.6"/>
 <path d="M207.4,661 226.7,532" stroke="#e5483f" stroke-width="1.6"/>
@@ -1030,10 +1030,10 @@ text{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe 
 <text x="216" y="489.8" class="t-label" fill="#1f2340">edgeTTS</text>
 </g>
 <g class="label">
-<path d="M363.6,491.8 l4,5 l4,-5z" fill="#ffffff"/>
-<rect x="343.8" y="473.8" width="47.6" height="18" rx="9" fill="#ffffff" stroke="#1f234022" opacity=".94"/>
-<circle cx="353.8" cy="482.8" r="3" fill="#14b8a6"/>
-<text x="360.8" y="486.8" class="t-label" fill="#1f2340">Pail</text>
+<path d="M363.6,491.4 l4,5 l4,-5z" fill="#ffffff"/>
+<rect x="343.8" y="473.4" width="47.6" height="18" rx="9" fill="#ffffff" stroke="#1f234022" opacity=".94"/>
+<circle cx="353.8" cy="482.4" r="3" fill="#14b8a6"/>
+<text x="360.8" y="486.4" class="t-label" fill="#1f2340">Pail</text>
 </g>
 </g>
 <text x="40" y="70" font-size="14" fill="#6b7697" class="t-mono">HELLO, WORLD — WELCOME TO</text>
@@ -1050,8 +1050,8 @@ text{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe 
 <text x="78" y="377" font-size="17" fill="#1f2340" font-weight="600">Flag on the roof = shipped releases</text>
 <rect x="40" y="395" width="26" height="26" rx="8" fill="#fdf2d1"/>
 <path d="M53,402.1Q53,408 59,408Q53,408 53,413.9Q53,408 47,408Q53,408 53,402.1Z" fill="#f5b800"/>
-<text x="78" y="413" font-size="17" fill="#1f2340" font-weight="600">Dark mode turns on 405 stars ✦</text>
-<text x="40" y="996" font-size="13" fill="#6b7697" class="t-mono">REBUILT 2026-11-10 · 19 REPOS · JUST FOR FUN.</text>
+<text x="78" y="413" font-size="17" fill="#1f2340" font-weight="600">Dark mode turns on 412 stars ✦</text>
+<text x="40" y="996" font-size="13" fill="#6b7697" class="t-mono">REBUILT 2026-11-11 · 19 REPOS · JUST FOR FUN.</text>
 </g>
 <rect x=".5" y=".5" width="599" height="1029" rx="18" fill="none" stroke="#d0d7de" opacity=".7"/>
 </svg>

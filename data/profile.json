@@ -1,7 +1,7 @@
 {
   "version": 1,
   "github": {
-    "updated": "2026-11-10",
+    "updated": "2026-11-11",
     "repositories": [
       {
         "name": "deepseek_wale_girl",
@@ -23,9 +23,9 @@
         "language": "Python",
         "archived": false,
         "stars": 1,
-        "commits": 26,
+        "commits": 27,
         "releases": 3,
-        "latest_release": "20261109"
+        "latest_release": "20261110"
       },
       {
         "name": "Ecoku",
@@ -46,7 +46,7 @@
         "homepage": "https://tts-api.via.moe",
         "language": "TypeScript",
         "archived": false,
-        "stars": 53,
+        "stars": 54,
         "commits": 133,
         "releases": 15,
         "latest_release": "v1.0.1"
@@ -130,8 +130,8 @@
         "homepage": "https://pail.download",
         "language": "Go",
         "archived": false,
-        "stars": 124,
-        "commits": 166,
+        "stars": 128,
+        "commits": 169,
         "releases": 14,
         "latest_release": "v0.6.0"
       },
@@ -143,7 +143,7 @@
         "language": "Go",
         "archived": false,
         "stars": 0,
-        "commits": 49,
+        "commits": 54,
         "releases": 1,
         "latest_release": "v0.0.1"
       },
@@ -214,7 +214,7 @@
         "homepage": "https://smoji.zsh.moe",
         "language": "TypeScript",
         "archived": false,
-        "stars": 123,
+        "stars": 125,
         "commits": 54,
         "releases": 0,
         "latest_release": null
@@ -282,7 +282,7 @@
     ]
   },
   "blog": {
-    "updated": "2026-11-10",
+    "updated": "2026-11-11",
     "posts": [
       {
         "title": "寒露与幻梦",
