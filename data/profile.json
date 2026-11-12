@@ -1,7 +1,7 @@
 {
   "version": 1,
   "github": {
-    "updated": "2026-11-11",
+    "updated": "2026-11-12",
     "repositories": [
       {
         "name": "deepseek_wale_girl",
@@ -23,9 +23,9 @@
         "language": "Python",
         "archived": false,
         "stars": 1,
-        "commits": 27,
-        "releases": 3,
-        "latest_release": "20261110"
+        "commits": 29,
+        "releases": 4,
+        "latest_release": "20261111"
       },
       {
         "name": "Ecoku",
@@ -35,9 +35,9 @@
         "language": "Go",
         "archived": false,
         "stars": 27,
-        "commits": 196,
-        "releases": 16,
-        "latest_release": "v0.5.6"
+        "commits": 206,
+        "releases": 17,
+        "latest_release": "v0.5.7"
       },
       {
         "name": "edgeTTS",
@@ -46,7 +46,7 @@
         "homepage": "https://tts-api.via.moe",
         "language": "TypeScript",
         "archived": false,
-        "stars": 54,
+        "stars": 55,
         "commits": 133,
         "releases": 15,
         "latest_release": "v1.0.1"
@@ -130,10 +130,10 @@
         "homepage": "https://pail.download",
         "language": "Go",
         "archived": false,
-        "stars": 128,
-        "commits": 169,
-        "releases": 14,
-        "latest_release": "v0.6.0"
+        "stars": 133,
+        "commits": 202,
+        "releases": 16,
+        "latest_release": "v0.6.2"
       },
       {
         "name": "PicBerth",

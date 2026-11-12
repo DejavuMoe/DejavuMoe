@@ -2,14 +2,14 @@
 <a href="https://github.com/DejavuMoe#gh-light-mode-only">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/hero-light-mobile.svg">
-  <img src="assets/generated/hero-light.svg" width="100%" alt="Déjà-vu Town — a floating island where every building is one of Dejavu Moe&#x27;s projects (Ecoku, edgeTTS, Smoji, sani, PicForge, romi, webfont-slice, Pail). Taller buildings have more commits, roof flags mark releases, and at night the sky holds 412 stars, one per GitHub star.">
+  <img src="assets/generated/hero-light.svg" width="100%" alt="Déjà-vu Town — a floating island where every building is one of Dejavu Moe&#x27;s projects (Ecoku, edgeTTS, Smoji, sani, PicForge, romi, webfont-slice, Pail). Taller buildings have more commits, roof flags mark releases, and at night the sky holds 418 stars, one per GitHub star.">
 </picture>
 </a>
 
 <a href="https://github.com/DejavuMoe#gh-dark-mode-only">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/hero-dark-mobile.svg">
-  <img src="assets/generated/hero-dark.svg" width="100%" alt="Déjà-vu Town — a floating island where every building is one of Dejavu Moe&#x27;s projects (Ecoku, edgeTTS, Smoji, sani, PicForge, romi, webfont-slice, Pail). Taller buildings have more commits, roof flags mark releases, and at night the sky holds 412 stars, one per GitHub star.">
+  <img src="assets/generated/hero-dark.svg" width="100%" alt="Déjà-vu Town — a floating island where every building is one of Dejavu Moe&#x27;s projects (Ecoku, edgeTTS, Smoji, sani, PicForge, romi, webfont-slice, Pail). Taller buildings have more commits, roof flags mark releases, and at night the sky holds 418 stars, one per GitHub star.">
 </picture>
 </a>
 <!-- PROFILE-HERO:END -->
@@ -32,28 +32,28 @@ Every building on the island is one of these projects. Tap a card to open its re
 <a href="https://github.com/DejavuMoe/Ecoku#gh-light-mode-only">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/project-01-light-mobile.svg">
-  <img src="assets/generated/project-01-light.svg" width="100%" alt="Ecoku — Self-hosted comments for blogs. Multi-site, text-first. | 27 stars · 196 commits · 16 releases">
+  <img src="assets/generated/project-01-light.svg" width="100%" alt="Ecoku — Self-hosted comments for blogs. Multi-site, text-first. | 27 stars · 206 commits · 17 releases">
 </picture>
 </a>
 
 <a href="https://github.com/DejavuMoe/Ecoku#gh-dark-mode-only">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/project-01-dark-mobile.svg">
-  <img src="assets/generated/project-01-dark.svg" width="100%" alt="Ecoku — Self-hosted comments for blogs. Multi-site, text-first. | 27 stars · 196 commits · 16 releases">
+  <img src="assets/generated/project-01-dark.svg" width="100%" alt="Ecoku — Self-hosted comments for blogs. Multi-site, text-first. | 27 stars · 206 commits · 17 releases">
 </picture>
 </a>
 
 <a href="https://github.com/DejavuMoe/edgeTTS#gh-light-mode-only">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/project-02-light-mobile.svg">
-  <img src="assets/generated/project-02-light.svg" width="100%" alt="edgeTTS — A self-hosted speech API and browser workbench for Edge TTS. | 54 stars · 133 commits · 15 releases">
+  <img src="assets/generated/project-02-light.svg" width="100%" alt="edgeTTS — A self-hosted speech API and browser workbench for Edge TTS. | 55 stars · 133 commits · 15 releases">
 </picture>
 </a>
 
 <a href="https://github.com/DejavuMoe/edgeTTS#gh-dark-mode-only">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/project-02-dark-mobile.svg">
-  <img src="assets/generated/project-02-dark.svg" width="100%" alt="edgeTTS — A self-hosted speech API and browser workbench for Edge TTS. | 54 stars · 133 commits · 15 releases">
+  <img src="assets/generated/project-02-dark.svg" width="100%" alt="edgeTTS — A self-hosted speech API and browser workbench for Edge TTS. | 55 stars · 133 commits · 15 releases">
 </picture>
 </a>
 
@@ -130,20 +130,20 @@ Every building on the island is one of these projects. Tap a card to open its re
 <a href="https://github.com/DejavuMoe/Pail#gh-light-mode-only">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/project-08-light-mobile.svg">
-  <img src="assets/generated/project-08-light.svg" width="100%" alt="Pail — A desktop manager for S3-compatible object storage, plus a CLI. | 128 stars · 169 commits · 14 releases">
+  <img src="assets/generated/project-08-light.svg" width="100%" alt="Pail — A desktop manager for S3-compatible object storage, plus a CLI. | 133 stars · 202 commits · 16 releases">
 </picture>
 </a>
 
 <a href="https://github.com/DejavuMoe/Pail#gh-dark-mode-only">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/project-08-dark-mobile.svg">
-  <img src="assets/generated/project-08-dark.svg" width="100%" alt="Pail — A desktop manager for S3-compatible object storage, plus a CLI. | 128 stars · 169 commits · 14 releases">
+  <img src="assets/generated/project-08-dark.svg" width="100%" alt="Pail — A desktop manager for S3-compatible object storage, plus a CLI. | 133 stars · 202 commits · 16 releases">
 </picture>
 </a>
 
 <p align="center"><b>Try them live&nbsp;→</b>&nbsp; <a href="https://ecoku.zsh.moe">Ecoku</a> &nbsp;·&nbsp; <a href="https://tts-api.via.moe">edgeTTS</a> &nbsp;·&nbsp; <a href="https://smoji.zsh.moe">Smoji</a> &nbsp;·&nbsp; <a href="https://sani.zsh.moe">sani</a> &nbsp;·&nbsp; <a href="https://picforge.de">PicForge</a> &nbsp;·&nbsp; <a href="https://webfont.zsh.moe">webfont-slice</a> &nbsp;·&nbsp; <a href="https://pail.download">Pail</a></p>
 
-<p align="center"><sub>Snapshot 2026-11-11 UTC · 19 indexed repositories · 412 stars across this index</sub></p>
+<p align="center"><sub>Snapshot 2026-11-12 UTC · 19 indexed repositories · 418 stars across this index</sub></p>
 
 <details>
 <summary>How the town is built &amp; the full project index</summary>
@@ -152,9 +152,9 @@ Only my public, non-fork, non-archived repositories with commit history are elig
 
 | Project | In town | Stars | Commits | Releases |
 | :--- | :---: | ---: | ---: | ---: |
-| [Pail](https://github.com/DejavuMoe/Pail) | 🏠 | 128 | 169 | 14 |
-| [edgeTTS](https://github.com/DejavuMoe/edgeTTS) | 🏠 | 54 | 133 | 15 |
-| [Ecoku](https://github.com/DejavuMoe/Ecoku) | 🏠 | 27 | 196 | 16 |
+| [Pail](https://github.com/DejavuMoe/Pail) | 🏠 | 133 | 202 | 16 |
+| [edgeTTS](https://github.com/DejavuMoe/edgeTTS) | 🏠 | 55 | 133 | 15 |
+| [Ecoku](https://github.com/DejavuMoe/Ecoku) | 🏠 | 27 | 206 | 17 |
 | [sani](https://github.com/DejavuMoe/sani) | 🏠 | 13 | 112 | 25 |
 | [Smoji](https://github.com/DejavuMoe/Smoji) | 🏠 | 125 | 54 | 0 |
 | [PicForge](https://github.com/DejavuMoe/PicForge) | 🏠 | 25 | 63 | 0 |
