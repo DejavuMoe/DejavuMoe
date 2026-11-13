@@ -1,7 +1,7 @@
 {
   "version": 1,
   "github": {
-    "updated": "2026-11-12",
+    "updated": "2026-11-13",
     "repositories": [
       {
         "name": "deepseek_wale_girl",
@@ -10,7 +10,7 @@
         "homepage": "https://smoji.zsh.moe",
         "language": "",
         "archived": false,
-        "stars": 22,
+        "stars": 23,
         "commits": 1,
         "releases": 0,
         "latest_release": null
@@ -23,9 +23,9 @@
         "language": "Python",
         "archived": false,
         "stars": 1,
-        "commits": 29,
+        "commits": 30,
         "releases": 4,
-        "latest_release": "20261111"
+        "latest_release": "20261112"
       },
       {
         "name": "Ecoku",
@@ -130,7 +130,7 @@
         "homepage": "https://pail.download",
         "language": "Go",
         "archived": false,
-        "stars": 133,
+        "stars": 134,
         "commits": 202,
         "releases": 16,
         "latest_release": "v0.6.2"
@@ -282,7 +282,7 @@
     ]
   },
   "blog": {
-    "updated": "2026-11-12",
+    "updated": "2026-11-13",
     "posts": [
       {
         "title": "寒露与幻梦",
