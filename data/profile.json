@@ -1,7 +1,7 @@
 {
   "version": 1,
   "github": {
-    "updated": "2026-11-16",
+    "updated": "2026-11-17",
     "repositories": [
       {
         "name": "deepseek_wale_girl",
@@ -10,7 +10,7 @@
         "homepage": "https://smoji.zsh.moe",
         "language": "",
         "archived": false,
-        "stars": 23,
+        "stars": 24,
         "commits": 1,
         "releases": 0,
         "latest_release": null
@@ -23,9 +23,9 @@
         "language": "Python",
         "archived": false,
         "stars": 1,
-        "commits": 33,
+        "commits": 35,
         "releases": 3,
-        "latest_release": "20261115"
+        "latest_release": "20261116"
       },
       {
         "name": "Ecoku",
@@ -35,9 +35,9 @@
         "language": "Go",
         "archived": false,
         "stars": 27,
-        "commits": 206,
-        "releases": 17,
-        "latest_release": "v0.5.7"
+        "commits": 208,
+        "releases": 18,
+        "latest_release": "v0.6.0"
       },
       {
         "name": "edgeTTS",
@@ -47,9 +47,9 @@
         "language": "TypeScript",
         "archived": false,
         "stars": 55,
-        "commits": 133,
-        "releases": 15,
-        "latest_release": "v1.0.1"
+        "commits": 140,
+        "releases": 16,
+        "latest_release": "v1.0.2"
       },
       {
         "name": "Gxif-Converter",
@@ -143,7 +143,7 @@
         "language": "Go",
         "archived": false,
         "stars": 0,
-        "commits": 54,
+        "commits": 62,
         "releases": 1,
         "latest_release": "v0.0.1"
       },
@@ -191,9 +191,9 @@
         "language": "Go",
         "archived": false,
         "stars": 14,
-        "commits": 112,
-        "releases": 25,
-        "latest_release": "v1.0.4"
+        "commits": 114,
+        "releases": 26,
+        "latest_release": "v1.0.5"
       },
       {
         "name": "selfhosted",
