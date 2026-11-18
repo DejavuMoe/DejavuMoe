@@ -46,14 +46,14 @@ Every building on the island is one of these projects. Tap a card to open its re
 <a href="https://github.com/DejavuMoe/edgeTTS#gh-light-mode-only">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/project-02-light-mobile.svg">
-  <img src="assets/generated/project-02-light.svg" width="100%" alt="edgeTTS — A self-hosted speech API and browser workbench for Edge TTS. | 55 stars · 140 commits · 16 releases">
+  <img src="assets/generated/project-02-light.svg" width="100%" alt="edgeTTS — A self-hosted speech API and browser workbench for Edge TTS. | 55 stars · 142 commits · 17 releases">
 </picture>
 </a>
 
 <a href="https://github.com/DejavuMoe/edgeTTS#gh-dark-mode-only">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/project-02-dark-mobile.svg">
-  <img src="assets/generated/project-02-dark.svg" width="100%" alt="edgeTTS — A self-hosted speech API and browser workbench for Edge TTS. | 55 stars · 140 commits · 16 releases">
+  <img src="assets/generated/project-02-dark.svg" width="100%" alt="edgeTTS — A self-hosted speech API and browser workbench for Edge TTS. | 55 stars · 142 commits · 17 releases">
 </picture>
 </a>
 
@@ -74,14 +74,14 @@ Every building on the island is one of these projects. Tap a card to open its re
 <a href="https://github.com/DejavuMoe/sani#gh-light-mode-only">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/project-04-light-mobile.svg">
-  <img src="assets/generated/project-04-light.svg" width="100%" alt="sani — Short links, text and file sharing. One binary, one SQLite file. | 14 stars · 114 commits · 26 releases">
+  <img src="assets/generated/project-04-light.svg" width="100%" alt="sani — Short links, text and file sharing. One binary, one SQLite file. | 14 stars · 126 commits · 28 releases">
 </picture>
 </a>
 
 <a href="https://github.com/DejavuMoe/sani#gh-dark-mode-only">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/project-04-dark-mobile.svg">
-  <img src="assets/generated/project-04-dark.svg" width="100%" alt="sani — Short links, text and file sharing. One binary, one SQLite file. | 14 stars · 114 commits · 26 releases">
+  <img src="assets/generated/project-04-dark.svg" width="100%" alt="sani — Short links, text and file sharing. One binary, one SQLite file. | 14 stars · 126 commits · 28 releases">
 </picture>
 </a>
 
@@ -143,7 +143,7 @@ Every building on the island is one of these projects. Tap a card to open its re
 
 <p align="center"><b>Try them live&nbsp;→</b>&nbsp; <a href="https://ecoku.zsh.moe">Ecoku</a> &nbsp;·&nbsp; <a href="https://tts-api.via.moe">edgeTTS</a> &nbsp;·&nbsp; <a href="https://smoji.zsh.moe">Smoji</a> &nbsp;·&nbsp; <a href="https://sani.zsh.moe">sani</a> &nbsp;·&nbsp; <a href="https://picforge.de">PicForge</a> &nbsp;·&nbsp; <a href="https://webfont.zsh.moe">webfont-slice</a> &nbsp;·&nbsp; <a href="https://pail.download">Pail</a></p>
 
-<p align="center"><sub>Snapshot 2026-11-17 UTC · 19 indexed repositories · 422 stars across this index</sub></p>
+<p align="center"><sub>Snapshot 2026-11-18 UTC · 19 indexed repositories · 422 stars across this index</sub></p>
 
 <details>
 <summary>How the town is built &amp; the full project index</summary>
@@ -153,13 +153,13 @@ Only my public, non-fork, non-archived repositories with commit history are elig
 | Project | In town | Stars | Commits | Releases |
 | :--- | :---: | ---: | ---: | ---: |
 | [Pail](https://github.com/DejavuMoe/Pail) | 🏠 | 134 | 202 | 16 |
-| [edgeTTS](https://github.com/DejavuMoe/edgeTTS) | 🏠 | 55 | 140 | 16 |
+| [edgeTTS](https://github.com/DejavuMoe/edgeTTS) | 🏠 | 55 | 142 | 17 |
 | [Ecoku](https://github.com/DejavuMoe/Ecoku) | 🏠 | 27 | 208 | 18 |
-| [sani](https://github.com/DejavuMoe/sani) | 🏠 | 14 | 114 | 26 |
+| [sani](https://github.com/DejavuMoe/sani) | 🏠 | 14 | 126 | 28 |
 | [Smoji](https://github.com/DejavuMoe/Smoji) | 🏠 | 125 | 54 | 0 |
 | [PicForge](https://github.com/DejavuMoe/PicForge) | 🏠 | 25 | 63 | 0 |
 | [romi](https://github.com/DejavuMoe/romi) | 🏠 | 0 | 127 | 2 |
-| [PicBerth](https://github.com/DejavuMoe/PicBerth) |  | 0 | 62 | 1 |
+| [PicBerth](https://github.com/DejavuMoe/PicBerth) |  | 0 | 68 | 1 |
 | [hugo\-start](https://github.com/DejavuMoe/hugo-start) |  | 5 | 17 | 0 |
 | [selfhosted](https://github.com/DejavuMoe/selfhosted) |  | 0 | 47 | 0 |
 | [webfont\-slice](https://github.com/DejavuMoe/webfont-slice) | 🏠 | 2 | 13 | 0 |

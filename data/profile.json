@@ -1,7 +1,7 @@
 {
   "version": 1,
   "github": {
-    "updated": "2026-11-17",
+    "updated": "2026-11-18",
     "repositories": [
       {
         "name": "deepseek_wale_girl",
@@ -23,9 +23,9 @@
         "language": "Python",
         "archived": false,
         "stars": 1,
-        "commits": 35,
+        "commits": 37,
         "releases": 3,
-        "latest_release": "20261116"
+        "latest_release": "20261117"
       },
       {
         "name": "Ecoku",
@@ -47,9 +47,9 @@
         "language": "TypeScript",
         "archived": false,
         "stars": 55,
-        "commits": 140,
-        "releases": 16,
-        "latest_release": "v1.0.2"
+        "commits": 142,
+        "releases": 17,
+        "latest_release": "v1.0.3"
       },
       {
         "name": "Gxif-Converter",
@@ -143,7 +143,7 @@
         "language": "Go",
         "archived": false,
         "stars": 0,
-        "commits": 62,
+        "commits": 68,
         "releases": 1,
         "latest_release": "v0.0.1"
       },
@@ -191,9 +191,9 @@
         "language": "Go",
         "archived": false,
         "stars": 14,
-        "commits": 114,
-        "releases": 26,
-        "latest_release": "v1.0.5"
+        "commits": 126,
+        "releases": 28,
+        "latest_release": "v2.0.0"
       },
       {
         "name": "selfhosted",
