@@ -1,7 +1,7 @@
 {
   "version": 1,
   "github": {
-    "updated": "2026-11-18",
+    "updated": "2026-11-19",
     "repositories": [
       {
         "name": "deepseek_wale_girl",
@@ -23,9 +23,9 @@
         "language": "Python",
         "archived": false,
         "stars": 1,
-        "commits": 37,
+        "commits": 39,
         "releases": 3,
-        "latest_release": "20261117"
+        "latest_release": "20261118"
       },
       {
         "name": "Ecoku",
@@ -35,9 +35,9 @@
         "language": "Go",
         "archived": false,
         "stars": 27,
-        "commits": 208,
-        "releases": 18,
-        "latest_release": "v0.6.0"
+        "commits": 232,
+        "releases": 19,
+        "latest_release": "v0.6.1"
       },
       {
         "name": "edgeTTS",
@@ -47,9 +47,21 @@
         "language": "TypeScript",
         "archived": false,
         "stars": 55,
-        "commits": 142,
+        "commits": 143,
         "releases": 17,
         "latest_release": "v1.0.3"
+      },
+      {
+        "name": "general-project-audit-and-optimization",
+        "url": "https://github.com/DejavuMoe/general-project-audit-and-optimization",
+        "description": "",
+        "homepage": "",
+        "language": "",
+        "archived": false,
+        "stars": 1,
+        "commits": 2,
+        "releases": 0,
+        "latest_release": null
       },
       {
         "name": "Gxif-Converter",
@@ -130,10 +142,10 @@
         "homepage": "https://pail.download",
         "language": "Go",
         "archived": false,
-        "stars": 134,
-        "commits": 202,
-        "releases": 16,
-        "latest_release": "v0.6.2"
+        "stars": 136,
+        "commits": 215,
+        "releases": 17,
+        "latest_release": "v0.6.3"
       },
       {
         "name": "PicBerth",
@@ -143,9 +155,9 @@
         "language": "Go",
         "archived": false,
         "stars": 0,
-        "commits": 68,
-        "releases": 1,
-        "latest_release": "v0.0.1"
+        "commits": 97,
+        "releases": 2,
+        "latest_release": "v0.0.2"
       },
       {
         "name": "PicForge",
@@ -172,6 +184,18 @@
         "latest_release": "v2.1.0"
       },
       {
+        "name": "Rivu",
+        "url": "https://github.com/DejavuMoe/Rivu",
+        "description": "",
+        "homepage": "",
+        "language": "Rust",
+        "archived": false,
+        "stars": 0,
+        "commits": 158,
+        "releases": 0,
+        "latest_release": null
+      },
+      {
         "name": "romi",
         "url": "https://github.com/DejavuMoe/romi",
         "description": "🚧WIP",
@@ -191,9 +215,9 @@
         "language": "Go",
         "archived": false,
         "stars": 14,
-        "commits": 126,
-        "releases": 28,
-        "latest_release": "v2.0.0"
+        "commits": 135,
+        "releases": 29,
+        "latest_release": "v2.0.1"
       },
       {
         "name": "selfhosted",
