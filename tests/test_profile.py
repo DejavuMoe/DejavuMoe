@@ -12,36 +12,29 @@ import xml.etree.ElementTree as ET
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 import update_profile as profile
-import town
-from iso import Iso
-from profile_art import picture, project_card, town_plan, wrap_copy
+from profile_art import pin_card, pin_grid, text_width, wrap
 
 CONFIG = {
     "owner": "DejavuMoe", "blog_url": "https://blog.dejavu.moe",
-    "feed_url": "https://blog.dejavu.moe/index.xml", "project_count": 6,
-    "post_count": 8, "exclude": ["DejavuMoe"], "descriptions": {},
+    "feed_url": "https://blog.dejavu.moe/index.xml", "post_count": 8,
+    "pins": ["example", {"repo": "other/tool", "title": "Tool", "description": "Custom text.", "badge": "Friend"}],
 }
 README = """Handwritten introduction and PGP key stay intact.
-<!-- PROFILE-HERO:START -->
-old hero
-<!-- PROFILE-HERO:END -->
-<!-- PROJECTS:START -->
-old projects
-<!-- PROJECTS:END -->
+<!-- PINS:START -->
+old pins
+<!-- PINS:END -->
 <!-- BLOG-POST-LIST:START -->
 old posts
 <!-- BLOG-POST-LIST:END -->
-<!-- FOOTER:START -->
-<!-- FOOTER:END -->
 Handwritten footer.
 """
 
 
-def repo(name="example", **kwargs):
+def repo(name="example", owner="DejavuMoe", **kwargs):
     item = {
-        "name": name, "url": f"https://github.com/DejavuMoe/{name}", "description": "A small tool.",
-        "homepage": "", "language": "Python", "archived": False, "stars": 3, "commits": 30, "releases": 2,
-        "latest_release": "v1.0.0",
+        "pinned_as": f"{owner}/{name}", "owner": owner, "name": name, "url": f"https://github.com/{owner}/{name}",
+        "description": "A small tool.", "homepage": "", "language": "Python", "language_color": "#3572a5",
+        "stars": 3, "forks": 1, "archived": False, "template": False, "parent": None,
     }
     item.update(kwargs)
     return item
@@ -49,35 +42,21 @@ def repo(name="example", **kwargs):
 
 def snapshot():
     return {
-        "version": 1,
-        "github": {"updated": "2026-10-12", "repositories": [repo()]},
+        "version": 2,
+        "github": {"updated": "2026-10-12", "repositories": [repo(), repo("tool", "other")]},
         "blog": {"updated": "2026-10-12", "posts": [{"title": "A post", "url": "https://blog.dejavu.moe/posts/a/", "date": "2026-10-08", "summary": "Short."}]},
     }
 
 
-def view(**kwargs):
-    item = profile.project_view(repo(**kwargs), CONFIG)
-    return {**item, "height": 2.0}
-
-
-def connection(nodes, cursor=None):
-    return {"nodes": nodes, "pageInfo": {"hasNextPage": bool(cursor), "endCursor": cursor}}
-
-
-def api_repo(name="example", **kwargs):
+def api_repo(name="example", owner="DejavuMoe", **kwargs):
     item = {
-        "name": name, "url": f"https://github.com/DejavuMoe/{name}", "description": "",
-        "isPrivate": False, "isFork": False, "isArchived": False,
-        "owner": {"login": "DejavuMoe"}, "stargazerCount": 3, "primaryLanguage": {"name": "Python"},
-        "defaultBranchRef": {"target": {"history": {"totalCount": 30}}},
-        "releases": connection([]),
+        "name": name, "url": f"https://github.com/{owner}/{name}", "description": "  A   tool. ",
+        "homepageUrl": None, "isPrivate": False, "isArchived": False, "isFork": False, "isTemplate": False,
+        "owner": {"login": owner}, "stargazerCount": 3, "forkCount": 1,
+        "primaryLanguage": {"name": "Go", "color": "#00ADD8"}, "parent": None,
     }
     item.update(kwargs)
     return item
-
-
-def release(tag="v1", draft=False, date="2026-10-01T00:00:00Z", prerelease=False):
-    return {"tagName": tag, "isDraft": draft, "publishedAt": date, "isPrerelease": prerelease}
 
 
 def rss(items):
@@ -141,55 +120,9 @@ class FeedTests(unittest.TestCase):
         self.assertTrue(profile.plain_summary("字" * 500).endswith("…"))
 
 
-class GitHubTests(unittest.TestCase):
-    def test_query_explicitly_limits_to_public_owned_nonforks(self):
-        for constraint in ("privacy: PUBLIC", "isFork: false", "ownerAffiliations: [OWNER]"):
-            self.assertIn(constraint, profile.QUERY)
-        # Explicit CREATED_AT ordering returned old Smoji releases that the public
-        # REST/default GraphQL connection did not expose. Keep the default connection.
-        self.assertIn("releases(first: 100)", profile.QUERY)
-        self.assertIn("releases(first: 100, after: $cursor)", profile.RELEASE_QUERY)
 
-    def test_repository_pagination_and_visibility_filter(self):
-        first = [api_repo("first"), api_repo("secret", isPrivate=True), api_repo("fork", isFork=True), api_repo("foreign", owner={"login": "other"})]
-        responses = [{"user": {"repositories": connection(first, "next")}}, {"user": {"repositories": connection([api_repo("second")])}}]
-        with patch.object(profile, "graphql", side_effect=responses) as fetch:
-            result = profile.collect_repositories("DejavuMoe", "test-token")
-        self.assertEqual([r["name"] for r in result], ["first", "second"])
-        self.assertEqual(fetch.call_args_list[1].args[1]["cursor"], "next")
 
-    def test_release_pagination_and_published_only(self):
-        node = api_repo(releases=connection([release("v1"), release("draft", draft=True), release("unpublished", date=None)], "next"))
-        responses = [
-            {"user": {"repositories": connection([node])}},
-            {"repository": {"isPrivate": False, "releases": connection([release("v2-beta", date="2026-10-10T00:00:00Z", prerelease=True)])}},
-        ]
-        with patch.object(profile, "graphql", side_effect=responses):
-            result = profile.collect_repositories("DejavuMoe", "test-token")[0]
-        self.assertEqual(result["releases"], 2)
-        self.assertEqual(result["latest_release"], "v2-beta")
-
-    def test_empty_repository_is_counted_as_zero_commits(self):
-        data = {"user": {"repositories": connection([api_repo(defaultBranchRef=None, primaryLanguage=None)])}}
-        with patch.object(profile, "graphql", return_value=data):
-            result = profile.collect_repositories("DejavuMoe", "test-token")[0]
-        self.assertEqual(result["commits"], 0)
-        self.assertEqual(result["language"], "")
-
-    def test_repeated_repository_cursor_fails(self):
-        response = {"user": {"repositories": connection([api_repo()], "repeat")}}
-        with patch.object(profile, "graphql", return_value=response), self.assertRaises(ValueError):
-            profile.collect_repositories("DejavuMoe", "test-token")
-
-    def test_repeated_release_cursor_fails(self):
-        releases = connection([], "repeat")
-        responses = [
-            {"user": {"repositories": connection([api_repo(releases=releases)])}},
-            {"repository": {"isPrivate": False, "releases": releases}},
-        ]
-        with patch.object(profile, "graphql", side_effect=responses), self.assertRaises(ValueError):
-            profile.collect_repositories("DejavuMoe", "test-token")
-
+class HttpTests(unittest.TestCase):
     def test_graphql_partial_errors_fail_without_leaking_response(self):
         with patch.object(profile, "request", return_value=b'{"errors":[{"message":"secret detail"}],"data":{}}'):
             with self.assertRaises(RuntimeError) as raised:
@@ -207,11 +140,6 @@ class GitHubTests(unittest.TestCase):
                     "https://github.com/DejavuMoe/sani", "https://a.example:8443", 'https://a"b.example'):
             with self.subTest(url=url):
                 self.assertEqual(profile.safe_homepage(url), "")
-
-    def test_homepage_is_collected(self):
-        data = {"user": {"repositories": connection([api_repo(homepageUrl="https://demo.example/")])}}
-        with patch.object(profile, "graphql", return_value=data):
-            self.assertEqual(profile.collect_repositories("DejavuMoe", "test-token")[0]["homepage"], "https://demo.example")
 
     def test_authenticated_redirect_is_rejected(self):
         req = profile.urllib.request.Request(profile.API, headers={"Authorization": "Bearer test-token"})
@@ -239,85 +167,89 @@ class GitHubTests(unittest.TestCase):
         self.assertEqual(fetch.call_count, 1)
 
 
-class RankingTests(unittest.TestCase):
-    def test_excludes_archives_profile_and_empty_repositories(self):
-        repos = [repo(), repo("old", archived=True), repo("dejavumoe"), repo("empty", commits=0)]
-        self.assertEqual([r["name"] for r in profile.rank_repositories(repos, CONFIG)], ["example"])
+class PinConfigTests(unittest.TestCase):
+    def test_strings_owner_prefix_and_overrides(self):
+        specs = profile.pin_specs(CONFIG)
+        self.assertEqual([(s["owner"], s["name"]) for s in specs], [("DejavuMoe", "example"), ("other", "tool")])
+        self.assertEqual(specs[1]["title"], "Tool")
 
-    def test_each_metric_can_increase_score(self):
-        base = repo()
-        for field in ("stars", "commits", "releases"):
-            extra = {**base, field: base[field]+1}
-            self.assertGreater(profile.score(extra), profile.score(base))
+    def test_invalid_duplicate_and_unknown_pins_fail(self):
+        for pins in (["../x"], ["a/b/c"], ["x", "X"], [{"repo": "x", "colour": "red"}], [],
+                     [{"repo": "x", "link": "javascript:alert(1)"}], [{"repo": "x", "link": "http://a.example"}]):
+            with self.subTest(pins=pins), self.assertRaises(ValueError):
+                profile.pin_specs({**CONFIG, "pins": pins})
 
-    def test_commits_and_releases_can_outweigh_stars(self):
-        active = repo("active", stars=0, commits=127, releases=2)
-        resource = repo("resource", stars=18, commits=1, releases=0)
-        self.assertEqual(profile.rank_repositories([resource, active], CONFIG)[0]["name"], "active")
-
-    def test_ties_are_stable(self):
-        self.assertEqual([r["name"] for r in profile.rank_repositories([repo("z"), repo("a")], CONFIG)], ["a", "z"])
-
-    def test_featured_first_then_filled_by_score(self):
-        ranked = profile.rank_repositories([repo("big", commits=500), repo("mid", commits=50), repo("tiny", commits=2)], CONFIG)
-        config = {**CONFIG, "project_count": 2, "featured": ["tiny", "gone"]}
-        self.assertEqual([r["name"] for r in profile.select_featured(ranked, config)], ["tiny", "big"])
-
-    def test_archived_featured_project_is_skipped(self):
-        ranked = profile.rank_repositories([repo("a"), repo("old", archived=True)], CONFIG)
-        self.assertEqual([r["name"] for r in profile.select_featured(ranked, {**CONFIG, "featured": ["old"]})], ["a"])
-
-    def test_building_height_follows_commits(self):
-        plan = town_plan({"projects": [view(name="a", commits=10), view(name="b", commits=1000)]})
-        heights = {p["name"]: p["height"] for p in plan}
-        self.assertLess(heights["a"], heights["b"])
+    def test_safe_custom_link(self):
+        self.assertEqual(profile.safe_link("https://demo.example/app?x=1#frag"), "https://demo.example/app?x=1")
+        self.assertEqual(profile.safe_link("https://u:p@demo.example"), "")
 
 
-class TownTests(unittest.TestCase):
-    def test_tram_switches_layers_between_far_left_and_far_right(self):
-        iso = Iso(500, 300, 26, 28)
-        route, length, back = town.tram_route(iso)
-        self.assertTrue(route.startswith("M") and route.endswith("Z"))
-        self.assertGreater(length, 0)
-        self.assertGreater(back, .3)
-        self.assertLess(back, .7)
+class CollectTests(unittest.TestCase):
+    def test_one_request_with_variables_and_clean_fields(self):
+        data = {"r0": api_repo(), "r1": api_repo("tool", "other", isFork=True, parent={"nameWithOwner": "up/tool"}, primaryLanguage=None)}
+        with patch.object(profile, "graphql", return_value=data) as fetch:
+            repos = profile.collect_pins(profile.pin_specs(CONFIG), "test-token")
+        fetch.assert_called_once()
+        query, variables = fetch.call_args.args[:2]
+        self.assertNotIn("DejavuMoe", query)  # names travel as variables, never spliced into the query
+        self.assertEqual(variables, {"o0": "DejavuMoe", "n0": "example", "o1": "other", "n1": "tool"})
+        self.assertEqual(repos[0]["description"], "A tool.")
+        self.assertEqual(repos[0]["language_color"], "#00add8")
+        self.assertEqual(repos[1]["parent"], "up/tool")
+        self.assertEqual(repos[1]["language"], "")
 
-    def test_labels_never_overlap(self):
-        pending = [(100, 100, "edgeTTS", "#000"), (110, 102, "Ecoku", "#000"), (95, 98, "romi", "#000"), (300, 100, "far", "#000")]
-        placed = town.place_labels(pending)
-        for i, (x, _, y, name, _) in enumerate(placed):
-            for x2, _, y2, name2, _ in placed[i + 1:]:
-                overlap_x = abs(x - x2) < (len(name) + len(name2)) * 3.2 + 22
-                self.assertFalse(overlap_x and abs(y - y2) < 20, (name, name2))
+    def test_private_repository_is_refused(self):
+        with patch.object(profile, "graphql", return_value={"r0": api_repo(isPrivate=True), "r1": api_repo("tool", "other")}):
+            with self.assertRaises(ValueError):
+                profile.collect_pins(profile.pin_specs(CONFIG), "test-token")
 
-    def test_every_building_kind_renders(self):
-        for kind in town.BUILDERS:
-            with self.subTest(kind=kind):
-                svg = project_card({**view(), "kind": kind}, 1, 1)
-                ET.fromstring(svg)
+    def test_missing_repository_is_named(self):
+        body = b'{"data":{"r0":null,"r1":{}},"errors":[{"type":"NOT_FOUND","path":["r0"],"message":"x"}]}'
+        with patch.object(profile, "request", return_value=body):
+            with self.assertRaises(ValueError) as raised:
+                profile.collect_pins(profile.pin_specs(CONFIG), "test-token")
+        self.assertIn("DejavuMoe/example", str(raised.exception))
+
+    def test_unsafe_language_colour_is_dropped(self):
+        data = {"r0": api_repo(primaryLanguage={"name": "Go", "color": "red;x"}), "r1": api_repo("tool", "other")}
+        with patch.object(profile, "graphql", return_value=data):
+            self.assertEqual(profile.collect_pins(profile.pin_specs(CONFIG), "test-token")[0]["language_color"], "")
 
 
 class RenderingTests(unittest.TestCase):
-    def test_wrap_copy_accounts_for_cjk_width(self):
-        lines = wrap_copy("中文" * 40, width=44)
+    def test_wrap_accounts_for_cjk_width(self):
+        lines = wrap("中文" * 40, 10, 200, 2)
         self.assertEqual(len(lines), 2)
-        self.assertLessEqual(len(lines[0]), 22)
+        self.assertLessEqual(text_width(lines[0], 10), 200)
         self.assertTrue(lines[-1].endswith("…"))
 
-    def test_wrap_copy_preserves_short_description(self):
-        self.assertEqual(wrap_copy("A small useful tool.", width=44), ["A small useful tool."])
+    def test_wrap_preserves_short_description(self):
+        self.assertEqual(wrap("A small useful tool.", 13, 400, 3), ["A small useful tool."])
 
-    def test_preserves_all_handwritten_content(self):
+    def test_preserves_handwritten_content_and_orders_pins(self):
         rendered = profile.render(snapshot(), CONFIG, README)["README.md"]
         self.assertTrue(rendered.startswith("Handwritten introduction and PGP key stay intact."))
         self.assertTrue(rendered.endswith("Handwritten footer.\n"))
-        self.assertIn("full project index", rendered)
+        self.assertLess(rendered.index("pin-example-light.svg"), rendered.index("pin-other--tool-light.svg"))
 
-    def test_live_demo_links_are_html_inside_html_blocks(self):
+    def test_overrides_and_defaults(self):
+        views = profile.pins(snapshot(), CONFIG)
+        self.assertEqual((views[0]["title"], views[0]["badge"], views[0]["link"]), ("example", "Public", "https://github.com/DejavuMoe/example"))
+        self.assertEqual((views[1]["title"], views[1]["description"], views[1]["badge"]), ("Tool", "Custom text.", "Friend"))
+
+    def test_badges_follow_github_wording(self):
+        self.assertEqual(profile.badge(repo(archived=True)), "Public archive")
+        self.assertEqual(profile.badge(repo(template=True)), "Public template")
+
+    def test_pin_missing_from_snapshot_fails(self):
+        with self.assertRaises(ValueError):
+            profile.render(snapshot(), {**CONFIG, "pins": ["example", "new-one"]}, README)
+
+    def test_old_snapshot_version_is_rejected(self):
         data = snapshot()
-        data["github"]["repositories"][0]["homepage"] = "https://demo.example"
-        rendered = profile.render(data, CONFIG, README)["README.md"]
-        self.assertIn('<a href="https://demo.example">example</a>', rendered)
+        data["version"] = 1
+        with self.assertRaises(ValueError):
+            profile.render(data, CONFIG, README)
 
     def test_post_summary_is_escaped(self):
         data = snapshot()
@@ -332,19 +264,13 @@ class RenderingTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             profile.render(data, CONFIG, README)
 
-    def test_project_count_is_bounded_by_island_plots(self):
-        with self.assertRaises(ValueError):
-            profile.render(snapshot(), {**CONFIG, "project_count": len(town.PLOTS) + 1}, README)
-
-    def test_unknown_building_kind_is_rejected(self):
-        with self.assertRaises(ValueError):
-            profile.render(snapshot(), {**CONFIG, "buildings": {"example": "castle"}}, README)
-
-    def test_invalid_cached_homepage_is_rejected(self):
-        data = snapshot()
-        data["github"]["repositories"][0]["homepage"] = "http://insecure.example"
-        with self.assertRaises(ValueError):
-            profile.render(data, CONFIG, README)
+    def test_invalid_cached_values_are_rejected(self):
+        for change in ({"stars": -1}, {"forks": True}, {"url": "javascript:bad"}, {"language_color": "red"},
+                       {"homepage": "http://insecure.example"}, {"parent": "../x"}, {"archived": "no"}):
+            data = snapshot()
+            data["github"]["repositories"][0].update(change)
+            with self.subTest(change=change), self.assertRaises(ValueError):
+                profile.render(data, CONFIG, README)
 
     def test_repeated_render_is_identical(self):
         first = profile.render(snapshot(), CONFIG, README)
@@ -358,54 +284,32 @@ class RenderingTests(unittest.TestCase):
     def test_every_generated_svg_is_well_formed_and_script_free(self):
         files = profile.render(snapshot(), CONFIG, README)
         images = {name: value for name, value in files.items() if name.endswith(".svg")}
-        self.assertEqual(len(images), 16)  # hero, one card, writing and footer x light/dark x wide/compact
+        self.assertEqual(len(images), 8)  # two pins x light/dark x wide/compact
         for name, content in images.items():
             with self.subTest(name=name):
                 root = ET.fromstring(content)
                 self.assertEqual(root.tag, "{http://www.w3.org/2000/svg}svg")
-                self.assertNotIn("<script", content)
-                self.assertNotIn("foreignObject", content)
-                self.assertNotIn("https://", content)
-                self.assertNotIn("href=", content)
-                self.assertNotIn("@import", content)
-                self.assertEqual(re.findall(r"url\((?!#)", content), [])
-                self.assertLess(len(content.encode()), 400_000)
+                for banned in ("<script", "foreignObject", "https://", "href=", "@import"):
+                    self.assertNotIn(banned, content)
+                self.assertEqual(re.findall(r"url\(", content), [])
+                self.assertLess(len(content.encode()), 40_000)
 
-    def test_svg_and_alt_escape_external_text(self):
-        hostile = {**view(), "name": "x<y", "description": 'bad <script>alert("x")</script> & text'}
-        svg = project_card(hostile, 1, 1)
+    def test_card_and_alt_escape_external_text(self):
+        view = profile.pin_view({}, repo(name="x", description='bad <script>alert("x")</script> & text'), "DejavuMoe")
+        svg = pin_card(view)
         ET.fromstring(svg)
         self.assertNotIn("<script>", svg)
-        markup = picture("hero", '" onerror="alert(1) <script>')
-        self.assertNotIn('alt="" onerror=', markup)
-        self.assertIn("&lt;script&gt;", markup)
+        markup = pin_grid([{**view, "description": '" onerror="alert(1)'}])
+        self.assertNotIn('" onerror=', markup)
 
-    def test_markdown_title_is_escaped(self):
-        value = profile.markdown_text('[click](javascript:bad) <script> | x')
-        self.assertIn(r"\[click\]", value)
-        self.assertIn("&lt;script&gt;", value)
-        self.assertIn(r"\|", value)
-
-    def test_picture_separates_github_theme_from_responsive_media(self):
-        markup = picture("hero", "Hero")
-        self.assertLess(markup.index("hero-dark-mobile.svg"), markup.index("hero-dark.svg"))
-        self.assertIn('width="100%"', markup)
+    def test_grid_pairs_cards_and_separates_theme_from_width(self):
+        markup = profile.render(snapshot(), CONFIG, README)["README.md"]
+        self.assertEqual(markup.count("<p>"), 1)
+        self.assertIn('width="49%"', markup)
         self.assertIn("#gh-light-mode-only", markup)
         self.assertIn("#gh-dark-mode-only", markup)
+        self.assertIn('media="(max-width: 600px)"', markup)
         self.assertNotIn("prefers-color-scheme", markup)
-
-    def test_invalid_metrics_and_urls_rejected(self):
-        for change in ({"stars": -1}, {"stars": True}, {"url": "javascript:bad"}):
-            data = snapshot()
-            data["github"]["repositories"][0].update(change)
-            with self.subTest(change=change), self.assertRaises(ValueError):
-                profile.render(data, CONFIG, README)
-
-    def test_no_eligible_project_does_not_clear_profile(self):
-        data = snapshot()
-        data["github"]["repositories"][0]["archived"] = True
-        with self.assertRaises(ValueError):
-            profile.render(data, CONFIG, README)
 
     def test_generated_assets_match_picture_references(self):
         files = profile.render(snapshot(), CONFIG, README)
@@ -413,22 +317,17 @@ class RenderingTests(unittest.TestCase):
             if name.endswith(".svg"):
                 self.assertIn(name, files["README.md"])
 
-    def test_check_detects_extra_generated_file(self):
+    def test_check_detects_extra_and_changed_files(self):
         with tempfile.TemporaryDirectory() as folder:
             root = Path(folder)
             files = profile.render(snapshot(), CONFIG, README)
             profile.write_outputs(files, root)
             profile.check_outputs(files, root)
-            (root / "assets/generated/orphan.svg").write_text("<svg/>", encoding="utf-8")
+            (root / "assets/generated/pin-example-light.svg").write_text("changed", encoding="utf-8")
             with self.assertRaises(ValueError):
                 profile.check_outputs(files, root)
-
-    def test_check_detects_changed_output(self):
-        with tempfile.TemporaryDirectory() as folder:
-            root = Path(folder)
-            files = profile.render(snapshot(), CONFIG, README)
             profile.write_outputs(files, root)
-            (root / "assets/generated/hero-light.svg").write_text("changed", encoding="utf-8")
+            (root / "assets/generated/orphan.svg").write_text("<svg/>", encoding="utf-8")
             with self.assertRaises(ValueError):
                 profile.check_outputs(files, root)
 
@@ -454,14 +353,14 @@ class UpdateTests(unittest.TestCase):
 
     def test_feed_failure_writes_nothing(self):
         before = {p.name: p.read_bytes() for p in self.root.rglob("*") if p.is_file()}
-        with patch.object(profile, "ROOT", self.root), patch.object(profile, "get_token", return_value="test-token"), patch.object(profile, "collect_repositories", return_value=[repo("new")]), patch.object(profile, "request", side_effect=RuntimeError("offline")), patch.object(profile, "write_outputs") as write:
+        with patch.object(profile, "ROOT", self.root), patch.object(profile, "get_token", return_value="test-token"), patch.object(profile, "collect_pins", return_value=snapshot()["github"]["repositories"]), patch.object(profile, "request", side_effect=RuntimeError("offline")), patch.object(profile, "write_outputs") as write:
             with self.assertRaises(RuntimeError):
                 profile.main([])
         write.assert_not_called()
         self.assertEqual(before, {p.name: p.read_bytes() for p in self.root.rglob("*") if p.is_file()})
 
     def test_blog_only_does_not_fetch_github_or_require_token(self):
-        with patch.object(profile, "ROOT", self.root), patch.object(profile, "get_token") as token, patch.object(profile, "collect_repositories") as github, patch.object(profile, "request", return_value=rss(item())), patch.object(profile, "write_outputs", return_value=[]) as write:
+        with patch.object(profile, "ROOT", self.root), patch.object(profile, "get_token") as token, patch.object(profile, "collect_pins") as github, patch.object(profile, "request", return_value=rss(item())), patch.object(profile, "write_outputs", return_value=[]) as write:
             profile.main(["--blog-only"])
         token.assert_not_called()
         github.assert_not_called()

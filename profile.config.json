@@ -2,32 +2,15 @@
   "owner": "DejavuMoe",
   "blog_url": "https://blog.dejavu.moe",
   "feed_url": "https://blog.dejavu.moe/index.xml",
-  "project_count": 8,
   "post_count": 8,
-  "exclude": ["DejavuMoe"],
-  "featured": ["Ecoku", "edgeTTS", "Smoji", "sani", "PicForge", "romi", "webfont-slice", "Pail"],
-  "buildings": {
-    "Ecoku": "cafe",
-    "edgeTTS": "radio",
-    "Smoji": "balloon",
-    "sani": "post",
-    "PicForge": "studio",
-    "romi": "lighthouse",
-    "webfont-slice": "press",
-    "Pail": "bucket"
-  },
-  "descriptions": {
-    "edgeTTS": "A self-hosted speech API and browser workbench for Edge TTS.",
-    "Ecoku": "Self-hosted comments for blogs. Multi-site, text-first.",
-    "Smoji": "An image-emoji workspace, with a picker for the open web.",
-    "PicForge": "Compress images and split motion photos in your browser. No uploads.",
-    "sani": "Short links, text and file sharing. One binary, one SQLite file.",
-    "romi": "Self-hosted Linux monitoring, with status pages and alerts.",
-    "webfont-slice": "Slice CJK web fonts into on-demand WOFF2 shards, in your browser.",
-    "Pail": "A desktop manager for S3-compatible object storage, plus a CLI.",
-    "TAdmin": "A self-hosted Telegram group admin bot. Go, SQLite, optional Mini App.",
-    "prototype-first-ui": "An agent skill: review the prototype before building the UI.",
-    "STranslate.Plugin.Tts.edgeTTS": "Connect STranslate to your own edgeTTS server.",
-    "deepseek_wale_girl": "104 fan-made DeepSeek whale-girl emoji, in GIF and WebM."
-  }
+  "pins": [
+    { "repo": "Pail", "description": "A desktop manager for S3-compatible object storage — Amazon S3, MinIO, Cloudflare R2 and more — plus a CLI." },
+    { "repo": "Smoji", "description": "An image-emoji workspace for Mastodon, Pleroma and Misskey, with a picker for the open web." },
+    { "repo": "edgeTTS", "description": "A self-hosted speech API and browser workbench for Microsoft Edge speech synthesis." },
+    { "repo": "Ecoku", "description": "Self-hosted, multi-site comments focused on text. Made for static blogs and personal sites." },
+    { "repo": "PicForge", "description": "Compress, resize and split motion photos in your browser with WebAssembly codecs. Nothing is uploaded." },
+    { "repo": "sani", "description": "A small, fast link shortener you host yourself: one binary, one SQLite file." },
+    { "repo": "romi", "description": "Self-hosted Linux monitoring, with status pages and alerts." },
+    { "repo": "webfont-slice", "description": "Slice CJK web fonts into on-demand WOFF2 shards, right in your browser." }
+  ]
 }

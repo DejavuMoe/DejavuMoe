@@ -60,8 +60,8 @@ def gallery(names):
             if f"-{theme}" in name and not name.endswith("-mobile.svg"):
                 mobile = name.replace(".svg", "-mobile.svg")
                 rows.append(f'<div style="display:flex;gap:24px;align-items:flex-start;margin:0 0 16px">'
-                            f'<img src="assets/generated/{html.escape(name)}" style="width:820px">'
-                            f'<img src="assets/generated/{html.escape(mobile)}" style="width:360px"></div>')
+                            f'<img src="assets/generated/{html.escape(name)}" style="width:440px">'
+                            f'<img src="assets/generated/{html.escape(mobile)}" style="width:300px"></div>')
         rows.append("</section>")
     return f'<!doctype html><meta charset="utf-8"><title>Profile artwork</title><body style="margin:0">{"".join(rows)}</body>'
 

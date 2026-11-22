@@ -12,7 +12,6 @@ import datetime as dt
 import email.utils
 import html
 import json
-import math
 import os
 from pathlib import Path
 import re
@@ -24,39 +23,18 @@ import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 
-from profile_art import footer, hero, picture, project_card, times, town_plan
-from town import BUILDERS, PLOTS
+from profile_art import pin_card, pin_grid
 
 ROOT = Path(__file__).resolve().parents[1]
 API = "https://api.github.com/graphql"
-QUERY = """
-query Profile($login: String!, $cursor: String) {
-  user(login: $login) {
-    repositories(first: 50, after: $cursor, privacy: PUBLIC, isFork: false,
-                 ownerAffiliations: [OWNER], orderBy: {field: NAME, direction: ASC}) {
-      pageInfo { hasNextPage endCursor }
-      nodes {
-        name url description homepageUrl isPrivate isFork isArchived owner { login }
-        stargazerCount primaryLanguage { name }
-        defaultBranchRef { target { ... on Commit { history(first: 1) { totalCount } } } }
-        releases(first: 100) {
-          pageInfo { hasNextPage endCursor }
-          nodes { isDraft isPrerelease publishedAt tagName }
-        }
-      }
-    }
-  }
-}
-"""
-RELEASE_QUERY = """
-query Releases($login: String!, $name: String!, $cursor: String!) {
-  repository(owner: $login, name: $name) {
-    isPrivate
-    releases(first: 100, after: $cursor) {
-      pageInfo { hasNextPage endCursor }
-      nodes { isDraft isPrerelease publishedAt tagName }
-    }
-  }
+NAME = re.compile(r"[A-Za-z0-9_.-]{1,100}")
+OWNER = re.compile(r"[A-Za-z0-9](?:[A-Za-z0-9-]{0,38})")
+COLOR = re.compile(r"#[0-9a-fA-F]{6}")
+FIELDS = """
+fragment Pin on Repository {
+  name url description homepageUrl isPrivate isArchived isFork isTemplate
+  owner { login } stargazerCount forkCount primaryLanguage { name color }
+  parent { nameWithOwner }
 }
 """
 
@@ -106,6 +84,9 @@ def request(url, *, payload=None, token=None):
 
 def graphql(query, variables, token):
     result = json.loads(request(API, payload={"query": query, "variables": variables}, token=token))
+    missing = [e["path"][0] for e in result.get("errors") or [] if e.get("type") == "NOT_FOUND" and e.get("path")]
+    if missing and len(missing) == len(result["errors"]):
+        raise LookupError(missing)
     if result.get("errors"):
         # Do not log raw responses, which may contain authentication details.
         raise RuntimeError("GitHub GraphQL returned errors; previous profile retained")
@@ -130,53 +111,62 @@ def get_token():
     return result.stdout.strip()
 
 
-def collect_repositories(owner, token):
-    repos, cursor, seen = [], None, set()
-    while True:
-        user = graphql(QUERY, {"login": owner, "cursor": cursor}, token).get("user")
-        if not user:
-            raise ValueError("Public GitHub user not found")
-        connection = user["repositories"]
-        for node in connection["nodes"]:
-            # Defense in depth: do not cache private, forked, or foreign data.
-            if node["isPrivate"] or node["isFork"] or node["owner"]["login"].casefold() != owner.casefold():
-                continue
-            release_connection = node["releases"]
-            releases = list(release_connection["nodes"])
-            release_cursors = set()
-            while release_connection["pageInfo"]["hasNextPage"]:
-                after = release_connection["pageInfo"]["endCursor"]
-                if not after or after in release_cursors:
-                    raise ValueError("Invalid releases pagination")
-                release_cursors.add(after)
-                extra = graphql(RELEASE_QUERY, {"login": owner, "name": node["name"], "cursor": after}, token)["repository"]
-                if not extra or extra["isPrivate"]:
-                    raise ValueError("Repository visibility changed during collection")
-                release_connection = extra["releases"]
-                releases.extend(release_connection["nodes"])
-            published = [r for r in releases if not r["isDraft"] and r["publishedAt"]]
-            published.sort(key=lambda r: r["publishedAt"], reverse=True)
-            branch = node.get("defaultBranchRef")
-            history = (branch or {}).get("target", {}).get("history", {})
-            repos.append({
-                "name": node["name"], "url": node["url"],
-                "description": node["description"] or "",
-                "homepage": safe_homepage(node.get("homepageUrl")),
-                "language": (node["primaryLanguage"] or {}).get("name", ""),
-                "archived": node["isArchived"], "stars": node["stargazerCount"],
-                "commits": history.get("totalCount", 0), "releases": len(published),
-                "latest_release": published[0]["tagName"] if published else None,
-            })
-        page = connection["pageInfo"]
-        if not page["hasNextPage"]:
-            break
-        cursor = page["endCursor"]
-        if not cursor or cursor in seen:
-            raise ValueError("Invalid repository pagination")
-        seen.add(cursor)
-    if not repos:
-        raise ValueError("GitHub returned no public original repositories")
-    return sorted(repos, key=lambda r: r["name"].casefold())
+def pin_specs(config):
+    """Normalise the `pins` list: "repo", "owner/repo", or {"repo": ..., overrides}."""
+    specs, seen = [], set()
+    for entry in config["pins"]:
+        entry = {"repo": entry} if isinstance(entry, str) else dict(entry)
+        owner, _, name = entry["repo"].rpartition("/")
+        owner = owner or config["owner"]
+        if not OWNER.fullmatch(owner) or not NAME.fullmatch(name) or name in (".", ".."):
+            raise ValueError(f"Invalid pinned repository: {entry['repo']!r}")
+        key = f"{owner}/{name}".casefold()
+        if key in seen:
+            raise ValueError(f"Repository pinned twice: {owner}/{name}")
+        seen.add(key)
+        unknown = set(entry) - {"repo", "title", "description", "badge", "link"}
+        if unknown:
+            raise ValueError(f"Unknown pin options for {owner}/{name}: {', '.join(sorted(unknown))}")
+        if "link" in entry and safe_link(entry["link"]) != entry["link"]:
+            raise ValueError(f"Pin links must be plain HTTPS URLs: {owner}/{name}")
+        specs.append({**entry, "owner": owner, "name": name, "key": key})
+    if not specs:
+        raise ValueError("Pin at least one repository")
+    return specs
+
+
+def collect_pins(specs, token):
+    """All pinned repositories in one GraphQL request, whoever owns them."""
+    params = ", ".join(f"$o{i}: String!, $n{i}: String!" for i in range(len(specs)))
+    fields = "\n".join(f"  r{i}: repository(owner: $o{i}, name: $n{i}) {{ ...Pin }}" for i in range(len(specs)))
+    variables = {}
+    for i, spec in enumerate(specs):
+        variables[f"o{i}"], variables[f"n{i}"] = spec["owner"], spec["name"]
+    try:
+        data = graphql(f"query Pins({params}) {{\n{fields}\n}}\n{FIELDS}", variables, token)
+    except LookupError as missing:
+        names = [f'{specs[int(a[1:])]["owner"]}/{specs[int(a[1:])]["name"]}' for a in missing.args[0]]
+        raise ValueError(f"Pinned repository not found (renamed, deleted or private?): {', '.join(names)}") from None
+    repos = []
+    for i, spec in enumerate(specs):
+        node = data.get(f"r{i}")
+        if not node or node["isPrivate"]:
+            # Never cache private data, even when a local token could read it.
+            raise ValueError(f'Pinned repository is not public: {spec["owner"]}/{spec["name"]}')
+        language = node["primaryLanguage"] or {}
+        color = language.get("color") or ""
+        repos.append({
+            "pinned_as": f'{spec["owner"]}/{spec["name"]}',
+            "owner": node["owner"]["login"], "name": node["name"], "url": node["url"],
+            "description": " ".join((node["description"] or "").split()),
+            "homepage": safe_homepage(node.get("homepageUrl")),
+            "language": language.get("name", ""),
+            "language_color": color.lower() if COLOR.fullmatch(color) else "",
+            "stars": node["stargazerCount"], "forks": node["forkCount"],
+            "archived": node["isArchived"], "template": node["isTemplate"],
+            "parent": (node.get("parent") or {}).get("nameWithOwner") if node["isFork"] else None,
+        })
+    return repos
 
 
 def parse_date(value):
@@ -217,6 +207,20 @@ def safe_homepage(value):
         return ""
     path = urllib.parse.quote(url.path, safe="/%:@-._~!$&'*+,;=")
     return urllib.parse.urlunsplit(("https", host, path.rstrip("/"), "", ""))
+
+
+def safe_link(value):
+    """A custom card link: HTTPS, credential-free, no fragment (the theme marker is appended)."""
+    if not isinstance(value, str):
+        return ""
+    url = urllib.parse.urlsplit(value.strip())
+    if url.scheme != "https" or not url.hostname or url.username or url.password:
+        return ""
+    if not re.fullmatch(r"[a-z0-9.-]+(:[0-9]{1,5})?", url.netloc):
+        return ""
+    path = urllib.parse.quote(url.path, safe="/%:@-._~!$&'*+,;=")
+    query = urllib.parse.quote(url.query, safe="%=&-._~")
+    return urllib.parse.urlunsplit(("https", url.netloc, path, query, ""))
 
 
 def plain_summary(value, limit=160):
@@ -263,42 +267,32 @@ def parse_feed(content, blog_url, limit=8):
     return posts[:limit]
 
 
-def score(repo):
-    # Logarithmic scaling stops one popular project crowding out sustained work.
-    return .35 * math.log1p(repo["stars"]) + .45 * math.log1p(repo["commits"]) + .20 * math.log1p(repo["releases"])
+def stem(pinned_as, owner):
+    """Stable, readable asset names: pin-<repo>, or pin-<owner>--<repo> for other owners."""
+    who, name = pinned_as.casefold().split("/")
+    slug = re.sub(r"[^a-z0-9_-]+", "-", name).strip("-") or "repo"
+    return f"pin-{slug}" if who == owner.casefold() else f"pin-{who}--{slug}"
 
 
-def rank_repositories(repos, config):
-    excluded = {name.casefold() for name in config["exclude"]}
-    eligible = [r for r in repos if not r["archived"] and r["commits"] > 0 and r["name"].casefold() not in excluded]
-    return sorted(eligible, key=lambda r: (-score(r), -r["stars"], -r["commits"], -r["releases"], r["name"].casefold()))
+def badge(repo):
+    """GitHub's own wording, unless the pin overrides it."""
+    if repo["archived"]:
+        return "Public archive"
+    return "Public template" if repo["template"] else "Public"
 
 
-def select_featured(ranked, config):
-    """Curated buildings first (when still eligible), then fill by score."""
-    by_name = {r["name"].casefold(): r for r in ranked}
-    chosen = []
-    for name in config.get("featured", []):
-        repo = by_name.get(name.casefold())
-        if repo and repo not in chosen:
-            chosen.append(repo)
-    for repo in ranked:
-        if len(chosen) >= config["project_count"]:
-            break
-        if repo not in chosen:
-            chosen.append(repo)
-    return chosen[:config["project_count"]]
-
-
-def project_view(repo, config):
-    """Everything the artwork needs about one featured project."""
+def pin_view(spec, repo, owner):
+    """Everything a card needs: live metrics plus this pin's overrides."""
+    own = repo["owner"].casefold() == owner.casefold()
     return {
-        "name": repo["name"], "url": repo["url"],
-        "description": config["descriptions"].get(repo["name"], repo["description"] or "An open-source project."),
-        "kind": config.get("buildings", {}).get(repo["name"], "house"),
-        "language": repo["language"], "stars": repo["stars"], "commits": repo["commits"],
-        "releases": repo["releases"], "latest_release": repo.get("latest_release"),
-        "homepage": repo.get("homepage", ""),
+        "title": spec.get("title") or (repo["name"] if own else f'{repo["owner"]}/{repo["name"]}'),
+        "full_name": f'{repo["owner"]}/{repo["name"]}',
+        "description": " ".join(str(spec.get("description") or repo["description"] or "No description provided.").split()),
+        "badge": spec.get("badge", badge(repo)),
+        "link": spec.get("link") or repo["url"],
+        "language": repo["language"], "language_color": repo["language_color"],
+        "stars": repo["stars"], "forks": repo["forks"], "parent": repo["parent"],
+        "stem": stem(repo["pinned_as"], owner),
     }
 
 
@@ -318,113 +312,82 @@ def replace_region(source, marker, replacement):
 
 
 def validate_snapshot(snapshot, config):
-    if snapshot.get("version") != 1:
-        raise ValueError("Unsupported snapshot version")
-    repos = snapshot["github"]["repositories"]
-    names = set()
-    for repo in repos:
-        name = repo["name"]
-        if not re.fullmatch(r"[A-Za-z0-9_.-]+", name) or name.casefold() in names:
-            raise ValueError("Invalid or duplicate repository name")
-        names.add(name.casefold())
-        if repo["url"] != f'https://github.com/{config["owner"]}/{name}':
+    if snapshot.get("version") != 2:
+        raise ValueError("Unsupported snapshot version; run a full refresh")
+    seen = set()
+    for repo in snapshot["github"]["repositories"]:
+        owner, name = repo["owner"], repo["name"]
+        if not OWNER.fullmatch(owner) or not NAME.fullmatch(name):
+            raise ValueError("Invalid repository name")
+        pinned_owner, _, pinned_name = repo["pinned_as"].partition("/")
+        if not OWNER.fullmatch(pinned_owner) or not NAME.fullmatch(pinned_name) or repo["pinned_as"].casefold() in seen:
+            raise ValueError("Invalid or duplicate pin key")
+        seen.add(repo["pinned_as"].casefold())
+        if repo["url"] != f"https://github.com/{owner}/{name}":
             raise ValueError("Unexpected repository URL")
-        if not isinstance(repo["archived"], bool):
-            raise ValueError("Invalid archive flag")
+        for flag in ("archived", "template"):
+            if not isinstance(repo[flag], bool):
+                raise ValueError(f"Invalid {flag} flag")
         if safe_homepage(repo.get("homepage", "")) != repo.get("homepage", ""):
             raise ValueError("Unexpected homepage URL")
-        for metric in ("stars", "commits", "releases"):
+        if repo["language_color"] and not COLOR.fullmatch(repo["language_color"]):
+            raise ValueError("Invalid language colour")
+        if repo["parent"] is not None and not re.fullmatch(r"[A-Za-z0-9-]+/[A-Za-z0-9_.-]+", repo["parent"]):
+            raise ValueError("Invalid fork parent")
+        for metric in ("stars", "forks"):
             if type(repo[metric]) is not int or repo[metric] < 0:
                 raise ValueError(f"Invalid {metric} count")
-    if not repos or not snapshot["blog"]["posts"]:
-        raise ValueError("Empty profile snapshot")
+    if not snapshot["blog"]["posts"]:
+        raise ValueError("Empty blog snapshot")
     for post in snapshot["blog"]["posts"]:
         if not post["title"] or safe_post_url(post["url"], config["blog_url"]) != post["url"]:
             raise ValueError("Invalid cached blog post")
         if plain_summary(post.get("summary", "")) != post.get("summary", ""):
             raise ValueError("Invalid cached post summary")
-    kinds = set(BUILDERS)
-    for name, kind in config.get("buildings", {}).items():
-        if kind not in kinds:
-            raise ValueError(f"Unknown building kind for {name}: {kind}")
     for section in ("github", "blog"):
         dt.date.fromisoformat(snapshot[section]["updated"])
 
 
+def pins(snapshot, config):
+    """Config order and overrides, joined with the snapshot's live metrics."""
+    cached = {r["pinned_as"].casefold(): r for r in snapshot["github"]["repositories"]}
+    views = []
+    for spec in pin_specs(config):
+        if spec["key"] not in cached:
+            raise ValueError(f'{spec["owner"]}/{spec["name"]} is pinned but not in the snapshot; run a full refresh')
+        views.append(pin_view(spec, cached[spec["key"]], config["owner"]))
+    return views
+
+
 def render(snapshot, config, readme):
     validate_snapshot(snapshot, config)
-    if not 1 <= config["project_count"] <= len(PLOTS):
-        raise ValueError(f"project_count must be between 1 and {len(PLOTS)}: the island has {len(PLOTS)} plots")
-    ranked = rank_repositories(snapshot["github"]["repositories"], config)
-    selected = select_featured(ranked, config)
-    if not selected:
-        raise ValueError("No eligible projects; refusing to empty the profile")
-    projects = [project_view(repo, config) for repo in selected]
-    stamp = snapshot["github"]["updated"]
-    total_stars = sum(r["stars"] for r in ranked)
-    town = {"projects": projects, "stars": total_stars, "updated": stamp, "repositories": len(ranked)}
-    plan = {p["name"]: p for p in town_plan(town)}
-    posts = snapshot["blog"]["posts"]
+    cards = pins(snapshot, config)
     files = {}
-    for theme in ("light", "dark"):
-        for compact in (False, True):
-            suffix = f'{theme}{"-mobile" if compact else ""}'
-            files[f"assets/generated/hero-{suffix}.svg"] = hero(town, theme, compact)
-            for i, project in enumerate(projects, 1):
-                files[f"assets/generated/project-{i:02d}-{suffix}.svg"] = project_card(plan[project["name"]], i, len(projects), theme, compact)
-            files[f"assets/generated/writing-{suffix}.svg"] = times(posts, theme, compact)
-            files[f"assets/generated/footer-{suffix}.svg"] = footer(town, theme, compact)
-    names = ", ".join(p["name"] for p in projects)
-    readme = replace_region(readme, "PROFILE-HERO", picture(
-        "hero", f"Déjà-vu Town — a floating island where every building is one of Dejavu Moe's projects ({names}). "
-        f"Taller buildings have more commits, roof flags mark releases, and at night the sky holds {total_stars} stars, one per GitHub star.",
-        f'https://github.com/{config["owner"]}'))
-    blocks = []
-    for i, project in enumerate(projects, 1):
-        alt = f'{project["name"]} — {project["description"]} | {project["stars"]} stars · {project["commits"]} commits · {project["releases"]} releases'
-        blocks.append(picture(f"project-{i:02d}", alt, project["url"]))
-    live = [f'<a href="{html.escape(p["homepage"], quote=True)}">{html.escape(p["name"])}</a>' for p in projects if p["homepage"]]
-    if live:
-        blocks.append(f'<p align="center"><b>Try them live&nbsp;→</b>&nbsp; {" &nbsp;·&nbsp; ".join(live)}</p>')
-    blocks.append(f'<p align="center"><sub>Snapshot {stamp} UTC · {len(ranked)} indexed repositories · {total_stars:,} stars across this index</sub></p>')
-    index = [
-        '<details>\n<summary>How the town is built &amp; the full project index</summary>\n',
-        'Only my public, non-fork, non-archived repositories with commit history are eligible; this profile repository is excluded. '
-        f'The {len(selected)} buildings are a curated list, topped up by a score that balances stars (35%), default-branch commits (45%) and published releases (20%) on a logarithmic scale. '
-        'A building\'s height follows its commits relative to the others; a roof flag means at least one published release. '
-        'Commits include **all authors**, not just me. Releases include prereleases, exclude drafts, and are not Git tags.\n',
-        '| Project | In town | Stars | Commits | Releases |\n| :--- | :---: | ---: | ---: | ---: |',
-    ]
-    featured = {p["name"] for p in projects}
-    for repo in ranked:
-        index.append(f'| [{markdown_text(repo["name"])}]({repo["url"]}) | {"🏠" if repo["name"] in featured else ""} | {repo["stars"]:,} | {repo["commits"]:,} | {repo["releases"]:,} |')
-    index.append('\n[How this profile updates](docs/profile.md) · [Public data snapshot](data/profile.json)\n\n</details>')
-    readme = replace_region(readme, "PROJECTS", "\n\n".join(blocks) + "\n\n" + "\n".join(index))
-    lead = posts[0]
-    writing = [picture("writing", f'The Dejavu Times — latest post: {lead["title"]} ({lead["date"]}). {lead.get("summary", "")}'.strip(), lead["url"]), ""]
-    for p in posts:
+    for pin in cards:
+        for theme in ("light", "dark"):
+            for compact in (False, True):
+                files[f'assets/generated/{pin["stem"]}-{theme}{"-mobile" if compact else ""}.svg'] = pin_card(pin, theme, compact)
+    readme = replace_region(readme, "PINS", pin_grid(cards))
+    writing = []
+    for p in snapshot["blog"]["posts"]:
         line = f'- `{p["date"].replace("-", ".")}` &nbsp; **[{markdown_text(p["title"])}](<{p["url"]}>)**'
         if p.get("summary"):
             line += f'<br><sub>{markdown_text(p["summary"])}</sub>'
         writing.append(line)
     readme = replace_region(readme, "BLOG-POST-LIST", "\n".join(writing))
-    readme = replace_region(readme, "FOOTER", picture("footer", "Thanks for visiting Déjà-vu Town. See you again — it will feel familiar.", f'https://github.com/{config["owner"]}'))
     files["README.md"] = readme
     files["data/profile.json"] = json.dumps(snapshot, ensure_ascii=False, indent=2) + "\n"
     return files
 
 
 def step_summary(snapshot, config, changed):
-    """Markdown for the Actions run page: what the town looks like today."""
-    ranked = rank_repositories(snapshot["github"]["repositories"], config)
-    projects = [project_view(r, config) for r in select_featured(ranked, config)]
-    town = {"projects": projects, "stars": sum(r["stars"] for r in ranked), "updated": snapshot["github"]["updated"], "repositories": len(ranked)}
-    lines = ["## 🏘️ Déjà-vu Town rebuilt", "",
+    """Markdown for the Actions run page."""
+    lines = ["## 📌 Profile rebuilt", "",
              f'GitHub snapshot **{snapshot["github"]["updated"]}** · blog snapshot **{snapshot["blog"]["updated"]}** · '
-             f'**{town["stars"]:,}** stars in the night sky · **{len(changed)}** changed files', "",
-             "| Building | Project | Height | Stars | Commits | Releases |", "| :--- | :--- | ---: | ---: | ---: | ---: |"]
-    for p in sorted(town_plan(town), key=lambda p: -p["height"]):
-        lines.append(f'| {p["kind"]} | {markdown_text(p["name"])} | {p["height"]:.2f} | {p["stars"]:,} | {p["commits"]:,} | {p["releases"]:,} |')
+             f'**{len(changed)}** changed files', "",
+             "| Card | Stars | Forks | Language |", "| :--- | ---: | ---: | :--- |"]
+    for pin in pins(snapshot, config):
+        lines.append(f'| {markdown_text(pin["title"])} | {pin["stars"]:,} | {pin["forks"]:,} | {markdown_text(pin["language"] or "—")} |')
     lines += ["", f'Latest post: **{markdown_text(snapshot["blog"]["posts"][0]["title"])}**', ""]
     if changed:
         lines += ["<details><summary>Changed files</summary>", ""] + [f"- `{c}`" for c in changed] + ["", "</details>"]
@@ -466,12 +429,13 @@ def main(argv=None):
     args = parser.parse_args(argv)
     config = json.loads((ROOT / "profile.config.json").read_text(encoding="utf-8"))
     path = ROOT / "data/profile.json"
-    snapshot = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {"version": 1}
+    snapshot = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
     today = dt.datetime.now(dt.timezone.utc).date().isoformat()
     if not (args.offline or args.check):
         if not args.blog_only:
-            snapshot["github"] = {"updated": today, "repositories": collect_repositories(config["owner"], get_token())}
-        elif "github" not in snapshot:
+            snapshot["version"] = 2
+            snapshot["github"] = {"updated": today, "repositories": collect_pins(pin_specs(config), get_token())}
+        elif snapshot.get("version") != 2:
             raise ValueError("Run a full refresh before using --blog-only")
         snapshot["blog"] = {"updated": today, "posts": parse_feed(request(config["feed_url"]), config["blog_url"], config["post_count"])}
     readme = (ROOT / "README.md").read_text(encoding="utf-8")

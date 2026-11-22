@@ -1,9 +1,9 @@
-name: Déjà-vu Town
+name: Profile
 
 on:
   schedule:
-    - cron: '23 0 * * *' # The whole town + newspaper, daily at 08:23 UTC+8.
-    - cron: '23 6,12,18 * * *' # Newspaper-only editions, every 6 hours overall.
+    - cron: '23 0 * * *' # Full refresh (cards + posts), daily at 08:23 UTC+8.
+    - cron: '23 6,12,18 * * *' # Posts only, every 6 hours overall.
   workflow_dispatch:
     inputs:
       mode:
@@ -78,7 +78,7 @@ jobs:
           retention-days: 14
 
   update:
-    name: Rebuild the town
+    name: Update profile
     needs: verify
     if: github.repository == 'DejavuMoe/DejavuMoe' && github.event_name != 'pull_request'
     runs-on: ubuntu-latest
@@ -96,7 +96,7 @@ jobs:
         with:
           python-version: '3.13'
 
-      - name: Refresh public data and rebuild the artwork
+      - name: Refresh public data and redraw the cards
         env:
           GH_TOKEN: ${{ github.token }}
           MODE: ${{ github.event_name == 'schedule' && (github.event.schedule == '23 6,12,18 * * *' && 'blog-only' || 'full') || inputs.mode || 'full' }}
@@ -114,11 +114,11 @@ jobs:
         run: |
           git add -A -- README.md data/profile.json assets/generated/
           if git diff --cached --quiet; then
-            echo "The town is already up to date." | tee -a "$GITHUB_STEP_SUMMARY"
+            echo "The profile is already up to date." | tee -a "$GITHUB_STEP_SUMMARY"
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git -c commit.gpgsign=false commit -m 'chore(profile): rebuild the town and the newspaper'
+          git -c commit.gpgsign=false commit -m 'chore(profile): refresh cards and posts'
           # A concurrent human push must never be overwritten. Retry on the next run.
           git push origin HEAD:master
