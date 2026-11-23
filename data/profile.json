@@ -1,7 +1,7 @@
 {
   "version": 2,
   "github": {
-    "updated": "2026-11-22",
+    "updated": "2026-11-23",
     "repositories": [
       {
         "pinned_as": "DejavuMoe/Pail",
@@ -12,7 +12,7 @@
         "homepage": "https://pail.download",
         "language": "Go",
         "language_color": "#00add8",
-        "stars": 148,
+        "stars": 149,
         "forks": 11,
         "archived": false,
         "template": false,
@@ -126,7 +126,7 @@
     ]
   },
   "blog": {
-    "updated": "2026-11-22",
+    "updated": "2026-11-23",
     "posts": [
       {
         "title": "寒露与幻梦",
