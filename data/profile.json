@@ -1,7 +1,7 @@
 {
   "version": 2,
   "github": {
-    "updated": "2026-11-24",
+    "updated": "2026-11-25",
     "repositories": [
       {
         "pinned_as": "DejavuMoe/Pail",
@@ -42,7 +42,7 @@
         "homepage": "https://tts-api.via.moe",
         "language": "TypeScript",
         "language_color": "#3178c6",
-        "stars": 55,
+        "stars": 56,
         "forks": 7,
         "archived": false,
         "template": false,
