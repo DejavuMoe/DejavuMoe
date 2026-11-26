@@ -1,7 +1,7 @@
 {
   "version": 2,
   "github": {
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "repositories": [
       {
         "pinned_as": "DejavuMoe/Pail",
@@ -57,7 +57,7 @@
         "homepage": "https://ecoku.zsh.moe",
         "language": "Go",
         "language_color": "#00add8",
-        "stars": 29,
+        "stars": 30,
         "forks": 1,
         "archived": false,
         "template": false,
