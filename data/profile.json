@@ -1,7 +1,7 @@
 {
   "version": 2,
   "github": {
-    "updated": "2026-11-27",
+    "updated": "2026-11-28",
     "repositories": [
       {
         "pinned_as": "DejavuMoe/Pail",
@@ -117,7 +117,7 @@
         "homepage": "https://webfont.zsh.moe",
         "language": "TypeScript",
         "language_color": "#3178c6",
-        "stars": 2,
+        "stars": 3,
         "forks": 0,
         "archived": false,
         "template": false,

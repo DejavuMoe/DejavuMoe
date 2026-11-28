@@ -36,8 +36,8 @@
 <p>
 <a href="https://github.com/DejavuMoe/romi#gh-light-mode-only"><picture><source media="(max-width: 600px)" srcset="assets/generated/pin-romi-light-mobile.svg"><img src="assets/generated/pin-romi-light.svg" width="49%" alt="DejavuMoe/romi — Self-hosted Linux monitoring, with status pages and alerts. (0 stars)"></picture></a>
 <a href="https://github.com/DejavuMoe/romi#gh-dark-mode-only"><picture><source media="(max-width: 600px)" srcset="assets/generated/pin-romi-dark-mobile.svg"><img src="assets/generated/pin-romi-dark.svg" width="49%" alt="DejavuMoe/romi — Self-hosted Linux monitoring, with status pages and alerts. (0 stars)"></picture></a>
-<a href="https://github.com/DejavuMoe/webfont-slice#gh-light-mode-only"><picture><source media="(max-width: 600px)" srcset="assets/generated/pin-webfont-slice-light-mobile.svg"><img src="assets/generated/pin-webfont-slice-light.svg" width="49%" alt="DejavuMoe/webfont-slice — Slice CJK web fonts into on-demand WOFF2 shards, right in your browser. (2 stars)"></picture></a>
-<a href="https://github.com/DejavuMoe/webfont-slice#gh-dark-mode-only"><picture><source media="(max-width: 600px)" srcset="assets/generated/pin-webfont-slice-dark-mobile.svg"><img src="assets/generated/pin-webfont-slice-dark.svg" width="49%" alt="DejavuMoe/webfont-slice — Slice CJK web fonts into on-demand WOFF2 shards, right in your browser. (2 stars)"></picture></a>
+<a href="https://github.com/DejavuMoe/webfont-slice#gh-light-mode-only"><picture><source media="(max-width: 600px)" srcset="assets/generated/pin-webfont-slice-light-mobile.svg"><img src="assets/generated/pin-webfont-slice-light.svg" width="49%" alt="DejavuMoe/webfont-slice — Slice CJK web fonts into on-demand WOFF2 shards, right in your browser. (3 stars)"></picture></a>
+<a href="https://github.com/DejavuMoe/webfont-slice#gh-dark-mode-only"><picture><source media="(max-width: 600px)" srcset="assets/generated/pin-webfont-slice-dark-mobile.svg"><img src="assets/generated/pin-webfont-slice-dark.svg" width="49%" alt="DejavuMoe/webfont-slice — Slice CJK web fonts into on-demand WOFF2 shards, right in your browser. (3 stars)"></picture></a>
 </p>
 <!-- PINS:END -->
 
