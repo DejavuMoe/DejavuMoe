@@ -129,6 +129,12 @@
     "updated": "2026-11-28",
     "posts": [
       {
+        "title": "AI 是如何操作电脑和浏览器的？",
+        "url": "https://blog.dejavu.moe/posts/how-does-ai-operate-computers-and-browsers/",
+        "date": "2026-11-28",
+        "summary": "浅析 Computer Use 与 Browser Use 的实现原理，以及 AI Agent 搭配 CUA Driver + ego lite 的实践。"
+      },
+      {
         "title": "开源我的博客主题",
         "url": "https://blog.dejavu.moe/posts/open-sourced-my-blog-theme/",
         "date": "2026-11-24",
@@ -169,12 +175,6 @@
         "url": "https://blog.dejavu.moe/posts/hugo-protected-leaf-bundle-encryption/",
         "date": "2026-08-19",
         "summary": "使用密码保护 Hugo 页面内容，在构建静态网站时对指定的 Leaf Bundle 进行加密，使正文、图片与附件一同密封，并在访问时直接在浏览器中通过密码解密。"
-      },
-      {
-        "title": "Riven Cloud 新加坡 Premium VPS 测评",
-        "url": "https://blog.dejavu.moe/posts/review-of-rivencloud-premium-vps/",
-        "date": "2026-08-04",
-        "summary": "Riven Cloud 新加坡 Premium VPS 测评记录。"
       }
     ]
   }

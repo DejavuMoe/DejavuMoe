@@ -46,6 +46,7 @@
 Notes on self-hosting, things I learn, and life in between. [All writing ↗](https://blog.dejavu.moe)
 
 <!-- BLOG-POST-LIST:START -->
+- `2026.11.28` &nbsp; **[AI 是如何操作电脑和浏览器的？](<https://blog.dejavu.moe/posts/how-does-ai-operate-computers-and-browsers/>)**<br><sub>浅析 Computer Use 与 Browser Use 的实现原理，以及 AI Agent 搭配 CUA Driver \+ ego lite 的实践。</sub>
 - `2026.11.24` &nbsp; **[开源我的博客主题](<https://blog.dejavu.moe/posts/open-sourced-my-blog-theme/>)**<br><sub>开源本站使用的 Icy 主题，一款快速、安静、优雅的 Hugo 博客主题。</sub>
 - `2026.10.08` &nbsp; **[寒露与幻梦](<https://blog.dejavu.moe/posts/cold-dew/>)**<br><sub>我的青春症候群结束了。</sub>
 - `2026.10.07` &nbsp; **[介绍 Ecoku 评论系统](<https://blog.dejavu.moe/posts/ecoku-comment-system/>)**<br><sub>开源本博客正在使用的自托管评论系统 Ecoku——轻量、纯粹、支持多站点，更适合个人网站。</sub>
@@ -53,7 +54,6 @@ Notes on self-hosting, things I learn, and life in between. [All writing ↗](ht
 - `2026.09.27` &nbsp; **[edgeTTS 自托管语音合成 API](<https://blog.dejavu.moe/posts/edgetts/>)**<br><sub>基于微软 Edge TTS 在线语音服务的自托管 API 和 Web 工作台，支持 MP3 流式合成与长文本。</sub>
 - `2026.08.24` &nbsp; **[第一次起飞](<https://blog.dejavu.moe/posts/first-time-flying/>)**<br><sub>人生的第一次飞行，第一次出差，以及一些小插曲。</sub>
 - `2026.08.19` &nbsp; **[Hugo 实现页面加密](<https://blog.dejavu.moe/posts/hugo-protected-leaf-bundle-encryption/>)**<br><sub>使用密码保护 Hugo 页面内容，在构建静态网站时对指定的 Leaf Bundle 进行加密，使正文、图片与附件一同密封，并在访问时直接在浏览器中通过密码解密。</sub>
-- `2026.08.04` &nbsp; **[Riven Cloud 新加坡 Premium VPS 测评](<https://blog.dejavu.moe/posts/review-of-rivencloud-premium-vps/>)**<br><sub>Riven Cloud 新加坡 Premium VPS 测评记录。</sub>
 <!-- BLOG-POST-LIST:END -->
 
 ## 🔑 &nbsp;Identity
